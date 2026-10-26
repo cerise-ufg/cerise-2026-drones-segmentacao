@@ -77,3 +77,12 @@ Todos os números saem de arquivos em `resultados/` (ver `RELATORIO_SECAO.md`).
 
 Pesos treinados: `resultados/deteccao/best_yolo11s_visdrone_pessoa_960.pt` (19 MB). Não versionados: o
 dataset VisDrone (`~/cerise2026/drones/datasets` no Spark, ~4,8 GB extraído) e o `.venv`.
+
+## Validação da contagem em vídeos reais de drone (`validacao_videos/`)
+
+Detector ajustado + ByteTrack/BoT-SORT avaliados no VisDrone2019-MOT (val para escolher parâmetros, test-dev para
+reportar): contagem por quadro, pessoas únicas (com a decomposição da inflação por troca de ID), HOTA/MOTA/IDF1 e
+FPS no GB10. Resumo do test-dev (ajustado 960 + BoT-SORT): HOTA 0,328, IDF1 0,399, MAE de contagem por quadro 7,46
+pessoas; IDs brutos 2.095 para 1.012 pessoas reais. Detalhes, figuras e vídeos em
+[`validacao_videos/RELATORIO_SECAO_VIDEOS.md`](validacao_videos/RELATORIO_SECAO_VIDEOS.md) e
+[`validacao_videos/README.md`](validacao_videos/README.md).

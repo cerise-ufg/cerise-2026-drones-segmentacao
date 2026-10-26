@@ -1,0 +1,413 @@
+{
+ "combo": "ft960|botsort",
+ "criterios": {
+  "iluminacao": "noite se luminancia media < 70",
+  "densidade": "baixa < 5, media 5-30, alta > 30 pessoas/quadro",
+  "escala": "pequena < 35 px, media 35-60 px, grande > 60 px (altura mediana)",
+  "camera": "em movimento se mediana do deslocamento GMC > 0,25% da largura/quadro"
+ },
+ "ft960|botsort": {
+  "iluminacao": {
+   "dia": {
+    "n_seq": 14,
+    "HOTA_media": 0.2835285714285714,
+    "IDF1_media": 0.3432214285714285,
+    "MOTA_media": -0.20818571428571425,
+    "MAPE_quadro_trk_media": 49.720000000000006,
+    "MAE_quadro_trk_media": 9.75907142857143,
+    "erro_rel_unico_L_medio_abs": 51.68571428571427,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000306_00230_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "noite": {
+    "n_seq": 2,
+    "HOTA_media": 0.31835,
+    "IDF1_media": 0.4017,
+    "MOTA_media": -0.0010500000000000006,
+    "MAPE_quadro_trk_media": 34.275000000000006,
+    "MAE_quadro_trk_media": 4.2735,
+    "erro_rel_unico_L_medio_abs": 45.25,
+    "seqs": [
+     "uav0000119_02301_v",
+     "uav0000120_04775_v"
+    ]
+   }
+  },
+  "densidade": {
+   "1_baixa": {
+    "n_seq": 5,
+    "HOTA_media": 0.23232,
+    "IDF1_media": 0.30862,
+    "MOTA_media": -0.442,
+    "MAPE_quadro_trk_media": 82.542,
+    "MAE_quadro_trk_media": 1.9058,
+    "erro_rel_unico_L_medio_abs": 70.46000000000001,
+    "seqs": [
+     "uav0000077_00720_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "2_media": {
+    "n_seq": 7,
+    "HOTA_media": 0.2999428571428572,
+    "IDF1_media": 0.33731428571428573,
+    "MOTA_media": -0.2500142857142857,
+    "MAPE_quadro_trk_media": 30.26857142857143,
+    "MAE_quadro_trk_media": 4.692285714285715,
+    "erro_rel_unico_L_medio_abs": 43.42857142857143,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000119_02301_v",
+     "uav0000120_04775_v",
+     "uav0000188_00000_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000306_00230_v"
+    ]
+   },
+   "3_alta": {
+    "n_seq": 4,
+    "HOTA_media": 0.336225,
+    "IDF1_media": 0.42605000000000004,
+    "MOTA_media": 0.26085,
+    "MAPE_quadro_trk_media": 35.010000000000005,
+    "MAE_quadro_trk_media": 25.69975,
+    "erro_rel_unico_L_medio_abs": 39.45,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000088_00290_v",
+     "uav0000161_00000_v"
+    ]
+   }
+  },
+  "escala": {
+   "1_pequena": {
+    "n_seq": 8,
+    "HOTA_media": 0.244425,
+    "IDF1_media": 0.26487499999999997,
+    "MOTA_media": -0.4638375,
+    "MAPE_quadro_trk_media": 56.70125,
+    "MAE_quadro_trk_media": 5.171875,
+    "erro_rel_unico_L_medio_abs": 50.3625,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000119_02301_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000201_00000_v",
+     "uav0000249_02688_v",
+     "uav0000306_00230_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "2_media": {
+    "n_seq": 5,
+    "HOTA_media": 0.31304000000000004,
+    "IDF1_media": 0.41934000000000005,
+    "MOTA_media": 0.13235999999999998,
+    "MAPE_quadro_trk_media": 47.8,
+    "MAE_quadro_trk_media": 16.733400000000003,
+    "erro_rel_unico_L_medio_abs": 51.7,
+    "seqs": [
+     "uav0000073_04464_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000120_04775_v",
+     "uav0000249_00001_v"
+    ]
+   },
+   "3_grande": {
+    "n_seq": 3,
+    "HOTA_media": 0.3618333333333333,
+    "IDF1_media": 0.46426666666666666,
+    "MOTA_media": 0.04406666666666667,
+    "MAPE_quadro_trk_media": 24.006666666666664,
+    "MAE_quadro_trk_media": 6.710666666666666,
+    "erro_rel_unico_L_medio_abs": 50.9,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v"
+    ]
+   }
+  },
+  "camera": {
+   "em_movimento": {
+    "n_seq": 7,
+    "HOTA_media": 0.2649714285714286,
+    "IDF1_media": 0.32832857142857147,
+    "MOTA_media": -0.3713714285714286,
+    "MAPE_quadro_trk_media": 67.90285714285714,
+    "MAE_quadro_trk_media": 6.035428571428571,
+    "erro_rel_unico_L_medio_abs": 57.285714285714285,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000306_00230_v"
+    ]
+   },
+   "quase_parada": {
+    "n_seq": 9,
+    "HOTA_media": 0.30569999999999997,
+    "IDF1_media": 0.3678,
+    "MOTA_media": -0.03523333333333331,
+    "MAPE_quadro_trk_media": 32.14555555555555,
+    "MAE_quadro_trk_media": 11.436222222222222,
+    "erro_rel_unico_L_medio_abs": 45.900000000000006,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000119_02301_v",
+     "uav0000120_04775_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000355_00001_v"
+    ]
+   }
+  },
+  "correlacao_spearman_HOTA": {
+   "pessoas_por_quadro_gt": {
+    "rho": 0.5117647058823529,
+    "p": 0.04272344816333181
+   },
+   "altura_pessoa_px": {
+    "rho": 0.6170846162108693,
+    "p": 0.010880643303949365
+   },
+   "luminancia": {
+    "rho": -0.08094189093447328,
+    "p": 0.7657083655251866
+   },
+   "mov_camera_pct": {
+    "rho": -0.07647058823529412,
+    "p": 0.7783409809607029
+   }
+  }
+ },
+ "coco1280|botsort": {
+  "iluminacao": {
+   "dia": {
+    "n_seq": 14,
+    "HOTA_media": 0.2869857142857143,
+    "IDF1_media": 0.3611142857142857,
+    "MOTA_media": 0.04853571428571427,
+    "MAPE_quadro_trk_media": 54.62785714285714,
+    "MAE_quadro_trk_media": 15.495999999999999,
+    "erro_rel_unico_L_medio_abs": 47.67142857142857,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000306_00230_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "noite": {
+    "n_seq": 2,
+    "HOTA_media": 0.28795,
+    "IDF1_media": 0.388,
+    "MOTA_media": 0.12035,
+    "MAPE_quadro_trk_media": 42.715,
+    "MAE_quadro_trk_media": 5.1035,
+    "erro_rel_unico_L_medio_abs": 35.45,
+    "seqs": [
+     "uav0000119_02301_v",
+     "uav0000120_04775_v"
+    ]
+   }
+  },
+  "densidade": {
+   "1_baixa": {
+    "n_seq": 5,
+    "HOTA_media": 0.27478,
+    "IDF1_media": 0.37358,
+    "MOTA_media": -0.09984000000000001,
+    "MAPE_quadro_trk_media": 65.378,
+    "MAE_quadro_trk_media": 1.5846,
+    "erro_rel_unico_L_medio_abs": 56.760000000000005,
+    "seqs": [
+     "uav0000077_00720_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "2_media": {
+    "n_seq": 7,
+    "HOTA_media": 0.2868857142857143,
+    "IDF1_media": 0.34598571428571434,
+    "MOTA_media": 0.04479999999999999,
+    "MAPE_quadro_trk_media": 39.542857142857144,
+    "MAE_quadro_trk_media": 6.766714285714285,
+    "erro_rel_unico_L_medio_abs": 38.48571428571429,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000119_02301_v",
+     "uav0000120_04775_v",
+     "uav0000188_00000_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000306_00230_v"
+    ]
+   },
+   "3_alta": {
+    "n_seq": 4,
+    "HOTA_media": 0.3029,
+    "IDF1_media": 0.38545000000000007,
+    "MOTA_media": 0.27645,
+    "MAPE_quadro_trk_media": 61.6325,
+    "MAE_quadro_trk_media": 42.96525,
+    "erro_rel_unico_L_medio_abs": 46.275000000000006,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000088_00290_v",
+     "uav0000161_00000_v"
+    ]
+   }
+  },
+  "escala": {
+   "1_pequena": {
+    "n_seq": 8,
+    "HOTA_media": 0.21378750000000002,
+    "IDF1_media": 0.24741249999999998,
+    "MOTA_media": -0.119825,
+    "MAPE_quadro_trk_media": 62.8125,
+    "MAE_quadro_trk_media": 9.849125,
+    "erro_rel_unico_L_medio_abs": 55.7875,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000119_02301_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000201_00000_v",
+     "uav0000249_02688_v",
+     "uav0000306_00230_v",
+     "uav0000355_00001_v"
+    ]
+   },
+   "2_media": {
+    "n_seq": 5,
+    "HOTA_media": 0.31754,
+    "IDF1_media": 0.43246,
+    "MOTA_media": 0.16082000000000002,
+    "MAPE_quadro_trk_media": 56.733999999999995,
+    "MAE_quadro_trk_media": 25.0244,
+    "erro_rel_unico_L_medio_abs": 34.28,
+    "seqs": [
+     "uav0000073_04464_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000120_04775_v",
+     "uav0000249_00001_v"
+    ]
+   },
+   "3_grande": {
+    "n_seq": 3,
+    "HOTA_media": 0.4319,
+    "IDF1_media": 0.5633333333333334,
+    "MOTA_media": 0.35823333333333335,
+    "MAPE_quadro_trk_media": 21.349999999999998,
+    "MAE_quadro_trk_media": 7.745333333333334,
+    "erro_rel_unico_L_medio_abs": 40.199999999999996,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v"
+    ]
+   }
+  },
+  "camera": {
+   "em_movimento": {
+    "n_seq": 7,
+    "HOTA_media": 0.2552285714285714,
+    "IDF1_media": 0.3253142857142858,
+    "MOTA_media": -0.11905714285714286,
+    "MAPE_quadro_trk_media": 60.68285714285713,
+    "MAE_quadro_trk_media": 8.991142857142858,
+    "erro_rel_unico_L_medio_abs": 41.371428571428574,
+    "seqs": [
+     "uav0000009_03358_v",
+     "uav0000077_00720_v",
+     "uav0000088_00290_v",
+     "uav0000201_00000_v",
+     "uav0000249_00001_v",
+     "uav0000249_02688_v",
+     "uav0000306_00230_v"
+    ]
+   },
+   "quase_parada": {
+    "n_seq": 9,
+    "HOTA_media": 0.31189999999999996,
+    "IDF1_media": 0.39493333333333336,
+    "MOTA_media": 0.19484444444444443,
+    "MAPE_quadro_trk_media": 47.27111111111112,
+    "MAE_quadro_trk_media": 18.24588888888889,
+    "erro_rel_unico_L_medio_abs": 49.855555555555554,
+    "seqs": [
+     "uav0000073_00600_v",
+     "uav0000073_04464_v",
+     "uav0000119_02301_v",
+     "uav0000120_04775_v",
+     "uav0000161_00000_v",
+     "uav0000188_00000_v",
+     "uav0000297_00000_v",
+     "uav0000297_02761_v",
+     "uav0000355_00001_v"
+    ]
+   }
+  },
+  "correlacao_spearman_HOTA": {
+   "pessoas_por_quadro_gt": {
+    "rho": 0.22058823529411767,
+    "p": 0.41166643049796364
+   },
+   "altura_pessoa_px": {
+    "rho": 0.865980320601411,
+    "p": 1.4503614980478456e-05
+   },
+   "luminancia": {
+    "rho": 0.17218547707878862,
+    "p": 0.5236929036366568
+   },
+   "mov_camera_pct": {
+    "rho": -0.3588235294117647,
+    "p": 0.17230386289263253
+   }
+  }
+ }
+}
