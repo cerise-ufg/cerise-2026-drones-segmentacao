@@ -1,0 +1,69 @@
+cache de deteccoes reaproveitado: resultados/contagem_run01_cache_det.npz
+[botsort] contagem unica 34 x vistas 79 (cena 80); dup 4 (entre drones 3), falsos 0, perdidas 49; P/R(iou0.3|6px) 0.998/0.245; MAE/quadro 1.27
+[botsort_cal] contagem unica 78 x vistas 79 (cena 80); dup 13 (entre drones 3), falsos 0, perdidas 14; P/R(iou0.3|6px) 0.954/0.654; MAE/quadro 0.58
+[chao] contagem unica 88 x vistas 79 (cena 80); dup 20 (entre drones 3), falsos 0, perdidas 11; P/R(iou0.3|6px) 0.885/0.611; MAE/quadro 0.64
+[botsort_pose] contagem unica 32 x vistas 79 (cena 80); dup 1 (entre drones 1), falsos 0, perdidas 48; P/R(iou0.3|6px) 0.998/0.245; MAE/quadro 1.27
+[botsort_semgmc] contagem unica 0 x vistas 79 (cena 80); dup 0 (entre drones 0), falsos 0, perdidas 79; P/R(iou0.3|6px) 0.000/0.000; MAE/quadro 1.68
+{
+ "resumo": {
+  "botsort": {
+   "contagem_proposta": 34,
+   "pessoas_vistas_gabarito": 79,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": -56.962025316455694,
+   "clusters_duplicados": 4,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 49
+  },
+  "botsort_cal": {
+   "contagem_proposta": 78,
+   "pessoas_vistas_gabarito": 79,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": -1.2658227848101267,
+   "clusters_duplicados": 13,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 14
+  },
+  "chao": {
+   "contagem_proposta": 88,
+   "pessoas_vistas_gabarito": 79,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": 11.39240506329114,
+   "clusters_duplicados": 20,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 11
+  },
+  "botsort_pose": {
+   "contagem_proposta": 32,
+   "pessoas_vistas_gabarito": 79,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": -59.49367088607595,
+   "clusters_duplicados": 1,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 48
+  },
+  "botsort_semgmc": {
+   "contagem_proposta": 0,
+   "pessoas_vistas_gabarito": 79,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": -100.0,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 79
+  }
+ },
+ "tempo_total_s": 3.440617322921753,
+ "tempo_deteccao": {
+  "quadros": 3464,
+  "ms_leitura": 2.3598282332563514,
+  "ms_deteccao": 12.19520525404157,
+  "ms_gmc": 3.3296824480369516,
+  "fps_deteccao": 81.9994398756506,
+  "fps_leitura_det_gmc": 55.91366413733739
+ },
+ "ap": {
+  "iou0.5": 0.7021363327835592,
+  "iou0.3": 0.8227721139450255,
+  "iou0.3_ou_centro6px": 0.8252792138165699
+ }
+}

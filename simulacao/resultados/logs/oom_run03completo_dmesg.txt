@@ -1,0 +1,32 @@
+[seg out 26 14:03:57 2026] containerd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=containerd.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/session.slice/wireplumber.service,task=wireplumber,pid=2476,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 2476 (wireplumber) total-vm:422260kB, anon-rss:4108kB, file-rss:2944kB, shmem-rss:0kB, UID:127 pgtables:164kB oom_score_adj:200
+[seg out 26 14:03:57 2026] actix-rt|system invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=docker-b71576a2e0c518de873cd3aec32a757d25d6d8be6c33af8e32575672e102c131.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/session.slice/wireplumber.service,task=wireplumber,pid=421723,uid=1000
+[seg out 26 14:03:57 2026] Out of memory: Killed process 421723 (wireplumber) total-vm:420408kB, anon-rss:3960kB, file-rss:2944kB, shmem-rss:0kB, UID:1000 pgtables:156kB oom_score_adj:200
+[seg out 26 14:03:57 2026] systemd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=init.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/session.slice/pipewire.service,task=pipewire,pid=2473,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 2473 (pipewire) total-vm:125448kB, anon-rss:3512kB, file-rss:2944kB, shmem-rss:16kB, UID:127 pgtables:108kB oom_score_adj:200
+[seg out 26 14:03:57 2026] NetworkManager invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=NetworkManager.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/session.slice/pipewire.service,task=pipewire,pid=421720,uid=1000
+[seg out 26 14:03:57 2026] Out of memory: Killed process 421720 (pipewire) total-vm:125400kB, anon-rss:3352kB, file-rss:2928kB, shmem-rss:16kB, UID:1000 pgtables:112kB oom_score_adj:200
+[seg out 26 14:03:57 2026] avahi-daemon invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=avahi-daemon.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/session.slice/pipewire-pulse.service,task=pipewire-pulse,pid=2479,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 2479 (pipewire-pulse) total-vm:124284kB, anon-rss:1672kB, file-rss:2816kB, shmem-rss:0kB, UID:127 pgtables:116kB oom_score_adj:200
+[seg out 26 14:03:57 2026] pt_nccl_watchdg invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=docker-d53410445ecb7b7e93cac5a9ba6702397f6489c116328bdf6547629a1fc00151.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/session.slice/pipewire-pulse.service,task=pipewire-pulse,pid=421724,uid=1000
+[seg out 26 14:03:57 2026] Out of memory: Killed process 421724 (pipewire-pulse) total-vm:123872kB, anon-rss:1488kB, file-rss:2688kB, shmem-rss:0kB, UID:1000 pgtables:120kB oom_score_adj:200
+[seg out 26 14:03:57 2026] systemd-journal invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-250
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=systemd-journald.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/app.slice/gnome-keyring-daemon.service,task=gnome-keyring-d,pid=6038,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 6038 (gnome-keyring-d) total-vm:328844kB, anon-rss:1016kB, file-rss:3008kB, shmem-rss:0kB, UID:127 pgtables:120kB oom_score_adj:200
+[seg out 26 14:03:57 2026] gnome-shell invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=user.slice,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/user@1000.service/session.slice/filter-chain.service,task=pipewire,pid=421722,uid=1000
+[seg out 26 14:03:57 2026] Out of memory: Killed process 421722 (pipewire) total-vm:109108kB, anon-rss:804kB, file-rss:2424kB, shmem-rss:0kB, UID:1000 pgtables:88kB oom_score_adj:200
+[seg out 26 14:03:57 2026] python invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=0
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=docker-c9698957ad246cb1d0c02ef2b42d39cf865333d14442296dbf1bbf2533dfc15e.scope,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/session.slice/filter-chain.service,task=pipewire,pid=2474,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 2474 (pipewire) total-vm:109108kB, anon-rss:860kB, file-rss:2420kB, shmem-rss:0kB, UID:127 pgtables:84kB oom_score_adj:200
+[seg out 26 14:03:57 2026] containerd invoked oom-killer: gfp_mask=0x140cca(GFP_HIGHUSER_MOVABLE|__GFP_COMP), order=0, oom_score_adj=-999
+[seg out 26 14:03:57 2026] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=containerd.service,mems_allowed=0,global_oom,task_memcg=/user.slice/user-127.slice/user@127.service/session.slice/dbus.service,task=dbus-daemon,pid=2511,uid=127
+[seg out 26 14:03:57 2026] Out of memory: Killed process 2511 (dbus-daemon) total-vm:9508kB, anon-rss:496kB, file-rss:2752kB, shmem-rss:0kB, UID:127 pgtables:60kB oom_score_adj:200
+[seg out 26 14:03:57 2026] Out of memory: Killed process 421739 (dbus-daemon) total-vm:9508kB, anon-rss:488kB, file-rss:2748kB, shmem-rss:0kB, UID:1000 pgtables:64kB oom_score_adj:200
+[seg out 26 14:03:57 2026] Out of memory: Killed process 107055 (python) total-vm:72248056kB, anon-rss:12504152kB, file-rss:28652kB, shmem-rss:20924kB, UID:0 pgtables:35148kB oom_score_adj:0

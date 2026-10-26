@@ -20,7 +20,7 @@ treinado/avaliado no DGX Spark).
 | `resultados/` | métricas medidas (`.csv/.json/.md`), missão exportada da UFG (`missao_ufg/`), métricas de detecção (`deteccao/`) |
 | `evidencias/` | figuras usadas no relatório |
 | `RELATORIO_SECAO.md` | seção do relatório técnico |
-| `simulacao/` | **preparo da simulação 3D realista** (Isaac Sim 5.1 no DGX Spark; plano B Gazebo Harmonic + PX4 SITL): pacote `cerise_sim` (ENU, câmera, trajetórias, plano de pessoas com gabarito, terreno procedural, rastreio, contagem única global, avaliação), cenários da UFG, script do Isaac (escrito, ainda não executado: aguarda o aceite da licença), Dockerfile/compose do Gazebo+PX4, contagem em vídeo real (VisDrone-MOT) e 14 testes. Ver `simulacao/PRONTO.md` |
+| `simulacao/` | **simulação 3D realista executada** (Isaac Sim 5.1 headless no DGX Spark): 4 drones nas rotas DARP + refinamento sobre 11,3 ha da UFG, 80 pessoas animadas (`omni.anim.people` + navmesh), gravação RGB + caixas 2D de gabarito (Replicator) + pose; pipeline `cerise_sim` (YOLO11s + BoT-SORT/rastreador no solo, projeção no solo, posse + deduplicação), 17 testes, vídeo e figuras. Ver `simulacao/RELATORIO_SECAO_SIMULACAO.md` (e `simulacao/PRONTO.md` para o preparo). Plano B Gazebo + PX4 preparado, não usado |
 
 ## Como rodar (planejamento)
 
@@ -87,3 +87,25 @@ FPS no GB10. Resumo do test-dev (ajustado 960 + BoT-SORT): HOTA 0,328, IDF1 0,39
 pessoas; IDs brutos 2.095 para 1.012 pessoas reais. Detalhes, figuras e vídeos em
 [`validacao_videos/RELATORIO_SECAO_VIDEOS.md`](validacao_videos/RELATORIO_SECAO_VIDEOS.md) e
 [`validacao_videos/README.md`](validacao_videos/README.md).
+
+## Simulação 3D: drones contando pessoas (`simulacao/`)
+
+Isaac Sim 5.1 (licença aceita em 26/10/2026, `PRIVACY_CONSENT=N`), headless no GB10, ativos oficiais espelhados
+localmente (0,55 GB). Voo a 40 m: 866 instantes × 5 câmeras em 21,0 min (1,46 s/instante); voo a 30 m: 1.001 instantes.
+Detecção por quadro contra o gabarito do Replicator: AP50 0,702 (40 m) e 0,652 (30 m). Contagem única global (pessoas
+distintas vistas: 79 a 40 m, 73 a 30 m):
+
+| Rastreador + deduplicação no solo | 40 m | 30 m |
+|---|---|---|
+| BoT-SORT recomendado pelos vídeos reais (0,40, `fuse_score`) | 34 (−57,0 %) | 29 (−60,3 %) |
+| rastreador próprio no solo (conf ≥ 0,175) | 88 (+11,4 %) | 94 (+28,8 %) |
+| BoT-SORT sem `fuse_score`, limiar 0,15 (escolhido a 40 m) | 78 (−1,3 %) | 70 (−4,1 %; 54 corretos, 16 duplicatas, 19 perdidas) |
+
+Vídeo: `simulacao/evidencias/sim_video_run01.mp4` (H.264, 57,7 s). O cenário completo (34 ha) não foi renderizado: a
+navmesh de 1.330 × 998 m estourou a memória (ver a seção 6.4 do relatório da simulação).
+
+```bash
+# no Spark (~/cerise2026/drones/sim)
+ACCEPT_EULA=Y PRIVACY_CONSENT=N ATIVOS_LOCAIS=~/cerise2026/drones/sim/isaac_ativos   bash isaac/rodar_isaac.sh run01 --cenario /cenario/reduzido --fps 5
+bash scripts/rodar_contagem_spark.sh cont_run01 scripts/contar.py --execucao saidas/run01 --cenario cenario/reduzido   --detector yolo --pesos /w/resultados/best_yolo11s_visdrone_pessoa_960.pt --imgsz 1280   --rastreadores botsort,botsort_cal,chao,botsort_pose,botsort_semgmc --saida resultados/contagem_run01.json --figura
+```

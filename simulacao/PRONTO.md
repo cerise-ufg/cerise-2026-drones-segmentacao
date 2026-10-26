@@ -304,3 +304,15 @@ Campus Samambaia (`--video voo.mp4`), ou uma sequência do MOT:
 - `cerise_drones/` e `dados/`: cópia do pacote da frente (usada pelo gerador e pela agregação)
 - Imagens Docker: `nvcr.io/nvidia/isaac-sim:5.1.0` (30 GB) e `cerise26_drones_sim:latest` (= `cerise26_drones` + shapely, pyproj, lap, pytest).
   A `cerise26_gzpx4` ainda não foi construída.
+
+---
+
+## 9. Execução (26/10/2026, tarde): feita
+
+A simulação foi executada depois do aceite da licença (`ACCEPT_EULA=Y`, `PRIVACY_CONSENT=N`) e do fim do `braco_gen`.
+Resultados, correções de API e limitações estão em [`RELATORIO_SECAO_SIMULACAO.md`](RELATORIO_SECAO_SIMULACAO.md). Resumo das mudanças em relação a este preparo:
+- espelho local de ativos (83 arquivos, 0,55 GB), incluindo `Isaac/People/Characters/biped_demo/` (sem ele o grafo de animação não compila);
+- volume da navmesh definido direto (extensão + translação): o `TransformPrim` não tinha efeito e a navmesh ficava com ±4,5 m;
+- modo `anim_people` validado (pessoas seguem o plano); `--camera_debug`, `--depurar` e `--pessoas` para testes;
+- contagem com BoT-SORT (`cerise_sim/botsort_chao.py`) + varredura (`scripts/varredura_botsort.py`); 17 testes;
+- `rodar_isaac.sh` com `--memory 24g` e vigia a cada 2 s com `docker kill`: o cenário `completo` provocou OOM global na assadura da navmesh (1.330 × 998 m) e **não deve ser rodado assim de novo**.

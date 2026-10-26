@@ -1,0 +1,51 @@
+{
+ "run01": {
+  "lado_maior_px_mediana": 21.0,
+  "p10": 14.0,
+  "p90": 30.0,
+  "n_caixas_cobertura": 1891,
+  "por_camera_mediana": {
+   "D1": 22.0,
+   "D2": 20.0,
+   "D3": 18.0,
+   "D4": 22.0
+  },
+  "s_por_quadro": 1.4576380902570059,
+  "s_render_por_quadro": 0.4806029364363426,
+  "tempo_laco_min": 21.038576436042785,
+  "quadros": 866,
+  "cameras": [
+   "D1",
+   "D2",
+   "D3",
+   "D4",
+   "visao_geral"
+  ],
+  "modo_pessoas": "anim_people",
+  "duracao_s": 173.0
+ },
+ "run02a30": {
+  "lado_maior_px_mediana": 31.0,
+  "p10": 18.0,
+  "p90": 41.0,
+  "n_caixas_cobertura": 1612,
+  "por_camera_mediana": {
+   "D1": 30.0,
+   "D2": 37.0,
+   "D3": 26.0,
+   "D4": 29.0
+  },
+  "s_por_quadro": 1.2558621135982242,
+  "s_render_por_quadro": 0.4121471806601449,
+  "tempo_laco_min": 20.95196626186371,
+  "quadros": 1001,
+  "cameras": [
+   "D1",
+   "D2",
+   "D3",
+   "D4"
+  ],
+  "modo_pessoas": "anim_people",
+  "duracao_s": 200.0
+ }
+}

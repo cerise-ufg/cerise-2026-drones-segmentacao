@@ -38,6 +38,7 @@ ap.add_argument("--t_inicio", type=float, default=0.0, help="instante do plano e
 ap.add_argument("--fps", type=float, default=5.0, help="quadros gravados por segundo de simulacao")
 ap.add_argument("--dt", type=float, default=1.0 / 30.0, help="passo de simulacao/animacao (s)")
 ap.add_argument("--n_pessoas", type=int, default=None, help="usa as N primeiras pessoas do plano")
+ap.add_argument("--pessoas", default=None, help="lista explicita de ids do plano, ex.: P000,P022 (smoke test)")
 ap.add_argument("--largura", type=int, default=None, help="sobrescreve a largura (px) das cameras dos drones, mantendo FOV e aspecto")
 ap.add_argument("--drones", default=None, help="subconjunto, ex.: D1,D3")
 ap.add_argument("--modo_pessoas", choices=["anim_people", "cinematico"], default="anim_people")
@@ -58,6 +59,9 @@ ap.add_argument("--sol_intensidade", type=float, default=3500.0)
 ap.add_argument("--ceu_intensidade", type=float, default=900.0)
 ap.add_argument("--aquecimento_s", type=float, default=3.0, help="s simulados antes de gravar (grafo de animacao/navmesh)")
 ap.add_argument("--smoke", action="store_true", help="teste rapido: 1 drone, 6 pessoas, 4 s")
+ap.add_argument("--camera_debug", default=None, help="id de pessoa: camera baixa que a segue (conferir animacao/orientacao)")
+ap.add_argument("--yaw_offset", type=float, default=0.0, help="graus somados ao rumo do plano no modo cinematico")
+ap.add_argument("--depurar", action="store_true", help="registra estado do grafo de animacao/navmesh das pessoas")
 ap.add_argument("--max_quadros", type=int, default=None)
 args, _desconhecidos = ap.parse_known_args()
 if args.smoke:
@@ -113,7 +117,10 @@ CEN = Path(args.cenario)
 cen = json.loads((CEN / "cenario.json").read_text(encoding="utf-8"))
 cena = json.loads((CEN / "cena.json").read_text(encoding="utf-8"))
 plano_p = json.loads((CEN / "pessoas_plano.json").read_text(encoding="utf-8"))["pessoas"]
-if args.n_pessoas:
+if args.pessoas:
+    _sel = args.pessoas.split(",")
+    plano_p = [p for p in plano_p if p["id"] in _sel]
+elif args.n_pessoas:
     plano_p = plano_p[: args.n_pessoas]
 drones = [d for d in cen["drones"] if not args.drones or d["id"] in args.drones.split(",")]
 duracao = min(args.duracao or cen["duracao_s"], cen["duracao_s"] - args.t_inicio)
@@ -289,6 +296,11 @@ for i, d in enumerate(drones):
         log(f"AVISO modelo do drone {did}: {e!r}; usando procedural")
         drone_procedural(vis, CORES[i % len(CORES)], args.escala_drone_visual)
     VIS[did] = UsdGeom.Xformable(stage.GetPrimAtPath(vis))
+    # o modelo visual (ampliado p/ a visao geral) nao projeta sombra: a sombra ampliada apareceria nas cameras
+    from pxr import Usd as _Usd
+    for _p in _Usd.PrimRange(stage.GetPrimAtPath(vis)):
+        if _p.IsA(UsdGeom.Gprim):
+            UsdGeom.PrimvarsAPI(_p).CreatePrimvar("doNotCastShadows", Sdf.ValueTypeNames.Bool).Set(True)
     cam = UsdGeom.Camera.Define(stage, f"/World/Cameras/{did}")
     u = K.usd()
     cam.CreateFocalLengthAttr(u["focalLength"]); cam.CreateHorizontalApertureAttr(u["horizontalAperture"])
@@ -320,6 +332,19 @@ def por_pose(nome, prim_xf, C, R_usd):
 if "visao_geral" in CAMS:
     Rv = olhar_para(cen["visao_geral"]["posicao"], cen["visao_geral"]["alvo"])
     por_pose("visao_geral", UsdGeom.Xformable(CAMS["visao_geral"]), cen["visao_geral"]["posicao"], r_usd_de_cv(Rv))
+
+P_DEBUG = None
+if args.camera_debug:
+    P_DEBUG = next((p for p in plano_p if p["id"] == args.camera_debug), None)
+    if P_DEBUG is not None:
+        Kd = Intrinsecos.de_hfov(960, 540, 60.0)
+        KS["debug"] = (Kd, None)
+        cam = UsdGeom.Camera.Define(stage, "/World/Cameras/debug")
+        u = Kd.usd()
+        cam.CreateFocalLengthAttr(u["focalLength"]); cam.CreateHorizontalApertureAttr(u["horizontalAperture"])
+        cam.CreateVerticalApertureAttr(u["verticalAperture"]); cam.CreateClippingRangeAttr(Gf.Vec2f(0.1, 2000.0))
+        CAMS["debug"] = cam
+DEBUG_POSE = {}
 
 
 def atualizar_drones(t):
@@ -356,13 +381,17 @@ def listar_personagens():
     if res != omni.client.Result.OK:
         raise RuntimeError(f"nao consegui listar {base}: {res}")
     pastas = sorted(i.relative_path.rstrip("/") for i in itens if (i.flags & omni.client.ItemFlags.CAN_HAVE_CHILDREN)
-                    and not i.relative_path.startswith(".") and not i.relative_path.startswith("biped"))
+                    and not i.relative_path.startswith(".") and not i.relative_path.lower().startswith("biped")
+                    and not i.relative_path.startswith("DH_"))
     usds = []
     for p in pastas:
         r2, fs = omni.client.list(f"{base}/{p}/")
-        u = [f.relative_path for f in fs if f.relative_path.endswith(".usd")]
-        if u:
-            usds.append(f"{base}/{p}/{u[0]}")
+        u = sorted(f.relative_path for f in fs if f.relative_path.endswith((".usd", ".usda")) and not f.relative_path.startswith("."))
+        if not u:
+            continue
+        # prefere <pasta>.usd (personagem completo) a variantes
+        pref = [x for x in u if x.rsplit(".", 1)[0] == p]
+        usds.append(f"{base}/{p}/{(pref or u)[0]}")
     return usds
 
 
@@ -453,21 +482,36 @@ def assar_navmesh():
             break
     if vol is None:
         raise RuntimeError("NavMeshVolume nao criado")
-    ext = UsdGeom.Boundable(vol).GetExtentAttr().Get()
-    meia = float(ext[1][0]) if ext else 1.0
     xs = [v[0] for mm in cena["malhas"] if mm["nome"] == "gramado" for v in mm["vertices"]]
     ys = [v[1] for mm in cena["malhas"] if mm["nome"] == "gramado" for v in mm["vertices"]]
     cx, cy = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
     sx, sy = (max(xs) - min(xs)) / 2 + 20, (max(ys) - min(ys)) / 2 + 20
-    m = Gf.Matrix4d(1.0).SetScale(Gf.Vec3d(sx / meia, sy / meia, 3.0 / meia)) * Gf.Matrix4d(1.0).SetTranslate(Gf.Vec3d(cx, cy, 1.0))
-    omni.kit.commands.execute("TransformPrim", path=vol.GetPath(), new_transform_matrix=m)
+    # (o TransformPrim sobre o volume padrao nao teve efeito no 5.1: a navmesh ficava com +-4,5 m em torno da
+    # origem.) Define direto a extensao local e as xformOps do volume.
+    UsdGeom.Boundable(vol).GetExtentAttr().Set([Gf.Vec3f(-sx, -sy, -3.0), Gf.Vec3f(sx, sy, 3.0)])
+    xf = UsdGeom.Xformable(vol)
+    xf.ClearXformOpOrder()
+    xf.AddTranslateOp(UsdGeom.XformOp.PrecisionDouble).Set(Gf.Vec3d(cx, cy, 1.0))
+    app.update()
+    bb = UsdGeom.Imageable(vol).ComputeWorldBound(0, UsdGeom.Tokens.default_).ComputeAlignedRange()
     t = time.time()
     inav = nav.acquire_interface()
     inav.start_navmesh_baking_and_wait()
-    ok = inav.get_navmesh() is not None
-    log(f"navmesh assada: {ok} ({time.time() - t:.1f} s), volume {vol.GetPath()} ~{2 * sx:.0f} x {2 * sy:.0f} m")
-    if not ok:
-        raise RuntimeError("falha ao assar a navmesh")
+    nm = inav.get_navmesh()
+    ok = nm is not None
+    # conferencia: caminho entre dois pontos afastados do gramado
+    teste = None
+    if ok:
+        a, b = carb.Float3(cx - 0.3 * sx, cy, 0.0), carb.Float3(cx + 0.3 * sx, cy + 0.3 * sy, 0.0)
+        r = nm.query_shortest_path(a, b, agent_radius=0.5)
+        if r is not None:
+            pts = r.get_points()
+            teste = (len(pts), round(math.hypot(pts[-1][0] - b[0], pts[-1][1] - b[1]), 2))
+    log(f"navmesh assada: {ok} ({time.time() - t:.1f} s), volume {vol.GetPath()} ~{2 * sx:.0f} x {2 * sy:.0f} m, "
+        f"limites {tuple(round(v, 1) for v in bb.GetMin())}-{tuple(round(v, 1) for v in bb.GetMax())}; "
+        f"caminho de teste (pontos, erro ao alvo m) = {teste}")
+    if not ok or teste is None or teste[1] > 2.0:
+        raise RuntimeError(f"navmesh nao cobre a area (teste {teste})")
 
 
 modo_efetivo = args.modo_pessoas
@@ -515,15 +559,52 @@ def mover_cinematico(t):
         x, y, w, v = plano_pose(p, args.t_inicio + t)
         r = math.radians(w)
         try:
-            c.set_world_transform(carb.Float3(x, y, 0.0), carb.Float4(0.0, 0.0, math.sin(r / 2), math.cos(r / 2)))
+            ro = math.radians(w + args.yaw_offset)
+            c.set_world_transform(carb.Float3(x, y, 0.0), carb.Float4(0.0, 0.0, math.sin(ro / 2), math.cos(ro / 2)))
             andando = v > 0.2
             c.set_variable("Action", "Walk" if andando else "None")
             c.set_variable("Walk", min(1.0, v / 1.4) if andando else 0.0)
-            if andando:
-                c.set_variable("PathPoints", [carb.Float3(x, y, 0.0), carb.Float3(x + 5 * math.cos(r), y + 5 * math.sin(r), 0.0)])
         except Exception as e:  # noqa: BLE001
             if len(AVISOS) < 20:
                 AVISOS.append(f"set_world_transform {p['id']}: {e!r}")
+
+
+FONTE_GAB = {}
+
+
+def depurar_pessoas():
+    """Diagnostico do omni.anim.people: transformada, variaveis do grafo e caminho na navmesh."""
+    try:
+        import omni.anim.navigation.core as nav
+        nm = nav.acquire_interface().get_navmesh()
+    except Exception as e:  # noqa: BLE001
+        nm = None
+        log(f"DEPURAR navmesh: {e!r}")
+    for p in plano_p[:6]:
+        c = personagem(p["id"])
+        if c is None:
+            log(f"DEPURAR {p['id']} sem personagem"); continue
+        pos = carb.Float3(0, 0, 0); rot = carb.Float4(0, 0, 0, 0)
+        c.get_world_transform(pos, rot)
+        info = {}
+        for var in ("Action", "Walk", "PathPoints"):
+            try:
+                info[var] = str(c.get_variable(var))[:160]
+            except Exception as e:  # noqa: BLE001
+                info[var] = repr(e)[:80]
+        alvo = next((cmd for cmd in p["comandos"] if cmd.startswith("GoTo")), None)
+        cam = None
+        if alvo and nm is not None:
+            xs = alvo.split()
+            try:
+                r = nm.query_shortest_path(carb.Float3(pos.x, pos.y, pos.z), carb.Float3(float(xs[1]), float(xs[2]), float(xs[3])), agent_radius=0.5)
+                cam = None if r is None else [(round(a[0], 1), round(a[1], 1), round(a[2], 1)) for a in r.get_points()][:5]
+            except Exception as e:  # noqa: BLE001
+                cam = repr(e)[:120]
+        prim = stage.GetPrimAtPath(SKEL[p["id"]])
+        mu = omni.usd.get_world_transform_matrix(prim).ExtractTranslation()
+        log(f"DEPURAR {p['id']} grafo=({pos.x:.2f},{pos.y:.2f},{pos.z:.2f}) q=({rot.x:.3f},{rot.y:.3f},{rot.z:.3f},{rot.w:.3f}) "
+            f"usd=({mu[0]:.2f},{mu[1]:.2f}) {info} alvo={alvo} caminho={cam}")
 
 
 def posicoes_reais():
@@ -532,16 +613,19 @@ def posicoes_reais():
         c = personagem(pid)
         try:
             if c is not None:
-                pos = carb.Float3(0, 0, 0); rot = carb.Float4(0, 0, 0, 1)
+                pos = carb.Float3(0, 0, 0); rot = carb.Float4(0, 0, 0, 0)
                 c.get_world_transform(pos, rot)
-                yaw = math.degrees(2 * math.atan2(rot.z, rot.w))
-                out[pid] = (pos.x, pos.y, pos.z, yaw)
-                continue
+                if abs(pos.x) + abs(pos.y) > 1e-6 or abs(rot.w) + abs(rot.z) > 1e-6:
+                    yaw = math.degrees(2 * math.atan2(rot.z, rot.w))
+                    out[pid] = (pos.x, pos.y, pos.z, yaw)
+                    FONTE_GAB["anim_graph"] = FONTE_GAB.get("anim_graph", 0) + 1
+                    continue
         except Exception:  # noqa: BLE001
             pass
         m = omni.usd.get_world_transform_matrix(stage.GetPrimAtPath(SKEL.get(pid, PERS[pid])))
         tr = m.ExtractTranslation()
         out[pid] = (tr[0], tr[1], tr[2], float("nan"))
+        FONTE_GAB["usd"] = FONTE_GAB.get("usd", 0) + 1
     return out
 
 
@@ -553,7 +637,7 @@ for cid, cam in CAMS.items():
     a_rgb = rep.AnnotatorRegistry.get_annotator("rgb"); a_rgb.attach(rp)
     a_par = rep.AnnotatorRegistry.get_annotator("camera_params"); a_par.attach(rp)
     a_bb = None
-    if cid != "visao_geral":
+    if cid not in ("visao_geral", "debug"):
         a_bb = rep.AnnotatorRegistry.get_annotator("bounding_box_2d_tight", init_params={"semanticTypes": ["class"]})
         a_bb.attach(rp)
     ANNOT[cid] = (rp, a_rgb, a_bb, a_par)
@@ -617,7 +701,7 @@ for _ in range(n_aq):
 passo_cap = max(1, int(round(1.0 / (args.fps * args.dt))))
 n_passos = int(round(duracao / args.dt))
 arq_poses = {c: open(OUT / c / "poses.csv", "w", encoding="utf-8") for c in CAMS}
-arq_cx = {c: open(OUT / c / "caixas_gt.csv", "w", encoding="utf-8") for c in CAMS if c != "visao_geral"}
+arq_cx = {c: open(OUT / c / "caixas_gt.csv", "w", encoding="utf-8") for c in CAMS if c not in ("visao_geral", "debug")}
 arq_par = {c: open(OUT / c / "camera_params.jsonl", "w", encoding="utf-8") for c in CAMS}
 arq_gab = open(OUT / "gabarito_pessoas.csv", "w", encoding="utf-8")
 for f in arq_poses.values():
@@ -635,6 +719,19 @@ for k in range(n_passos + 1):
         mover_cinematico(t)
     if k % passo_cap == 0:
         estado = atualizar_drones(t)
+        if P_DEBUG is not None:
+            xd, yd, wd, _v = plano_pose(P_DEBUG, args.t_inicio + t)
+            cdbg = personagem(P_DEBUG["id"])
+            if cdbg is not None:
+                _p = carb.Float3(0, 0, 0); _r = carb.Float4(0, 0, 0, 0)
+                cdbg.get_world_transform(_p, _r)
+                if abs(_p.x) + abs(_p.y) > 1e-6:
+                    xd, yd = _p.x, _p.y
+            rd = math.radians(wd)
+            Cd = np.array([xd - 7 * math.cos(rd) + 2.5 * math.sin(rd), yd - 7 * math.sin(rd) - 2.5 * math.cos(rd), 3.5])
+            Rd = olhar_para(Cd, np.array([xd, yd, 0.9]))
+            por_pose("debug", UsdGeom.Xformable(CAMS["debug"]), Cd, r_usd_de_cv(Rd))
+            DEBUG_POSE["C"], DEBUG_POSE["R"] = Cd, Rd
         rps_ativos(True)
         tr0 = time.time()
         rep.orchestrator.step(rt_subframes=args.rt_subframes, delta_time=0.0, pause_timeline=False)
@@ -648,6 +745,10 @@ for k in range(n_passos + 1):
                 GRAVADOR.submit(salvar_img, np.array(rgb), OUT / cid / "rgb" / f"{quadro:06d}.{args.formato}")
             par = a_par.get_data() or {}
             arq_par[cid].write(json.dumps({"frame": quadro, "t": t, **{kk: jsonavel(v) for kk, v in par.items()}}) + "\n")
+            if cid == "debug":
+                qd = quat_de_matriz(DEBUG_POSE["R"]); C = DEBUG_POSE["C"]
+                arq_poses[cid].write(f"{quadro},{t:.4f},{C[0]:.4f},{C[1]:.4f},{C[2]:.4f},{qd[0]:.6f},{qd[1]:.6f},{qd[2]:.6f},{qd[3]:.6f},0,0" + chr(10))
+                continue
             if cid == "visao_geral":
                 Rv = olhar_para(cen["visao_geral"]["posicao"], cen["visao_geral"]["alvo"])
                 qv = quat_de_matriz(Rv)
@@ -671,6 +772,8 @@ for k in range(n_passos + 1):
                     arq_cx[cid].write(f"{quadro},{pid},{float(r['x_min']):.1f},{float(r['y_min']):.1f},"
                                       f"{float(r['x_max']):.1f},{float(r['y_max']):.1f},{float(r['occlusionRatio']):.3f}\n")
         rps_ativos(False)
+        if args.depurar and quadro % 10 == 0:
+            depurar_pessoas()
         quadro += 1
         if quadro % 25 == 0:
             el = time.time() - t_ini_laco
@@ -693,9 +796,10 @@ meta = {
     "cenario": cen["nome"], "fps": args.fps, "dt": args.dt, "t_inicio": args.t_inicio, "duracao_s": duracao,
     "origem_enu": cen["origem_enu"], "modo_pessoas_pedido": args.modo_pessoas, "modo_pessoas": modo_efetivo,
     "materiais": args.materiais, "ativos": ATIVOS,
-    "cameras": {cid: {"tipo": "visao_geral" if cid == "visao_geral" else "drone", "intrinsecos": KS[cid][0].para_dict()} for cid in CAMS},
+    "cameras": {cid: {"tipo": cid if cid in ("visao_geral", "debug") else "drone", "intrinsecos": KS[cid][0].para_dict()} for cid in CAMS},
     "pessoas": list(PERS), "quadros": quadro, "tempo_laco_s": el, "s_por_quadro": el / max(quadro, 1),
     "s_render_por_quadro": t_render / max(quadro, 1), "avisos": AVISOS, "args": vars(args),
+    "fonte_gabarito": FONTE_GAB,
 }
 (OUT / "meta.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
 (OUT / "log_sim.txt").write_text("\n".join(LOG) + "\n", encoding="utf-8")

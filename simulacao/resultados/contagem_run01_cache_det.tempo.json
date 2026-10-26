@@ -1,0 +1,1 @@
+{"n": 3464, "leitura_s": 8.174445, "det_s": 42.244191, "gmc_s": 11.534020, "nota": "medido na 1a execucao do contar.py sobre saidas/run01 (26/10/2026 13:36; GB10 compartilhado com a producao e com o render do run02a30): 2,360 ms de leitura, 12,195 ms de deteccao (YOLO11s FP32, imgsz 1280) e 3,330 ms de GMC por quadro"}

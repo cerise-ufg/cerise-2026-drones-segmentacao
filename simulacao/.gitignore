@@ -14,6 +14,10 @@ cenario/completo/texturas/
 cenario/reduzido_a30/gabarito_pessoas_plano.csv
 cenario/reduzido_a30/drones/
 cenario/reduzido_a30/texturas/
-resultados/*_deteccoes.csv
+resultados/*_deteccoes*.csv
+# copias locais de saidas para analise/figuras (regeneraveis no Spark)
+tmp_saidas/
+# logs medidos das execucoes (pequenos) vao para o git
+!resultados/logs/
 isaac/inspecao/06_ext_pessoas.txt
 isaac/inspecao/08_people_api.txt

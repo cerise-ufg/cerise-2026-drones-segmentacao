@@ -19,6 +19,7 @@ NS = {"s": "http://s3.amazonaws.com/doc/2006-03-01/"}
 R = "Assets/Isaac/5.1/"
 PREFIXOS = [
     "Isaac/People/Characters/Biped_Setup.usd",
+    "Isaac/People/Characters/biped_demo/",          # esqueleto referenciado (payload) pelo Biped_Setup.usd
     "Isaac/People/Characters/filter.json",
     "Isaac/People/Animations/",
     "Isaac/People/Characters/F_Business_02/",

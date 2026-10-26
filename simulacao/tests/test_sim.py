@@ -245,3 +245,47 @@ def test_contagem_video_visdrone_mot_sintetico(tmp_path):
     assert r["pessoas_distintas_gabarito"] == 12
     assert r["faixas_confirmadas"] == 12 and r["faixas_falsas"] == 0 and r["faixas_duplicadas"] == 0
     assert r["pr_iou0.5"]["precisao"] > 0.95 and 0.8 < r["pr_iou0.5"]["revocacao"] < 0.97
+
+
+# ------------------------------------------------------------------ BoT-SORT (recomendado) + projecao no solo
+def test_ap_quadros_perfeito_e_vazio():
+    from cerise_sim.avaliacao import ap_quadros
+    gt = {0: (["a", "b"], np.array([[10, 10, 20, 30], [50, 50, 60, 70]], float), np.zeros(2))}
+    perfeito = {0: (gt[0][1].copy(), np.array([0.9, 0.8]))}
+    assert ap_quadros(perfeito, gt, [0], 0.5)["ap"] == pytest.approx(1.0)
+    com_fp = {0: (np.vstack([[200, 200, 210, 220], gt[0][1]]), np.array([0.95, 0.9, 0.8]))}
+    assert ap_quadros(com_fp, gt, [0], 0.5)["ap"] < 1.0
+    assert ap_quadros({}, gt, [0], 0.5)["ap"] == 0.0
+
+
+def test_gmc_por_pose_mapeia_ponto_do_chao(tmp_path):
+    from cerise_sim.botsort_chao import gmc_por_pose
+    _cenario_pequeno(tmp_path, n=4)
+    ex = Execucao(tmp_path)
+    qs = ex.quadros("D1")
+    K = ex.intrinsecos("D1")
+    H = gmc_por_pose(ex, "D1", 0.0)
+    # um quadro em voo de cobertura: um ponto do chao visto no anterior deve cair onde a afim indica
+    k = next(i for i in range(1, len(qs)) if qs[i].cobre and qs[i - 1].cobre)
+    P = pixel_para_chao(np.array([[640.0, 480.0]]), qs[k - 1].pose, K, 0.0)
+    uv, _ = projetar(P, qs[k].pose, K)
+    pred = H[qs[k].frame] @ np.array([640.0, 480.0, 1.0])
+    assert np.linalg.norm(pred - uv[0]) < 1.0
+
+
+def test_botsort_no_solo_com_gmc_por_pose(tmp_path):
+    pytest.importorskip("ultralytics")
+    from cerise_sim.botsort_chao import contar_execucao_botsort, gmc_por_pose
+    area, regioes, pessoas = _cenario_pequeno(tmp_path, n=30)
+    ex = Execucao(tmp_path)
+    gts = {c: ex.caixas_gt(c) for c in ex.cameras()}
+    dets, gmcs = {}, {}
+    for cam in ["D1", "D2"]:
+        K = ex.intrinsecos(cam)
+        o = DetectorOraculo(gts[cam], K.largura, K.altura)
+        dets[cam] = {q.frame: o(q.frame) for q in ex.quadros(cam)}
+        gmcs[cam] = gmc_por_pose(ex, cam, 0.85)
+    res = contar_execucao_botsort(ex, dets, gmcs, area, regioes, ["D1", "D2"], ParamsContagem())
+    av = avaliar_contagem(res, gts, len(ex.pessoas()))
+    assert abs(av["erro_pct_vs_vistas"]) <= 15.0
+    assert av["clusters_falsos"] == 0

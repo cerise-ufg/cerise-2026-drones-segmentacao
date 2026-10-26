@@ -52,12 +52,58 @@ def pr_quadros(log_det: dict, caixas_gt: dict, iou_min: float = 0.3, dist_centro
         tp += len(pares)
         fp += len(caixas) - len(pares)
         fn += len(gt) - len(pares)
-        erros.append(abs(len(caixas) - len(gt)))
+        erros.append(len(caixas) - len(gt))
     P = tp / max(tp + fp, 1)
     R = tp / max(tp + fn, 1)
+    e = np.asarray(erros, float)
     return {"quadros": len(log_det), "tp": tp, "fp": fp, "fn": fn, "precisao": P, "revocacao": R,
-            "f1": 2 * P * R / max(P + R, 1e-9), "mae_contagem_quadro": float(np.mean(erros)) if erros else None,
+            "f1": 2 * P * R / max(P + R, 1e-9), "mae_contagem_quadro": float(np.mean(np.abs(e))) if len(e) else None,
+            "vies_contagem_quadro": float(np.mean(e)) if len(e) else None,
             "iou_min": iou_min, "dist_centro_px": dist_centro_px}
+
+
+def ap_quadros(dets: dict, caixas_gt: dict, frames, iou_min: float = 0.5, dist_centro_px: float | None = None,
+               area_min_px: float = 4.0, oclusao_max: float = 0.9) -> dict:
+    """AP (interpolacao em todos os pontos, estilo VOC/COCO por classe unica) das deteccoes com score,
+    agregando todos os quadros; casamento guloso por score decrescente (IoU >= iou_min, ou centro a ate
+    dist_centro_px). dets: {frame: (caixas, scores)}."""
+    regs = []
+    n_gt = 0
+    for f in frames:
+        caixas, scores = dets.get(f, (np.zeros((0, 4)), np.zeros(0)))
+        caixas = np.asarray(caixas, float).reshape(-1, 4); scores = np.asarray(scores, float).reshape(-1)
+        _ids, gt = filtrar_gt(*caixas_gt.get(f, ([], np.zeros((0, 4)), np.zeros(0))), area_min_px, oclusao_max)
+        n_gt += len(gt)
+        if not len(caixas):
+            continue
+        ordem = np.argsort(-scores)
+        if len(gt):
+            iou = iou_matriz(caixas[ordem], gt)
+            ok = iou >= iou_min
+            if dist_centro_px is not None:
+                cd = np.column_stack([(caixas[ordem, 0] + caixas[ordem, 2]) / 2, (caixas[ordem, 1] + caixas[ordem, 3]) / 2])
+                cg = np.column_stack([(gt[:, 0] + gt[:, 2]) / 2, (gt[:, 1] + gt[:, 3]) / 2])
+                ok |= np.linalg.norm(cd[:, None] - cg[None], axis=2) <= dist_centro_px
+        usado = np.zeros(len(gt), bool)
+        for k, i in enumerate(ordem):
+            tp = 0
+            if len(gt):
+                cand = ok[k] & ~usado
+                if cand.any():
+                    j = int(np.argmax(np.where(cand, iou[k] + 1e-6, -1)))
+                    usado[j] = True
+                    tp = 1
+            regs.append((scores[i], tp))
+    if not regs or n_gt == 0:
+        return {"ap": 0.0, "n_gt": n_gt, "n_det": len(regs), "iou_min": iou_min, "dist_centro_px": dist_centro_px}
+    regs.sort(key=lambda r: -r[0])
+    tp = np.cumsum([r[1] for r in regs]); fp = np.cumsum([1 - r[1] for r in regs])
+    rec = tp / n_gt; prec = tp / np.maximum(tp + fp, 1)
+    mrec = np.concatenate([[0.0], rec, [rec[-1]]]); mpre = np.concatenate([[1.0], prec, [0.0]])
+    mpre = np.flip(np.maximum.accumulate(np.flip(mpre)))
+    ap = float(np.sum((mrec[1:] - mrec[:-1]) * mpre[1:]))
+    return {"ap": ap, "n_gt": n_gt, "n_det": len(regs), "revocacao_max": float(rec[-1]), "iou_min": iou_min,
+            "dist_centro_px": dist_centro_px}
 
 
 def rotular_faixa(faixa, caixas_gt: dict, iou_min: float = 0.1, dist_centro_px: float = 6.0):

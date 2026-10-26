@@ -1,18 +1,18 @@
 #!/bin/bash
 # Roda a simulacao do Isaac Sim 5.1 (headless, sem tela fisica, sem streaming) no DGX Spark.
 #
-# SO RODE DEPOIS do aceite da licenca "NVIDIA Isaac Sim Additional Software and Materials License"
-# (https://www.nvidia.com/en-us/agreements/enterprise-software/isaac-sim-additional-software-and-materials-license/).
-# A etapa seguinte liga as variaveis:
+# Licenca "NVIDIA Isaac Sim Additional Software and Materials License" aceita em 26/10/2026 (~11:10),
+# com PRIVACY_CONSENT=N (sem telemetria). Exemplos:
 #   ACCEPT_EULA=Y PRIVACY_CONSENT=N bash ~/cerise2026/drones/sim/isaac/rodar_isaac.sh smoke --smoke
 #   ACCEPT_EULA=Y PRIVACY_CONSENT=N bash ~/cerise2026/drones/sim/isaac/rodar_isaac.sh run01 --cenario /cenario/reduzido --fps 5
 # Argumentos depois do nome vao para isaac/sim_ufg_isaac.py (duracao, fps, n_pessoas, largura, modo_pessoas...).
 #
 # Variaveis opcionais:
-#   ATIVOS_LOCAIS=/caminho/espelho   espelho local dos ativos (isaac/baixar_ativos.sh) -> roda com --network none
+#   ATIVOS_LOCAIS=/caminho/espelho   espelho local dos ativos (isaac/baixar_ativos.py); SEM_REDE=1 -> --network none
 #   CPUS=8                           limite de CPU do conteiner
 #   MIN_LIVRE_INICIO_GB=30           memoria "available" minima para iniciar (job ~15-20 GB + folga de 10 GB)
-#   MIN_LIVRE_GB=10                  o vigia para o conteiner se a memoria "available" cair abaixo disso
+#   MIN_LIVRE_GB=12                  o vigia MATA o conteiner se a memoria "available" cair abaixo disso (le a cada 2 s)
+#   MEM_LIMITE=24g                   limite de memoria (cgroup) do conteiner
 #   IGNORAR_BRACO=1                  permite iniciar com o braco_gen ainda rodando (nao recomendado)
 set -euo pipefail
 NOME=${1:?uso: rodar_isaac.sh <nome_execucao> [args do sim_ufg_isaac.py]}
@@ -44,10 +44,16 @@ sudo chown -R 1234:1234 $C $BASE/saidas/$NOME     # o usuario do conteiner e isa
 
 EXTRA=()
 if [ -n "${ATIVOS_LOCAIS:-}" ]; then
-  EXTRA+=(--network none -v "$ATIVOS_LOCAIS":/ativos:ro -e ISAAC_ASSETS_ROOT=/ativos/Assets/Isaac/5.1)
+  EXTRA+=(-v "$ATIVOS_LOCAIS":/ativos:ro -e ISAAC_ASSETS_ROOT=/ativos/Assets/Isaac/5.1)
+  # SEM_REDE=1: contêiner sem rede (só o espelho local); padrão: rede bridge sem portas publicadas
+  [ "${SEM_REDE:-0}" = "1" ] && EXTRA+=(--network none)
 fi
 # PRIVACY_CONSENT=N desliga a telemetria (config/privacy.toml da imagem); OMNI_ENV_PRIVACY_CONSENT nunca e definido.
+# --memory: limite de cgroup (parte de CPU da memoria unificada) para proteger a producao de um OOM global.
+# (Em 26/10 a assadura da navmesh do cenario "completo" consumiu > 34 GB em ~11 s; o vigia, que lia a cada 10 s,
+#  nao chegou a tempo e houve OOM global. Ver RELATORIO_SECAO_SIMULACAO.md.)
 sudo docker run -d --name "$CONT" --gpus all --cpus "${CPUS:-8}" --cpu-shares 256 \
+  --memory "${MEM_LIMITE:-24g}" --memory-swap "${MEM_LIMITE:-24g}" \
   -e ACCEPT_EULA="$ACCEPT_EULA" -e PRIVACY_CONSENT="$PRIVACY_CONSENT" \
   -e PYTHONUNBUFFERED=1 \
   "${EXTRA[@]}" \
@@ -65,5 +71,5 @@ sudo docker run -d --name "$CONT" --gpus all --cpus "${CPUS:-8}" --cpu-shares 25
   $IMG /sim/isaac/sim_ufg_isaac.py --cenario /cenario/reduzido --saida /saida "$@"
 
 echo "conteiner $CONT iniciado; saida em $BASE/saidas/$NOME"
-setsid nohup bash $BASE/isaac/vigia_memoria.sh "$CONT" "${MIN_LIVRE_GB:-10}" > $BASE/saidas/$NOME.vigia.log 2>&1 < /dev/null &
+setsid nohup bash $BASE/isaac/vigia_memoria.sh "$CONT" "${MIN_LIVRE_GB:-12}" > $BASE/saidas/$NOME.vigia.log 2>&1 < /dev/null &
 echo "vigia de memoria: $BASE/saidas/$NOME.vigia.log ; log do app: sudo docker logs -f $CONT"
