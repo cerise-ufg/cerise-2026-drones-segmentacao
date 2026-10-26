@@ -1,0 +1,6062 @@
+[
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 907.3316441698963,
+  "tempo_medio_s": 882.8361271990573,
+  "cv_tempo": 0.02774639167583134,
+  "cv_area": 0.24330937538044606,
+  "erro_area_vs_alvo_max_pct": 0.8919748382415542,
+  "distancia_total_m": 11610.026769734948,
+  "curvas_total": 60,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 4.5299076916922525,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5019203999836463,
+  "tempo_cobertura_s": 0.16276519998791628,
+  "tempo_algoritmo_s": 0.6646855999715626,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 212817.51952173136,
+    "tempo_s": 907.3316441698963,
+    "distancia_m": 7139.983108365636,
+    "curvas": 40,
+    "voos": 1,
+    "angulo_graus": 157.0713859869397,
+    "espacamento_m": 42.46957563154865,
+    "uso_bateria_pct_1o_voo": 75.61097034749136
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 129522.88864354984,
+    "tempo_s": 858.3406102282181,
+    "distancia_m": 4470.043661369311,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 43.88496333940632,
+    "uso_bateria_pct_1o_voo": 47.68558945712323
+   }
+  ],
+  "historico_makespan_s": [
+   907.3316441698963
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 52,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00892083282601544,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 898.1491522243674,
+  "tempo_medio_s": 879.6872506362425,
+  "cv_tempo": 0.02098689230152207,
+  "cv_area": 0.24344953024833513,
+  "erro_area_vs_alvo_max_pct": 0.8732875426092758,
+  "distancia_total_m": 11503.510283199057,
+  "curvas_total": 62,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 4.1163704733426005,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5059847999946214,
+  "tempo_cobertura_s": 0.17283759999554604,
+  "tempo_algoritmo_s": 0.6788223999901675,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 212841.50985907135,
+    "tempo_s": 898.1491522243674,
+    "distancia_m": 7088.15818891035,
+    "curvas": 39,
+    "voos": 1,
+    "angulo_graus": 157.31739117517208,
+    "espacamento_m": 42.53819842147641,
+    "uso_bateria_pct_1o_voo": 74.84576268536395
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 129498.89830621023,
+    "tempo_s": 861.2253490481177,
+    "distancia_m": 4415.352094288707,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 41.441018192990065,
+    "uso_bateria_pct_1o_voo": 47.84585272489542
+   }
+  ],
+  "historico_makespan_s": [
+   898.1491522243674
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 74,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008733959668574213,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 889.4475621105746,
+  "tempo_medio_s": 874.6526927250598,
+  "cv_tempo": 0.01691513615469478,
+  "cv_area": 0.24368006783011695,
+  "erro_area_vs_alvo_max_pct": 0.8425492314109453,
+  "distancia_total_m": 11488.289227809688,
+  "curvas_total": 60,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 4.308387754897941,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.7530109000217635,
+  "tempo_cobertura_s": 0.18784639998921193,
+  "tempo_algoritmo_s": 0.9408573000109755,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 212880.97102399362,
+    "tempo_s": 889.4475621105746,
+    "distancia_m": 7081.14228777242,
+    "curvas": 37,
+    "voos": 1,
+    "angulo_graus": 157.2900031967436,
+    "espacamento_m": 42.53059735405259,
+    "uso_bateria_pct_1o_voo": 74.12063017588122
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 129459.4371412879,
+    "tempo_s": 859.857823339545,
+    "distancia_m": 4407.146940037268,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 42.96937564224936,
+    "uso_bateria_pct_1o_voo": 47.769879074419165
+   }
+  ],
+  "historico_makespan_s": [
+   889.4475621105746
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 54,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00842657622640965,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 978.2815264307861,
+  "tempo_medio_s": 867.4530914893267,
+  "cv_tempo": 0.127763029527255,
+  "cv_area": 0.04466555552856833,
+  "erro_area_vs_alvo_max_pct": 0.840749638234081,
+  "distancia_total_m": 11142.602390730068,
+  "curvas_total": 54,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 1.610644958046224,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.4764138000027742,
+  "tempo_cobertura_s": 0.1563046000082977,
+  "tempo_algoritmo_s": 0.6327184000110719,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 178815.61633793014,
+    "tempo_s": 756.6246565478672,
+    "distancia_m": 6072.913232145351,
+    "curvas": 29,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 43.4644050794964,
+    "uso_bateria_pct_1o_voo": 63.05205471232227
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 163524.79182735103,
+    "tempo_s": 978.2815264307861,
+    "distancia_m": 5069.689158584717,
+    "curvas": 25,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 43.95330663723871,
+    "uso_bateria_pct_1o_voo": 54.34897369059923
+   }
+  ],
+  "historico_makespan_s": [
+   978.2815264307861
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 43,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008408580275439254,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 1053.3284389959545,
+  "tempo_medio_s": 894.7709444927302,
+  "cv_tempo": 0.1772045633344908,
+  "cv_area": 0.0006116625186341207,
+  "erro_area_vs_alvo_max_pct": 0.061273671623845845,
+  "distancia_total_m": 11204.77180053747,
+  "curvas_total": 61,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 2.0651858667280054,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.48172680000425316,
+  "tempo_cobertura_s": 0.15842199997860007,
+  "tempo_algoritmo_s": 0.6401487999828532,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 171274.9024807851,
+    "tempo_s": 736.2134499895061,
+    "distancia_m": 5828.801166561747,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 43.4644050794964,
+    "uso_bateria_pct_1o_voo": 61.35112083245884
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 171065.5056844965,
+    "tempo_s": 1053.3284389959545,
+    "distancia_m": 5375.970633975723,
+    "curvas": 31,
+    "voos": 1,
+    "angulo_graus": 75.0,
+    "espacamento_m": 44.686542343653855,
+    "uso_bateria_pct_1o_voo": 58.51824661088636
+   }
+  ],
+  "historico_makespan_s": [
+   1053.3284389959545
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.0006116625185373456,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 876.2266641321072,
+  "tempo_medio_s": 874.3408529704759,
+  "cv_tempo": 0.0021568375253477653,
+  "cv_area": 0.21264830746946373,
+  "erro_area_vs_alvo_max_pct": 0.9047614455975702,
+  "distancia_total_m": 11431.663558840823,
+  "curvas_total": 60,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 4.308387754897941,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.8616500000061933,
+  "tempo_cobertura_s": 0.7161462999938522,
+  "tempo_algoritmo_s": 2.5777963000000454,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 207569.25827001716,
+    "tempo_s": 876.2266641321072,
+    "distancia_m": 6948.933307987758,
+    "curvas": 37,
+    "voos": 1,
+    "angulo_graus": 157.31739117517208,
+    "espacamento_m": 42.53819842147641,
+    "uso_bateria_pct_1o_voo": 73.0188886776756
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 134771.14989526462,
+    "tempo_s": 872.4550418088446,
+    "distancia_m": 4482.730250853065,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 43.58422717731446,
+    "uso_bateria_pct_1o_voo": 48.46972454493581
+   }
+  ],
+  "historico_makespan_s": [
+   889.4475621105746,
+   882.5322912554157,
+   881.840051505894,
+   877.1091035939104,
+   876.2266641321072
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 52,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009048699036802232,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 945.5787644296759,
+  "tempo_medio_s": 942.1642081398747,
+  "cv_tempo": 0.003624162603823133,
+  "cv_area": 0.07929689133794757,
+  "erro_area_vs_alvo_max_pct": 1.3650518797635493e-10,
+  "distancia_total_m": 12479.635771745436,
+  "curvas_total": 60,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 7.24265183866548,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.12059219999355264,
+  "tempo_cobertura_s": 0.6539286999905016,
+  "tempo_algoritmo_s": 0.7745208999840543,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 184743.66772853798,
+    "tempo_s": 938.7496518500735,
+    "distancia_m": 7534.163185167381,
+    "curvas": 38,
+    "voos": 1,
+    "angulo_graus": 8.279041631966871,
+    "espacamento_m": 44.56294285456705,
+    "uso_bateria_pct_1o_voo": 78.2291376541728
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 157597.1084030804,
+    "tempo_s": 945.5787644296759,
+    "distancia_m": 4945.472586578055,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 156.0088403943998,
+    "espacamento_m": 42.69480773882771,
+    "uso_bateria_pct_1o_voo": 52.532153579426435
+   }
+  ],
+  "historico_makespan_s": [
+   1489.1145595084647,
+   1038.0132834548126,
+   950.548212224437,
+   947.5191325141953,
+   945.5787644296759
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 526.517188926597,
+  "tempo_medio_s": 463.97803772584194,
+  "cv_tempo": 0.1000173119616456,
+  "cv_area": 0.5405742811949866,
+  "erro_area_vs_alvo_max_pct": 21.994060216458415,
+  "distancia_total_m": 10761.65366322799,
+  "curvas_total": 60,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 8.671780460241422,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.409568900009617,
+  "tempo_cobertura_s": 0.21189850001246668,
+  "tempo_algoritmo_s": 2.621467400022084,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 80000.44517836465,
+    "tempo_s": 415.4778681875155,
+    "distancia_m": 2781.445348541822,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 8.279041632563155,
+    "espacamento_m": 44.81328244564625,
+    "uso_bateria_pct_1o_voo": 34.62315568229296
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 61634.9589241062,
+    "tempo_s": 449.9390560634134,
+    "distancia_m": 2139.6343363804813,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 151.4091439859796,
+    "espacamento_m": 44.58957309720831,
+    "uso_bateria_pct_1o_voo": 24.996614225745187
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 200705.00406280774,
+    "tempo_s": 526.517188926597,
+    "distancia_m": 5840.573978305687,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 51.4930437852939,
+    "uso_bateria_pct_1o_voo": 35.1011459284398
+   }
+  ],
+  "historico_makespan_s": [
+   526.517188926597
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.21993976371358429,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 515.7659698392106,
+  "tempo_medio_s": 485.6342798353835,
+  "cv_tempo": 0.04421902454265978,
+  "cv_area": 0.42552381133697514,
+  "erro_area_vs_alvo_max_pct": 0.7482166490404761,
+  "distancia_total_m": 11027.29182096729,
+  "curvas_total": 63,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 8.307247652288705,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5095512999978382,
+  "tempo_cobertura_s": 0.17726419999962673,
+  "tempo_algoritmo_s": 0.6868154999974649,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 101789.51596322742,
+    "tempo_s": 515.7659698392106,
+    "distancia_m": 3624.3263650587814,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 3.78485785296482,
+    "espacamento_m": 42.56977703180164,
+    "uso_bateria_pct_1o_voo": 42.98049748660088
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 61769.81436632436,
+    "tempo_s": 467.28550659524933,
+    "distancia_m": 2243.713039571496,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 44.33009962523356,
+    "uso_bateria_pct_1o_voo": 25.960305921958295
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 178781.07783572964,
+    "tempo_s": 473.8513630716906,
+    "distancia_m": 5159.252416337013,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 51.4930437852939,
+    "uso_bateria_pct_1o_voo": 31.590090871446044
+   }
+  ],
+  "historico_makespan_s": [
+   515.7659698392106
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 132,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.007481099675149735,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 532.2492481531717,
+  "tempo_medio_s": 504.0439756629539,
+  "cv_tempo": 0.07591201500448562,
+  "cv_area": 0.4241624812762157,
+  "erro_area_vs_alvo_max_pct": 0.8563184247392169,
+  "distancia_total_m": 11426.522502289463,
+  "curvas_total": 70,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 9.366843015871428,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5057119999837596,
+  "tempo_cobertura_s": 0.22300209998502396,
+  "tempo_algoritmo_s": 0.7287140999687836,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 101678.65017269315,
+    "tempo_s": 529.934238782731,
+    "distancia_m": 3686.009054493975,
+    "curvas": 32,
+    "voos": 1,
+    "angulo_graus": 28.00448195058063,
+    "espacamento_m": 42.8523876350373,
+    "uso_bateria_pct_1o_voo": 44.16118656522758
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 62036.31165823476,
+    "tempo_s": 449.9484400529592,
+    "distancia_m": 2211.6906403177554,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 152.74649404407697,
+    "espacamento_m": 42.71468020416796,
+    "uso_bateria_pct_1o_voo": 24.99713555849773
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 178625.4463343537,
+    "tempo_s": 532.2492481531717,
+    "distancia_m": 5528.822807477733,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 157.19524760800718,
+    "espacamento_m": 52.415399907777704,
+    "uso_bateria_pct_1o_voo": 35.48328321021145
+   }
+  ],
+  "historico_makespan_s": [
+   532.2492481531717
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 79,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008562118595962667,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 521.1891903683506,
+  "tempo_medio_s": 496.54900252715976,
+  "cv_tempo": 0.03936135507652119,
+  "cv_area": 0.425926973012282,
+  "erro_area_vs_alvo_max_pct": 0.08179150553692188,
+  "distancia_total_m": 11112.015049250957,
+  "curvas_total": 65,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 7.431168805192467,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5713409000018146,
+  "tempo_cobertura_s": 0.14447599998675287,
+  "tempo_algoritmo_s": 0.7158168999885675,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 83991.32306171083,
+    "tempo_s": 473.38238348573725,
+    "distancia_m": 3200.4905015240365,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 43.817431724444035,
+    "uso_bateria_pct_1o_voo": 39.448531957144766
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 75667.38303331527,
+    "tempo_s": 521.1891903683506,
+    "distancia_m": 2567.1351422101056,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 158.61930097733213,
+    "espacamento_m": 43.31167801823467,
+    "uso_bateria_pct_1o_voo": 28.954955020463924
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 182681.70207025541,
+    "tempo_s": 495.07543372739144,
+    "distancia_m": 5344.389405516815,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 8.279041632433717,
+    "espacamento_m": 54.705398691300715,
+    "uso_bateria_pct_1o_voo": 33.00502891515943
+   }
+  ],
+  "historico_makespan_s": [
+   521.1891903683506
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 149,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.0008168410782964971,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 798.3050800199794,
+  "tempo_medio_s": 565.4769950253303,
+  "cv_tempo": 0.3440639437563725,
+  "cv_area": 0.00637177176782142,
+  "erro_area_vs_alvo_max_pct": 0.8911522381895515,
+  "distancia_total_m": 11315.42251992491,
+  "curvas_total": 73,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 9.619865787920913,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.49560660001588985,
+  "tempo_cobertura_s": 0.13950439999462105,
+  "tempo_algoritmo_s": 0.6351110000105109,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 113096.66621441962,
+    "tempo_s": 576.0426577447827,
+    "distancia_m": 4067.093244114496,
+    "curvas": 34,
+    "voos": 1,
+    "angulo_graus": 8.707244351701775,
+    "espacamento_m": 43.571920123334756,
+    "uso_bateria_pct_1o_voo": 48.003554812065225
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 114489.18351360099,
+    "tempo_s": 798.3050800199794,
+    "distancia_m": 3989.830480119876,
+    "curvas": 25,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.69084952280779,
+    "uso_bateria_pct_1o_voo": 44.35028222333219
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 114754.55843726471,
+    "tempo_s": 322.0832473112289,
+    "distancia_m": 3258.4987956905384,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 53.10517827501254,
+    "uso_bateria_pct_1o_voo": 21.47221648741526
+   }
+  ],
+  "historico_makespan_s": [
+   798.3050800199794
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 100,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00891045710335753,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 509.08887902156874,
+  "tempo_medio_s": 500.1652225779698,
+  "cv_tempo": 0.025106779701977045,
+  "cv_area": 0.40197271052629874,
+  "erro_area_vs_alvo_max_pct": 3.2910833248482896,
+  "distancia_total_m": 11258.579564050428,
+  "curvas_total": 64,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 9.307837705393485,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 4.450667699973565,
+  "tempo_cobertura_s": 0.760142699960852,
+  "tempo_algoritmo_s": 5.210810399934417,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 92422.62629207179,
+    "tempo_s": 509.08887902156874,
+    "distancia_m": 3597.5554568823504,
+    "curvas": 29,
+    "voos": 1,
+    "angulo_graus": 25.512955015066094,
+    "espacamento_m": 44.30296723178277,
+    "uso_bateria_pct_1o_voo": 42.424073251797395
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 72012.83601329479,
+    "tempo_s": 509.00053351725273,
+    "distancia_m": 2494.0032011035155,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 44.33009962523356,
+    "uso_bateria_pct_1o_voo": 28.277807417625155
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 177904.94585991488,
+    "tempo_s": 482.4062551950879,
+    "distancia_m": 5167.020906064561,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 51.52262422372587,
+    "uso_bateria_pct_1o_voo": 32.16041701300586
+   }
+  ],
+  "historico_makespan_s": [
+   532.2492481531717,
+   539.9124843745274,
+   523.5836107686146,
+   509.08887902156874,
+   534.0026658976268
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.03291194347918225,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 570.5301805682857,
+  "tempo_medio_s": 479.91393343497083,
+  "cv_tempo": 0.13600504661996654,
+  "cv_area": 0.6310868152169156,
+  "erro_area_vs_alvo_max_pct": 3.0678415979190004e-10,
+  "distancia_total_m": 11778.031367743257,
+  "curvas_total": 50,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 3.9528557570181317,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 2,
+  "tempo_particao_s": 0.24257339999894612,
+  "tempo_cobertura_s": 0.8399918999930378,
+  "tempo_algoritmo_s": 1.082565299991984,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 88705.8076497334,
+    "tempo_s": 449.83478034187414,
+    "distancia_m": 3045.0144700854107,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 8.27904163211159,
+    "espacamento_m": 42.388548909486936,
+    "uso_bateria_pct_1o_voo": 37.48623169515618
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 41405.54278892762,
+    "tempo_s": 419.3768393947525,
+    "distancia_m": 2220.261036368518,
+    "curvas": 4,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 44.560113828163594,
+    "uso_bateria_pct_1o_voo": 23.29871329970847
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 212229.4256928923,
+    "tempo_s": 570.5301805682857,
+    "distancia_m": 6512.755861289327,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 49.64972359713699,
+    "uso_bateria_pct_1o_voo": 38.03534537121905
+   }
+  ],
+  "historico_makespan_s": [
+   654.7310747536465,
+   631.7569399100408,
+   620.7577806605506,
+   654.0325967575255,
+   570.5301805682857
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 452.3414510980182,
+  "tempo_medio_s": 414.21615256266796,
+  "cv_tempo": 0.08695212597120242,
+  "cv_area": 0.3727398091338241,
+  "erro_area_vs_alvo_max_pct": 1.6795146039034863,
+  "distancia_total_m": 11955.521589507982,
+  "curvas_total": 74,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 12.694642517826605,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.0424758000008296,
+  "tempo_cobertura_s": 0.14005170000018552,
+  "tempo_algoritmo_s": 2.182527500001015,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 79000.04912646933,
+    "tempo_s": 420.9779587197908,
+    "distancia_m": 3156.446253864572,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 44.578618509694934,
+    "uso_bateria_pct_1o_voo": 35.08149655998257
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 48144.64340057487,
+    "tempo_s": 452.3414510980182,
+    "distancia_m": 2178.0487065881084,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 169.8440928079108,
+    "espacamento_m": 42.254370866925456,
+    "uso_bateria_pct_1o_voo": 25.130080616556565
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 136376.45249142777,
+    "tempo_s": 428.39365618166744,
+    "distancia_m": 3962.8445198766767,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 75.0,
+    "espacamento_m": 53.611834783838795,
+    "uso_bateria_pct_1o_voo": 28.55957707877783
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 78819.26314682329,
+    "tempo_s": 355.1515442511955,
+    "distancia_m": 2658.1821091786246,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 143.27904163266948,
+    "espacamento_m": 43.210829531640876,
+    "uso_bateria_pct_1o_voo": 29.59596202093296
+   }
+  ],
+  "historico_makespan_s": [
+   452.3414510980182
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.016796238947912503,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 490.6176010649676,
+  "tempo_medio_s": 412.0393371027285,
+  "cv_tempo": 0.15236169903065497,
+  "cv_area": 0.3789072228945748,
+  "erro_area_vs_alvo_max_pct": 0.025877360764988762,
+  "distancia_total_m": 11663.863895442877,
+  "curvas_total": 77,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 16.058945305077458,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.7208590999944136,
+  "tempo_cobertura_s": 0.14221389999147505,
+  "tempo_algoritmo_s": 1.8630729999858886,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 78934.44293490713,
+    "tempo_s": 431.84924997209595,
+    "distancia_m": 2865.1591663876243,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 44.81328244540574,
+    "uso_bateria_pct_1o_voo": 35.98743749767466
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 47353.595697819976,
+    "tempo_s": 490.6176010649676,
+    "distancia_m": 2359.7056063898026,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 1.9388498860835353,
+    "espacamento_m": 40.687129892564066,
+    "uso_bateria_pct_1o_voo": 27.2565333924982
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 137124.535285233,
+    "tempo_s": 409.5235372317376,
+    "distancia_m": 4090.6628545776553,
+    "curvas": 21,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 53.657241048460655,
+    "uso_bateria_pct_1o_voo": 27.301569148782505
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 78927.83424732668,
+    "tempo_s": 316.16696014211277,
+    "distancia_m": 2348.3362680877945,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 157.0713859869397,
+    "espacamento_m": 44.346314519799,
+    "uso_bateria_pct_1o_voo": 26.347246678509396
+   }
+  ],
+  "historico_makespan_s": [
+   490.6176010649676
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00025769902974975026,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 435.98041750078704,
+  "tempo_medio_s": 395.93000605297675,
+  "cv_tempo": 0.07610063538368107,
+  "cv_area": 0.37488841043419285,
+  "erro_area_vs_alvo_max_pct": 0.9492194866701995,
+  "distancia_total_m": 11428.299750431916,
+  "curvas_total": 73,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 9.754877939014511,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.29850780000560917,
+  "tempo_cobertura_s": 0.10807629997725599,
+  "tempo_algoritmo_s": 0.40658409998286515,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 79428.98156779475,
+    "tempo_s": 435.98041750078704,
+    "distancia_m": 2906.4708416745316,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 43.74629953004686,
+    "uso_bateria_pct_1o_voo": 36.33170145839892
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 47059.42191685458,
+    "tempo_s": 403.48196348315213,
+    "distancia_m": 1932.891780898915,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 61.409143986228955,
+    "espacamento_m": 41.32780492166057,
+    "uso_bateria_pct_1o_voo": 22.415664637952897
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 136187.24964639446,
+    "tempo_s": 392.59017389469784,
+    "distancia_m": 3965.595767859105,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 52.64802143881097,
+    "uso_bateria_pct_1o_voo": 26.172678259646524
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 79664.75503423769,
+    "tempo_s": 351.66746933327005,
+    "distancia_m": 2623.3413599993637,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 157.902789456516,
+    "espacamento_m": 41.85988465896143,
+    "uso_bateria_pct_1o_voo": 29.30562244443917
+   }
+  ],
+  "historico_makespan_s": [
+   435.98041750078704
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 82,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00949327992568777,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 513.5310096137908,
+  "tempo_medio_s": 399.15590395538106,
+  "cv_tempo": 0.18888639363696005,
+  "cv_area": 0.4009276062480451,
+  "erro_area_vs_alvo_max_pct": 1.2293810364570052,
+  "distancia_total_m": 11297.644196586885,
+  "curvas_total": 70,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 10.8379754177876,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.2489325999922585,
+  "tempo_cobertura_s": 0.20086820001597516,
+  "tempo_algoritmo_s": 1.4498008000082336,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 68119.48907603213,
+    "tempo_s": 375.48198439154277,
+    "distancia_m": 2461.4865105820973,
+    "curvas": 24,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 44.81328244538357,
+    "uso_bateria_pct_1o_voo": 31.2901653659619
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 61288.06092643783,
+    "tempo_s": 513.5310096137908,
+    "distancia_m": 2545.186057682746,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 157.0166499103844,
+    "espacamento_m": 43.27086026793612,
+    "uso_bateria_pct_1o_voo": 28.52950053409949
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 144821.30137679432,
+    "tempo_s": 403.7163525400356,
+    "distancia_m": 4065.3622688938276,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 54.7452686317265,
+    "uso_bateria_pct_1o_voo": 26.914423502669038
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 68111.55678601725,
+    "tempo_s": 303.894269276155,
+    "distancia_m": 2225.609359428216,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 46.577917220505185,
+    "espacamento_m": 44.19666649277011,
+    "uso_bateria_pct_1o_voo": 25.324522439679583
+   }
+  ],
+  "historico_makespan_s": [
+   513.5310096137908
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.012292748722357947,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 564.598049218081,
+  "tempo_medio_s": 437.3598047564737,
+  "cv_tempo": 0.2377889067983995,
+  "cv_area": 0.007320773161271132,
+  "erro_area_vs_alvo_max_pct": 0.9994964865748922,
+  "distancia_total_m": 12197.076440099043,
+  "curvas_total": 73,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 7.386664799831985,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.33637060000910424,
+  "tempo_cobertura_s": 0.1565429999900516,
+  "tempo_algoritmo_s": 0.49291359999915585,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 85084.73369581132,
+    "tempo_s": 508.30087474067824,
+    "distancia_m": 3709.6754140734524,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 115.66701870663746,
+    "espacamento_m": 41.325082891713826,
+    "uso_bateria_pct_1o_voo": 42.35840622838985
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 85919.8383880854,
+    "tempo_s": 564.598049218081,
+    "distancia_m": 2779.5882953084874,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 156.60191848284546,
+    "espacamento_m": 43.03239231980923,
+    "uso_bateria_pct_1o_voo": 31.366558289893387
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 86440.61504038678,
+    "tempo_s": 303.6024450114389,
+    "distancia_m": 2831.7675634934726,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 98.2790416320014,
+    "espacamento_m": 54.14938295489992,
+    "uso_bateria_pct_1o_voo": 20.240163000762593
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 84895.22104099803,
+    "tempo_s": 372.9378500556965,
+    "distancia_m": 2876.045167223631,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 157.69618580526975,
+    "espacamento_m": 40.97120181058666,
+    "uso_bateria_pct_1o_voo": 31.078154171308046
+   }
+  ],
+  "historico_makespan_s": [
+   564.598049218081
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 131,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009996050465348514,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 394.07638694793843,
+  "tempo_medio_s": 393.4839086904261,
+  "cv_tempo": 0.001659064185691155,
+  "cv_area": 0.3839251707054863,
+  "erro_area_vs_alvo_max_pct": 0.8820924382275512,
+  "distancia_total_m": 11368.266075164585,
+  "curvas_total": 73,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 6.956626096348671,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 4.2558970999962185,
+  "tempo_cobertura_s": 0.8842366999888327,
+  "tempo_algoritmo_s": 5.140133799985051,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 70729.29798146283,
+    "tempo_s": 393.65241319654547,
+    "distancia_m": 2563.1907986321235,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 15.0,
+    "espacamento_m": 43.476030346436,
+    "uso_bateria_pct_1o_voo": 32.80436776637879
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 44965.26720533847,
+    "tempo_s": 393.82303469850063,
+    "distancia_m": 1874.9382081910005,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 159.83415193476833,
+    "espacamento_m": 40.657319840199,
+    "uso_bateria_pct_1o_voo": 21.879057483250037
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 134644.57443530863,
+    "tempo_s": 392.38379991871994,
+    "distancia_m": 3962.7065321954137,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 52.64802143881097,
+    "uso_bateria_pct_1o_voo": 26.158919994581332
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 92001.26854317308,
+    "tempo_s": 394.07638694793843,
+    "distancia_m": 2967.4305361460474,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 44.07144379080273,
+    "uso_bateria_pct_1o_voo": 32.8396989123282
+   }
+  ],
+  "historico_makespan_s": [
+   435.98041750078704,
+   403.23371273562884,
+   401.82839237226693,
+   394.07638694793843,
+   394.79365302869843
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 370,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008822008720678171,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 452.7004579916961,
+  "tempo_medio_s": 421.66786339080403,
+  "cv_tempo": 0.08070884424390704,
+  "cv_area": 0.5740162347204444,
+  "erro_area_vs_alvo_max_pct": 1.103763588731591,
+  "distancia_total_m": 12634.74869120077,
+  "curvas_total": 76,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 14.369793281395326,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 1,
+  "tempo_particao_s": 0.2515173999709077,
+  "tempo_cobertura_s": 0.9283947999647353,
+  "tempo_algoritmo_s": 1.179912199935643,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 83176.33024848845,
+    "tempo_s": 413.50240537159806,
+    "distancia_m": 2761.6907203826504,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 8.279041631985665,
+    "espacamento_m": 44.277825546737475,
+    "uso_bateria_pct_1o_voo": 34.458533780966505
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 38043.57701200278,
+    "tempo_s": 369.35858576620745,
+    "distancia_m": 1896.1515145972437,
+    "curvas": 5,
+    "voos": 1,
+    "angulo_graus": 8.279041632000217,
+    "espacamento_m": 26.43304135836661,
+    "uso_bateria_pct_1o_voo": 20.51992143145597
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 165969.9533958607,
+    "tempo_s": 452.7004579916961,
+    "distancia_m": 4919.139745217075,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 53.830015145242214,
+    "uso_bateria_pct_1o_voo": 30.18003053277974
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 55150.91553511376,
+    "tempo_s": 451.1100044337145,
+    "distancia_m": 3057.766711003802,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.676533292396925,
+    "uso_bateria_pct_1o_voo": 37.592500369476205
+   }
+  ],
+  "historico_makespan_s": [
+   517.5829258008332,
+   499.3353718304522,
+   464.83458095897095,
+   589.2325689538831,
+   452.7004579916961
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 478.51772990118246,
+  "tempo_medio_s": 373.9544810227022,
+  "cv_tempo": 0.17387742507536585,
+  "cv_area": 0.2038378744737303,
+  "erro_area_vs_alvo_max_pct": 63.54411677315065,
+  "distancia_total_m": 11847.390105320137,
+  "curvas_total": 81,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 11.709553859847386,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 4.006038399995305,
+  "tempo_cobertura_s": 0.2542783000099007,
+  "tempo_algoritmo_s": 4.260316700005205,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 62667.51986607825,
+    "tempo_s": 401.01828616300463,
+    "distancia_m": 2476.8495282967133,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 8.279041631994557,
+    "espacamento_m": 43.817431724444035,
+    "uso_bateria_pct_1o_voo": 33.418190513583724
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 45693.51566747405,
+    "tempo_s": 357.23208482023824,
+    "distancia_m": 1655.3925089214313,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 161.7139904508215,
+    "espacamento_m": 44.20033697076142,
+    "uso_bateria_pct_1o_voo": 19.84622693445768
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 82503.46272263725,
+    "tempo_s": 280.49966160101,
+    "distancia_m": 2564.328595747476,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 147.4487335284924,
+    "espacamento_m": 55.05356763593025,
+    "uso_bateria_pct_1o_voo": 18.699977440067332
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 83447.76856322963,
+    "tempo_s": 352.5046426280757,
+    "distancia_m": 2791.7130929474242,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 153.89869690827197,
+    "espacamento_m": 43.22673251200467,
+    "uso_bateria_pct_1o_voo": 29.375386885672977
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 68028.14134585041,
+    "tempo_s": 478.51772990118246,
+    "distancia_m": 2359.1063794070924,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 40.57431096863751,
+    "espacamento_m": 43.74835395786379,
+    "uso_bateria_pct_1o_voo": 26.58431832784347
+   }
+  ],
+  "historico_makespan_s": [
+   478.51772990118246
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.6354429255957347,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 384.92762250249194,
+  "tempo_medio_s": 349.4306650578852,
+  "cv_tempo": 0.10924467375537912,
+  "cv_area": 0.41960999160034923,
+  "erro_area_vs_alvo_max_pct": 0.9205131788590436,
+  "distancia_total_m": 11650.178682046324,
+  "curvas_total": 79,
+  "cobertura_pct": 99.9909991899271,
+  "sobreposicao_entre_drones_pct": 15.100859077316958,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5941750000056345,
+  "tempo_cobertura_s": 0.2593293999962043,
+  "tempo_algoritmo_s": 0.8535044000018388,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 69197.86235781088,
+    "tempo_s": 384.92762250249194,
+    "distancia_m": 2475.9428916915886,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 8.707244351701775,
+    "espacamento_m": 43.74254442156794,
+    "uso_bateria_pct_1o_voo": 32.07730187520766
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 41979.10062854853,
+    "tempo_s": 379.0300214309053,
+    "distancia_m": 1642.1801285854322,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 135.0,
+    "espacamento_m": 42.56763823819347,
+    "uso_bateria_pct_1o_voo": 21.057223412828073
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 120505.10874551466,
+    "tempo_s": 373.9571105596182,
+    "distancia_m": 3816.7328811679927,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 54.83186388724587,
+    "uso_bateria_pct_1o_voo": 24.930474037307878
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 68962.22094219517,
+    "tempo_s": 288.30617228904475,
+    "distancia_m": 2229.728389557117,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 157.1041895477931,
+    "espacamento_m": 42.45328609133139,
+    "uso_bateria_pct_1o_voo": 24.0255143574204
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 41696.11549122076,
+    "tempo_s": 320.9323985073655,
+    "distancia_m": 1485.5943910441938,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 39.24279816406808,
+    "espacamento_m": 41.89533121157437,
+    "uso_bateria_pct_1o_voo": 17.82957769485364
+   }
+  ],
+  "historico_makespan_s": [
+   384.92762250249194
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 189,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009206216540142299,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 397.41521327726343,
+  "tempo_medio_s": 358.3297842880436,
+  "cv_tempo": 0.08095785745618357,
+  "cv_area": 0.4204450996261429,
+  "erro_area_vs_alvo_max_pct": 0.1229300284678423,
+  "distancia_total_m": 12174.804847954038,
+  "curvas_total": 78,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 13.908251742656839,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.283649899996817,
+  "tempo_cobertura_s": 0.19463499999255873,
+  "tempo_algoritmo_s": 2.478284899989376,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 69277.10595065428,
+    "tempo_s": 397.41521327726343,
+    "distancia_m": 2680.8187994393015,
+    "curvas": 24,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.74100214918144,
+    "uso_bateria_pct_1o_voo": 33.11793443977196
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 41647.33632934636,
+    "tempo_s": 344.1940400024796,
+    "distancia_m": 1577.1642400148787,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 120.0,
+    "espacamento_m": 44.205621940394245,
+    "uso_bateria_pct_1o_voo": 19.121891111248868
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 120432.02618121433,
+    "tempo_s": 388.85868173267835,
+    "distancia_m": 3969.3548775908343,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 53.131854318408294,
+    "uso_bateria_pct_1o_voo": 25.923912115511893
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 69392.6791631064,
+    "tempo_s": 328.4285864188947,
+    "distancia_m": 2390.9525308556126,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 157.45162564210983,
+    "espacamento_m": 43.467150991516455,
+    "uso_bateria_pct_1o_voo": 27.369048868241226
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 41591.26054633657,
+    "tempo_s": 332.7524000089017,
+    "distancia_m": 1556.51440005341,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 8.279041631994545,
+    "espacamento_m": 41.31127582099289,
+    "uso_bateria_pct_1o_voo": 18.486244444938983
+   }
+  ],
+  "historico_makespan_s": [
+   397.41521327726343
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.0012303764626529537,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 429.34198030253566,
+  "tempo_medio_s": 368.8712653088681,
+  "cv_tempo": 0.1107741615975958,
+  "cv_area": 0.4107625214116009,
+  "erro_area_vs_alvo_max_pct": 0.7291710836537064,
+  "distancia_total_m": 12200.689370409222,
+  "curvas_total": 78,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 12.96116650498545,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.597444799990626,
+  "tempo_cobertura_s": 0.19732000000658445,
+  "tempo_algoritmo_s": 0.7947647999972105,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 57736.764813227455,
+    "tempo_s": 328.950552503659,
+    "distancia_m": 2076.1721917032582,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 8.27904163179256,
+    "espacamento_m": 43.45530418950048,
+    "uso_bateria_pct_1o_voo": 27.412546041971588
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 51362.55150455322,
+    "tempo_s": 429.34198030253566,
+    "distancia_m": 2040.051881815215,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 149.0667561951318,
+    "espacamento_m": 44.67542970568562,
+    "uso_bateria_pct_1o_voo": 23.85233223902976
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 124431.10746927831,
+    "tempo_s": 389.9300703345474,
+    "distancia_m": 3984.354318016997,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 53.541767983417955,
+    "uso_bateria_pct_1o_voo": 25.995338022303162
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 57541.04042168421,
+    "tempo_s": 318.1604929463747,
+    "distancia_m": 2248.2715961304107,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 157.61645246710452,
+    "espacamento_m": 39.604305128683336,
+    "uso_bateria_pct_1o_voo": 26.51337441219789
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 51268.94396191162,
+    "tempo_s": 377.9732304572234,
+    "distancia_m": 1851.839382743341,
+    "curvas": 9,
+    "voos": 1,
+    "angulo_graus": 26.71399045491657,
+    "espacamento_m": 42.75583627875894,
+    "uso_bateria_pct_1o_voo": 20.99851280317908
+   }
+  ],
+  "historico_makespan_s": [
+   429.34198030253566
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 218,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.007292793529630851,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 476.8346324262188,
+  "tempo_medio_s": 376.51699940658017,
+  "cv_tempo": 0.23939720042621068,
+  "cv_area": 0.005496904826612051,
+  "erro_area_vs_alvo_max_pct": 0.7738918377836664,
+  "distancia_total_m": 11677.8853720611,
+  "curvas_total": 77,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 12.177595983638527,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.6839053999865428,
+  "tempo_cobertura_s": 0.24656720002531074,
+  "tempo_algoritmo_s": 0.9304726000118535,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 67938.28576162078,
+    "tempo_s": 393.72214342467413,
+    "distancia_m": 2643.8881009134047,
+    "curvas": 24,
+    "voos": 1,
+    "angulo_graus": 1.0457438387814166,
+    "espacamento_m": 43.769625440395124,
+    "uso_bateria_pct_1o_voo": 32.810178618722844
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 68667.53788545915,
+    "tempo_s": 476.8346324262188,
+    "distancia_m": 2325.007794557314,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 77.72299641251323,
+    "espacamento_m": 40.08503914411579,
+    "uso_bateria_pct_1o_voo": 26.49081291256771
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 68664.94602581236,
+    "tempo_s": 232.96497121649796,
+    "distancia_m": 2178.8429303643034,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 53.486829335413255,
+    "uso_bateria_pct_1o_voo": 15.530998081099863
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 68947.19886180777,
+    "tempo_s": 321.27509494158755,
+    "distancia_m": 2319.4176160825427,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 156.89628401528125,
+    "espacamento_m": 42.163464938423466,
+    "uso_bateria_pct_1o_voo": 26.77292457846563
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 68122.43963058147,
+    "tempo_s": 457.7881550239227,
+    "distancia_m": 2210.7289301435367,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 158.15338100711494,
+    "espacamento_m": 44.43864137825689,
+    "uso_bateria_pct_1o_voo": 25.432675279106814
+   }
+  ],
+  "historico_makespan_s": [
+   476.8346324262188
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 278,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.007737851839527023,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 366.3153927414721,
+  "tempo_medio_s": 357.3660859680122,
+  "cv_tempo": 0.01403252903217426,
+  "cv_area": 0.33175560805108506,
+  "erro_area_vs_alvo_max_pct": 0.9848308403105108,
+  "distancia_total_m": 11823.605318888582,
+  "curvas_total": 79,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 13.897750797571781,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 8.476239199982956,
+  "tempo_cobertura_s": 1.1121570999966934,
+  "tempo_algoritmo_s": 9.58839629997965,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 61676.67842520839,
+    "tempo_s": 356.91425240151494,
+    "distancia_m": 2355.809190681817,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.78522328583693,
+    "uso_bateria_pct_1o_voo": 29.742854366792915
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 46889.56429525743,
+    "tempo_s": 350.79938671391335,
+    "distancia_m": 1640.7963202834796,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 45.0,
+    "espacamento_m": 42.128245069024466,
+    "uso_bateria_pct_1o_voo": 19.48885481743963
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 108419.16189552995,
+    "tempo_s": 356.8796865761992,
+    "distancia_m": 3521.6489454001257,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 60.0,
+    "espacamento_m": 52.26607632236555,
+    "uso_bateria_pct_1o_voo": 23.79197910507995
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 76905.55797192216,
+    "tempo_s": 366.3153927414721,
+    "distancia_m": 2609.8205940813896,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 39.70860724696334,
+    "espacamento_m": 43.18792038007329,
+    "uso_bateria_pct_1o_voo": 30.526282728456007
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 48449.44558273917,
+    "tempo_s": 355.9217114069613,
+    "distancia_m": 1695.5302684417684,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 15.0,
+    "espacamento_m": 43.42758637927473,
+    "uso_bateria_pct_1o_voo": 19.77342841149785
+   }
+  ],
+  "historico_makespan_s": [
+   397.41521327726343,
+   390.90519358659964,
+   368.42941836652176,
+   371.6367682642103,
+   366.3153927414721
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 120,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009849393843424259,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 448.6477663209287,
+  "tempo_medio_s": 357.1272423900611,
+  "cv_tempo": 0.16359680538754245,
+  "cv_area": 0.6459760487669003,
+  "erro_area_vs_alvo_max_pct": 2.262922948854224,
+  "distancia_total_m": 12786.153859902792,
+  "curvas_total": 55,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 14.02076186856817,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 1,
+  "tempo_particao_s": 0.36978450004244223,
+  "tempo_cobertura_s": 1.1905585000640713,
+  "tempo_algoritmo_s": 1.5603430001065135,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 69175.65936808634,
+    "tempo_s": 369.29046264656677,
+    "distancia_m": 2399.571293132331,
+    "curvas": 24,
+    "voos": 1,
+    "angulo_graus": 8.27904163188512,
+    "espacamento_m": 43.472126318064205,
+    "uso_bateria_pct_1o_voo": 30.774205220547227
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 21256.689801912136,
+    "tempo_s": 448.6477663209287,
+    "distancia_m": 2347.8865979255743,
+    "curvas": 6,
+    "voos": 1,
+    "angulo_graus": 8.279041632013229,
+    "espacamento_m": 35.499331928789616,
+    "uso_bateria_pct_1o_voo": 24.924875906718263
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 146180.53774048178,
+    "tempo_s": 360.63794159879956,
+    "distancia_m": 4190.264515716524,
+    "curvas": 7,
+    "voos": 1,
+    "angulo_graus": 8.279041631991742,
+    "espacamento_m": 46.53442902024835,
+    "uso_bateria_pct_1o_voo": 24.042529439919974
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 75505.81306667994,
+    "tempo_s": 340.85113453940863,
+    "distancia_m": 2595.17801206075,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 8.27904163187928,
+    "espacamento_m": 44.20962767978199,
+    "uso_bateria_pct_1o_voo": 28.40426121161739
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 30222.076231775256,
+    "tempo_s": 266.20890684460204,
+    "distancia_m": 1253.253441067613,
+    "curvas": 6,
+    "voos": 1,
+    "angulo_graus": 8.279041631885121,
+    "espacamento_m": 34.0889110226805,
+    "uso_bateria_pct_1o_voo": 14.789383713589002
+   }
+  ],
+  "historico_makespan_s": [
+   518.8099399594562,
+   491.9907669631265,
+   451.2050485968638,
+   600.5305920396336,
+   448.6477663209287
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 403.54608951978395,
+  "tempo_medio_s": 298.5195261905138,
+  "cv_tempo": 0.2028907785307795,
+  "cv_area": 0.43432058116429756,
+  "erro_area_vs_alvo_max_pct": 36.579980374533235,
+  "distancia_total_m": 12303.339046104831,
+  "curvas_total": 89,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 18.25614305287476,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.7002708000072744,
+  "tempo_cobertura_s": 0.17241510000894777,
+  "tempo_algoritmo_s": 2.872685900016222,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 33355.03589454563,
+    "tempo_s": 201.33390940384402,
+    "distancia_m": 1200.005760705107,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 8.279041632211365,
+    "espacamento_m": 42.323655643034726,
+    "uso_bateria_pct_1o_voo": 16.777825783653668
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 42021.64320845859,
+    "tempo_s": 321.5964906516411,
+    "distancia_m": 1441.5789439098455,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 107.74136384002017,
+    "espacamento_m": 40.92921251027534,
+    "uso_bateria_pct_1o_voo": 17.86647170286895
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 90453.35342504154,
+    "tempo_s": 403.54608951978395,
+    "distancia_m": 3670.978586610305,
+    "curvas": 27,
+    "voos": 1,
+    "angulo_graus": 15.0,
+    "espacamento_m": 52.47041273850482,
+    "uso_bateria_pct_1o_voo": 26.90307263465226
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 47774.79648083714,
+    "tempo_s": 266.89942415873685,
+    "distancia_m": 1775.6609082540353,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 43.19118840726359,
+    "uso_bateria_pct_1o_voo": 22.241618679894735
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 36186.71282036875,
+    "tempo_s": 299.8244868043581,
+    "distancia_m": 1406.9469208261485,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 43.977677191607654,
+    "uso_bateria_pct_1o_voo": 16.65691593357545
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 92548.86633603155,
+    "tempo_s": 297.9167566047188,
+    "distancia_m": 2808.167925799391,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 119.91326084352072,
+    "espacamento_m": 52.85172338283155,
+    "uso_bateria_pct_1o_voo": 19.861117106981254
+   }
+  ],
+  "historico_makespan_s": [
+   403.54608951978395
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.3658012717843432,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 311.4528063265784,
+  "tempo_medio_s": 285.0034004573675,
+  "cv_tempo": 0.05990315323669794,
+  "cv_area": 0.4305217545765756,
+  "erro_area_vs_alvo_max_pct": 3.4215449729573586,
+  "distancia_total_m": 11910.441055042904,
+  "curvas_total": 79,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 18.68568171135402,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.7168297999887727,
+  "tempo_cobertura_s": 0.18883510000887327,
+  "tempo_algoritmo_s": 2.905664899997646,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 49523.917141706246,
+    "tempo_s": 311.4528063265784,
+    "distancia_m": 1901.1947299324484,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 44.81328244558112,
+    "uso_bateria_pct_1o_voo": 25.95440052721487
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 30651.630929731968,
+    "tempo_s": 271.2160069713832,
+    "distancia_m": 1187.2960418282996,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 79.84409280851658,
+    "espacamento_m": 42.513612586841916,
+    "uso_bateria_pct_1o_voo": 15.067555942854622
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 88922.97513793301,
+    "tempo_s": 301.2521051034951,
+    "distancia_m": 3022.8628047822644,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 156.47244707985416,
+    "espacamento_m": 53.559440230135806,
+    "uso_bateria_pct_1o_voo": 20.083473673566342
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 51355.17623439863,
+    "tempo_s": 289.3967754710764,
+    "distancia_m": 2000.6344213774305,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 169.84409280902275,
+    "espacamento_m": 44.035647929025195,
+    "uso_bateria_pct_1o_voo": 24.116397955923034
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 31041.516201953007,
+    "tempo_s": 265.08977505178467,
+    "distancia_m": 1246.5386503107084,
+    "curvas": 6,
+    "voos": 1,
+    "angulo_graus": 157.3714029384026,
+    "espacamento_m": 44.54851499820749,
+    "uso_bateria_pct_1o_voo": 14.727209725099149
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 90845.19251956073,
+    "tempo_s": 271.6129338198873,
+    "distancia_m": 2551.9144068117516,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 143.2790416315828,
+    "espacamento_m": 55.28236320987344,
+    "uso_bateria_pct_1o_voo": 18.10752892132582
+   }
+  ],
+  "historico_makespan_s": [
+   311.4528063265784
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.034214411650870434,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 327.3371218515817,
+  "tempo_medio_s": 291.77055707738094,
+  "cv_tempo": 0.10500915409856412,
+  "cv_area": 0.4249378018572297,
+  "erro_area_vs_alvo_max_pct": 0.275544212792993,
+  "distancia_total_m": 12243.237403549827,
+  "curvas_total": 85,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 17.656089048014323,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.5615311000146903,
+  "tempo_cobertura_s": 0.20757890000822954,
+  "tempo_algoritmo_s": 2.76911000002292,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 51157.084195810414,
+    "tempo_s": 322.2174835664605,
+    "distancia_m": 2008.8415023312732,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 8.707244351701775,
+    "espacamento_m": 43.44660412215374,
+    "uso_bateria_pct_1o_voo": 26.85145696387171
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 30805.713509973953,
+    "tempo_s": 245.47809739704272,
+    "distancia_m": 1080.8685843822573,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 156.60191848300536,
+    "espacamento_m": 42.23835482262075,
+    "uso_bateria_pct_1o_voo": 13.637672077613486
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 89159.02329424847,
+    "tempo_s": 312.5718278384541,
+    "distancia_m": 2845.338923071693,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 105.0,
+    "espacamento_m": 55.31770887324819,
+    "uso_bateria_pct_1o_voo": 20.83812185589694
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 51190.544055229715,
+    "tempo_s": 266.83895424449355,
+    "distancia_m": 1935.0562091116017,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 98.27904163190883,
+    "espacamento_m": 44.81328244525939,
+    "uso_bateria_pct_1o_voo": 22.236579520374463
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 30682.28219652823,
+    "tempo_s": 276.1798575662528,
+    "distancia_m": 1265.0791453975166,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 40.473435080144554,
+    "uso_bateria_pct_1o_voo": 15.343325420347378
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 89345.76091349203,
+    "tempo_s": 327.3371218515817,
+    "distancia_m": 3108.0530392554847,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 45.0,
+    "espacamento_m": 55.430325454721846,
+    "uso_bateria_pct_1o_voo": 21.822474790105446
+   }
+  ],
+  "historico_makespan_s": [
+   327.3371218515817
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.002754370233407438,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 327.331619146812,
+  "tempo_medio_s": 282.4076092023645,
+  "cv_tempo": 0.12142621452972145,
+  "cv_area": 0.4252540293485788,
+  "erro_area_vs_alvo_max_pct": 0.663248875870739,
+  "distancia_total_m": 11871.52562470056,
+  "curvas_total": 76,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 13.260693462411616,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.6666288999840617,
+  "tempo_cobertura_s": 0.24846639999304898,
+  "tempo_algoritmo_s": 0.9150952999771107,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 42058.491725934466,
+    "tempo_s": 247.41845101912796,
+    "distancia_m": 1500.851176857947,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 8.279041631446564,
+    "espacamento_m": 44.81328244553879,
+    "uso_bateria_pct_1o_voo": 20.618204251593998
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 37867.604384979815,
+    "tempo_s": 269.2836734824019,
+    "distancia_m": 1175.7020408944104,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 98.27904163198393,
+    "espacamento_m": 44.81328244549222,
+    "uso_bateria_pct_1o_voo": 14.960204082355663
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 91853.59032280228,
+    "tempo_s": 306.94358203473075,
+    "distancia_m": 3046.5434818195636,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 152.8118637662136,
+    "espacamento_m": 53.96841880482518,
+    "uso_bateria_pct_1o_voo": 20.46290546898205
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 42056.047992136875,
+    "tempo_s": 234.2440699716468,
+    "distancia_m": 1689.1073663831326,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 98.27904162992346,
+    "espacamento_m": 41.078842242539395,
+    "uso_bateria_pct_1o_voo": 19.520339164303902
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 37796.99341880961,
+    "tempo_s": 309.22425955946755,
+    "distancia_m": 1463.345557356805,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 42.78689063084312,
+    "uso_bateria_pct_1o_voo": 17.179125531081528
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 90707.68032061942,
+    "tempo_s": 327.331619146812,
+    "distancia_m": 2995.9760013887035,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 67.31528510043992,
+    "espacamento_m": 54.62463831417263,
+    "uso_bateria_pct_1o_voo": 21.8221079431208
+   }
+  ],
+  "historico_makespan_s": [
+   327.331619146812
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 254,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.0066314210303136025,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 463.64805833530215,
+  "tempo_medio_s": 305.96602076943776,
+  "cv_tempo": 0.3066998285569856,
+  "cv_area": 0.07715589381664552,
+  "erro_area_vs_alvo_max_pct": 12.864862236434552,
+  "distancia_total_m": 11468.134467297457,
+  "curvas_total": 81,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 12.957666189957097,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.240233899996383,
+  "tempo_cobertura_s": 0.17506479998701252,
+  "tempo_algoritmo_s": 2.4152986999833956,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 49716.51781724545,
+    "tempo_s": 291.6816025773176,
+    "distancia_m": 1783.4826924398435,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 44.81328244553879,
+    "uso_bateria_pct_1o_voo": 24.306800214776466
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 59070.23753825814,
+    "tempo_s": 463.64805833530215,
+    "distancia_m": 2149.888350011813,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 21.255577528393076,
+    "espacamento_m": 43.985157369985245,
+    "uso_bateria_pct_1o_voo": 25.75822546307234
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 63018.75598876423,
+    "tempo_s": 224.80946712403664,
+    "distancia_m": 1952.6658730698425,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 152.10997260481878,
+    "espacamento_m": 52.149896662682295,
+    "uso_bateria_pct_1o_voo": 14.987297808269108
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 60580.88176507414,
+    "tempo_s": 269.65118508496295,
+    "distancia_m": 1923.178517516296,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 98.27904162993062,
+    "espacamento_m": 44.813282445655204,
+    "uso_bateria_pct_1o_voo": 22.47093209041358
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 55907.25431374389,
+    "tempo_s": 391.811957500471,
+    "distancia_m": 1910.871745002825,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 44.34515303708613,
+    "uso_bateria_pct_1o_voo": 21.76733097224839
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 54046.760742201324,
+    "tempo_s": 194.19385399453608,
+    "distancia_m": 1748.0472892568384,
+    "curvas": 9,
+    "voos": 1,
+    "angulo_graus": 123.60910638687376,
+    "espacamento_m": 53.4345527080819,
+    "uso_bateria_pct_1o_voo": 12.94625693296907
+   }
+  ],
+  "historico_makespan_s": [
+   463.64805833530215
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.12864768578627078,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 293.95637509442696,
+  "tempo_medio_s": 289.4906527720049,
+  "cv_tempo": 0.013163767067467483,
+  "cv_area": 0.3341629008072084,
+  "erro_area_vs_alvo_max_pct": 0.7759165898219869,
+  "distancia_total_m": 12005.331169726616,
+  "curvas_total": 79,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 16.124951245612106,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 8.702194799960125,
+  "tempo_cobertura_s": 0.9989822999632452,
+  "tempo_algoritmo_s": 9.70117709992337,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 47533.65083692563,
+    "tempo_s": 293.83015884011877,
+    "distancia_m": 1804.9682550678535,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 15.0,
+    "espacamento_m": 44.041356172598896,
+    "uso_bateria_pct_1o_voo": 24.485846570009898
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 36646.59863931805,
+    "tempo_s": 289.15258890302965,
+    "distancia_m": 1270.9155334181778,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 42.093514621102564,
+    "uso_bateria_pct_1o_voo": 16.06403271683498
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 80759.68819382324,
+    "tempo_s": 285.4874962934994,
+    "distancia_m": 2746.158281442323,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 57.448733540665856,
+    "espacamento_m": 54.02417717356002,
+    "uso_bateria_pct_1o_voo": 19.032499752899962
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 60254.42968244112,
+    "tempo_s": 283.9228289454181,
+    "distancia_m": 2105.8949561208483,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 91.154025282982,
+    "espacamento_m": 44.27732333086897,
+    "uso_bateria_pct_1o_voo": 23.660235745451505
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 35150.662779335806,
+    "tempo_s": 293.95637509442696,
+    "distancia_m": 1371.738250566562,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 150.0,
+    "espacamento_m": 42.78689063084312,
+    "uso_bateria_pct_1o_voo": 16.330909727468164
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 81995.37803343608,
+    "tempo_s": 290.5944685555368,
+    "distancia_m": 2705.6558931108507,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 8.279041631994557,
+    "espacamento_m": 55.48311159919415,
+    "uso_bateria_pct_1o_voo": 19.37296457036912
+   }
+  ],
+  "historico_makespan_s": [
+   327.3371218515817,
+   298.2402609965664,
+   295.6777188990451,
+   294.30495176360273,
+   293.95637509442696
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 441,
+   "celulas": 1720,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.007760249095103507,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 343.1273863918091,
+  "tempo_medio_s": 331.19673618764347,
+  "cv_tempo": 0.022818935248611904,
+  "cv_area": 0.4791034051672952,
+  "erro_area_vs_alvo_max_pct": 9.392089298977244e-10,
+  "distancia_total_m": 15283.129665052686,
+  "curvas_total": 59,
+  "cobertura_pct": 99.9184926643398,
+  "sobreposicao_entre_drones_pct": 21.00039003510316,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 3,
+  "tempo_particao_s": 0.34996540000429377,
+  "tempo_cobertura_s": 1.124744800006738,
+  "tempo_algoritmo_s": 1.4747102000110317,
+  "area_livre_m2": 342340.7761319946,
+  "cenario": "ufg",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 56879.027442562874,
+    "tempo_s": 323.9241370978903,
+    "distancia_m": 2025.9080376455709,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 8.279041631990088,
+    "espacamento_m": 41.79905912737277,
+    "uso_bateria_pct_1o_voo": 26.99367809149086
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 28307.559770808213,
+    "tempo_s": 329.1128570991206,
+    "distancia_m": 1726.677142594724,
+    "curvas": 2,
+    "voos": 1,
+    "angulo_graus": 8.27904163200813,
+    "espacamento_m": 33.071053695864975,
+    "uso_bateria_pct_1o_voo": 18.284047616617812
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 104187.86411710418,
+    "tempo_s": 343.1273863918091,
+    "distancia_m": 4001.116742818658,
+    "curvas": 6,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 43.594132400738694,
+    "uso_bateria_pct_1o_voo": 22.875159092787275
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 49569.42878116056,
+    "tempo_s": 326.20318742142973,
+    "distancia_m": 2248.698540880964,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 8.27904163202135,
+    "espacamento_m": 35.929739573039114,
+    "uso_bateria_pct_1o_voo": 27.18359895178581
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 25986.547225835842,
+    "tempo_s": 339.99800247988964,
+    "distancia_m": 1815.9880148793368,
+    "curvas": 1,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.955342657092075,
+    "uso_bateria_pct_1o_voo": 18.888777915549422
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 77410.34879431728,
+    "tempo_s": 324.8148466357213,
+    "distancia_m": 3464.741186233431,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 8.27904163178725,
+    "espacamento_m": 45.91310754641891,
+    "uso_bateria_pct_1o_voo": 21.65432310904809
+   }
+  ],
+  "historico_makespan_s": [
+   392.29050826993694,
+   372.1711713335369,
+   344.814497163421,
+   343.1273863918091,
+   347.7890468127537
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 1511.31590860556,
+  "tempo_medio_s": 1272.9186353816071,
+  "cv_tempo": 0.1872839839071757,
+  "cv_area": 0.23700610775716055,
+  "erro_area_vs_alvo_max_pct": 1.7325189657119575,
+  "distancia_total_m": 14422.202110633327,
+  "curvas_total": 70,
+  "cobertura_pct": 99.82325786327269,
+  "sobreposicao_entre_drones_pct": 2.335699908875159,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": false,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.2325670999998692,
+  "tempo_cobertura_s": 0.6190094999910798,
+  "tempo_algoritmo_s": 1.851576599990949,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 308165.1004254881,
+    "tempo_s": 1511.31590860556,
+    "distancia_m": 8943.07393768741,
+    "curvas": 48,
+    "voos": 2,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.18181818182877,
+    "uso_bateria_pct_1o_voo": 80.0
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 190078.35769975613,
+    "tempo_s": 1034.521362157654,
+    "distancia_m": 5479.128172945916,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.097325933578595,
+    "uso_bateria_pct_1o_voo": 57.47340900875856
+   }
+  ],
+  "historico_makespan_s": [
+   1511.31590860556
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.017325189657127087,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 1536.5938475102032,
+  "tempo_medio_s": 1286.365194850884,
+  "cv_tempo": 0.19452380526225743,
+  "cv_area": 0.2425827226690985,
+  "erro_area_vs_alvo_max_pct": 0.9889703107868941,
+  "distancia_total_m": 14360.080898282631,
+  "curvas_total": 57,
+  "cobertura_pct": 99.84829216025956,
+  "sobreposicao_entre_drones_pct": 3.9168661065659953,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": false,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.3033514999842737,
+  "tempo_cobertura_s": 1.4382528999994975,
+  "tempo_algoritmo_s": 1.7416043999837711,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 309554.35637466644,
+    "tempo_s": 1536.5938475102032,
+    "distancia_m": 8823.261645133236,
+    "curvas": 37,
+    "voos": 2,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.75,
+    "uso_bateria_pct_1o_voo": 80.0
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 188689.10175057774,
+    "tempo_s": 1036.1365421915648,
+    "distancia_m": 5536.819253149395,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 57.56314123286471
+   }
+  ],
+  "historico_makespan_s": [
+   1536.5938475102032
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 40,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00988970310787643,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 1451.7678797449394,
+  "tempo_medio_s": 1224.6601113021154,
+  "cv_tempo": 0.18544555044040134,
+  "cv_area": 0.24294015518361908,
+  "erro_area_vs_alvo_max_pct": 0.9413126421841063,
+  "distancia_total_m": 14030.49968189769,
+  "curvas_total": 58,
+  "cobertura_pct": 99.6655417922554,
+  "sobreposicao_entre_drones_pct": 2.4934159798924527,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": false,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.3430457999929786,
+  "tempo_cobertura_s": 0.6346340000163764,
+  "tempo_algoritmo_s": 0.977679800009355,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 309643.4005807069,
+    "tempo_s": 1451.7678797449394,
+    "distancia_m": 8725.18562474195,
+    "curvas": 38,
+    "voos": 2,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.45935937667074,
+    "uso_bateria_pct_1o_voo": 80.0
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 188600.0575445371,
+    "tempo_s": 997.5523428592915,
+    "distancia_m": 5305.314057155742,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.999999999953,
+    "espacamento_m": 42.85714285720938,
+    "uso_bateria_pct_1o_voo": 55.419574603293974
+   }
+  ],
+  "historico_makespan_s": [
+   1451.7678797449394
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 59,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009413126421848949,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 1196.7148628499901,
+  "tempo_medio_s": 1044.039512465886,
+  "cv_tempo": 0.14623522248071322,
+  "cv_area": 0.043300888022423635,
+  "erro_area_vs_alvo_max_pct": 0.9849062642997456,
+  "distancia_total_m": 13416.597464584438,
+  "curvas_total": 64,
+  "cobertura_pct": 99.85530176341588,
+  "sobreposicao_entre_drones_pct": 0.7940879004235804,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.30266310001024976,
+  "tempo_cobertura_s": 0.6795687999983784,
+  "tempo_algoritmo_s": 0.9822319000086281,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 259908.92115671525,
+    "tempo_s": 891.3641620817817,
+    "distancia_m": 7060.3082874845,
+    "curvas": 38,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.75,
+    "uso_bateria_pct_1o_voo": 74.28034684014847
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 238334.53696852893,
+    "tempo_s": 1196.7148628499901,
+    "distancia_m": 6356.289177099938,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.319506363908296,
+    "uso_bateria_pct_1o_voo": 66.48415904722168
+   }
+  ],
+  "historico_makespan_s": [
+   1196.7148628499901
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 37,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009849062643006265,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 1350.392535914754,
+  "tempo_medio_s": 1106.5908746270666,
+  "cv_tempo": 0.22031779483980593,
+  "cv_area": 0.006139565788560157,
+  "erro_area_vs_alvo_max_pct": 0.6139565788560392,
+  "distancia_total_m": 14004.914015548966,
+  "curvas_total": 66,
+  "cobertura_pct": 99.86130999469273,
+  "sobreposicao_entre_drones_pct": 0.5873046073120175,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.3815758000127971,
+  "tempo_cobertura_s": 0.8563571000122465,
+  "tempo_algoritmo_s": 1.2379329000250436,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 250651.2283075619,
+    "tempo_s": 862.7892133393791,
+    "distancia_m": 6774.558800060457,
+    "curvas": 38,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.75,
+    "uso_bateria_pct_1o_voo": 71.89910111161493
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 247592.22981768224,
+    "tempo_s": 1350.392535914754,
+    "distancia_m": 7230.35521548851,
+    "curvas": 28,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.097325933578595,
+    "uso_bateria_pct_1o_voo": 75.02180755081966
+   }
+  ],
+  "historico_makespan_s": [
+   1350.392535914754
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.006139565788570542,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 1178.1216895071213,
+  "tempo_medio_s": 1063.1007363558003,
+  "cv_tempo": 0.10819384204887392,
+  "cv_area": 0.09635579105705873,
+  "erro_area_vs_alvo_max_pct": 0.9581675345878933,
+  "distancia_total_m": 13984.194635754207,
+  "curvas_total": 60,
+  "cobertura_pct": 99.85179696183772,
+  "sobreposicao_entre_drones_pct": 0.9157545837797783,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.940036800049711,
+  "tempo_cobertura_s": 3.9066523000074085,
+  "tempo_algoritmo_s": 5.8466891000571195,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 273126.0503359533,
+    "tempo_s": 948.0797832044793,
+    "distancia_m": 7667.464498711477,
+    "curvas": 37,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.75,
+    "uso_bateria_pct_1o_voo": 79.00664860037328
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 225117.40778929088,
+    "tempo_s": 1178.1216895071213,
+    "distancia_m": 6316.73013704273,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.15353124374006,
+    "uso_bateria_pct_1o_voo": 65.45120497261786
+   }
+  ],
+  "historico_makespan_s": [
+   1451.7678797449394,
+   1178.1216895071213,
+   1483.0647496789027,
+   1278.00006181439,
+   1444.8767590122854
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 42,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009581675345887481,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 1136.7217967414508,
+  "tempo_medio_s": 1022.8058613119877,
+  "cv_tempo": 0.11137591183075475,
+  "cv_area": 0.07428903816642761,
+  "erro_area_vs_alvo_max_pct": 7.597306140125127e-12,
+  "distancia_total_m": 13351.89670594063,
+  "curvas_total": 59,
+  "cobertura_pct": 99.85029490401851,
+  "sobreposicao_entre_drones_pct": 0.2658642340005808,
+  "n_voos_total": 2,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.09837790002347901,
+  "tempo_cobertura_s": 3.052323800016893,
+  "tempo_algoritmo_s": 3.150701700040372,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 2,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 267628.74270104157,
+    "tempo_s": 908.8899258825246,
+    "distancia_m": 7235.565925491928,
+    "curvas": 38,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.75,
+    "uso_bateria_pct_1o_voo": 75.74082715687705
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 230614.71542420244,
+    "tempo_s": 1136.7217967414508,
+    "distancia_m": 6116.330780448701,
+    "curvas": 21,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.626632057052724,
+    "uso_bateria_pct_1o_voo": 63.1512109300806
+   }
+  ],
+  "historico_makespan_s": [
+   1466.5975127571583,
+   1177.033214917498,
+   1503.3289820476261,
+   1136.7217967414508,
+   1443.185754273273
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 739.6467365617984,
+  "tempo_medio_s": 604.8651174112666,
+  "cv_tempo": 0.15933645436582186,
+  "cv_area": 0.42207899772339613,
+  "erro_area_vs_alvo_max_pct": 0.9400347565819214,
+  "distancia_total_m": 14856.870732091544,
+  "curvas_total": 68,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 13.71178514564954,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.33231879997765645,
+  "tempo_cobertura_s": 0.3775634999910835,
+  "tempo_algoritmo_s": 0.70988229996874,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 148469.567899348,
+    "tempo_s": 555.0311815485867,
+    "distancia_m": 4736.978482152539,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 39.834028840375446,
+    "uso_bateria_pct_1o_voo": 46.252598462382224
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 90398.74575427119,
+    "tempo_s": 519.9174341234145,
+    "distancia_m": 2583.5046047404885,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285720938,
+    "uso_bateria_pct_1o_voo": 28.88430189574525
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 259375.14447162495,
+    "tempo_s": 739.6467365617984,
+    "distancia_m": 7536.387645198516,
+    "curvas": 42,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 49.30978243745323
+   }
+  ],
+  "historico_makespan_s": [
+   739.6467365617984
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 45,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009400347565822021,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 736.0589844952376,
+  "tempo_medio_s": 620.5512789170997,
+  "cv_tempo": 0.14266059962839425,
+  "cv_area": 0.4261988422556835,
+  "erro_area_vs_alvo_max_pct": 0.4884420603669081,
+  "distancia_total_m": 15420.885308358887,
+  "curvas_total": 66,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 7.469733534942872,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.3688867000164464,
+  "tempo_cobertura_s": 1.4392295999859925,
+  "tempo_algoritmo_s": 1.808116300002439,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 148532.41081020038,
+    "tempo_s": 604.6226029722883,
+    "distancia_m": 5232.892696389559,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244530596,
+    "uso_bateria_pct_1o_voo": 50.38521691435736
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 89506.19896159325,
+    "tempo_s": 520.9722492837731,
+    "distancia_m": 2589.833495702639,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285720938,
+    "uso_bateria_pct_1o_voo": 28.942902737987392
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 260204.84835345054,
+    "tempo_s": 736.0589844952376,
+    "distancia_m": 7598.159116266689,
+    "curvas": 40,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 52.77777777779071,
+    "uso_bateria_pct_1o_voo": 49.07059896634918
+   }
+  ],
+  "historico_makespan_s": [
+   736.0589844952376
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 81,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.004884420603661084,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 604.3767714723587,
+  "tempo_medio_s": 563.1001707365164,
+  "cv_tempo": 0.07160120891268247,
+  "cv_area": 0.4203260923356035,
+  "erro_area_vs_alvo_max_pct": 0.7471414392910325,
+  "distancia_total_m": 13229.542513465181,
+  "curvas_total": 67,
+  "cobertura_pct": 99.97096021549523,
+  "sobreposicao_entre_drones_pct": 3.069204810590509,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.48580299998866394,
+  "tempo_cobertura_s": 0.8311489000043366,
+  "tempo_algoritmo_s": 1.3169518999930006,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 150376.66086277046,
+    "tempo_s": 604.3767714723587,
+    "distancia_m": 4790.434381390257,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 50.36473095602989
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 89524.79324275257,
+    "tempo_s": 508.39469644738506,
+    "distancia_m": 2514.3681786843113,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285719275,
+    "uso_bateria_pct_1o_voo": 28.244149802632503
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 258342.00401972118,
+    "tempo_s": 576.5290442898054,
+    "distancia_m": 5924.739953390615,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 38.43526961932036
+   }
+  ],
+  "historico_makespan_s": [
+   604.3767714723587
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 115,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.007471414392917519,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 605.1424951825477,
+  "tempo_medio_s": 580.5902513518004,
+  "cv_tempo": 0.03864804290496723,
+  "cv_area": 0.418077397802684,
+  "erro_area_vs_alvo_max_pct": 0.8800438600543657,
+  "distancia_total_m": 13364.036803154642,
+  "curvas_total": 68,
+  "cobertura_pct": 99.99148833902446,
+  "sobreposicao_entre_drones_pct": 3.568388692508737,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.45148479999625124,
+  "tempo_cobertura_s": 1.9764268999861088,
+  "tempo_algoritmo_s": 2.42791169998236,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 123137.87219205919,
+    "tempo_s": 550.9034480401475,
+    "distancia_m": 4215.701147068139,
+    "curvas": 24,
+    "voos": 1,
+    "angulo_graus": 154.6538240580725,
+    "espacamento_m": 43.55468137888238,
+    "uso_bateria_pct_1o_voo": 45.90862067001229
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 111076.0762350362,
+    "tempo_s": 605.1424951825477,
+    "distancia_m": 3094.8549710952866,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285720938,
+    "uso_bateria_pct_1o_voo": 33.61902751014154
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 264029.5096981488,
+    "tempo_s": 585.7248108327057,
+    "distancia_m": 6053.480684991217,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 39.04832072218038
+   }
+  ],
+  "historico_makespan_s": [
+   605.1424951825477
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 120,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008800438600547961,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 936.8565717058976,
+  "tempo_medio_s": 655.950672905783,
+  "cv_tempo": 0.3317142217470425,
+  "cv_area": 0.0035995311035828836,
+  "erro_area_vs_alvo_max_pct": 0.4897496454089486,
+  "distancia_total_m": 14405.91452662338,
+  "curvas_total": 53,
+  "cobertura_pct": 99.96745541391707,
+  "sobreposicao_entre_drones_pct": 5.912099576419695,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.41998760000569746,
+  "tempo_cobertura_s": 0.9677520999975968,
+  "tempo_algoritmo_s": 1.3877397000032943,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 165267.7708519341,
+    "tempo_s": 624.2902904430786,
+    "distancia_m": 5229.569571097445,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 165.0,
+    "espacamento_m": 44.43735021073371,
+    "uso_bateria_pct_1o_voo": 52.02419087025655
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 166288.14304186497,
+    "tempo_s": 936.8565717058976,
+    "distancia_m": 5013.139430235395,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.15353124374006,
+    "uso_bateria_pct_1o_voo": 52.04758731699432
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 166687.5442314452,
+    "tempo_s": 406.70515656837273,
+    "distancia_m": 4163.205525290541,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 89.99999999996565,
+    "espacamento_m": 50.000000000019405,
+    "uso_bateria_pct_1o_voo": 27.113677104558178
+   }
+  ],
+  "historico_makespan_s": [
+   936.8565717058976
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 93,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.004897496454082205,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 573.1345475432744,
+  "tempo_medio_s": 571.0670188405197,
+  "cv_tempo": 0.002777669349591672,
+  "cv_area": 0.3894690748040703,
+  "erro_area_vs_alvo_max_pct": 0.930647946397419,
+  "distancia_total_m": 13242.04092944297,
+  "curvas_total": 66,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 2.6596437118852827,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.5904300000111107,
+  "tempo_cobertura_s": 4.3551510000252165,
+  "tempo_algoritmo_s": 5.945581000036327,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 139069.83031160565,
+    "tempo_s": 573.1345475432744,
+    "distancia_m": 4518.012142099412,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244544566,
+    "uso_bateria_pct_1o_voo": 47.76121229527286
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 103898.5133312998,
+    "tempo_s": 569.2794589607188,
+    "distancia_m": 2879.676753764313,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285720938,
+    "uso_bateria_pct_1o_voo": 31.62663660892882
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 255275.11448233877,
+    "tempo_s": 570.787050017566,
+    "distancia_m": 5844.3520335792455,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 38.052470001171066
+   }
+  ],
+  "historico_makespan_s": [
+   604.3767714723587,
+   606.2783131434087,
+   576.5290442898054,
+   574.3950784590712,
+   573.1345475432744
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 126,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009306479463977987,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 532.1207529481558,
+  "tempo_medio_s": 514.1476075761283,
+  "cv_tempo": 0.03307409827844711,
+  "cv_area": 0.3552094910410734,
+  "erro_area_vs_alvo_max_pct": 7.029413669754516e-11,
+  "distancia_total_m": 12197.239129796315,
+  "curvas_total": 46,
+  "cobertura_pct": 99.94592591850835,
+  "sobreposicao_entre_drones_pct": 3.3095340616644804,
+  "n_voos_total": 3,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.14717059998656623,
+  "tempo_cobertura_s": 2.408238400006667,
+  "tempo_algoritmo_s": 2.555408999993233,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 3,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 170575.495522301,
+    "tempo_s": 518.9985912039539,
+    "distancia_m": 4216.6525787061955,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.44943810417317,
+    "uso_bateria_pct_1o_voo": 43.24988260032949
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 91686.78295844587,
+    "tempo_s": 532.1207529481558,
+    "distancia_m": 2800.724517688929,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.797582144849,
+    "uso_bateria_pct_1o_voo": 29.56226405267532
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 235981.1796444967,
+    "tempo_s": 491.3234785762754,
+    "distancia_m": 5179.862033401189,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 55.49106249406468,
+    "uso_bateria_pct_1o_voo": 32.754898571751696
+   }
+  ],
+  "historico_makespan_s": [
+   622.6865222555174,
+   619.8510003580212,
+   554.2242730543646,
+   532.1207529481558,
+   568.3418348677474
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 559.4516922375669,
+  "tempo_medio_s": 468.38593428833906,
+  "cv_tempo": 0.11479419186501552,
+  "cv_area": 0.3817747648184596,
+  "erro_area_vs_alvo_max_pct": 0.8574240716496383,
+  "distancia_total_m": 14584.494592381385,
+  "curvas_total": 72,
+  "cobertura_pct": 99.97196158737471,
+  "sobreposicao_entre_drones_pct": 12.903177352973573,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.28277629998046905,
+  "tempo_cobertura_s": 0.3931358999980148,
+  "tempo_algoritmo_s": 0.6759121999784838,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 115085.83293597997,
+    "tempo_s": 425.23444204243424,
+    "distancia_m": 3359.0110870910125,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244547227,
+    "uso_bateria_pct_1o_voo": 35.436203503536184
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 68924.43848548109,
+    "tempo_s": 455.85405369228005,
+    "distancia_m": 2343.124322153681,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 41.078842241637176,
+    "uso_bateria_pct_1o_voo": 25.32522520512667
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 200363.9439811182,
+    "tempo_s": 559.4516922375669,
+    "distancia_m": 5685.657024659274,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 55.15480916359677,
+    "uso_bateria_pct_1o_voo": 37.29677948250446
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 113869.24272266473,
+    "tempo_s": 433.00354918107485,
+    "distancia_m": 3196.702158477417,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.99999999995039,
+    "espacamento_m": 42.85714285715949,
+    "uso_bateria_pct_1o_voo": 36.083629098422904
+   }
+  ],
+  "historico_makespan_s": [
+   559.4516922375669
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 38,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008574240716489712,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 568.3124134829635,
+  "tempo_medio_s": 479.61108002774324,
+  "cv_tempo": 0.10929441143836112,
+  "cv_area": 0.37942602232995676,
+  "erro_area_vs_alvo_max_pct": 0.8790085125924546,
+  "distancia_total_m": 14977.717584057706,
+  "curvas_total": 74,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 8.902696694471425,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.35822659998666495,
+  "tempo_cobertura_s": 0.3512178000237327,
+  "tempo_algoritmo_s": 0.7094444000103977,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 115219.09372567551,
+    "tempo_s": 459.6818864453831,
+    "distancia_m": 3623.4855311204897,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 18.43494882278805,
+    "espacamento_m": 44.08819083072659,
+    "uso_bateria_pct_1o_voo": 38.306823870448596
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 69277.73515158861,
+    "tempo_s": 458.66048441263337,
+    "distancia_m": 2359.962906475801,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 41.078842241637176,
+    "uso_bateria_pct_1o_voo": 25.48113802292408
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 199902.17712533494,
+    "tempo_s": 568.3124134829635,
+    "distancia_m": 5809.707122094815,
+    "curvas": 30,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 37.88749423219757
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 113844.45212264515,
+    "tempo_s": 431.7895357699932,
+    "distancia_m": 3184.5620243666,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.99999999995535,
+    "espacamento_m": 42.85714285717612,
+    "uso_bateria_pct_1o_voo": 35.9824613141661
+   }
+  ],
+  "historico_makespan_s": [
+   568.3124134829635
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 42,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008790085125918364,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 492.76076867633765,
+  "tempo_medio_s": 439.00925639701853,
+  "cv_tempo": 0.07392585184633063,
+  "cv_area": 0.3821385395165117,
+  "erro_area_vs_alvo_max_pct": 0.6118726611278047,
+  "distancia_total_m": 13384.985826443684,
+  "curvas_total": 72,
+  "cobertura_pct": 99.96995884361576,
+  "sobreposicao_entre_drones_pct": 3.8828194626638495,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.35364499999559484,
+  "tempo_cobertura_s": 0.42665919999126345,
+  "tempo_algoritmo_s": 0.7803041999868583,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 115363.95805774009,
+    "tempo_s": 405.6833348240143,
+    "distancia_m": 3163.5000149068055,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244547227,
+    "uso_bateria_pct_1o_voo": 33.80694456866786
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 68494.16077128607,
+    "tempo_s": 427.2735427022676,
+    "distancia_m": 2075.6412562136043,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 41.977862590923905,
+    "uso_bateria_pct_1o_voo": 23.737419039014867
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 200234.07088576187,
+    "tempo_s": 492.76076867633765,
+    "distancia_m": 4975.984094802062,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 51.60317372505299,
+    "uso_bateria_pct_1o_voo": 32.850717911755844
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 114151.26841045612,
+    "tempo_s": 430.31937938545457,
+    "distancia_m": 3169.8604605212126,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.99999999996278,
+    "espacamento_m": 42.85714285715949,
+    "uso_bateria_pct_1o_voo": 35.859948282121216
+   }
+  ],
+  "historico_makespan_s": [
+   492.76076867633765
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 63,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.006118726611271806,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 553.643108500375,
+  "tempo_medio_s": 452.7801555824287,
+  "cv_tempo": 0.17736686585208197,
+  "cv_area": 0.4117790583585748,
+  "erro_area_vs_alvo_max_pct": 0.9200522924318314,
+  "distancia_total_m": 13719.744410637644,
+  "curvas_total": 75,
+  "cobertura_pct": 99.9959945124821,
+  "sobreposicao_entre_drones_pct": 5.437949991488339,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5282935000141151,
+  "tempo_cobertura_s": 0.351524600002449,
+  "tempo_algoritmo_s": 0.8798181000165641,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 98480.73521669493,
+    "tempo_s": 361.4717754101626,
+    "distancia_m": 2761.384420768294,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.95375499273983,
+    "uso_bateria_pct_1o_voo": 30.122647950846883
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 87590.94008378101,
+    "tempo_s": 508.17522833191424,
+    "distancia_m": 2513.0513699914854,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.516888400938896,
+    "uso_bateria_pct_1o_voo": 28.231957129550793
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 213045.05031626756,
+    "tempo_s": 553.643108500375,
+    "distancia_m": 5660.336852338571,
+    "curvas": 29,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 51.70763359087197,
+    "uso_bateria_pct_1o_voo": 36.90954056669166
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 99126.73250850062,
+    "tempo_s": 387.8305100872629,
+    "distancia_m": 2784.9717675392944,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 89.99999999994418,
+    "espacamento_m": 42.85714285717612,
+    "uso_bateria_pct_1o_voo": 32.319209173938575
+   }
+  ],
+  "historico_makespan_s": [
+   553.643108500375
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 108,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.00920052292432376,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 672.9798027362314,
+  "tempo_medio_s": 479.025679052246,
+  "cv_tempo": 0.2584679232784837,
+  "cv_area": 0.004058830118490919,
+  "erro_area_vs_alvo_max_pct": 0.5514480479673066,
+  "distancia_total_m": 13968.244042828515,
+  "curvas_total": 62,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 4.98583058790543,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5599365999805741,
+  "tempo_cobertura_s": 0.4122423000226263,
+  "tempo_algoritmo_s": 0.9721789000032004,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 124280.1288439678,
+    "tempo_s": 457.9588640839093,
+    "distancia_m": 3686.2553075057613,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 40.545350783903686,
+    "uso_bateria_pct_1o_voo": 38.16323867365911
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 124798.98051025081,
+    "tempo_s": 672.9798027362314,
+    "distancia_m": 3501.878816417392,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 42.85714285722601,
+    "uso_bateria_pct_1o_voo": 37.38776681867952
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 125247.75298730012,
+    "tempo_s": 328.1173562542309,
+    "distancia_m": 3342.97632089257,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 54.77178965555504,
+    "uso_bateria_pct_1o_voo": 21.874490416948728
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 123916.59578372545,
+    "tempo_s": 457.0466931346123,
+    "distancia_m": 3437.1335980127924,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.99999999996811,
+    "espacamento_m": 42.85714285715949,
+    "uso_bateria_pct_1o_voo": 38.087224427884365
+   }
+  ],
+  "historico_makespan_s": [
+   672.9798027362314
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 131,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.005514480479678766,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 439.282035874712,
+  "tempo_medio_s": 433.9233611464835,
+  "cv_tempo": 0.010980589039080432,
+  "cv_area": 0.3224657605083937,
+  "erro_area_vs_alvo_max_pct": 0.9533520478664228,
+  "distancia_total_m": 13174.937694932018,
+  "curvas_total": 68,
+  "cobertura_pct": 99.96445129827865,
+  "sobreposicao_entre_drones_pct": 3.6700279382754375,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.2628181999607477,
+  "tempo_cobertura_s": 1.680060000042431,
+  "tempo_algoritmo_s": 3.942878200003179,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 124877.63927658473,
+    "tempo_s": 435.95260060551954,
+    "distancia_m": 3466.192672721856,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244547227,
+    "uso_bateria_pct_1o_voo": 36.32938338379329
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 71636.66882679386,
+    "tempo_s": 426.31233125210053,
+    "distancia_m": 2069.8739875126025,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.46748939342797,
+    "uso_bateria_pct_1o_voo": 23.684018402894477
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 184543.84374553585,
+    "tempo_s": 434.1464768536021,
+    "distancia_m": 4379.384009283768,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 54.77178965551624,
+    "uso_bateria_pct_1o_voo": 28.94309845690681
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 117185.30627632973,
+    "tempo_s": 439.282035874712,
+    "distancia_m": 3259.4870254137895,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.99999999996278,
+    "espacamento_m": 42.85714285715949,
+    "uso_bateria_pct_1o_voo": 36.60683632289267
+   }
+  ],
+  "historico_makespan_s": [
+   492.76076867633765,
+   439.282035874712,
+   469.12661319867186,
+   450.13540827601963,
+   474.11682130736745
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 112,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009533520478657995,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 487.2612573343842,
+  "tempo_medio_s": 426.90663278077164,
+  "cv_tempo": 0.09375834076803331,
+  "cv_area": 0.41492564277828964,
+  "erro_area_vs_alvo_max_pct": 2.682106009179648e-11,
+  "distancia_total_m": 13789.727210947834,
+  "curvas_total": 48,
+  "cobertura_pct": 99.95393689354415,
+  "sobreposicao_entre_drones_pct": 4.137668605990207,
+  "n_voos_total": 4,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.18793430001824163,
+  "tempo_cobertura_s": 1.417737899988424,
+  "tempo_algoritmo_s": 1.6056722000066657,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 4,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 102054.70048865618,
+    "tempo_s": 406.37619073250994,
+    "distancia_m": 3370.4285739917605,
+    "curvas": 9,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.15284281536005,
+    "uso_bateria_pct_1o_voo": 33.86468256104249
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 62160.206614632625,
+    "tempo_s": 379.14513739680757,
+    "distancia_m": 1978.8708243808444,
+    "curvas": 4,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.400147581938654,
+    "uso_bateria_pct_1o_voo": 21.063618744267085
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 203618.79450758133,
+    "tempo_s": 434.843945659385,
+    "distancia_m": 4501.148572564729,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 54.80326599816908,
+    "uso_bateria_pct_1o_voo": 28.989596377292333
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 130409.75651437332,
+    "tempo_s": 487.2612573343842,
+    "distancia_m": 3939.2792400105013,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 40.40187255484052,
+    "uso_bateria_pct_1o_voo": 40.60510477786535
+   }
+  ],
+  "historico_makespan_s": [
+   519.2682535191826,
+   487.2612573343842,
+   509.6537983557562,
+   519.0210019227839,
+   500.33376305260697
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 459.7132799472328,
+  "tempo_medio_s": 433.4331463206842,
+  "cv_tempo": 0.050827617362609746,
+  "cv_area": 0.41698644226884235,
+  "erro_area_vs_alvo_max_pct": 0.9513410208843096,
+  "distancia_total_m": 14908.48669890514,
+  "curvas_total": 95,
+  "cobertura_pct": 99.87933468852327,
+  "sobreposicao_entre_drones_pct": 11.136757357579885,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.35338519999640994,
+  "tempo_cobertura_s": 0.8977194000035524,
+  "tempo_algoritmo_s": 1.2511045999999624,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 101118.09685964102,
+    "tempo_s": 406.5980957681376,
+    "distancia_m": 3332.647624348047,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 41.82573028244078,
+    "uso_bateria_pct_1o_voo": 33.8831746473448
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 59989.15888426573,
+    "tempo_s": 430.125136101842,
+    "distancia_m": 1996.7508166110515,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 75.0,
+    "espacamento_m": 44.44863920775242,
+    "uso_bateria_pct_1o_voo": 23.89584089454678
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 174271.89328019423,
+    "tempo_s": 457.6975174695583,
+    "distancia_m": 4485.098577907148,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 53.84615384615385,
+    "uso_bateria_pct_1o_voo": 30.513167831303885
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 101749.17819626446,
+    "tempo_s": 459.7132799472328,
+    "distancia_m": 3223.7994661389935,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.39557251823135,
+    "uso_bateria_pct_1o_voo": 38.30943999560273
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 61115.130904878664,
+    "tempo_s": 413.03170231665024,
+    "distancia_m": 1870.1902138999012,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.605806614272296,
+    "uso_bateria_pct_1o_voo": 22.94620568425835
+   }
+  ],
+  "historico_makespan_s": [
+   459.7132799472328
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 98,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009513410208843661,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 476.478637054724,
+  "tempo_medio_s": 444.51010851202807,
+  "cv_tempo": 0.061436222712155944,
+  "cv_area": 0.42081217207413507,
+  "erro_area_vs_alvo_max_pct": 0.9085647627136061,
+  "distancia_total_m": 15745.15198059561,
+  "curvas_total": 88,
+  "cobertura_pct": 99.85029490401851,
+  "sobreposicao_entre_drones_pct": 10.384727076094249,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5116529999941122,
+  "tempo_cobertura_s": 1.0367604999919422,
+  "tempo_algoritmo_s": 1.5484134999860544,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 100225.55006693874,
+    "tempo_s": 407.549925145695,
+    "distancia_m": 3342.165918123615,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 38.83817811943591,
+    "uso_bateria_pct_1o_voo": 33.96249376214125
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 59989.15888424139,
+    "tempo_s": 476.478637054724,
+    "distancia_m": 2226.871822328345,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 26.471035391929114
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 175330.5525340835,
+    "tempo_s": 464.3525701510288,
+    "distancia_m": 5082.269315447737,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 51.45228725213868,
+    "uso_bateria_pct_1o_voo": 30.956838010068584
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 101614.05797851176,
+    "tempo_s": 457.5404491942723,
+    "distancia_m": 3202.071158609389,
+    "curvas": 26,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 43.39557251823135,
+    "uso_bateria_pct_1o_voo": 38.128370766189356
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 61084.138661468794,
+    "tempo_s": 416.6289610144204,
+    "distancia_m": 1891.7737660865225,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.605806614272296,
+    "uso_bateria_pct_1o_voo": 23.14605338969002
+   }
+  ],
+  "historico_makespan_s": [
+   476.478637054724
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 130,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009085647627137624,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 466.65716721500587,
+  "tempo_medio_s": 422.53541802012325,
+  "cv_tempo": 0.06717935012861102,
+  "cv_area": 0.4155907676609297,
+  "erro_area_vs_alvo_max_pct": 0.8876263790688187,
+  "distancia_total_m": 14832.569815379004,
+  "curvas_total": 89,
+  "cobertura_pct": 99.96495198421837,
+  "sobreposicao_entre_drones_pct": 8.004966804522196,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.4687765999988187,
+  "tempo_cobertura_s": 1.048696200014092,
+  "tempo_algoritmo_s": 1.5174728000129107,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 101551.8331802162,
+    "tempo_s": 438.77703291842676,
+    "distancia_m": 3134.4369958509365,
+    "curvas": 23,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244538357,
+    "uso_bateria_pct_1o_voo": 36.564752743202234
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 60212.295582456085,
+    "tempo_s": 419.02549299139963,
+    "distancia_m": 1834.1529579483968,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 23.27919405507776
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 173981.81184538422,
+    "tempo_s": 466.65716721500587,
+    "distancia_m": 4946.5336743434145,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 52.961151980953716,
+    "uso_bateria_pct_1o_voo": 31.110477814333727
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 101420.9589446399,
+    "tempo_s": 384.3687846787199,
+    "distancia_m": 3030.354513453868,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 41.320873614769276,
+    "uso_bateria_pct_1o_voo": 32.03073205655999
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 61076.55857254773,
+    "tempo_s": 403.84861229706394,
+    "distancia_m": 1887.0916737823854,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.857142857142854,
+    "uso_bateria_pct_1o_voo": 22.43603401650355
+   }
+  ],
+  "historico_makespan_s": [
+   466.65716721500587
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 159,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008876263790687646,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 503.02875409372973,
+  "tempo_medio_s": 428.4577113953751,
+  "cv_tempo": 0.19159396405543463,
+  "cv_area": 0.41412656641298606,
+  "erro_area_vs_alvo_max_pct": 0.7703084871119192,
+  "distancia_total_m": 14405.874229795047,
+  "curvas_total": 93,
+  "cobertura_pct": 99.97096021549523,
+  "sobreposicao_entre_drones_pct": 9.806434815697505,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.4182466999918688,
+  "tempo_cobertura_s": 0.8419413999945391,
+  "tempo_algoritmo_s": 1.260188099986408,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 82783.71502115499,
+    "tempo_s": 313.6344705967538,
+    "distancia_m": 2323.011372634204,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244538357,
+    "uso_bateria_pct_1o_voo": 26.136205883062814
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 74716.18096353878,
+    "tempo_s": 503.02875409372973,
+    "distancia_m": 2290.172524562379,
+    "curvas": 22,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 27.946041894096098
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 181884.67408335215,
+    "tempo_s": 499.6543002003576,
+    "distancia_m": 4904.493536138346,
+    "curvas": 29,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 51.41455933307721,
+    "uso_bateria_pct_1o_voo": 33.31028668002384
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 83200.81833046123,
+    "tempo_s": 344.4259843193109,
+    "distancia_m": 2630.926509859775,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 38.83124681224581,
+    "uso_bateria_pct_1o_voo": 28.702165359942573
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 75658.06972673698,
+    "tempo_s": 481.54504776672366,
+    "distancia_m": 2257.2702866003438,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.516888400938896,
+    "uso_bateria_pct_1o_voo": 26.75250265370687
+   }
+  ],
+  "historico_makespan_s": [
+   503.02875409372973
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 151,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.0077030848711215055,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 614.9610963272503,
+  "tempo_medio_s": 442.1960745837811,
+  "cv_tempo": 0.31481533803304096,
+  "cv_area": 0.0048775954149115255,
+  "erro_area_vs_alvo_max_pct": 0.6886260260456716,
+  "distancia_total_m": 13972.300692960758,
+  "curvas_total": 80,
+  "cobertura_pct": 99.97096021549523,
+  "sobreposicao_entre_drones_pct": 3.8768112313870002,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.39036900000064634,
+  "tempo_cobertura_s": 0.6241977000026964,
+  "tempo_algoritmo_s": 1.0145667000033427,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 99214.00519968296,
+    "tempo_s": 384.19988666066524,
+    "distancia_m": 2948.6655332733226,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 40.0,
+    "uso_bateria_pct_1o_voo": 32.0166572217221
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 99766.78451476332,
+    "tempo_s": 614.9610963272503,
+    "distancia_m": 3057.7665779635036,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 34.1645053515139
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 100198.16086811286,
+    "tempo_s": 249.53922345061952,
+    "distancia_m": 2354.8824616420034,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.0000000000388,
+    "uso_bateria_pct_1o_voo": 16.6359482300413
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 100102.02274278033,
+    "tempo_s": 372.6596136332594,
+    "distancia_m": 2753.2628029992634,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 42.94606234354433,
+    "uso_bateria_pct_1o_voo": 31.054967802771618
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 98962.48479990473,
+    "tempo_s": 589.6205528471111,
+    "distancia_m": 2857.723317082665,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 89.9999999999594,
+    "espacamento_m": 42.85714285717612,
+    "uso_bateria_pct_1o_voo": 32.75669738039506
+   }
+  ],
+  "historico_makespan_s": [
+   614.9610963272503
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 189,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.006886260260451736,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 437.64479698010473,
+  "tempo_medio_s": 419.6160116016662,
+  "cv_tempo": 0.026099549639376565,
+  "cv_area": 0.3651572818808567,
+  "erro_area_vs_alvo_max_pct": 0.8431888793359849,
+  "distancia_total_m": 14739.446103384596,
+  "curvas_total": 77,
+  "cobertura_pct": 99.98948559526552,
+  "sobreposicao_entre_drones_pct": 6.9334988934840736,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.4845879999920726,
+  "tempo_cobertura_s": 7.807683300052304,
+  "tempo_algoritmo_s": 10.292271300044376,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 98149.61257425681,
+    "tempo_s": 407.3039310356002,
+    "distancia_m": 3099.7059770226742,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.813282445411794,
+    "uso_bateria_pct_1o_voo": 33.94199425296668
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 60435.43228065166,
+    "tempo_s": 422.14269028900605,
+    "distancia_m": 2020.8561417340347,
+    "curvas": 13,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244544566,
+    "uso_bateria_pct_1o_voo": 23.45237168272256
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 161215.91631228416,
+    "tempo_s": 409.06302207564033,
+    "distancia_m": 4140.215642392292,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 55.06223918488249,
+    "uso_bateria_pct_1o_voo": 27.270868138376024
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 112376.35225784779,
+    "tempo_s": 437.64479698010473,
+    "distancia_m": 3483.114636467717,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 96.34019174591536,
+    "espacamento_m": 44.39189347498385,
+    "uso_bateria_pct_1o_voo": 36.47039974834206
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 66066.14470020377,
+    "tempo_s": 421.92561762797976,
+    "distancia_m": 1995.5537057678794,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.857142857142854,
+    "uso_bateria_pct_1o_voo": 23.440312090443317
+   }
+  ],
+  "historico_makespan_s": [
+   466.65716721500587,
+   447.5450868075779,
+   449.90269990599484,
+   437.64479698010473,
+   438.2779815446508
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 203,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.008431888793365934,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 456.73598799015105,
+  "tempo_medio_s": 375.7577991542128,
+  "cv_tempo": 0.14098622851119905,
+  "cv_area": 0.42089740492488725,
+  "erro_area_vs_alvo_max_pct": 7.68468620767966e-11,
+  "distancia_total_m": 14230.23291064845,
+  "curvas_total": 52,
+  "cobertura_pct": 99.96845678579655,
+  "sobreposicao_entre_drones_pct": 7.557353574396924,
+  "n_voos_total": 5,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.24993089999770746,
+  "tempo_cobertura_s": 2.062124399963068,
+  "tempo_algoritmo_s": 2.3120552999607753,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 5,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 100898.66115501552,
+    "tempo_s": 349.66061180583335,
+    "distancia_m": 2683.272784724999,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 40.289573453657795,
+    "uso_bateria_pct_1o_voo": 29.138384317152777
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 60539.196692977566,
+    "tempo_s": 327.7134799393599,
+    "distancia_m": 1670.2808796361594,
+    "curvas": 4,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.24228335218504,
+    "uso_bateria_pct_1o_voo": 18.20630444107555
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 175367.7424291722,
+    "tempo_s": 456.73598799015105,
+    "distancia_m": 4919.6371651954405,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 47.72227439004928,
+    "uso_bateria_pct_1o_voo": 30.44906586601007
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 100898.66115501965,
+    "tempo_s": 419.5754795527181,
+    "distancia_m": 3302.421462193843,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 40.259521720930934,
+    "uso_bateria_pct_1o_voo": 34.96462329605984
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 60539.19669305906,
+    "tempo_s": 325.10343648300153,
+    "distancia_m": 1654.6206188980088,
+    "curvas": 4,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.24228335218504,
+    "uso_bateria_pct_1o_voo": 18.061302026833417
+   }
+  ],
+  "historico_makespan_s": [
+   456.73598799015105,
+   509.35681444925314,
+   482.8259991400719,
+   509.8304538223707,
+   508.072635226439
+  ],
+  "darp": null
+ },
+ {
+  "metodo": "darp mult. (original)",
+  "makespan_s": 380.1994816139078,
+  "tempo_medio_s": 330.02416774694797,
+  "cv_tempo": 0.0916925506407288,
+  "cv_area": 0.39698472477751306,
+  "erro_area_vs_alvo_max_pct": 8.862754374015648,
+  "distancia_total_m": 14458.865156993848,
+  "curvas_total": 83,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 10.700159218128837,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 2.680487500008894,
+  "tempo_cobertura_s": 1.316453499981435,
+  "tempo_algoritmo_s": 3.996940999990329,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 78767.25445413383,
+    "tempo_s": 318.7327778206162,
+    "distancia_m": 2453.9944448728334,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244544566,
+    "uso_bateria_pct_1o_voo": 26.561064818384683
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 46865.674389901986,
+    "tempo_s": 333.38918800309847,
+    "distancia_m": 1536.3351280185911,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244544566,
+    "uso_bateria_pct_1o_voo": 18.52162155572769
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 118216.45057648238,
+    "tempo_s": 284.21044101063524,
+    "distancia_m": 2840.279507482228,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.00000000009701,
+    "uso_bateria_pct_1o_voo": 18.947362734042347
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 77596.13724173282,
+    "tempo_s": 350.94615645622554,
+    "distancia_m": 2496.1282312289227,
+    "curvas": 17,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 43.15353124374006,
+    "uso_bateria_pct_1o_voo": 29.245513038018792
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 44414.96146514604,
+    "tempo_s": 312.6669615772047,
+    "distancia_m": 1340.001769463227,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.516888400938896,
+    "uso_bateria_pct_1o_voo": 17.37038675428915
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 132382.9799978472,
+    "tempo_s": 380.1994816139078,
+    "distancia_m": 3792.126075928046,
+    "curvas": 19,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 55.26451653568074,
+    "uso_bateria_pct_1o_voo": 25.34663210759385
+   }
+  ],
+  "historico_makespan_s": [
+   380.1994816139078
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 1500,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.08862754374015196,
+   "conectado_sem_limpeza": true,
+   "pesagem": "multiplicativa"
+  }
+ },
+ {
+  "metodo": "darp aditiva, bases",
+  "makespan_s": 396.77959915253837,
+  "tempo_medio_s": 340.13926654199867,
+  "cv_tempo": 0.08934558585615736,
+  "cv_area": 0.4234557237126202,
+  "erro_area_vs_alvo_max_pct": 0.9066464271077872,
+  "distancia_total_m": 15079.56592406478,
+  "curvas_total": 82,
+  "cobertura_pct": 99.97096021549523,
+  "sobreposicao_entre_drones_pct": 11.73808117120455,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.46995320002315566,
+  "tempo_cobertura_s": 1.166941500006942,
+  "tempo_algoritmo_s": 1.6368947000300977,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 74750.79388705698,
+    "tempo_s": 341.3274244350596,
+    "distancia_m": 2599.940911017262,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 39.834028840375446,
+    "uso_bateria_pct_1o_voo": 28.443952036254966
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 44634.30740821756,
+    "tempo_s": 340.1078827629696,
+    "distancia_m": 1576.6472965778175,
+    "curvas": 11,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 41.82573028244078,
+    "uso_bateria_pct_1o_voo": 18.894882375720535
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 128536.5215356889,
+    "tempo_s": 293.8083597838205,
+    "distancia_m": 2974.650370306819,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.00000000009701,
+    "uso_bateria_pct_1o_voo": 19.587223985588032
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 74525.52884813248,
+    "tempo_s": 342.1347398304272,
+    "distancia_m": 2488.014064970942,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.813282445422374,
+    "uso_bateria_pct_1o_voo": 28.511228319202267
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 44969.70505114526,
+    "tempo_s": 326.67759328717665,
+    "distancia_m": 1472.0655597230593,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999994418,
+    "espacamento_m": 41.04427481807458,
+    "uso_bateria_pct_1o_voo": 18.148755182620924
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 130826.60139500294,
+    "tempo_s": 396.77959915253837,
+    "distancia_m": 3968.2477214688793,
+    "curvas": 20,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 49.662856230002944,
+    "uso_bateria_pct_1o_voo": 26.45197327683589
+   }
+  ],
+  "historico_makespan_s": [
+   396.77959915253837
+  ],
+  "darp": {
+   "sementes": "bases",
+   "iteracoes": 135,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009066464271072244,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp aditiva, centros",
+  "makespan_s": 415.83378878811976,
+  "tempo_medio_s": 322.7526252313749,
+  "cv_tempo": 0.14434539160702015,
+  "cv_area": 0.427007074893997,
+  "erro_area_vs_alvo_max_pct": 0.9229744312778759,
+  "distancia_total_m": 14385.76497056269,
+  "curvas_total": 80,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 12.708911208355447,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.39906530000735074,
+  "tempo_cobertura_s": 0.806136700004572,
+  "tempo_algoritmo_s": 1.2052020000119228,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 73941.91071027875,
+    "tempo_s": 292.98980153450486,
+    "distancia_m": 2236.5646820117154,
+    "curvas": 9,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244530596,
+    "uso_bateria_pct_1o_voo": 24.415816794542074
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 44815.86340866243,
+    "tempo_s": 345.02795214568147,
+    "distancia_m": 1486.1677128740898,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 39.834028840375446,
+    "uso_bateria_pct_1o_voo": 19.16821956364897
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 130842.26564201148,
+    "tempo_s": 297.00774330862754,
+    "distancia_m": 3019.4417396541185,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.00000000009701,
+    "uso_bateria_pct_1o_voo": 19.80051622057517
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 74455.5491835106,
+    "tempo_s": 308.99474983029677,
+    "distancia_m": 2196.6141649696365,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244547227,
+    "uso_bateria_pct_1o_voo": 25.749562485858064
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 44617.29799809262,
+    "tempo_s": 276.6617157810189,
+    "distancia_m": 1267.9702946861134,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 42.5,
+    "uso_bateria_pct_1o_voo": 15.37009532116772
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 129570.57118268822,
+    "tempo_s": 415.83378878811976,
+    "distancia_m": 4179.006376367016,
+    "curvas": 21,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 49.79253605049517,
+    "uso_bateria_pct_1o_voo": 27.722252585874653
+   }
+  ],
+  "historico_makespan_s": [
+   415.83378878811976
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 185,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009229744312777044,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=capacidade",
+  "makespan_s": 441.548252263611,
+  "tempo_medio_s": 334.8051405454964,
+  "cv_tempo": 0.20697363682121128,
+  "cv_area": 0.4252624911071865,
+  "erro_area_vs_alvo_max_pct": 0.23277801919438348,
+  "distancia_total_m": 14457.992279405147,
+  "curvas_total": 86,
+  "cobertura_pct": 100.0,
+  "sobreposicao_entre_drones_pct": 10.397244224587686,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.8062490999873262,
+  "tempo_cobertura_s": 0.8556808000139426,
+  "tempo_algoritmo_s": 2.661929900001269,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 61312.994823140696,
+    "tempo_s": 252.81814748553055,
+    "distancia_m": 1874.8481415219724,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244530596,
+    "uso_bateria_pct_1o_voo": 21.068178957127543
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 55080.15152448835,
+    "tempo_s": 390.0047103441897,
+    "distancia_m": 1780.0282620651374,
+    "curvas": 15,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244538357,
+    "uso_bateria_pct_1o_voo": 21.66692835245498
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 132869.09020668257,
+    "tempo_s": 297.91874891699456,
+    "distancia_m": 3032.19581817126,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.00000000009701,
+    "uso_bateria_pct_1o_voo": 19.861249927799637
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 61139.455298660076,
+    "tempo_s": 261.49965509507854,
+    "distancia_m": 1801.6632176174512,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.81328244538357,
+    "uso_bateria_pct_1o_voo": 21.791637924589878
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 55002.2865219941,
+    "tempo_s": 365.04132916757413,
+    "distancia_m": 1654.247975005443,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.857142857142854,
+    "uso_bateria_pct_1o_voo": 20.28007384264301
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 132839.47975027832,
+    "tempo_s": 441.548252263611,
+    "distancia_m": 4315.008865023883,
+    "curvas": 25,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 54.7717896555033,
+    "uso_bateria_pct_1o_voo": 29.4365501509074
+   }
+  ],
+  "historico_makespan_s": [
+   441.548252263611
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 1500,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.002327780191942643,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp pesos=iguais",
+  "makespan_s": 515.7848913751022,
+  "tempo_medio_s": 381.7817200764245,
+  "cv_tempo": 0.2884657810179043,
+  "cv_area": 0.004765832289021064,
+  "erro_area_vs_alvo_max_pct": 0.9925379499885667,
+  "distancia_total_m": 15451.151982930754,
+  "curvas_total": 89,
+  "cobertura_pct": 99.97646776083234,
+  "sobreposicao_entre_drones_pct": 13.725804351962188,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.5504940999962855,
+  "tempo_cobertura_s": 0.740540200000396,
+  "tempo_algoritmo_s": 1.2910342999966815,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 83000.63942687196,
+    "tempo_s": 351.5852364808117,
+    "distancia_m": 2782.519031474781,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 38.83817811943591,
+    "uso_bateria_pct_1o_voo": 29.298769706734312
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 83864.78558841207,
+    "tempo_s": 515.7848913751022,
+    "distancia_m": 2462.709348250613,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.323655642898906,
+    "uso_bateria_pct_1o_voo": 28.65471618750568
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 83091.01755815351,
+    "tempo_s": 228.13186721380697,
+    "distancia_m": 2055.1794743266296,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.0000000000388,
+    "uso_bateria_pct_1o_voo": 15.208791147587132
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 82877.71415244428,
+    "tempo_s": 407.2258568119009,
+    "distancia_m": 2898.925234785678,
+    "curvas": 21,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.813282445411794,
+    "uso_bateria_pct_1o_voo": 33.935488067658405
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 82749.747710786,
+    "tempo_s": 515.1236249146541,
+    "distancia_m": 2458.7417494879232,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 89.99999999995039,
+    "espacamento_m": 42.85714285715949,
+    "uso_bateria_pct_1o_voo": 28.617979161925227
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 82659.55368857627,
+    "tempo_s": 272.8388436622711,
+    "distancia_m": 2793.0771446051285,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 52.12447836976499,
+    "uso_bateria_pct_1o_voo": 18.189256244151405
+   }
+  ],
+  "historico_makespan_s": [
+   515.7848913751022
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 271,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009925379499887978,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "darp+ref (centros)",
+  "makespan_s": 337.7295681509396,
+  "tempo_medio_s": 318.1501024423797,
+  "cv_tempo": 0.058590938677487124,
+  "cv_area": 0.39499222017393415,
+  "erro_area_vs_alvo_max_pct": 0.9960743853181331,
+  "distancia_total_m": 13964.974527526301,
+  "curvas_total": 78,
+  "cobertura_pct": 99.83727706958533,
+  "sobreposicao_entre_drones_pct": 9.988183811822196,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 1.837926999956835,
+  "tempo_cobertura_s": 4.245334700040985,
+  "tempo_algoritmo_s": 6.08326169999782,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 81125.6699330082,
+    "tempo_s": 330.84208144798293,
+    "distancia_m": 2575.0874811464937,
+    "curvas": 10,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 41.82573028244078,
+    "uso_bateria_pct_1o_voo": 27.570173453998578
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 43030.76982335869,
+    "tempo_s": 337.7295681509396,
+    "distancia_m": 1394.377408905639,
+    "curvas": 18,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 42.323655642898906,
+    "uso_bateria_pct_1o_voo": 18.762753786163312
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 140251.1955273819,
+    "tempo_s": 308.5885780705764,
+    "distancia_m": 3181.5734263214035,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 89.99999999990814,
+    "espacamento_m": 50.00000000009701,
+    "uso_bateria_pct_1o_voo": 20.572571871371757
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 77755.49059417595,
+    "tempo_s": 330.9807685330348,
+    "distancia_m": 2416.4743519970157,
+    "curvas": 14,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 40.545350783903686,
+    "uso_bateria_pct_1o_voo": 27.581730711086234
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 50656.38042729761,
+    "tempo_s": 282.31326656275075,
+    "distancia_m": 1301.8795993765048,
+    "curvas": 8,
+    "voos": 1,
+    "angulo_graus": 0.0,
+    "espacamento_m": 44.29459286760539,
+    "uso_bateria_pct_1o_voo": 15.684070364597265
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 105423.95182002176,
+    "tempo_s": 318.4463518889936,
+    "distancia_m": 3095.5822597792458,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 2.2025981617486536,
+    "espacamento_m": 55.573114883952904,
+    "uso_bateria_pct_1o_voo": 21.229756792599574
+   }
+  ],
+  "historico_makespan_s": [
+   415.83378878811976,
+   337.7295681509396,
+   370.0205827725823,
+   382.09424140895317,
+   375.45145270356994
+  ],
+  "darp": {
+   "sementes": "centros",
+   "iteracoes": 154,
+   "celulas": 2326,
+   "tamanho_celula_m": [
+    14.937760815140473,
+    14.937760815140473
+   ],
+   "desbalanceamento_final": 0.009960743853175007,
+   "conectado_sem_limpeza": true,
+   "pesagem": "aditiva"
+  }
+ },
+ {
+  "metodo": "faixas+ref",
+  "makespan_s": 368.2718295326935,
+  "tempo_medio_s": 324.4211436647735,
+  "cv_tempo": 0.08418658051725841,
+  "cv_area": 0.42365361796536966,
+  "erro_area_vs_alvo_max_pct": 1.0082703240627766e-10,
+  "distancia_total_m": 14901.644903987035,
+  "curvas_total": 54,
+  "cobertura_pct": 99.98648147962709,
+  "sobreposicao_entre_drones_pct": 9.338794147982737,
+  "n_voos_total": 6,
+  "todos_viaveis_um_voo": true,
+  "regioes_desconexas": 0,
+  "tempo_particao_s": 0.2605988999712281,
+  "tempo_cobertura_s": 1.3232691000157502,
+  "tempo_algoritmo_s": 1.5838679999869782,
+  "area_livre_m2": 498243.458125244,
+  "cenario": "concavo_U",
+  "n": 6,
+  "frota": "heterogenea",
+  "por_drone": [
+   {
+    "id": "D1",
+    "tipo": "A",
+    "area_m2": 74630.73329651367,
+    "tempo_s": 336.3340542545884,
+    "distancia_m": 2790.007209212551,
+    "curvas": 6,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 40.51098857494071,
+    "uso_bateria_pct_1o_voo": 28.027837854549034
+   },
+   {
+    "id": "D2",
+    "tipo": "B",
+    "area_m2": 44778.43997786986,
+    "tempo_s": 289.0904027992989,
+    "distancia_m": 1438.5424167957926,
+    "curvas": 4,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 31.984599984250963,
+    "uso_bateria_pct_1o_voo": 16.060577933294383
+   },
+   {
+    "id": "D3",
+    "tipo": "C",
+    "area_m2": 129712.55578821553,
+    "tempo_s": 291.6172950105345,
+    "distancia_m": 2943.97546348082,
+    "curvas": 12,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 49.127483267046046,
+    "uso_bateria_pct_1o_voo": 19.4411530007023
+   },
+   {
+    "id": "D4",
+    "tipo": "A",
+    "area_m2": 74630.7332965557,
+    "tempo_s": 328.3742720449117,
+    "distancia_m": 2590.4093871157856,
+    "curvas": 9,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 41.4514065513853,
+    "uso_bateria_pct_1o_voo": 27.364522670409308
+   },
+   {
+    "id": "D5",
+    "tipo": "B",
+    "area_m2": 44778.439977886155,
+    "tempo_s": 368.2718295326935,
+    "distancia_m": 1841.6309771961614,
+    "curvas": 7,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 39.980749980255496,
+    "uso_bateria_pct_1o_voo": 20.45954608514964
+   },
+   {
+    "id": "D6",
+    "tipo": "C",
+    "area_m2": 129712.55578820335,
+    "tempo_s": 332.83900834661387,
+    "distancia_m": 3297.0794501859236,
+    "curvas": 16,
+    "voos": 1,
+    "angulo_graus": 90.0,
+    "espacamento_m": 50.20196714019403,
+    "uso_bateria_pct_1o_voo": 22.18926722310759
+   }
+  ],
+  "historico_makespan_s": [
+   368.2718295326935,
+   382.37412600416894,
+   385.7098239784886,
+   371.8501422592048,
+   512.7998255817344
+  ],
+  "darp": null
+ }
+]

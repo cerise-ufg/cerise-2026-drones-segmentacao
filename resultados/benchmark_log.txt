@@ -1,0 +1,160 @@
+[     0s] ufg        N=2 homo faixas                 mk= 14.82min cv=0.140 dist= 12.58km curvas= 59 cob=100.00% voos=2 t=0.19s
+[     1s] ufg        N=2 homo kmeans                 mk= 12.17min cv=0.029 dist= 11.24km curvas= 57 cob=100.00% voos=2 t=0.20s
+[     1s] ufg        N=2 homo darp                   mk= 12.24min cv=0.033 dist= 11.27km curvas= 57 cob=100.00% voos=2 t=0.45s
+[     4s] ufg        N=2 homo darp+ref               mk= 11.95min cv=0.008 dist= 11.32km curvas= 56 cob=100.00% voos=2 t=2.72s
+[     5s] ufg        N=2 hete faixas                 mk= 24.82min cv=0.285 dist= 12.44km curvas= 61 cob=100.00% voos=3 t=0.36s
+[     6s] ufg        N=2 hete kmeans                 mk= 17.57min cv=0.182 dist= 11.24km curvas= 57 cob=100.00% voos=2 t=0.52s
+[     7s] ufg        N=2 hete darp                   mk= 14.97min cv=0.021 dist= 11.50km curvas= 62 cob=100.00% voos=2 t=0.67s
+[    15s] ufg        N=2 hete darp+ref               mk= 14.60min cv=0.002 dist= 11.43km curvas= 60 cob=100.00% voos=2 t=7.77s
+[    16s] ufg        N=3 homo faixas                 mk= 11.37min cv=0.116 dist= 14.24km curvas= 60 cob=100.00% voos=3 t=0.43s
+[    18s] ufg        N=3 homo kmeans                 mk= 10.17min cv=0.257 dist= 11.12km curvas= 63 cob=100.00% voos=3 t=1.94s
+[    20s] ufg        N=3 homo darp                   mk=  9.50min cv=0.050 dist= 12.11km curvas= 72 cob=100.00% voos=3 t=1.53s
+[    30s] ufg        N=3 homo darp+ref               mk=  8.76min cv=0.014 dist= 11.54km curvas= 75 cob=100.00% voos=3 t=9.90s
+[    31s] ufg        N=3 hete faixas                 mk= 10.91min cv=0.131 dist= 13.94km curvas= 57 cob=100.00% voos=3 t=0.35s
+[    33s] ufg        N=3 hete kmeans                 mk= 15.56min cv=0.510 dist= 10.54km curvas= 65 cob=100.00% voos=3 t=1.51s
+[    34s] ufg        N=3 hete darp                   mk=  8.60min cv=0.044 dist= 11.03km curvas= 63 cob=100.00% voos=3 t=1.14s
+[    48s] ufg        N=3 hete darp+ref               mk=  8.48min cv=0.025 dist= 11.26km curvas= 64 cob=100.00% voos=3 t=13.79s
+[    49s] ufg        N=4 homo faixas                 mk=  8.99min cv=0.105 dist= 14.47km curvas= 65 cob=100.00% voos=4 t=0.55s
+[    50s] ufg        N=4 homo kmeans                 mk=  7.67min cv=0.187 dist= 11.06km curvas= 72 cob=100.00% voos=4 t=0.64s
+[    55s] ufg        N=4 homo darp                   mk=  7.92min cv=0.113 dist= 12.48km curvas= 86 cob=100.00% voos=4 t=4.37s
+[    80s] ufg        N=4 homo darp+ref               mk=  6.80min cv=0.003 dist= 11.81km curvas= 78 cob=100.00% voos=4 t=25.03s
+[    81s] ufg        N=4 hete faixas                 mk=  8.63min cv=0.120 dist= 13.36km curvas= 56 cob=100.00% voos=4 t=0.33s
+[    91s] ufg        N=4 hete kmeans                 mk= 10.63min cv=0.385 dist= 10.65km curvas= 70 cob=100.00% voos=4 t=8.54s
+[   101s] ufg        N=4 hete darp                   mk=  8.18min cv=0.152 dist= 11.66km curvas= 77 cob=100.00% voos=4 t=8.33s
+[   131s] ufg        N=4 hete darp+ref               mk=  6.57min cv=0.002 dist= 11.37km curvas= 73 cob=100.00% voos=4 t=29.67s
+[   131s] ufg        N=5 homo faixas                 mk=  7.79min cv=0.244 dist= 12.69km curvas= 58 cob=100.00% voos=5 t=0.47s
+[   133s] ufg        N=5 homo kmeans                 mk=  6.13min cv=0.132 dist= 11.42km curvas= 74 cob=100.00% voos=5 t=0.86s
+[   134s] ufg        N=5 homo darp                   mk=  6.48min cv=0.101 dist= 11.92km curvas= 70 cob=100.00% voos=5 t=0.87s
+[   149s] ufg        N=5 homo darp+ref               mk=  5.63min cv=0.027 dist= 11.54km curvas= 81 cob=100.00% voos=5 t=14.43s
+[   151s] ufg        N=5 hete faixas                 mk=  8.65min cv=0.184 dist= 13.99km curvas= 55 cob=100.00% voos=5 t=1.09s
+[   156s] ufg        N=5 hete kmeans                 mk=  9.26min cv=0.367 dist= 10.94km curvas= 77 cob=100.00% voos=5 t=4.62s
+[   159s] ufg        N=5 hete darp                   mk=  6.42min cv=0.109 dist= 11.65km curvas= 79 cob= 99.99% voos=5 t=1.86s
+[   178s] ufg        N=5 hete darp+ref               mk=  6.11min cv=0.014 dist= 11.82km curvas= 79 cob=100.00% voos=5 t=18.90s
+[   179s] ufg        N=6 homo faixas                 mk=  7.24min cv=0.197 dist= 15.49km curvas= 67 cob=100.00% voos=6 t=0.83s
+[   184s] ufg        N=6 homo kmeans                 mk=  5.71min cv=0.174 dist= 11.69km curvas= 75 cob=100.00% voos=6 t=4.31s
+[   187s] ufg        N=6 homo darp                   mk=  6.01min cv=0.066 dist= 13.01km curvas=103 cob=100.00% voos=6 t=2.74s
+[   208s] ufg        N=6 homo darp+ref               mk=  5.20min cv=0.046 dist= 12.32km curvas= 85 cob=100.00% voos=6 t=21.33s
+[   209s] ufg        N=6 hete faixas                 mk=  6.54min cv=0.177 dist= 13.74km curvas= 66 cob= 99.76% voos=6 t=0.42s
+[   210s] ufg        N=6 hete kmeans                 mk=  6.77min cv=0.309 dist= 11.10km curvas= 71 cob=100.00% voos=6 t=0.31s
+[   214s] ufg        N=6 hete darp                   mk=  5.19min cv=0.060 dist= 11.91km curvas= 79 cob=100.00% voos=6 t=4.25s
+[   235s] ufg        N=6 hete darp+ref               mk=  4.90min cv=0.013 dist= 12.01km curvas= 79 cob=100.00% voos=6 t=19.66s
+[   235s] convexo    N=2 homo faixas                 mk= 30.68min cv=0.027 dist= 24.36km curvas= 40 cob=100.00% voos=4 t=0.37s
+[   236s] convexo    N=2 homo kmeans                 mk= 31.49min cv=0.007 dist= 24.90km curvas= 69 cob=100.00% voos=4 t=0.31s
+[   237s] convexo    N=2 homo darp                   mk= 31.63min cv=0.016 dist= 25.60km curvas= 68 cob=100.00% voos=4 t=0.86s
+[   243s] convexo    N=2 homo darp+ref               mk= 31.04min cv=0.006 dist= 24.92km curvas= 76 cob=100.00% voos=4 t=5.92s
+[   243s] convexo    N=2 hete faixas                 mk= 37.17min cv=0.024 dist= 24.37km curvas= 40 cob=100.00% voos=4 t=0.23s
+[   244s] convexo    N=2 hete kmeans                 mk= 46.47min cv=0.199 dist= 24.90km curvas= 69 cob=100.00% voos=4 t=0.21s
+[   244s] convexo    N=2 hete darp                   mk= 38.15min cv=0.020 dist= 25.58km curvas= 68 cob=100.00% voos=4 t=0.74s
+[   249s] convexo    N=2 hete darp+ref               mk= 37.16min cv=0.008 dist= 24.96km curvas= 63 cob=100.00% voos=4 t=4.34s
+[   249s] convexo    N=3 homo faixas                 mk= 24.55min cv=0.214 dist= 25.60km curvas= 42 cob=100.00% voos=5 t=0.33s
+[   250s] convexo    N=3 homo kmeans                 mk= 28.19min cv=0.320 dist= 25.75km curvas= 89 cob=100.00% voos=4 t=0.35s
+[   251s] convexo    N=3 homo darp                   mk= 23.94min cv=0.007 dist= 26.17km curvas= 66 cob=100.00% voos=6 t=0.84s
+[   255s] convexo    N=3 homo darp+ref               mk= 25.21min cv=0.016 dist= 26.45km curvas= 68 cob=100.00% voos=6 t=3.79s
+[   255s] convexo    N=3 hete faixas                 mk= 15.59min cv=0.065 dist= 23.91km curvas= 38 cob=100.00% voos=3 t=0.34s
+[   256s] convexo    N=3 hete kmeans                 mk= 34.96min cv=0.486 dist= 24.29km curvas= 75 cob=100.00% voos=4 t=0.30s
+[   257s] convexo    N=3 hete darp                   mk= 15.73min cv=0.014 dist= 24.66km curvas= 56 cob=100.00% voos=3 t=0.88s
+[   261s] convexo    N=3 hete darp+ref               mk= 16.10min cv=0.024 dist= 24.00km curvas= 71 cob=100.00% voos=3 t=4.31s
+[   261s] convexo    N=4 homo faixas                 mk= 13.76min cv=0.054 dist= 28.06km curvas= 42 cob=100.00% voos=4 t=0.32s
+[   262s] convexo    N=4 homo kmeans                 mk= 13.54min cv=0.009 dist= 26.78km curvas= 98 cob=100.00% voos=4 t=0.39s
+[   263s] convexo    N=4 homo darp                   mk= 13.89min cv=0.032 dist= 26.93km curvas= 92 cob=100.00% voos=4 t=0.92s
+[   267s] convexo    N=4 homo darp+ref               mk= 13.41min cv=0.003 dist= 26.79km curvas= 97 cob=100.00% voos=4 t=4.26s
+[   268s] convexo    N=4 hete faixas                 mk= 14.11min cv=0.109 dist= 25.69km curvas= 38 cob=100.00% voos=4 t=0.27s
+[   268s] convexo    N=4 hete kmeans                 mk= 20.69min cv=0.316 dist= 25.49km curvas= 97 cob=100.00% voos=4 t=0.50s
+[   269s] convexo    N=4 hete darp                   mk= 12.77min cv=0.009 dist= 25.59km curvas= 85 cob=100.00% voos=4 t=0.74s
+[   273s] convexo    N=4 hete darp+ref               mk= 13.06min cv=0.004 dist= 25.93km curvas= 91 cob=100.00% voos=4 t=4.09s
+[   274s] convexo    N=5 homo faixas                 mk= 11.87min cv=0.083 dist= 27.89km curvas= 43 cob=100.00% voos=5 t=0.26s
+[   274s] convexo    N=5 homo kmeans                 mk= 11.25min cv=0.061 dist= 25.99km curvas=101 cob=100.00% voos=5 t=0.29s
+[   275s] convexo    N=5 homo darp                   mk= 11.66min cv=0.038 dist= 27.15km curvas=115 cob=100.00% voos=5 t=0.75s
+[   279s] convexo    N=5 homo darp+ref               mk= 11.39min cv=0.027 dist= 27.07km curvas=104 cob=100.00% voos=5 t=3.55s
+[   279s] convexo    N=5 hete faixas                 mk= 14.81min cv=0.140 dist= 29.72km curvas= 42 cob=100.00% voos=5 t=0.30s
+[   280s] convexo    N=5 hete kmeans                 mk= 16.58min cv=0.276 dist= 25.08km curvas= 97 cob=100.00% voos=5 t=0.30s
+[   280s] convexo    N=5 hete darp                   mk= 11.52min cv=0.052 dist= 25.15km curvas=104 cob=100.00% voos=5 t=0.63s
+[   283s] convexo    N=5 hete darp+ref               mk= 11.49min cv=0.019 dist= 25.83km curvas= 97 cob=100.00% voos=5 t=2.85s
+[   284s] convexo    N=6 homo faixas                 mk=  9.82min cv=0.055 dist= 29.70km curvas= 44 cob=100.00% voos=6 t=0.28s
+[   284s] convexo    N=6 homo kmeans                 mk=  9.76min cv=0.017 dist= 27.63km curvas=116 cob=100.00% voos=6 t=0.43s
+[   285s] convexo    N=6 homo darp                   mk= 10.31min cv=0.030 dist= 28.32km curvas=130 cob=100.00% voos=6 t=0.83s
+[   288s] convexo    N=6 homo darp+ref               mk=  9.52min cv=0.010 dist= 27.32km curvas=114 cob=100.00% voos=6 t=3.17s
+[   289s] convexo    N=6 hete faixas                 mk=  8.97min cv=0.076 dist= 24.76km curvas= 40 cob=100.00% voos=6 t=0.26s
+[   289s] convexo    N=6 hete kmeans                 mk= 14.97min cv=0.338 dist= 26.34km curvas=110 cob=100.00% voos=6 t=0.39s
+[   290s] convexo    N=6 hete darp                   mk=  9.39min cv=0.017 dist= 26.32km curvas=114 cob=100.00% voos=6 t=0.90s
+[   294s] convexo    N=6 hete darp+ref               mk=  9.18min cv=0.018 dist= 25.57km curvas=109 cob=100.00% voos=6 t=3.93s
+[   295s] concavo_L  N=2 homo faixas                 mk= 13.47min cv=0.076 dist= 12.72km curvas= 41 cob= 99.98% voos=2 t=0.32s
+[   295s] concavo_L  N=2 homo kmeans                 mk= 14.63min cv=0.191 dist= 11.91km curvas= 54 cob= 99.96% voos=2 t=0.32s
+[   296s] concavo_L  N=2 homo darp                   mk= 13.72min cv=0.018 dist= 13.59km curvas= 48 cob= 99.98% voos=2 t=0.68s
+[   300s] concavo_L  N=2 homo darp+ref               mk= 12.28min cv=0.020 dist= 12.30km curvas= 37 cob= 99.99% voos=2 t=4.07s
+[   301s] concavo_L  N=2 hete faixas                 mk= 14.58min cv=0.041 dist= 11.77km curvas= 40 cob=100.00% voos=2 t=0.36s
+[   301s] concavo_L  N=2 hete kmeans                 mk= 22.50min cv=0.388 dist= 11.91km curvas= 54 cob= 99.96% voos=2 t=0.35s
+[   302s] concavo_L  N=2 hete darp                   mk= 17.75min cv=0.054 dist= 13.83km curvas= 49 cob= 99.98% voos=2 t=0.61s
+[   306s] concavo_L  N=2 hete darp+ref               mk= 15.45min cv=0.021 dist= 12.45km curvas= 44 cob= 99.99% voos=2 t=4.29s
+[   307s] concavo_L  N=3 homo faixas                 mk=  9.69min cv=0.065 dist= 13.67km curvas= 42 cob= 99.98% voos=3 t=0.30s
+[   307s] concavo_L  N=3 homo kmeans                 mk=  9.43min cv=0.072 dist= 12.21km curvas= 56 cob= 99.96% voos=3 t=0.38s
+[   308s] concavo_L  N=3 homo darp                   mk= 10.27min cv=0.091 dist= 13.02km curvas= 60 cob= 99.95% voos=3 t=1.13s
+[   311s] concavo_L  N=3 homo darp+ref               mk=  8.57min cv=0.035 dist= 11.84km curvas= 54 cob= 99.96% voos=3 t=2.21s
+[   311s] concavo_L  N=3 hete faixas                 mk= 10.69min cv=0.132 dist= 12.95km curvas= 40 cob=100.00% voos=3 t=0.34s
+[   311s] concavo_L  N=3 hete kmeans                 mk= 12.00min cv=0.304 dist= 11.53km curvas= 52 cob= 99.96% voos=3 t=0.28s
+[   312s] concavo_L  N=3 hete darp                   mk=  8.68min cv=0.070 dist= 11.62km curvas= 44 cob= 99.93% voos=3 t=0.66s
+[   317s] concavo_L  N=3 hete darp+ref               mk=  8.24min cv=0.029 dist= 11.47km curvas= 45 cob= 99.93% voos=3 t=5.14s
+[   318s] concavo_L  N=4 homo faixas                 mk=  6.97min cv=0.016 dist= 13.49km curvas= 41 cob= 99.99% voos=4 t=0.52s
+[   319s] concavo_L  N=4 homo kmeans                 mk=  8.19min cv=0.135 dist= 12.54km curvas= 63 cob= 99.94% voos=4 t=0.52s
+[   320s] concavo_L  N=4 homo darp                   mk=  7.82min cv=0.053 dist= 13.58km curvas= 61 cob= 99.96% voos=4 t=0.68s
+[   324s] concavo_L  N=4 homo darp+ref               mk=  7.16min cv=0.060 dist= 12.40km curvas= 68 cob= 99.96% voos=4 t=4.27s
+[   325s] concavo_L  N=4 hete faixas                 mk=  7.46min cv=0.108 dist= 12.73km curvas= 38 cob=100.00% voos=4 t=0.72s
+[   326s] concavo_L  N=4 hete kmeans                 mk=  8.35min cv=0.234 dist= 11.99km curvas= 57 cob= 99.94% voos=4 t=1.11s
+[   335s] concavo_L  N=4 hete darp                   mk=  8.39min cv=0.123 dist= 12.91km curvas= 67 cob= 99.96% voos=4 t=8.68s
+[   365s] concavo_L  N=4 hete darp+ref               mk=  6.97min cv=0.036 dist= 12.12km curvas= 60 cob= 99.95% voos=4 t=29.34s
+[   366s] concavo_L  N=5 homo faixas                 mk=  7.26min cv=0.092 dist= 16.46km curvas= 47 cob=100.00% voos=5 t=0.67s
+[   366s] concavo_L  N=5 homo kmeans                 mk=  6.16min cv=0.064 dist= 12.47km curvas= 74 cob= 99.96% voos=5 t=0.66s
+[   368s] concavo_L  N=5 homo darp                   mk=  7.20min cv=0.084 dist= 14.17km curvas= 70 cob= 99.98% voos=5 t=1.22s
+[   373s] concavo_L  N=5 homo darp+ref               mk=  5.74min cv=0.020 dist= 12.28km curvas= 70 cob= 99.92% voos=5 t=5.42s
+[   375s] concavo_L  N=5 hete faixas                 mk=  7.74min cv=0.142 dist= 13.77km curvas= 44 cob= 99.95% voos=5 t=1.58s
+[   377s] concavo_L  N=5 hete kmeans                 mk=  9.10min cv=0.294 dist= 11.93km curvas= 72 cob= 99.93% voos=5 t=1.61s
+[   378s] concavo_L  N=5 hete darp                   mk=  7.58min cv=0.095 dist= 13.19km curvas= 84 cob=100.00% voos=5 t=0.91s
+[   381s] concavo_L  N=5 hete darp+ref               mk=  6.29min cv=0.074 dist= 12.36km curvas= 64 cob= 99.94% voos=5 t=3.11s
+[   382s] concavo_L  N=6 homo faixas                 mk=  6.82min cv=0.160 dist= 14.66km curvas= 43 cob= 99.99% voos=6 t=0.41s
+[   382s] concavo_L  N=6 homo kmeans                 mk=  6.41min cv=0.150 dist= 13.24km curvas= 72 cob= 99.97% voos=6 t=0.48s
+[   384s] concavo_L  N=6 homo darp                   mk=  5.59min cv=0.036 dist= 14.05km curvas= 76 cob=100.00% voos=6 t=1.35s
+[   392s] concavo_L  N=6 homo darp+ref               mk=  5.32min cv=0.092 dist= 13.50km curvas= 69 cob= 99.96% voos=6 t=8.07s
+[   405s] concavo_L  N=6 hete faixas                 mk=  5.61min cv=0.121 dist= 13.92km curvas= 40 cob=100.00% voos=6 t=11.93s
+[   408s] concavo_L  N=6 hete kmeans                 mk=  9.65min cv=0.387 dist= 12.83km curvas= 67 cob=100.00% voos=6 t=3.53s
+[   410s] concavo_L  N=6 hete darp                   mk=  5.62min cv=0.056 dist= 13.87km curvas= 62 cob= 99.99% voos=6 t=1.81s
+[   417s] concavo_L  N=6 hete darp+ref               mk=  5.18min cv=0.059 dist= 13.05km curvas= 65 cob=100.00% voos=6 t=6.18s
+[   418s] concavo_U  N=2 homo faixas                 mk= 14.48min cv=0.026 dist= 14.11km curvas= 54 cob= 99.92% voos=2 t=1.13s
+[   420s] concavo_U  N=2 homo kmeans                 mk= 13.73min cv=0.010 dist= 13.65km curvas= 50 cob=100.00% voos=2 t=1.25s
+[   423s] concavo_U  N=2 homo darp                   mk= 14.86min cv=0.006 dist= 14.42km curvas= 66 cob= 99.85% voos=2 t=3.11s
+[   429s] concavo_U  N=2 homo darp+ref               mk= 14.47min cv=0.003 dist= 14.00km curvas= 66 cob= 99.86% voos=2 t=5.63s
+[   430s] concavo_U  N=2 hete faixas                 mk= 24.44min cv=0.174 dist= 14.60km curvas= 55 cob= 99.65% voos=3 t=0.95s
+[   431s] concavo_U  N=2 hete kmeans                 mk= 21.41min cv=0.228 dist= 13.65km curvas= 50 cob=100.00% voos=2 t=1.00s
+[   434s] concavo_U  N=2 hete darp                   mk= 25.61min cv=0.195 dist= 14.36km curvas= 57 cob= 99.85% voos=3 t=2.61s
+[   440s] concavo_U  N=2 hete darp+ref               mk= 19.64min cv=0.108 dist= 13.98km curvas= 60 cob= 99.85% voos=2 t=6.47s
+[   441s] concavo_U  N=3 homo faixas                 mk= 11.21min cv=0.114 dist= 14.35km curvas= 52 cob=100.00% voos=3 t=0.89s
+[   442s] concavo_U  N=3 homo kmeans                 mk= 12.50min cv=0.210 dist= 14.61km curvas= 58 cob=100.00% voos=3 t=1.05s
+[   444s] concavo_U  N=3 homo darp                   mk= 11.09min cv=0.066 dist= 14.96km curvas= 58 cob= 99.96% voos=3 t=1.35s
+[   455s] concavo_U  N=3 homo darp+ref               mk= 10.19min cv=0.041 dist= 14.65km curvas= 49 cob= 99.92% voos=3 t=10.62s
+[   456s] concavo_U  N=3 hete faixas                 mk= 10.38min cv=0.086 dist= 13.93km curvas= 47 cob= 99.98% voos=3 t=0.94s
+[   457s] concavo_U  N=3 hete kmeans                 mk= 11.31min cv=0.115 dist= 13.41km curvas= 64 cob=100.00% voos=3 t=1.18s
+[   459s] concavo_U  N=3 hete darp                   mk= 12.27min cv=0.143 dist= 15.42km curvas= 66 cob=100.00% voos=3 t=1.92s
+[   468s] concavo_U  N=3 hete darp+ref               mk=  9.55min cv=0.003 dist= 13.24km curvas= 66 cob=100.00% voos=3 t=8.37s
+[   469s] concavo_U  N=4 homo faixas                 mk=  8.12min cv=0.004 dist= 15.86km curvas= 55 cob=100.00% voos=4 t=0.80s
+[   471s] concavo_U  N=4 homo kmeans                 mk=  8.86min cv=0.142 dist= 14.31km curvas= 70 cob=100.00% voos=4 t=1.83s
+[   473s] concavo_U  N=4 homo darp                   mk=  9.23min cv=0.084 dist= 15.11km curvas= 88 cob=100.00% voos=4 t=2.46s
+[   486s] concavo_U  N=4 homo darp+ref               mk=  7.69min cv=0.007 dist= 14.35km curvas= 66 cob=100.00% voos=4 t=12.42s
+[   487s] concavo_U  N=4 hete faixas                 mk=  8.65min cv=0.121 dist= 13.79km curvas= 71 cob= 99.97% voos=4 t=0.43s
+[   489s] concavo_U  N=4 hete kmeans                 mk= 10.27min cv=0.224 dist= 13.63km curvas= 68 cob= 99.97% voos=4 t=2.09s
+[   490s] concavo_U  N=4 hete darp                   mk=  9.47min cv=0.109 dist= 14.98km curvas= 74 cob=100.00% voos=4 t=0.92s
+[   500s] concavo_U  N=4 hete darp+ref               mk=  7.32min cv=0.011 dist= 13.17km curvas= 68 cob= 99.96% voos=4 t=9.52s
+[   501s] concavo_U  N=5 homo faixas                 mk=  7.51min cv=0.078 dist= 15.95km curvas= 60 cob= 99.89% voos=5 t=0.84s
+[   505s] concavo_U  N=5 homo kmeans                 mk=  6.84min cv=0.055 dist= 14.31km curvas= 81 cob=100.00% voos=5 t=3.78s
+[   507s] concavo_U  N=5 homo darp                   mk=  7.38min cv=0.071 dist= 15.53km curvas= 74 cob= 99.97% voos=5 t=1.76s
+[   519s] concavo_U  N=5 homo darp+ref               mk=  6.50min cv=0.022 dist= 14.07km curvas= 83 cob= 99.97% voos=5 t=12.56s
+[   520s] concavo_U  N=5 hete faixas                 mk=  7.61min cv=0.141 dist= 14.23km curvas= 52 cob= 99.97% voos=5 t=0.47s
+[   523s] concavo_U  N=5 hete kmeans                 mk= 10.18min cv=0.295 dist= 13.86km curvas= 80 cob=100.00% voos=5 t=2.44s
+[   524s] concavo_U  N=5 hete darp                   mk=  7.94min cv=0.061 dist= 15.75km curvas= 88 cob= 99.85% voos=5 t=1.74s
+[   544s] concavo_U  N=5 hete darp+ref               mk=  7.29min cv=0.026 dist= 14.74km curvas= 77 cob= 99.99% voos=5 t=19.43s
+[   547s] concavo_U  N=6 homo faixas                 mk=  6.80min cv=0.077 dist= 16.83km curvas= 54 cob=100.00% voos=6 t=2.71s
+[   550s] concavo_U  N=6 homo kmeans                 mk=  6.52min cv=0.122 dist= 14.29km curvas= 93 cob=100.00% voos=6 t=2.85s
+[   552s] concavo_U  N=6 homo darp                   mk=  6.69min cv=0.098 dist= 15.86km curvas=101 cob= 99.99% voos=6 t=1.51s
+[   563s] concavo_U  N=6 homo darp+ref               mk=  5.93min cv=0.008 dist= 15.52km curvas= 88 cob= 99.97% voos=6 t=11.08s
+[   564s] concavo_U  N=6 hete faixas                 mk=  6.14min cv=0.084 dist= 14.90km curvas= 54 cob= 99.99% voos=6 t=0.64s
+[   566s] concavo_U  N=6 hete kmeans                 mk=  9.65min cv=0.326 dist= 13.93km curvas= 87 cob= 99.97% voos=6 t=1.84s
+[   568s] concavo_U  N=6 hete darp                   mk=  6.61min cv=0.089 dist= 15.08km curvas= 82 cob= 99.97% voos=6 t=2.19s
+[   584s] concavo_U  N=6 hete darp+ref               mk=  5.63min cv=0.059 dist= 13.96km curvas= 78 cob= 99.84% voos=6 t=15.32s

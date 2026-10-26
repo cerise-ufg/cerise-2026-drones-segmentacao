@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+resultados/_frames/
+datasets/
+runs/
+*.engine
+*.onnx

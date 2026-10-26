@@ -1,0 +1,28 @@
+GPU NVIDIA GB10 total 130.7 GB -> fracao 0.0574 (teto 7.5 GB)
+Ultralytics 8.4.189  Python-3.12.3 torch-2.12.0a0+5aff3928d8.nv26.05 CUDA:0 (NVIDIA GB10, 124608MiB)
+YOLO11s summary: 181 layers, 9,428,179 parameters, 9,428,163 gradients, 21.7 GFLOPs
+Transferred 493/499 items from pretrained weights
+optimizer: AdamW(lr=0.002, momentum=0.9) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0005), 87 bias(decay=0.0)
+Using 6471 train, 548 val images for fraction=1.0 at imgsz=960
+Starting training for 0.8 hours...
+Epoch GPU_mem box_loss cls_loss dfl_loss Instances Size
+    val(pessoa): all 548 13969 0.57 0.393 0.426 0.169
+Epoch GPU_mem box_loss cls_loss dfl_loss Instances Size
+2/5 6.05G 2.627 1.962 1.04 10 960: 100%  1618/1618 3.0it/s 8:53
+    val(pessoa): all 548 13969 0.538 0.38 0.4 0.147
+Epoch GPU_mem box_loss cls_loss dfl_loss Instances Size
+3/5 6.06G 2.568 1.842 1.013 44 960: 100%  1618/1618 2.4it/s 11:21
+    val(pessoa): all 548 13969 0.529 0.362 0.396 0.159
+Epoch GPU_mem box_loss cls_loss dfl_loss Instances Size
+4/5 6.06G 2.448 1.679 0.9897 0 960: 100%  1618/1618 2.7it/s 10:03
+    val(pessoa): all 548 13969 0.619 0.435 0.487 0.196
+Epoch GPU_mem box_loss cls_loss dfl_loss Instances Size
+    val(pessoa): all 548 13969 0.638 0.473 0.528 0.22
+5 epochs completed in 0.811 hours.
+Validating /w/runs/ft_pessoa_yolo11s_960/weights/best.pt...
+Ultralytics 8.4.189  Python-3.12.3 torch-2.12.0a0+5aff3928d8.nv26.05 CUDA:0 (NVIDIA GB10, 124608MiB)
+YOLO11s summary (fused): 100 layers, 9,413,187 parameters, 0 gradients, 21.4 GFLOPs
+    val(pessoa): all 548 13969 0.635 0.473 0.528 0.22
+Speed: 1.3ms preprocess, 9.4ms inference, 0.0ms loss, 4.3ms postprocess per image
+Results saved to /w/runs/ft_pessoa_yolo11s_960
+{"modelo": "yolo11s.pt", "imgsz": 960, "batch": 4, "horas_limite": 0.8, "tempo_treino_s": 2938.905339717865, "pico_mem_gpu_reservada_GB": 6.51165696, "teto_GB": 7.5, "nome": "ft_pessoa_yolo11s_960"}

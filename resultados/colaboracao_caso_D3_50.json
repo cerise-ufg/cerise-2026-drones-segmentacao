@@ -1,0 +1,62 @@
+{
+ "nenhuma": {
+  "makespan_s": 394.07638694793843,
+  "aumento_pct": 0.0,
+  "cobertura_pct": 82.77044934044063,
+  "area_perdida_m2": 58986.34837917292,
+  "mensagens": {
+   "quadros": 0,
+   "bytes": 0,
+   "tempo_no_ar_ms": 0.0,
+   "por_tipo": {}
+  },
+  "detalhes": {},
+  "tempo_replanejamento_s": 1.2999982573091984e-05,
+  "t_falha_s": 196.19189995935997
+ },
+ "reparticao": {
+  "makespan_s": 520.9580681565893,
+  "aumento_pct": 32.19723013381496,
+  "cobertura_pct": 99.9989999099919,
+  "area_perdida_m2": 2.922851413248579,
+  "mensagens": {
+   "quadros": 14,
+   "bytes": 514,
+   "tempo_no_ar_ms": 3700.736000000001,
+   "por_tipo": {
+    "AREA_ASSIGN": 3,
+    "AREA_POLY": 11
+   }
+  },
+  "detalhes": {
+   "area_nao_coberta_m2": 141683.23568932223,
+   "alocacoes_avaliadas": 3
+  },
+  "tempo_replanejamento_s": 2.8584842999989633,
+  "t_falha_s": 196.19189995935997
+ },
+ "leilao": {
+  "makespan_s": 597.5815675072676,
+  "aumento_pct": 51.64104912132537,
+  "cobertura_pct": 99.99849986498785,
+  "area_perdida_m2": 3.9473869554453063,
+  "mensagens": {
+   "quadros": 58,
+   "bytes": 949,
+   "tempo_no_ar_ms": 10217.471999999985,
+   "por_tipo": {
+    "AREA_ASSIGN": 1,
+    "AREA_POLY": 5,
+    "TASK_BID": 39,
+    "TASK_AWARD": 13
+   }
+  },
+  "detalhes": {
+   "area_orfa_m2": 62770.43079258352,
+   "n_tarefas": 13,
+   "rodadas_leilao": 13
+  },
+  "tempo_replanejamento_s": 0.14584270000341348,
+  "t_falha_s": 196.19189995935997
+ }
+}

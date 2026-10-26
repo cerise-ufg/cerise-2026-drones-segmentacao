@@ -1,0 +1,108 @@
+{
+ "frota": [
+  {
+   "id": "D1",
+   "velocidade_ms": 10.0,
+   "autonomia_min": 20.0,
+   "hfov_graus": 70.0,
+   "vfov_graus": 55.0,
+   "altitude_m": 40.0,
+   "partida_xy": [
+    684563.9053735873,
+    8163031.982681778
+   ],
+   "reserva_bateria": 0.2,
+   "vel_subida_ms": 3.0,
+   "vel_descida_ms": 2.0,
+   "tempo_curva_s": 4.0,
+   "tempo_troca_bateria_s": 300.0,
+   "tipo": "A",
+   "rotulo": "quad. medio",
+   "largura_pegada_m": 56.02,
+   "comprimento_pegada_m": 41.65
+  },
+  {
+   "id": "D2",
+   "velocidade_ms": 6.0,
+   "autonomia_min": 30.0,
+   "hfov_graus": 70.0,
+   "vfov_graus": 55.0,
+   "altitude_m": 40.0,
+   "partida_xy": [
+    683858.7029347185,
+    8163599.70092137
+   ],
+   "reserva_bateria": 0.2,
+   "vel_subida_ms": 3.0,
+   "vel_descida_ms": 2.0,
+   "tempo_curva_s": 4.0,
+   "tempo_troca_bateria_s": 300.0,
+   "tipo": "B",
+   "rotulo": "quad. lento, bateria maior",
+   "largura_pegada_m": 56.02,
+   "comprimento_pegada_m": 41.65
+  },
+  {
+   "id": "D3",
+   "velocidade_ms": 14.0,
+   "autonomia_min": 25.0,
+   "hfov_graus": 82.0,
+   "vfov_graus": 52.0,
+   "altitude_m": 40.0,
+   "partida_xy": [
+    683813.1725228966,
+    8163780.014964496
+   ],
+   "reserva_bateria": 0.2,
+   "vel_subida_ms": 3.0,
+   "vel_descida_ms": 2.0,
+   "tempo_curva_s": 4.0,
+   "tempo_troca_bateria_s": 300.0,
+   "tipo": "C",
+   "rotulo": "quad. rapido, grande-angular",
+   "largura_pegada_m": 69.54,
+   "comprimento_pegada_m": 39.02
+  },
+  {
+   "id": "D4",
+   "velocidade_ms": 10.0,
+   "autonomia_min": 20.0,
+   "hfov_graus": 70.0,
+   "vfov_graus": 55.0,
+   "altitude_m": 40.0,
+   "partida_xy": [
+    684689.5150878762,
+    8163637.403193747
+   ],
+   "reserva_bateria": 0.2,
+   "vel_subida_ms": 3.0,
+   "vel_descida_ms": 2.0,
+   "tempo_curva_s": 4.0,
+   "tempo_troca_bateria_s": 300.0,
+   "tipo": "A",
+   "rotulo": "quad. medio",
+   "largura_pegada_m": 56.02,
+   "comprimento_pegada_m": 41.65
+  }
+ ],
+ "bases_lonlat": [
+  [
+   -49.26986140684032,
+   -16.60782382054947
+  ],
+  [
+   -49.27651568960094,
+   -16.602748949739688
+  ],
+  [
+   -49.276956873071484,
+   -16.601123207042182
+  ],
+  [
+   -49.26873331158035,
+   -16.602343592912174
+  ]
+ ],
+ "area_ha": 34.23407761319946,
+ "epsg": 32722
+}

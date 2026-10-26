@@ -1,0 +1,43 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "nome": "ufg_samambaia_campo_futebol",
+    "fonte": "OpenStreetMap way 363545578 ({'leisure': 'pitch', 'sport': 'soccer'})",
+    "licenca": "(c) OpenStreetMap contributors, ODbL 1.0",
+    "obtido_em": "2026-10-26",
+    "simplificacao_graus": 3e-05,
+    "papel": "area"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -49.2667872,
+       -16.6061685
+      ],
+      [
+       -49.266467,
+       -16.6071693
+      ],
+      [
+       -49.2671927,
+       -16.6073904
+      ],
+      [
+       -49.267513,
+       -16.6063828
+      ],
+      [
+       -49.2667872,
+       -16.6061685
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

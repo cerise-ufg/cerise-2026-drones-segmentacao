@@ -1,0 +1,11 @@
+Area livre: 34.23 ha, EPSG:32722
+D1 A quad. medio v=10 m/s pegada 56.0 x 41.6 m esp=44.8 m base (-49.26986140684032, -16.60782382054947)
+D2 B quad. lento, bateria maior v=6 m/s pegada 56.0 x 41.6 m esp=44.8 m base (-49.27651568960094, -16.602748949739688)
+D3 C quad. rapido, grande-angular v=14 m/s pegada 69.5 x 39.0 m esp=55.6 m base (-49.276956873071484, -16.601123207042182)
+D4 A quad. medio v=10 m/s pegada 56.0 x 41.6 m esp=44.8 m base (-49.26873331158035, -16.602343592912174)
+faixas    makespan 8.63 min  CV 0.120  dist 13.36 km  curvas 56  cobertura 100.00%  t_alg 0.28s
+kmeans    makespan 10.63 min  CV 0.385  dist 10.65 km  curvas 70  cobertura 100.00%  t_alg 2.58s
+darp      makespan 8.18 min  CV 0.152  dist 11.66 km  curvas 77  cobertura 100.00%  t_alg 3.34s
+darp+ref  makespan 6.57 min  CV 0.002  dist 11.37 km  curvas 73  cobertura 100.00%  t_alg 7.63s
+exportados: ['ufg_darp_ref_D1.plan', 'ufg_darp_ref_D1.geojson', 'ufg_darp_ref_D1.kml', 'ufg_darp_ref_D2.plan', 'ufg_darp_ref_D2.geojson', 'ufg_darp_ref_D2.kml', 'ufg_darp_ref_D3.plan', 'ufg_darp_ref_D3.geojson', 'ufg_darp_ref_D3.kml', 'ufg_darp_ref_D4.plan', 'ufg_darp_ref_D4.geojson', 'ufg_darp_ref_D4.kml', 'ufg_darp_ref_todos.kml']
+ok
