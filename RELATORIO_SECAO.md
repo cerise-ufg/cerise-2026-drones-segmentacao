@@ -1,6 +1,6 @@
 # Segmentação da área de atuação entre drones, colaboração e detecção de pessoas (Objetivo 5 – Atividade 13)
 
-**Repositório:** https://github.com/EduardoCaixeta/cerise-2026-drones-segmentacao (privado)
+**Repositório:** `cerise-2026-drones-segmentacao` (GitHub, organização do CERISE)
 **Espelho local:** `E:\CERISE\FRENTES\NAVEGACAO AUTONOMA\DRONES_SEGMENTACAO`
 **Execução da detecção:** DGX Spark (NVIDIA GB10), `~/cerise2026/drones`, contêiner `cerise26_drones:latest`
 

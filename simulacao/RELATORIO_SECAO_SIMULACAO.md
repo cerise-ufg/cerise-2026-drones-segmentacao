@@ -1,6 +1,6 @@
 # Simulação 3D de drones contando pessoas no Campus Samambaia (Isaac Sim 5.1, DGX Spark)
 
-Repositório: <https://github.com/EduardoCaixeta/cerise-2026-drones-segmentacao> (pasta `simulacao/`).
+Repositório: `cerise-2026-drones-segmentacao` (GitHub, organização do CERISE), pasta `simulacao/`.
 Execução: DGX Spark (NVIDIA GB10, memória unificada de 128 GB, máquina de produção compartilhada), 26/10/2026,
 imagem oficial `nvcr.io/nvidia/isaac-sim:5.1.0` (arm64) e contêiner `cerise26_drones_sim` (PyTorch NGC 26.05 + ultralytics 8.4.189).
 
@@ -319,11 +319,14 @@ some a partir de t = 13,6 s. O clipe tem uma versão GIF curta (`evidencias/sim_
 - Resultados medidos: `resultados/contagem_run01.json`, `contagem_run02a30.json` (todas as métricas, séries temporais e
   clusters), `varredura_run01.json`, `varredura_run02a30.json`, `medidas_render.json`, `contagem_*_cache_det.npz` (detecções +
   GMC) e `logs/` (logs do Isaac e da contagem, `meta_*.json`, vigias e o `dmesg` do OOM).
-- As saídas brutas (JPEG, ~0,8 GB por voo) ficam no Spark em `~/cerise2026/drones/sim/saidas/{run01,run02a30}`, fora do git.
+- Saídas das execuções: os metadados (`meta.json`, `poses.csv`, `caixas_gt.csv`, `camera_params.jsonl`,
+  `gabarito_pessoas.csv`, `log_sim.txt`, vigias) estão em `saidas/`; os quadros brutos (JPEG, ~0,8 GB por voo) estão nos
+  artefatos `sim_saidas_run01.tar` e `sim_saidas_run02a30.tar` (ver `RELEASES.md` na raiz do repositório).
 - Close-up (seção 6.6): `isaac/closeup_isaac.py`, `cerise_sim/closeup.py`, `scripts/planejar_closeup.py`,
   `scripts/ceu_sem_sol.py`, `scripts/yolo_gimbal.py`, `scripts/video_closeup.py`, `scripts/figuras_closeup.py`,
   `closeup/plano_closeup.json`; resultados em `resultados/closeup01_quadros.csv`, `resultados/closeup_yolo_gimbal.json`,
   `resultados/logs/{meta_closeup01.json,closeup01.vigia.log,closeup01_log_sim.txt,closeup01_print_render.txt}`; clipe
-  `evidencias/sim_closeup.mp4` (+ GIF). Os quadros brutos (0,4 GB) e os HDRIs ficam no Spark em
-  `~/cerise2026/drones/sim/saidas/closeup01` e `closeup/ceu/`, fora do git; `isaac/baixar_ativos.py --closeup` baixa
-  os HDRIs e as texturas.
+  `evidencias/sim_closeup.mp4` (+ GIF). Os quadros brutos (0,5 GB) estão no artefato `sim_saidas_closeup01.tar`
+  (ver `RELEASES.md`). Os HDRIs processados (`closeup/ceu/*.hdr`) derivam de ativos do servidor da NVIDIA e não são
+  redistribuídos: `isaac/baixar_ativos.py --closeup` baixa os HDRIs e as texturas e `closeup/ceu.sh` (com
+  `scripts/ceu_sem_sol.py`) os regenera; os parâmetros medidos estão em `closeup/ceu/*.json`.

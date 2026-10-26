@@ -40,6 +40,8 @@ GPU=0 CPUS=4 bash run_vv.sh evid 50_evidencias.py && bash 60_montar_videos.sh
 GPU=0 CPUS=2 bash run_vv.sh mosaico 51_mosaico.py; GPU=0 CPUS=2 bash run_vv.sh erros 53_analise_erros.py
 ```
 
-Não versionados (ficam no Spark): o VisDrone2019-MOT (`~/cerise2026/drones/mot`), o cache de detecções
-(`validacao_videos/cache_det`, 90 MB), a GMC (`cache_gmc`) e as trilhas de todas as combinações
-(`validacao_videos/rastreios/<detector>_<rastreador>/<split>/<seq>.txt`, formato MOTChallenge, ~38 MB).
+Também versionados: a GMC pré-calculada (`cache_gmc/`, 0,5 MB), as trilhas de todas as combinações
+(`rastreios/<detector>_<rastreador>/<split>/<seq>.txt`, formato MOTChallenge, ~38 MB) e os logs das execuções
+no Spark (`logs/`). O cache de detecções (`cache_det/`, 90 MB) está no artefato `validacao_videos_cache_det.tar`
+(ver `RELEASES.md` na raiz). O VisDrone2019-MOT (dados de terceiros, 7,4 GB extraídos) não é redistribuído:
+`scripts/00_baixar_visdrone_mot.py` o baixa dos links oficiais.

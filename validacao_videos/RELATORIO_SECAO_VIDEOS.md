@@ -1,6 +1,6 @@
 # Validação da contagem de pessoas em vídeos reais de drone (VisDrone2019-MOT)
 
-Repositório: <https://github.com/EduardoCaixeta/cerise-2026-drones-segmentacao> (pasta `validacao_videos/`).
+Repositório: `cerise-2026-drones-segmentacao` (GitHub, organização do CERISE), pasta `validacao_videos/`.
 Execução: DGX Spark (NVIDIA GB10), contêiner `cerise26_drones` (PyTorch 2.12 NGC 26.05 + ultralytics 8.4.189), 26/10/2026.
 
 ## 1. Objetivo

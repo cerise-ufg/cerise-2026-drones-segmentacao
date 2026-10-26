@@ -7,7 +7,7 @@ YOLO11s ajustado. O plano B é **Gazebo Harmonic + PX4 SITL**. A contagem també
 **Duas condições** precisam estar cumpridas antes de iniciar o Isaac Sim:
 - (a) o aceite da licença *NVIDIA Isaac Sim Additional Software and Materials License*
   (<https://www.nvidia.com/en-us/agreements/enterprise-software/isaac-sim-additional-software-and-materials-license/>);
-- (b) a re-renderização do dataset do braço (contêiner `braco_gen`) termina.
+- (b) o término da re-renderização do dataset do braço (contêiner `braco_gen`).
 
 Nesta etapa o Isaac Sim **não foi iniciado** e `ACCEPT_EULA=Y` **não foi passado**. A imagem só foi baixada e
 inspecionada com `docker image inspect`/`docker run --entrypoint bash ... ls/cat` (sem rede, sem GPU).
