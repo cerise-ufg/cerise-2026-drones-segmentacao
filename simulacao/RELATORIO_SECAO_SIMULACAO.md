@@ -225,6 +225,66 @@ geral com os drones identificados e o rastro de cada um, os quatro painéis das 
 com o ID do cluster (vermelho), e o painel com a contagem atual por drone e a acumulada (estimada × gabarito). As trilhas e a
 contagem do vídeo são as do BoT-SORT calibrado.
 
+### 6.6 Close-up "cinegrafista" (realismo da cena)
+
+A visão geral a distância e a câmera em nádir a 40 m deixam as pessoas com ~20 px e fazem a cena parecer esquemática.
+Para mostrar o que o simulador de fato renderiza, foi feito um trecho curto com uma **câmera baixa e oblíqua** que
+acompanha um grupo enquanto um quadricóptero passa em voo baixo (`isaac/closeup_isaac.py`, plano em
+`closeup/plano_closeup.json`, gerado por `scripts/planejar_closeup.py`).
+
+- **Cena.** Mesmo cenário `reduzido` (terreno, edifícios, árvores, navmesh e comandos das pessoas do `run01`), mas só com as
+  20 pessoas que passam a menos de 60 m do grupo seguido, um grupo de 3 que caminha junto (P022–P024), escolhido nas
+  posições reais gravadas no `run01`. O desvio entre o centroide medido do grupo e o previsto pelo `run01` foi de 0,2 a
+  0,45 m. Para o close-up, a cena recebeu: cúpula de céu HDRI (Poly Haven `kloofendal_48d_partly_cloudy`, CC0, do servidor
+  oficial de ativos da NVIDIA) sem o disco solar (`scripts/ceu_sem_sol.py`), para não duplicar a sombra do sol explícito a 48°;
+  texturas fotográficas da biblioteca NVIDIA no chão (grama cortada, terra, concreto, asfalto, ladrilho de 2,5 a 4 m);
+  fachadas com faixas de janelas; e copas em cachos. Nada vem de imagens de satélite.
+- **Drone.** Modelo procedural do projeto, detalhado: 0,9 m entre motores, hélices de 21" que giram a cada quadro, trem de
+  pouso, gimbal e LEDs, com sombra ligada e tamanho real (o modelo da visão geral era ampliado 5× e sem sombra). Ele passa
+  sobre o grupo a 8,4–9,9 m de altura, a 1,2–4,7 m/s, inclinando-se na direção do movimento.
+- **Câmera do cinegrafista.** 1920×1080, a 5,2 m de altura e 9,5–15,3 m do grupo (horizontal), em órbita lenta em torno
+  do centroide medido do grupo. Nas fases de aproximação e saída ela fica 24° para baixo, com campo de visão de 52°
+  (120 dos 337 quadros com inclinação ≥ 20°). Um drone a 8,5 m não cabe num quadro inclinado 20° para baixo a partir de
+  5,2 m. Por isso, durante a passagem, a câmera recua 5 m, abre para 66° e levanta o enquadramento até 3–4° para baixo.
+- **Câmera do drone (gimbal).** 1280×720, 60°, apontada para o grupo, com caixas de gabarito do Replicator.
+- **Render.** RTX em tempo real (*RaytracedLighting*) com DLAA, AO, GI indireta e reflexos, e 8 subquadros por quadro
+  (32 nos 5 quadros de figura). Foram 14 s de simulação a 24 quadros/s (337 quadros por câmera).
+
+Tabela: Execução do close-up no Spark (`closeup01`)
+| Item | Valor medido |
+|---|---|
+| Quadros (cinegrafista 1920×1080 + drone 1280×720) | 337 + 337 (14,0 s a 24 fps) |
+| Tempo do laço / render puro | 9,5 min / 6,8 min (1,66 s e 1,21 s por quadro) |
+| Contêiner do início ao fim (inclui a partida do Kit) | 11 min 22 s |
+| Pico de memória do contêiner (cgroup, limite 24 GiB) | 12,35 GiB |
+| Menor memória *available* do Spark (vigia a cada 2 s) | 25,0 GB (46,2 GB no início) |
+| Clipe `evidencias/sim_closeup.mp4` | H.264 1920×1080, 24 fps, 14,0 s, 12,1 MB (CRF 22) |
+
+![Figura: Close-up no Isaac Sim 5.1 (RTX em tempo real): (a) grupo de 3 pessoas animadas do omni.anim.people visto de 5,2 m de altura e 9,6 m de distância, 24° para baixo; (b) quadricóptero a 8,5 m passando sobre o grupo, com a sombra no gramado; (c) detalhe do drone (3×); (d) detalhe das pessoas (1,5×) com as sombras do sol](evidencias/sim_19_closeup_pessoas_drone.png)
+
+O YOLO11s ajustado foi aplicado às imagens da câmera do drone (`scripts/yolo_gimbal.py`; 1.639 caixas de gabarito com
+lado ≥ 6 px). O resultado geral foi AP50 de 0,568. No limiar 0,25, a precisão foi de 0,73 e a revocação, de 0,49. O
+desempenho depende fortemente da geometria:
+
+- **18–30 m, 21–28° abaixo da horizontal:** revocação de 0,80 e precisão de 0,79;
+- **14–18 m, 28–35°:** revocação de 0,67;
+- **10–14 m, 35–50°:** revocação de 0,37;
+- **abaixo de 10 m, 51–85° (quase nádir):** apenas 5 detecções para 426 caixas, ou revocação de 0,01.
+
+O que limita a detecção não é o tamanho: as pessoas do grupo têm 110 a 141 px (p10–p90) a 10–14 m e 86 a 135 px abaixo de
+10 m, contra 66 a 94 px a 18–30 m (`resultados/closeup01_gimbal_caixas_gt.csv`). O fator é o ângulo: o detector, ajustado em
+vídeos oblíquos do VisDrone, não reconhece pessoas grandes vistas de cima. Esse é mais um indício de que ele precisa ser
+ajustado com imagens do domínio da missão (seção 8).
+
+![Figura: Câmera do drone no close-up: (a) a 20 m e 25° abaixo da horizontal, (b) a 14,5 m e 34°, (c) a 8,3 m e 64°; verde = gabarito do Replicator, vermelho = YOLO11s com conf ≥ 0,25; (d) precisão e revocação por faixa de distância](evidencias/sim_20_closeup_camera_drone.png)
+
+![Figura: Print de terminal do render do close-up no Spark: etapas, tempo por quadro, quadros de figura, vigia de memória e ffprobe do clipe](evidencias/sim_21_terminal_closeup.png)
+
+Três limitações se aplicam ao close-up. Os personagens disponíveis no conjunto de ativos usam roupas de profissões, como
+jaleco, capacete e colete. As copas e os edifícios continuam procedurais. As hélices giram de quadro a quadro, sem borrão de
+movimento. Quando a câmera do drone olha para trás, o trem de pouso entra no quadro; no clipe, a miniatura dessa câmera
+some a partir de t = 13,6 s. O clipe tem uma versão GIF curta (`evidencias/sim_closeup.gif`, 7 s, 480 px, 2,9 MB).
+
 ## 7. Limitações
 
 - **Sim → real.** O terreno, as texturas e os edifícios são procedurais e esquemáticos, não correspondem aos prédios reais da UFG,
@@ -260,3 +320,10 @@ contagem do vídeo são as do BoT-SORT calibrado.
   clusters), `varredura_run01.json`, `varredura_run02a30.json`, `medidas_render.json`, `contagem_*_cache_det.npz` (detecções +
   GMC) e `logs/` (logs do Isaac e da contagem, `meta_*.json`, vigias e o `dmesg` do OOM).
 - As saídas brutas (JPEG, ~0,8 GB por voo) ficam no Spark em `~/cerise2026/drones/sim/saidas/{run01,run02a30}`, fora do git.
+- Close-up (seção 6.6): `isaac/closeup_isaac.py`, `cerise_sim/closeup.py`, `scripts/planejar_closeup.py`,
+  `scripts/ceu_sem_sol.py`, `scripts/yolo_gimbal.py`, `scripts/video_closeup.py`, `scripts/figuras_closeup.py`,
+  `closeup/plano_closeup.json`; resultados em `resultados/closeup01_quadros.csv`, `resultados/closeup_yolo_gimbal.json`,
+  `resultados/logs/{meta_closeup01.json,closeup01.vigia.log,closeup01_log_sim.txt,closeup01_print_render.txt}`; clipe
+  `evidencias/sim_closeup.mp4` (+ GIF). Os quadros brutos (0,4 GB) e os HDRIs ficam no Spark em
+  `~/cerise2026/drones/sim/saidas/closeup01` e `closeup/ceu/`, fora do git; `isaac/baixar_ativos.py --closeup` baixa
+  os HDRIs e as texturas.

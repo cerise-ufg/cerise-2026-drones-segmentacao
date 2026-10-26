@@ -37,6 +37,21 @@ PREFIXOS = [
     "Isaac/Robots/IsaacSim/Quadcopter/",
 ]
 OPCIONAIS = ["NVIDIA/Materials/Base/Natural/"]  # --materiais biblioteca
+# --closeup (isaac/closeup_isaac.py): cupula de ceu HDRI (Poly Haven, CC0, hospedada pela NVIDIA) e materiais MDL do chao
+CLOSEUP = [
+    "NVIDIA/Assets/Skies/Cloudy/kloofendal_48d_partly_cloudy_4k.hdr",
+    "NVIDIA/Assets/Skies/Clear/noon_grass_4k.hdr",
+    "NVIDIA/Materials/Base/Natural/Grass_Countryside.mdl",
+    "NVIDIA/Materials/Base/Natural/Grass_Countryside/",
+    "NVIDIA/Materials/Base/Natural/Grass_Cut.mdl",
+    "NVIDIA/Materials/Base/Natural/Grass_Cut/",
+    "NVIDIA/Materials/Base/Natural/Dirt.mdl",
+    "NVIDIA/Materials/Base/Natural/Dirt/",
+    "NVIDIA/Materials/Base/Natural/Asphalt.mdl",
+    "NVIDIA/Materials/Base/Natural/Asphalt/",
+    "NVIDIA/Materials/Base/Masonry/Concrete_Smooth.mdl",
+    "NVIDIA/Materials/Base/Masonry/Concrete_Smooth/",
+]
 
 
 def listar(prefixo):
@@ -57,9 +72,10 @@ def main():
     ap.add_argument("--destino", required=True)
     ap.add_argument("--listar", action="store_true")
     ap.add_argument("--com_materiais", action="store_true")
+    ap.add_argument("--closeup", action="store_true", help="so os extras do close-up (HDRI + materiais do chao, ~0,15 GB)")
     a = ap.parse_args()
     dest = Path(os.path.expanduser(a.destino))
-    pref = PREFIXOS + (OPCIONAIS if a.com_materiais else [])
+    pref = CLOSEUP if a.closeup else PREFIXOS + (OPCIONAIS if a.com_materiais else [])
     objs = []
     for p in pref:
         objs += [o for o in listar(R + p) if "/.thumbs/" not in o[0]]

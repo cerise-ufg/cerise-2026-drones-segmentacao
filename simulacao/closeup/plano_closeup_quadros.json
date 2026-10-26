@@ -1,0 +1,8764 @@
+[
+{
+"t": 3.0,
+"inclinacao": 23.9,
+"C": [
+110.85,
+12.67,
+5.2
+],
+"drone": [
+125.17,
+0.94,
+9.86
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6389.0,
+1221.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.01,
+"incl_drone": 7.9,
+"gimbal_dist": 24.7,
+"gimbal_incl": 21.3
+},
+{
+"t": 3.042,
+"inclinacao": 23.8,
+"C": [
+110.83,
+12.72,
+5.2
+],
+"drone": [
+125.06,
+1.01,
+9.85
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6455.0,
+1242.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.05,
+"incl_drone": 7.9,
+"gimbal_dist": 24.6,
+"gimbal_incl": 21.4
+},
+{
+"t": 3.083,
+"inclinacao": 23.8,
+"C": [
+110.81,
+12.78,
+5.2
+],
+"drone": [
+124.95,
+1.07,
+9.84
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6524.0,
+1264.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.09,
+"incl_drone": 7.9,
+"gimbal_dist": 24.5,
+"gimbal_incl": 21.4
+},
+{
+"t": 3.125,
+"inclinacao": 23.8,
+"C": [
+110.8,
+12.84,
+5.2
+],
+"drone": [
+124.84,
+1.14,
+9.83
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6595.0,
+1286.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.14,
+"incl_drone": 7.9,
+"gimbal_dist": 24.4,
+"gimbal_incl": 21.5
+},
+{
+"t": 3.167,
+"inclinacao": 23.8,
+"C": [
+110.78,
+12.9,
+5.2
+],
+"drone": [
+124.72,
+1.2,
+9.82
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6669.0,
+1310.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.18,
+"incl_drone": 7.9,
+"gimbal_dist": 24.3,
+"gimbal_incl": 21.6
+},
+{
+"t": 3.208,
+"inclinacao": 23.8,
+"C": [
+110.76,
+12.95,
+5.2
+],
+"drone": [
+124.61,
+1.27,
+9.82
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6746.0,
+1334.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.21,
+"incl_drone": 7.9,
+"gimbal_dist": 24.2,
+"gimbal_incl": 21.7
+},
+{
+"t": 3.25,
+"inclinacao": 23.8,
+"C": [
+110.74,
+13.01,
+5.2
+],
+"drone": [
+124.49,
+1.33,
+9.81
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6829.0,
+1360.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.25,
+"incl_drone": 7.9,
+"gimbal_dist": 24.1,
+"gimbal_incl": 21.7
+},
+{
+"t": 3.292,
+"inclinacao": 23.8,
+"C": [
+110.72,
+13.08,
+5.2
+],
+"drone": [
+124.37,
+1.4,
+9.8
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+6915.0,
+1388.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.29,
+"incl_drone": 7.9,
+"gimbal_dist": 23.9,
+"gimbal_incl": 21.8
+},
+{
+"t": 3.333,
+"inclinacao": 23.8,
+"C": [
+110.71,
+13.14,
+5.2
+],
+"drone": [
+124.25,
+1.47,
+9.79
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7004.0,
+1416.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.33,
+"incl_drone": 7.9,
+"gimbal_dist": 23.8,
+"gimbal_incl": 21.9
+},
+{
+"t": 3.375,
+"inclinacao": 23.8,
+"C": [
+110.69,
+13.2,
+5.2
+],
+"drone": [
+124.13,
+1.54,
+9.78
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7097.0,
+1446.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.36,
+"incl_drone": 7.9,
+"gimbal_dist": 23.7,
+"gimbal_incl": 22.0
+},
+{
+"t": 3.417,
+"inclinacao": 23.8,
+"C": [
+110.67,
+13.26,
+5.2
+],
+"drone": [
+124.01,
+1.61,
+9.78
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7195.0,
+1477.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.4,
+"incl_drone": 7.9,
+"gimbal_dist": 23.6,
+"gimbal_incl": 22.1
+},
+{
+"t": 3.458,
+"inclinacao": 23.8,
+"C": [
+110.66,
+13.33,
+5.2
+],
+"drone": [
+123.89,
+1.68,
+9.77
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7302.0,
+1511.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.43,
+"incl_drone": 7.9,
+"gimbal_dist": 23.5,
+"gimbal_incl": 22.2
+},
+{
+"t": 3.5,
+"inclinacao": 23.8,
+"C": [
+110.64,
+13.4,
+5.2
+],
+"drone": [
+123.76,
+1.75,
+9.76
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7413.0,
+1547.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.46,
+"incl_drone": 7.8,
+"gimbal_dist": 23.4,
+"gimbal_incl": 22.2
+},
+{
+"t": 3.542,
+"inclinacao": 23.8,
+"C": [
+110.63,
+13.46,
+5.2
+],
+"drone": [
+123.64,
+1.83,
+9.75
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7529.0,
+1584.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.49,
+"incl_drone": 7.8,
+"gimbal_dist": 23.3,
+"gimbal_incl": 22.3
+},
+{
+"t": 3.583,
+"inclinacao": 23.8,
+"C": [
+110.61,
+13.53,
+5.2
+],
+"drone": [
+123.51,
+1.9,
+9.74
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7651.0,
+1623.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.52,
+"incl_drone": 7.8,
+"gimbal_dist": 23.2,
+"gimbal_incl": 22.4
+},
+{
+"t": 3.625,
+"inclinacao": 23.8,
+"C": [
+110.59,
+13.59,
+5.2
+],
+"drone": [
+123.38,
+1.97,
+9.73
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7772.0,
+1663.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 301.0,
+"v_drone": 3.55,
+"incl_drone": 7.8,
+"gimbal_dist": 23.1,
+"gimbal_incl": 22.5
+},
+{
+"t": 3.667,
+"inclinacao": 23.8,
+"C": [
+110.58,
+13.65,
+5.2
+],
+"drone": [
+123.25,
+2.05,
+9.72
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+7895.0,
+1703.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.58,
+"incl_drone": 7.8,
+"gimbal_dist": 22.9,
+"gimbal_incl": 22.6
+},
+{
+"t": 3.708,
+"inclinacao": 23.8,
+"C": [
+110.56,
+13.71,
+5.2
+],
+"drone": [
+123.12,
+2.12,
+9.71
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8023.0,
+1746.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.61,
+"incl_drone": 7.7,
+"gimbal_dist": 22.8,
+"gimbal_incl": 22.7
+},
+{
+"t": 3.75,
+"inclinacao": 23.8,
+"C": [
+110.54,
+13.77,
+5.2
+],
+"drone": [
+122.99,
+2.2,
+9.7
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8158.0,
+1791.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.64,
+"incl_drone": 7.7,
+"gimbal_dist": 22.7,
+"gimbal_incl": 22.8
+},
+{
+"t": 3.792,
+"inclinacao": 23.8,
+"C": [
+110.52,
+13.83,
+5.2
+],
+"drone": [
+122.86,
+2.28,
+9.69
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8299.0,
+1838.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.66,
+"incl_drone": 7.7,
+"gimbal_dist": 22.6,
+"gimbal_incl": 22.9
+},
+{
+"t": 3.833,
+"inclinacao": 23.8,
+"C": [
+110.5,
+13.89,
+5.2
+],
+"drone": [
+122.73,
+2.35,
+9.69
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8446.0,
+1886.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.69,
+"incl_drone": 7.7,
+"gimbal_dist": 22.5,
+"gimbal_incl": 23.0
+},
+{
+"t": 3.875,
+"inclinacao": 23.8,
+"C": [
+110.48,
+13.95,
+5.2
+],
+"drone": [
+122.6,
+2.43,
+9.68
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8601.0,
+1937.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.71,
+"incl_drone": 7.6,
+"gimbal_dist": 22.3,
+"gimbal_incl": 23.1
+},
+{
+"t": 3.917,
+"inclinacao": 23.7,
+"C": [
+110.45,
+14.02,
+5.2
+],
+"drone": [
+122.46,
+2.51,
+9.67
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8764.0,
+1991.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.74,
+"incl_drone": 7.6,
+"gimbal_dist": 22.2,
+"gimbal_incl": 23.2
+},
+{
+"t": 3.958,
+"inclinacao": 23.7,
+"C": [
+110.43,
+14.08,
+5.2
+],
+"drone": [
+122.33,
+2.58,
+9.66
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+8935.0,
+2048.0
+],
+"dist_cam_grupo": 9.5,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.76,
+"incl_drone": 7.6,
+"gimbal_dist": 22.1,
+"gimbal_incl": 23.3
+},
+{
+"t": 4.0,
+"inclinacao": 23.7,
+"C": [
+110.41,
+14.14,
+5.2
+],
+"drone": [
+122.19,
+2.66,
+9.65
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+9116.0,
+2109.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.78,
+"incl_drone": 7.5,
+"gimbal_dist": 22.0,
+"gimbal_incl": 23.5
+},
+{
+"t": 4.042,
+"inclinacao": 23.7,
+"C": [
+110.38,
+14.21,
+5.2
+],
+"drone": [
+122.05,
+2.74,
+9.64
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+9306.0,
+2171.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.8,
+"incl_drone": 7.5,
+"gimbal_dist": 21.9,
+"gimbal_incl": 23.6
+},
+{
+"t": 4.083,
+"inclinacao": 23.7,
+"C": [
+110.36,
+14.27,
+5.2
+],
+"drone": [
+121.92,
+2.82,
+9.63
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+9506.0,
+2238.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.82,
+"incl_drone": 7.5,
+"gimbal_dist": 21.7,
+"gimbal_incl": 23.7
+},
+{
+"t": 4.125,
+"inclinacao": 23.7,
+"C": [
+110.33,
+14.34,
+5.2
+],
+"drone": [
+121.78,
+2.9,
+9.62
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+9718.0,
+2308.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.84,
+"incl_drone": 7.4,
+"gimbal_dist": 21.6,
+"gimbal_incl": 23.8
+},
+{
+"t": 4.167,
+"inclinacao": 23.7,
+"C": [
+110.3,
+14.4,
+5.2
+],
+"drone": [
+121.64,
+2.98,
+9.61
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+9942.0,
+2383.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.86,
+"incl_drone": 7.4,
+"gimbal_dist": 21.5,
+"gimbal_incl": 23.9
+},
+{
+"t": 4.208,
+"inclinacao": 23.7,
+"C": [
+110.28,
+14.46,
+5.2
+],
+"drone": [
+121.5,
+3.06,
+9.6
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+10181.0,
+2463.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.87,
+"incl_drone": 7.4,
+"gimbal_dist": 21.4,
+"gimbal_incl": 24.0
+},
+{
+"t": 4.25,
+"inclinacao": 23.7,
+"C": [
+110.26,
+14.52,
+5.2
+],
+"drone": [
+121.36,
+3.14,
+9.59
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+10433.0,
+2548.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.89,
+"incl_drone": 7.3,
+"gimbal_dist": 21.3,
+"gimbal_incl": 24.1
+},
+{
+"t": 4.292,
+"inclinacao": 23.7,
+"C": [
+110.24,
+14.58,
+5.2
+],
+"drone": [
+121.22,
+3.22,
+9.58
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+10702.0,
+2640.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.9,
+"incl_drone": 7.3,
+"gimbal_dist": 21.1,
+"gimbal_incl": 24.3
+},
+{
+"t": 4.333,
+"inclinacao": 23.7,
+"C": [
+110.21,
+14.64,
+5.2
+],
+"drone": [
+121.08,
+3.31,
+9.57
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+10989.0,
+2738.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.92,
+"incl_drone": 7.2,
+"gimbal_dist": 21.0,
+"gimbal_incl": 24.4
+},
+{
+"t": 4.375,
+"inclinacao": 23.7,
+"C": [
+110.19,
+14.7,
+5.2
+],
+"drone": [
+120.94,
+3.39,
+9.56
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+11297.0,
+2843.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.93,
+"incl_drone": 7.2,
+"gimbal_dist": 20.9,
+"gimbal_incl": 24.5
+},
+{
+"t": 4.417,
+"inclinacao": 23.7,
+"C": [
+110.17,
+14.76,
+5.2
+],
+"drone": [
+120.79,
+3.47,
+9.55
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+11636.0,
+2959.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.94,
+"incl_drone": 7.1,
+"gimbal_dist": 20.7,
+"gimbal_incl": 24.7
+},
+{
+"t": 4.458,
+"inclinacao": 23.7,
+"C": [
+110.16,
+14.83,
+5.2
+],
+"drone": [
+120.65,
+3.55,
+9.54
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+12014.0,
+3087.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.95,
+"incl_drone": 7.1,
+"gimbal_dist": 20.6,
+"gimbal_incl": 24.8
+},
+{
+"t": 4.5,
+"inclinacao": 23.7,
+"C": [
+110.14,
+14.89,
+5.2
+],
+"drone": [
+120.51,
+3.63,
+9.53
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+12424.0,
+3227.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 300.0,
+"v_drone": 3.96,
+"incl_drone": 7.0,
+"gimbal_dist": 20.5,
+"gimbal_incl": 24.9
+},
+{
+"t": 4.542,
+"inclinacao": 23.7,
+"C": [
+110.12,
+14.95,
+5.2
+],
+"drone": [
+120.37,
+3.72,
+9.52
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+12870.0,
+3379.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.97,
+"incl_drone": 7.0,
+"gimbal_dist": 20.3,
+"gimbal_incl": 25.1
+},
+{
+"t": 4.583,
+"inclinacao": 23.7,
+"C": [
+110.1,
+15.02,
+5.2
+],
+"drone": [
+120.22,
+3.8,
+9.51
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+13358.0,
+3545.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.98,
+"incl_drone": 6.9,
+"gimbal_dist": 20.2,
+"gimbal_incl": 25.2
+},
+{
+"t": 4.625,
+"inclinacao": 23.7,
+"C": [
+110.09,
+15.08,
+5.2
+],
+"drone": [
+120.08,
+3.88,
+9.5
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+13905.0,
+3731.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.99,
+"incl_drone": 6.9,
+"gimbal_dist": 20.1,
+"gimbal_incl": 25.4
+},
+{
+"t": 4.667,
+"inclinacao": 23.6,
+"C": [
+110.07,
+15.15,
+5.2
+],
+"drone": [
+119.93,
+3.97,
+9.49
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+14517.0,
+3940.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.99,
+"incl_drone": 6.8,
+"gimbal_dist": 19.9,
+"gimbal_incl": 25.5
+},
+{
+"t": 4.708,
+"inclinacao": 23.6,
+"C": [
+110.06,
+15.22,
+5.2
+],
+"drone": [
+119.79,
+4.05,
+9.48
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+15198.0,
+4172.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.0,
+"incl_drone": 6.7,
+"gimbal_dist": 19.8,
+"gimbal_incl": 25.7
+},
+{
+"t": 4.75,
+"inclinacao": 23.6,
+"C": [
+110.04,
+15.28,
+5.2
+],
+"drone": [
+119.65,
+4.13,
+9.47
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+15959.0,
+4431.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.0,
+"incl_drone": 6.7,
+"gimbal_dist": 19.7,
+"gimbal_incl": 25.8
+},
+{
+"t": 4.792,
+"inclinacao": 23.6,
+"C": [
+110.02,
+15.35,
+5.2
+],
+"drone": [
+119.5,
+4.22,
+9.46
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+16815.0,
+4723.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.6,
+"gimbal_dist": 19.5,
+"gimbal_incl": 26.0
+},
+{
+"t": 4.833,
+"inclinacao": 23.6,
+"C": [
+110.01,
+15.41,
+5.2
+],
+"drone": [
+119.36,
+4.3,
+9.45
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+17740.0,
+5041.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.6,
+"gimbal_dist": 19.4,
+"gimbal_incl": 26.2
+},
+{
+"t": 4.875,
+"inclinacao": 23.6,
+"C": [
+109.99,
+15.47,
+5.2
+],
+"drone": [
+119.21,
+4.38,
+9.44
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+18779.0,
+5397.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.5,
+"gimbal_dist": 19.3,
+"gimbal_incl": 26.3
+},
+{
+"t": 4.917,
+"inclinacao": 23.6,
+"C": [
+109.97,
+15.54,
+5.2
+],
+"drone": [
+119.07,
+4.47,
+9.43
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+19968.0,
+5806.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.4,
+"gimbal_dist": 19.1,
+"gimbal_incl": 26.5
+},
+{
+"t": 4.958,
+"inclinacao": 23.6,
+"C": [
+109.95,
+15.6,
+5.2
+],
+"drone": [
+118.92,
+4.55,
+9.42
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+21342.0,
+6279.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.4,
+"gimbal_dist": 19.0,
+"gimbal_incl": 26.7
+},
+{
+"t": 5.0,
+"inclinacao": 23.6,
+"C": [
+109.93,
+15.66,
+5.2
+],
+"drone": [
+118.78,
+4.63,
+9.41
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+22947.0,
+6831.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.3,
+"gimbal_dist": 18.9,
+"gimbal_incl": 26.8
+},
+{
+"t": 5.042,
+"inclinacao": 23.6,
+"C": [
+109.9,
+15.72,
+5.2
+],
+"drone": [
+118.63,
+4.72,
+9.4
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+24810.0,
+7471.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.01,
+"incl_drone": 6.2,
+"gimbal_dist": 18.7,
+"gimbal_incl": 27.0
+},
+{
+"t": 5.083,
+"inclinacao": 23.6,
+"C": [
+109.88,
+15.79,
+5.2
+],
+"drone": [
+118.49,
+4.8,
+9.39
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+27041.0,
+8237.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.0,
+"incl_drone": 6.2,
+"gimbal_dist": 18.6,
+"gimbal_incl": 27.1
+},
+{
+"t": 5.125,
+"inclinacao": 23.6,
+"C": [
+109.85,
+15.85,
+5.2
+],
+"drone": [
+118.34,
+4.88,
+9.38
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+29763.0,
+9172.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.0,
+"incl_drone": 6.1,
+"gimbal_dist": 18.5,
+"gimbal_incl": 27.3
+},
+{
+"t": 5.167,
+"inclinacao": 23.6,
+"C": [
+109.83,
+15.92,
+5.2
+],
+"drone": [
+118.2,
+4.97,
+9.37
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+33156.0,
+10338.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 4.0,
+"incl_drone": 6.0,
+"gimbal_dist": 18.4,
+"gimbal_incl": 27.5
+},
+{
+"t": 5.208,
+"inclinacao": 23.6,
+"C": [
+109.8,
+15.98,
+5.2
+],
+"drone": [
+118.06,
+5.05,
+9.36
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+37496.0,
+11829.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.99,
+"incl_drone": 5.9,
+"gimbal_dist": 18.2,
+"gimbal_incl": 27.7
+},
+{
+"t": 5.25,
+"inclinacao": 23.6,
+"C": [
+109.77,
+16.05,
+5.2
+],
+"drone": [
+117.91,
+5.13,
+9.35
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+43208.0,
+13789.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.98,
+"incl_drone": 5.8,
+"gimbal_dist": 18.1,
+"gimbal_incl": 27.8
+},
+{
+"t": 5.292,
+"inclinacao": 23.6,
+"C": [
+109.75,
+16.11,
+5.2
+],
+"drone": [
+117.77,
+5.22,
+9.34
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+51125.0,
+16506.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 299.0,
+"v_drone": 3.98,
+"incl_drone": 5.8,
+"gimbal_dist": 18.0,
+"gimbal_incl": 28.0
+},
+{
+"t": 5.333,
+"inclinacao": 23.6,
+"C": [
+109.72,
+16.18,
+5.2
+],
+"drone": [
+117.62,
+5.3,
+9.33
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+62831.0,
+20525.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.97,
+"incl_drone": 5.7,
+"gimbal_dist": 17.9,
+"gimbal_incl": 28.2
+},
+{
+"t": 5.375,
+"inclinacao": 23.5,
+"C": [
+109.69,
+16.25,
+5.2
+],
+"drone": [
+117.48,
+5.38,
+9.32
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+81895.0,
+27069.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.96,
+"incl_drone": 5.6,
+"gimbal_dist": 17.7,
+"gimbal_incl": 28.3
+},
+{
+"t": 5.417,
+"inclinacao": 23.5,
+"C": [
+109.66,
+16.31,
+5.2
+],
+"drone": [
+117.34,
+5.46,
+9.31
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+118710.0,
+39713.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.95,
+"incl_drone": 5.5,
+"gimbal_dist": 17.6,
+"gimbal_incl": 28.5
+},
+{
+"t": 5.458,
+"inclinacao": 23.5,
+"C": [
+109.64,
+16.38,
+5.2
+],
+"drone": [
+117.2,
+5.55,
+9.3
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+220183.0,
+74576.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.93,
+"incl_drone": 5.4,
+"gimbal_dist": 17.5,
+"gimbal_incl": 28.7
+},
+{
+"t": 5.5,
+"inclinacao": 23.5,
+"C": [
+109.61,
+16.44,
+5.2
+],
+"drone": [
+117.06,
+5.63,
+9.29
+],
+"drone_na_imagem": false,
+"drone_px": 1771462519.1,
+"drone_uv": [
+1690738.0,
+579828.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.92,
+"incl_drone": 5.3,
+"gimbal_dist": 17.4,
+"gimbal_incl": 28.9
+},
+{
+"t": 5.542,
+"inclinacao": 23.5,
+"C": [
+109.59,
+16.5,
+5.2
+],
+"drone": [
+116.91,
+5.71,
+9.29
+],
+"drone_na_imagem": false,
+"drone_px": 20398.0,
+"drone_uv": [
+-291701.0,
+-101298.0
+],
+"dist_cam_grupo": 9.6,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.91,
+"incl_drone": 5.3,
+"gimbal_dist": 17.2,
+"gimbal_incl": 29.1
+},
+{
+"t": 5.583,
+"inclinacao": 23.5,
+"C": [
+109.56,
+16.57,
+5.2
+],
+"drone": [
+116.77,
+5.79,
+9.28
+],
+"drone_na_imagem": false,
+"drone_px": 9406.5,
+"drone_uv": [
+-133003.0,
+-46773.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.89,
+"incl_drone": 5.2,
+"gimbal_dist": 17.1,
+"gimbal_incl": 29.3
+},
+{
+"t": 5.625,
+"inclinacao": 23.5,
+"C": [
+109.54,
+16.64,
+5.2
+],
+"drone": [
+116.63,
+5.87,
+9.27
+],
+"drone_na_imagem": false,
+"drone_px": 6066.8,
+"drone_uv": [
+-84797.0,
+-30208.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.88,
+"incl_drone": 5.1,
+"gimbal_dist": 17.0,
+"gimbal_incl": 29.5
+},
+{
+"t": 5.667,
+"inclinacao": 23.5,
+"C": [
+109.52,
+16.7,
+5.2
+],
+"drone": [
+116.49,
+5.95,
+9.26
+],
+"drone_na_imagem": false,
+"drone_px": 4462.9,
+"drone_uv": [
+-61651.0,
+-22254.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.86,
+"incl_drone": 5.0,
+"gimbal_dist": 16.9,
+"gimbal_incl": 29.7
+},
+{
+"t": 5.708,
+"inclinacao": 23.5,
+"C": [
+109.5,
+16.77,
+5.2
+],
+"drone": [
+116.35,
+6.03,
+9.25
+],
+"drone_na_imagem": false,
+"drone_px": 3533.7,
+"drone_uv": [
+-48241.0,
+-17645.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.85,
+"incl_drone": 4.9,
+"gimbal_dist": 16.8,
+"gimbal_incl": 29.9
+},
+{
+"t": 5.75,
+"inclinacao": 23.5,
+"C": [
+109.47,
+16.84,
+5.2
+],
+"drone": [
+116.22,
+6.11,
+9.24
+],
+"drone_na_imagem": false,
+"drone_px": 2927.5,
+"drone_uv": [
+-39491.0,
+-14638.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.83,
+"incl_drone": 4.8,
+"gimbal_dist": 16.6,
+"gimbal_incl": 30.1
+},
+{
+"t": 5.792,
+"inclinacao": 23.5,
+"C": [
+109.45,
+16.9,
+5.2
+],
+"drone": [
+116.08,
+6.19,
+9.23
+],
+"drone_na_imagem": false,
+"drone_px": 2500.9,
+"drone_uv": [
+-33334.0,
+-12523.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.81,
+"incl_drone": 4.7,
+"gimbal_dist": 16.5,
+"gimbal_incl": 30.3
+},
+{
+"t": 5.833,
+"inclinacao": 23.5,
+"C": [
+109.43,
+16.97,
+5.2
+],
+"drone": [
+115.94,
+6.27,
+9.22
+],
+"drone_na_imagem": false,
+"drone_px": 2178.1,
+"drone_uv": [
+-28675.0,
+-10922.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.79,
+"incl_drone": 4.6,
+"gimbal_dist": 16.4,
+"gimbal_incl": 30.5
+},
+{
+"t": 5.875,
+"inclinacao": 23.5,
+"C": [
+109.41,
+17.04,
+5.2
+],
+"drone": [
+115.8,
+6.35,
+9.21
+],
+"drone_na_imagem": false,
+"drone_px": 1929.1,
+"drone_uv": [
+-25083.0,
+-9687.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.77,
+"incl_drone": 4.5,
+"gimbal_dist": 16.3,
+"gimbal_incl": 30.7
+},
+{
+"t": 5.917,
+"inclinacao": 23.5,
+"C": [
+109.4,
+17.11,
+5.2
+],
+"drone": [
+115.67,
+6.43,
+9.2
+],
+"drone_na_imagem": false,
+"drone_px": 1732.2,
+"drone_uv": [
+-22243.0,
+-8711.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.75,
+"incl_drone": 4.4,
+"gimbal_dist": 16.1,
+"gimbal_incl": 30.9
+},
+{
+"t": 5.958,
+"inclinacao": 23.5,
+"C": [
+109.38,
+17.18,
+5.2
+],
+"drone": [
+115.53,
+6.51,
+9.19
+],
+"drone_na_imagem": false,
+"drone_px": 1572.7,
+"drone_uv": [
+-19941.0,
+-7920.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 298.0,
+"v_drone": 3.72,
+"incl_drone": 4.3,
+"gimbal_dist": 16.0,
+"gimbal_incl": 31.2
+},
+{
+"t": 6.0,
+"inclinacao": 23.5,
+"C": [
+109.36,
+17.25,
+5.2
+],
+"drone": [
+115.4,
+6.58,
+9.18
+],
+"drone_na_imagem": false,
+"drone_px": 1440.9,
+"drone_uv": [
+-18038.0,
+-7267.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 297.0,
+"v_drone": 3.7,
+"incl_drone": 4.2,
+"gimbal_dist": 15.9,
+"gimbal_incl": 31.4
+},
+{
+"t": 6.042,
+"inclinacao": 23.4,
+"C": [
+109.34,
+17.31,
+5.2
+],
+"drone": [
+115.27,
+6.66,
+9.18
+],
+"drone_na_imagem": false,
+"drone_px": 1324.3,
+"drone_uv": [
+-16358.0,
+-6687.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 297.0,
+"v_drone": 3.68,
+"incl_drone": 4.1,
+"gimbal_dist": 15.8,
+"gimbal_incl": 31.6
+},
+{
+"t": 6.083,
+"inclinacao": 23.3,
+"C": [
+109.33,
+17.38,
+5.2
+],
+"drone": [
+115.13,
+6.74,
+9.17
+],
+"drone_na_imagem": false,
+"drone_px": 1206.4,
+"drone_uv": [
+-14681.0,
+-6100.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 297.0,
+"v_drone": 3.65,
+"incl_drone": 4.0,
+"gimbal_dist": 15.7,
+"gimbal_incl": 31.8
+},
+{
+"t": 6.125,
+"inclinacao": 23.2,
+"C": [
+109.32,
+17.46,
+5.2
+],
+"drone": [
+115.0,
+6.81,
+9.16
+],
+"drone_na_imagem": false,
+"drone_px": 1093.0,
+"drone_uv": [
+-13085.0,
+-5533.0
+],
+"dist_cam_grupo": 9.7,
+"altura_pessoa_px": 296.0,
+"v_drone": 3.62,
+"incl_drone": 3.9,
+"gimbal_dist": 15.6,
+"gimbal_incl": 32.0
+},
+{
+"t": 6.167,
+"inclinacao": 23.1,
+"C": [
+109.32,
+17.54,
+5.2
+],
+"drone": [
+114.87,
+6.89,
+9.15
+],
+"drone_na_imagem": false,
+"drone_px": 987.6,
+"drone_uv": [
+-11613.0,
+-5004.0
+],
+"dist_cam_grupo": 9.8,
+"altura_pessoa_px": 295.0,
+"v_drone": 3.6,
+"incl_drone": 3.7,
+"gimbal_dist": 15.5,
+"gimbal_incl": 32.3
+},
+{
+"t": 6.208,
+"inclinacao": 22.9,
+"C": [
+109.32,
+17.63,
+5.2
+],
+"drone": [
+114.74,
+6.96,
+9.14
+],
+"drone_na_imagem": false,
+"drone_px": 892.0,
+"drone_uv": [
+-10288.0,
+-4523.0
+],
+"dist_cam_grupo": 9.8,
+"altura_pessoa_px": 293.0,
+"v_drone": 3.57,
+"incl_drone": 3.6,
+"gimbal_dist": 15.3,
+"gimbal_incl": 32.5
+},
+{
+"t": 6.25,
+"inclinacao": 22.6,
+"C": [
+109.32,
+17.72,
+5.2
+],
+"drone": [
+114.62,
+7.04,
+9.13
+],
+"drone_na_imagem": false,
+"drone_px": 807.0,
+"drone_uv": [
+-9119.0,
+-4092.0
+],
+"dist_cam_grupo": 9.8,
+"altura_pessoa_px": 292.0,
+"v_drone": 3.54,
+"incl_drone": 3.5,
+"gimbal_dist": 15.2,
+"gimbal_incl": 32.7
+},
+{
+"t": 6.292,
+"inclinacao": 22.3,
+"C": [
+109.32,
+17.82,
+5.2
+],
+"drone": [
+114.49,
+7.11,
+9.12
+],
+"drone_na_imagem": false,
+"drone_px": 731.3,
+"drone_uv": [
+-8083.0,
+-3706.0
+],
+"dist_cam_grupo": 9.9,
+"altura_pessoa_px": 290.0,
+"v_drone": 3.51,
+"incl_drone": 3.4,
+"gimbal_dist": 15.1,
+"gimbal_incl": 32.9
+},
+{
+"t": 6.333,
+"inclinacao": 22.0,
+"C": [
+109.33,
+17.93,
+5.2
+],
+"drone": [
+114.36,
+7.18,
+9.12
+],
+"drone_na_imagem": false,
+"drone_px": 664.3,
+"drone_uv": [
+-7169.0,
+-3361.0
+],
+"dist_cam_grupo": 9.9,
+"altura_pessoa_px": 288.0,
+"v_drone": 3.48,
+"incl_drone": 3.3,
+"gimbal_dist": 15.0,
+"gimbal_incl": 33.1
+},
+{
+"t": 6.375,
+"inclinacao": 21.7,
+"C": [
+109.34,
+18.04,
+5.2
+],
+"drone": [
+114.24,
+7.25,
+9.11
+],
+"drone_na_imagem": false,
+"drone_px": 605.2,
+"drone_uv": [
+-6365.0,
+-3054.0
+],
+"dist_cam_grupo": 10.0,
+"altura_pessoa_px": 286.0,
+"v_drone": 3.44,
+"incl_drone": 3.2,
+"gimbal_dist": 14.9,
+"gimbal_incl": 33.4
+},
+{
+"t": 6.417,
+"inclinacao": 21.3,
+"C": [
+109.36,
+18.15,
+5.2
+],
+"drone": [
+114.11,
+7.33,
+9.1
+],
+"drone_na_imagem": false,
+"drone_px": 553.2,
+"drone_uv": [
+-5660.0,
+-2782.0
+],
+"dist_cam_grupo": 10.1,
+"altura_pessoa_px": 283.0,
+"v_drone": 3.41,
+"incl_drone": 3.0,
+"gimbal_dist": 14.8,
+"gimbal_incl": 33.6
+},
+{
+"t": 6.458,
+"inclinacao": 20.9,
+"C": [
+109.38,
+18.27,
+5.2
+],
+"drone": [
+113.99,
+7.4,
+9.09
+],
+"drone_na_imagem": false,
+"drone_px": 507.4,
+"drone_uv": [
+-5041.0,
+-2539.0
+],
+"dist_cam_grupo": 10.2,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.38,
+"incl_drone": 2.9,
+"gimbal_dist": 14.7,
+"gimbal_incl": 33.8
+},
+{
+"t": 6.5,
+"inclinacao": 20.4,
+"C": [
+109.4,
+18.39,
+5.2
+],
+"drone": [
+113.87,
+7.47,
+9.08
+],
+"drone_na_imagem": false,
+"drone_px": 466.9,
+"drone_uv": [
+-4496.0,
+-2321.0
+],
+"dist_cam_grupo": 10.2,
+"altura_pessoa_px": 278.0,
+"v_drone": 3.34,
+"incl_drone": 2.8,
+"gimbal_dist": 14.6,
+"gimbal_incl": 34.0
+},
+{
+"t": 6.542,
+"inclinacao": 20.0,
+"C": [
+109.42,
+18.52,
+5.2
+],
+"drone": [
+113.75,
+7.54,
+9.08
+],
+"drone_na_imagem": false,
+"drone_px": 431.1,
+"drone_uv": [
+-4013.0,
+-2126.0
+],
+"dist_cam_grupo": 10.3,
+"altura_pessoa_px": 275.0,
+"v_drone": 3.31,
+"incl_drone": 2.7,
+"gimbal_dist": 14.6,
+"gimbal_incl": 34.2
+},
+{
+"t": 6.583,
+"inclinacao": 19.5,
+"C": [
+109.45,
+18.65,
+5.2
+],
+"drone": [
+113.63,
+7.6,
+9.07
+],
+"drone_na_imagem": false,
+"drone_px": 399.3,
+"drone_uv": [
+-3584.0,
+-1950.0
+],
+"dist_cam_grupo": 10.4,
+"altura_pessoa_px": 272.0,
+"v_drone": 3.27,
+"incl_drone": 2.5,
+"gimbal_dist": 14.5,
+"gimbal_incl": 34.4
+},
+{
+"t": 6.625,
+"inclinacao": 19.0,
+"C": [
+109.48,
+18.78,
+5.2
+],
+"drone": [
+113.51,
+7.67,
+9.06
+],
+"drone_na_imagem": false,
+"drone_px": 371.0,
+"drone_uv": [
+-3202.0,
+-1791.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 270.0,
+"v_drone": 3.23,
+"incl_drone": 2.4,
+"gimbal_dist": 14.4,
+"gimbal_incl": 34.6
+},
+{
+"t": 6.667,
+"inclinacao": 18.5,
+"C": [
+109.51,
+18.91,
+5.2
+],
+"drone": [
+113.4,
+7.74,
+9.05
+],
+"drone_na_imagem": false,
+"drone_px": 345.8,
+"drone_uv": [
+-2861.0,
+-1647.0
+],
+"dist_cam_grupo": 10.6,
+"altura_pessoa_px": 267.0,
+"v_drone": 3.19,
+"incl_drone": 2.3,
+"gimbal_dist": 14.3,
+"gimbal_incl": 34.8
+},
+{
+"t": 6.708,
+"inclinacao": 18.0,
+"C": [
+109.55,
+19.05,
+5.2
+],
+"drone": [
+113.28,
+7.8,
+9.05
+],
+"drone_na_imagem": false,
+"drone_px": 323.3,
+"drone_uv": [
+-2556.0,
+-1516.0
+],
+"dist_cam_grupo": 10.7,
+"altura_pessoa_px": 263.0,
+"v_drone": 3.15,
+"incl_drone": 2.2,
+"gimbal_dist": 14.2,
+"gimbal_incl": 35.1
+},
+{
+"t": 6.75,
+"inclinacao": 17.5,
+"C": [
+109.59,
+19.19,
+5.2
+],
+"drone": [
+113.17,
+7.87,
+9.04
+],
+"drone_na_imagem": false,
+"drone_px": 303.2,
+"drone_uv": [
+-2283.0,
+-1396.0
+],
+"dist_cam_grupo": 10.8,
+"altura_pessoa_px": 260.0,
+"v_drone": 3.11,
+"incl_drone": 2.0,
+"gimbal_dist": 14.1,
+"gimbal_incl": 35.3
+},
+{
+"t": 6.792,
+"inclinacao": 16.9,
+"C": [
+109.63,
+19.33,
+5.2
+],
+"drone": [
+113.06,
+7.93,
+9.03
+],
+"drone_na_imagem": false,
+"drone_px": 285.0,
+"drone_uv": [
+-2037.0,
+-1287.0
+],
+"dist_cam_grupo": 10.9,
+"altura_pessoa_px": 257.0,
+"v_drone": 3.07,
+"incl_drone": 1.9,
+"gimbal_dist": 14.0,
+"gimbal_incl": 35.5
+},
+{
+"t": 6.833,
+"inclinacao": 16.4,
+"C": [
+109.68,
+19.48,
+5.2
+],
+"drone": [
+112.95,
+8.0,
+9.03
+],
+"drone_na_imagem": false,
+"drone_px": 268.4,
+"drone_uv": [
+-1814.0,
+-1185.0
+],
+"dist_cam_grupo": 11.0,
+"altura_pessoa_px": 254.0,
+"v_drone": 3.03,
+"incl_drone": 1.8,
+"gimbal_dist": 13.9,
+"gimbal_incl": 35.7
+},
+{
+"t": 6.875,
+"inclinacao": 15.9,
+"C": [
+109.73,
+19.63,
+5.2
+],
+"drone": [
+112.84,
+8.06,
+9.02
+],
+"drone_na_imagem": false,
+"drone_px": 253.5,
+"drone_uv": [
+-1612.0,
+-1091.0
+],
+"dist_cam_grupo": 11.2,
+"altura_pessoa_px": 251.0,
+"v_drone": 2.99,
+"incl_drone": 1.6,
+"gimbal_dist": 13.8,
+"gimbal_incl": 35.9
+},
+{
+"t": 6.917,
+"inclinacao": 15.3,
+"C": [
+109.77,
+19.78,
+5.2
+],
+"drone": [
+112.73,
+8.12,
+9.01
+],
+"drone_na_imagem": false,
+"drone_px": 239.9,
+"drone_uv": [
+-1429.0,
+-1005.0
+],
+"dist_cam_grupo": 11.3,
+"altura_pessoa_px": 248.0,
+"v_drone": 2.94,
+"incl_drone": 1.5,
+"gimbal_dist": 13.8,
+"gimbal_incl": 36.1
+},
+{
+"t": 6.958,
+"inclinacao": 14.8,
+"C": [
+109.82,
+19.94,
+5.2
+],
+"drone": [
+112.63,
+8.18,
+9.01
+],
+"drone_na_imagem": false,
+"drone_px": 227.6,
+"drone_uv": [
+-1263.0,
+-925.0
+],
+"dist_cam_grupo": 11.4,
+"altura_pessoa_px": 245.0,
+"v_drone": 3.05,
+"incl_drone": 15.0,
+"gimbal_dist": 13.7,
+"gimbal_incl": 36.4
+},
+{
+"t": 7.0,
+"inclinacao": 14.2,
+"C": [
+109.87,
+20.1,
+5.2
+],
+"drone": [
+112.53,
+8.24,
+9.0
+],
+"drone_na_imagem": false,
+"drone_px": 216.4,
+"drone_uv": [
+-1112.0,
+-851.0
+],
+"dist_cam_grupo": 11.5,
+"altura_pessoa_px": 242.0,
+"v_drone": 3.81,
+"incl_drone": 15.0,
+"gimbal_dist": 13.6,
+"gimbal_incl": 36.6
+},
+{
+"t": 7.042,
+"inclinacao": 13.7,
+"C": [
+109.93,
+20.26,
+5.2
+],
+"drone": [
+112.35,
+8.34,
+8.99
+],
+"drone_na_imagem": false,
+"drone_px": 206.1,
+"drone_uv": [
+-958.0,
+-780.0
+],
+"dist_cam_grupo": 11.6,
+"altura_pessoa_px": 239.0,
+"v_drone": 4.57,
+"incl_drone": 15.0,
+"gimbal_dist": 13.4,
+"gimbal_incl": 37.0
+},
+{
+"t": 7.083,
+"inclinacao": 13.1,
+"C": [
+109.98,
+20.42,
+5.2
+],
+"drone": [
+112.18,
+8.44,
+8.98
+],
+"drone_na_imagem": false,
+"drone_px": 196.9,
+"drone_uv": [
+-818.0,
+-715.0
+],
+"dist_cam_grupo": 11.8,
+"altura_pessoa_px": 236.0,
+"v_drone": 4.7,
+"incl_drone": 5.8,
+"gimbal_dist": 13.3,
+"gimbal_incl": 37.4
+},
+{
+"t": 7.125,
+"inclinacao": 12.6,
+"C": [
+110.04,
+20.59,
+5.2
+],
+"drone": [
+112.01,
+8.54,
+8.97
+],
+"drone_na_imagem": false,
+"drone_px": 188.4,
+"drone_uv": [
+-691.0,
+-654.0
+],
+"dist_cam_grupo": 11.9,
+"altura_pessoa_px": 233.0,
+"v_drone": 4.68,
+"incl_drone": 5.8,
+"gimbal_dist": 13.2,
+"gimbal_incl": 37.8
+},
+{
+"t": 7.167,
+"inclinacao": 12.0,
+"C": [
+110.09,
+20.75,
+5.2
+],
+"drone": [
+111.85,
+8.63,
+8.96
+],
+"drone_na_imagem": false,
+"drone_px": 180.7,
+"drone_uv": [
+-575.0,
+-598.0
+],
+"dist_cam_grupo": 12.0,
+"altura_pessoa_px": 230.0,
+"v_drone": 4.66,
+"incl_drone": 5.8,
+"gimbal_dist": 13.0,
+"gimbal_incl": 38.2
+},
+{
+"t": 7.208,
+"inclinacao": 11.5,
+"C": [
+110.14,
+20.92,
+5.2
+],
+"drone": [
+111.68,
+8.73,
+8.95
+],
+"drone_na_imagem": false,
+"drone_px": 173.6,
+"drone_uv": [
+-469.0,
+-545.0
+],
+"dist_cam_grupo": 12.1,
+"altura_pessoa_px": 227.0,
+"v_drone": 4.63,
+"incl_drone": 5.7,
+"gimbal_dist": 12.9,
+"gimbal_incl": 38.7
+},
+{
+"t": 7.25,
+"inclinacao": 11.0,
+"C": [
+110.19,
+21.08,
+5.2
+],
+"drone": [
+111.51,
+8.83,
+8.94
+],
+"drone_na_imagem": false,
+"drone_px": 167.3,
+"drone_uv": [
+-372.0,
+-497.0
+],
+"dist_cam_grupo": 12.3,
+"altura_pessoa_px": 224.0,
+"v_drone": 4.61,
+"incl_drone": 5.7,
+"gimbal_dist": 12.7,
+"gimbal_incl": 39.1
+},
+{
+"t": 7.292,
+"inclinacao": 10.5,
+"C": [
+110.24,
+21.24,
+5.2
+],
+"drone": [
+111.35,
+8.92,
+8.93
+],
+"drone_na_imagem": false,
+"drone_px": 161.4,
+"drone_uv": [
+-283.0,
+-451.0
+],
+"dist_cam_grupo": 12.4,
+"altura_pessoa_px": 222.0,
+"v_drone": 4.59,
+"incl_drone": 5.6,
+"gimbal_dist": 12.6,
+"gimbal_incl": 39.6
+},
+{
+"t": 7.333,
+"inclinacao": 10.0,
+"C": [
+110.29,
+21.4,
+5.2
+],
+"drone": [
+111.18,
+9.02,
+8.92
+],
+"drone_na_imagem": false,
+"drone_px": 156.0,
+"drone_uv": [
+-201.0,
+-408.0
+],
+"dist_cam_grupo": 12.5,
+"altura_pessoa_px": 219.0,
+"v_drone": 4.56,
+"incl_drone": 5.6,
+"gimbal_dist": 12.5,
+"gimbal_incl": 40.0
+},
+{
+"t": 7.375,
+"inclinacao": 9.5,
+"C": [
+110.34,
+21.57,
+5.2
+],
+"drone": [
+111.02,
+9.11,
+8.91
+],
+"drone_na_imagem": false,
+"drone_px": 151.0,
+"drone_uv": [
+-126.0,
+-368.0
+],
+"dist_cam_grupo": 12.7,
+"altura_pessoa_px": 216.0,
+"v_drone": 4.54,
+"incl_drone": 5.5,
+"gimbal_dist": 12.3,
+"gimbal_incl": 40.5
+},
+{
+"t": 7.417,
+"inclinacao": 9.0,
+"C": [
+110.39,
+21.73,
+5.2
+],
+"drone": [
+110.85,
+9.21,
+8.9
+],
+"drone_na_imagem": false,
+"drone_px": 146.3,
+"drone_uv": [
+-57.0,
+-330.0
+],
+"dist_cam_grupo": 12.8,
+"altura_pessoa_px": 214.0,
+"v_drone": 4.51,
+"incl_drone": 5.5,
+"gimbal_dist": 12.2,
+"gimbal_incl": 40.9
+},
+{
+"t": 7.458,
+"inclinacao": 8.5,
+"C": [
+110.43,
+21.89,
+5.2
+],
+"drone": [
+110.69,
+9.3,
+8.89
+],
+"drone_na_imagem": false,
+"drone_px": 142.1,
+"drone_uv": [
+7.0,
+-295.0
+],
+"dist_cam_grupo": 12.9,
+"altura_pessoa_px": 211.0,
+"v_drone": 4.49,
+"incl_drone": 5.4,
+"gimbal_dist": 12.1,
+"gimbal_incl": 41.4
+},
+{
+"t": 7.5,
+"inclinacao": 8.1,
+"C": [
+110.47,
+22.05,
+5.2
+],
+"drone": [
+110.53,
+9.4,
+8.88
+],
+"drone_na_imagem": false,
+"drone_px": 138.1,
+"drone_uv": [
+65.0,
+-262.0
+],
+"dist_cam_grupo": 13.0,
+"altura_pessoa_px": 209.0,
+"v_drone": 4.47,
+"incl_drone": 5.4,
+"gimbal_dist": 12.0,
+"gimbal_incl": 41.8
+},
+{
+"t": 7.542,
+"inclinacao": 7.6,
+"C": [
+110.5,
+22.22,
+5.2
+],
+"drone": [
+110.37,
+9.49,
+8.87
+],
+"drone_na_imagem": false,
+"drone_px": 134.4,
+"drone_uv": [
+119.0,
+-230.0
+],
+"dist_cam_grupo": 13.2,
+"altura_pessoa_px": 206.0,
+"v_drone": 4.44,
+"incl_drone": 5.3,
+"gimbal_dist": 11.8,
+"gimbal_incl": 42.3
+},
+{
+"t": 7.583,
+"inclinacao": 7.2,
+"C": [
+110.54,
+22.38,
+5.2
+],
+"drone": [
+110.21,
+9.58,
+8.86
+],
+"drone_na_imagem": false,
+"drone_px": 131.0,
+"drone_uv": [
+170.0,
+-201.0
+],
+"dist_cam_grupo": 13.3,
+"altura_pessoa_px": 204.0,
+"v_drone": 4.42,
+"incl_drone": 5.3,
+"gimbal_dist": 11.7,
+"gimbal_incl": 42.8
+},
+{
+"t": 7.625,
+"inclinacao": 6.8,
+"C": [
+110.57,
+22.54,
+5.2
+],
+"drone": [
+110.05,
+9.67,
+8.85
+],
+"drone_na_imagem": false,
+"drone_px": 127.8,
+"drone_uv": [
+216.0,
+-174.0
+],
+"dist_cam_grupo": 13.4,
+"altura_pessoa_px": 201.0,
+"v_drone": 4.39,
+"incl_drone": 5.3,
+"gimbal_dist": 11.6,
+"gimbal_incl": 43.2
+},
+{
+"t": 7.667,
+"inclinacao": 6.5,
+"C": [
+110.59,
+22.7,
+5.2
+],
+"drone": [
+109.89,
+9.76,
+8.85
+],
+"drone_na_imagem": false,
+"drone_px": 124.8,
+"drone_uv": [
+258.0,
+-148.0
+],
+"dist_cam_grupo": 13.5,
+"altura_pessoa_px": 199.0,
+"v_drone": 4.37,
+"incl_drone": 5.2,
+"gimbal_dist": 11.5,
+"gimbal_incl": 43.7
+},
+{
+"t": 7.708,
+"inclinacao": 6.1,
+"C": [
+110.61,
+22.85,
+5.2
+],
+"drone": [
+109.73,
+9.85,
+8.84
+],
+"drone_na_imagem": false,
+"drone_px": 122.1,
+"drone_uv": [
+298.0,
+-124.0
+],
+"dist_cam_grupo": 13.6,
+"altura_pessoa_px": 197.0,
+"v_drone": 4.34,
+"incl_drone": 5.2,
+"gimbal_dist": 11.4,
+"gimbal_incl": 44.2
+},
+{
+"t": 7.75,
+"inclinacao": 5.7,
+"C": [
+110.63,
+23.01,
+5.2
+],
+"drone": [
+109.58,
+9.94,
+8.83
+],
+"drone_na_imagem": false,
+"drone_px": 119.5,
+"drone_uv": [
+334.0,
+-102.0
+],
+"dist_cam_grupo": 13.7,
+"altura_pessoa_px": 195.0,
+"v_drone": 4.32,
+"incl_drone": 5.1,
+"gimbal_dist": 11.3,
+"gimbal_incl": 44.7
+},
+{
+"t": 7.792,
+"inclinacao": 5.4,
+"C": [
+110.65,
+23.16,
+5.2
+],
+"drone": [
+109.42,
+10.03,
+8.82
+],
+"drone_na_imagem": false,
+"drone_px": 117.1,
+"drone_uv": [
+368.0,
+-81.0
+],
+"dist_cam_grupo": 13.8,
+"altura_pessoa_px": 193.0,
+"v_drone": 4.29,
+"incl_drone": 5.1,
+"gimbal_dist": 11.2,
+"gimbal_incl": 45.2
+},
+{
+"t": 7.833,
+"inclinacao": 5.1,
+"C": [
+110.67,
+23.3,
+5.2
+],
+"drone": [
+109.27,
+10.12,
+8.81
+],
+"drone_na_imagem": false,
+"drone_px": 114.9,
+"drone_uv": [
+400.0,
+-61.0
+],
+"dist_cam_grupo": 13.9,
+"altura_pessoa_px": 191.0,
+"v_drone": 4.27,
+"incl_drone": 5.0,
+"gimbal_dist": 11.1,
+"gimbal_incl": 45.7
+},
+{
+"t": 7.875,
+"inclinacao": 4.8,
+"C": [
+110.69,
+23.45,
+5.2
+],
+"drone": [
+109.12,
+10.21,
+8.8
+],
+"drone_na_imagem": false,
+"drone_px": 112.9,
+"drone_uv": [
+429.0,
+-43.0
+],
+"dist_cam_grupo": 14.0,
+"altura_pessoa_px": 189.0,
+"v_drone": 4.24,
+"incl_drone": 5.0,
+"gimbal_dist": 11.0,
+"gimbal_incl": 46.2
+},
+{
+"t": 7.917,
+"inclinacao": 4.5,
+"C": [
+110.7,
+23.59,
+5.2
+],
+"drone": [
+108.96,
+10.3,
+8.79
+],
+"drone_na_imagem": false,
+"drone_px": 111.0,
+"drone_uv": [
+456.0,
+-26.0
+],
+"dist_cam_grupo": 14.1,
+"altura_pessoa_px": 187.0,
+"v_drone": 4.22,
+"incl_drone": 4.9,
+"gimbal_dist": 10.8,
+"gimbal_incl": 46.7
+},
+{
+"t": 7.958,
+"inclinacao": 4.3,
+"C": [
+110.71,
+23.72,
+5.2
+],
+"drone": [
+108.81,
+10.39,
+8.79
+],
+"drone_na_imagem": false,
+"drone_px": 109.3,
+"drone_uv": [
+482.0,
+-10.0
+],
+"dist_cam_grupo": 14.2,
+"altura_pessoa_px": 186.0,
+"v_drone": 4.19,
+"incl_drone": 4.9,
+"gimbal_dist": 10.7,
+"gimbal_incl": 47.3
+},
+{
+"t": 8.0,
+"inclinacao": 4.0,
+"C": [
+110.71,
+23.85,
+5.2
+],
+"drone": [
+108.66,
+10.47,
+8.78
+],
+"drone_na_imagem": true,
+"drone_px": 107.7,
+"drone_uv": [
+505.0,
+4.0
+],
+"dist_cam_grupo": 14.3,
+"altura_pessoa_px": 184.0,
+"v_drone": 4.17,
+"incl_drone": 4.8,
+"gimbal_dist": 10.6,
+"gimbal_incl": 47.8
+},
+{
+"t": 8.042,
+"inclinacao": 3.8,
+"C": [
+110.72,
+23.99,
+5.2
+],
+"drone": [
+108.51,
+10.56,
+8.77
+],
+"drone_na_imagem": true,
+"drone_px": 106.1,
+"drone_uv": [
+527.0,
+18.0
+],
+"dist_cam_grupo": 14.4,
+"altura_pessoa_px": 182.0,
+"v_drone": 4.14,
+"incl_drone": 4.8,
+"gimbal_dist": 10.5,
+"gimbal_incl": 48.3
+},
+{
+"t": 8.083,
+"inclinacao": 3.6,
+"C": [
+110.72,
+24.12,
+5.2
+],
+"drone": [
+108.36,
+10.65,
+8.76
+],
+"drone_na_imagem": true,
+"drone_px": 104.7,
+"drone_uv": [
+547.0,
+30.0
+],
+"dist_cam_grupo": 14.5,
+"altura_pessoa_px": 181.0,
+"v_drone": 4.12,
+"incl_drone": 4.7,
+"gimbal_dist": 10.4,
+"gimbal_incl": 48.9
+},
+{
+"t": 8.125,
+"inclinacao": 3.4,
+"C": [
+110.72,
+24.24,
+5.2
+],
+"drone": [
+108.21,
+10.73,
+8.75
+],
+"drone_na_imagem": true,
+"drone_px": 103.5,
+"drone_uv": [
+565.0,
+41.0
+],
+"dist_cam_grupo": 14.5,
+"altura_pessoa_px": 180.0,
+"v_drone": 4.09,
+"incl_drone": 4.7,
+"gimbal_dist": 10.3,
+"gimbal_incl": 49.5
+},
+{
+"t": 8.167,
+"inclinacao": 3.2,
+"C": [
+110.72,
+24.37,
+5.2
+],
+"drone": [
+108.07,
+10.82,
+8.75
+],
+"drone_na_imagem": true,
+"drone_px": 102.3,
+"drone_uv": [
+583.0,
+51.0
+],
+"dist_cam_grupo": 14.6,
+"altura_pessoa_px": 178.0,
+"v_drone": 4.06,
+"incl_drone": 4.6,
+"gimbal_dist": 10.2,
+"gimbal_incl": 50.1
+},
+{
+"t": 8.208,
+"inclinacao": 3.1,
+"C": [
+110.71,
+24.48,
+5.2
+],
+"drone": [
+107.92,
+10.9,
+8.74
+],
+"drone_na_imagem": true,
+"drone_px": 101.2,
+"drone_uv": [
+598.0,
+60.0
+],
+"dist_cam_grupo": 14.7,
+"altura_pessoa_px": 177.0,
+"v_drone": 4.04,
+"incl_drone": 4.6,
+"gimbal_dist": 10.1,
+"gimbal_incl": 50.6
+},
+{
+"t": 8.25,
+"inclinacao": 3.0,
+"C": [
+110.69,
+24.6,
+5.2
+],
+"drone": [
+107.77,
+10.99,
+8.73
+],
+"drone_na_imagem": true,
+"drone_px": 100.3,
+"drone_uv": [
+613.0,
+68.0
+],
+"dist_cam_grupo": 14.7,
+"altura_pessoa_px": 176.0,
+"v_drone": 4.01,
+"incl_drone": 4.5,
+"gimbal_dist": 10.0,
+"gimbal_incl": 51.2
+},
+{
+"t": 8.292,
+"inclinacao": 2.9,
+"C": [
+110.68,
+24.71,
+5.2
+],
+"drone": [
+107.63,
+11.07,
+8.72
+],
+"drone_na_imagem": true,
+"drone_px": 99.4,
+"drone_uv": [
+626.0,
+75.0
+],
+"dist_cam_grupo": 14.8,
+"altura_pessoa_px": 175.0,
+"v_drone": 3.99,
+"incl_drone": 4.5,
+"gimbal_dist": 9.9,
+"gimbal_incl": 51.8
+},
+{
+"t": 8.333,
+"inclinacao": 2.8,
+"C": [
+110.66,
+24.82,
+5.2
+],
+"drone": [
+107.49,
+11.15,
+8.72
+],
+"drone_na_imagem": true,
+"drone_px": 98.7,
+"drone_uv": [
+638.0,
+81.0
+],
+"dist_cam_grupo": 14.8,
+"altura_pessoa_px": 175.0,
+"v_drone": 3.96,
+"incl_drone": 4.4,
+"gimbal_dist": 9.9,
+"gimbal_incl": 52.4
+},
+{
+"t": 8.375,
+"inclinacao": 2.8,
+"C": [
+110.63,
+24.92,
+5.2
+],
+"drone": [
+107.34,
+11.23,
+8.71
+],
+"drone_na_imagem": true,
+"drone_px": 98.1,
+"drone_uv": [
+649.0,
+86.0
+],
+"dist_cam_grupo": 14.8,
+"altura_pessoa_px": 174.0,
+"v_drone": 3.93,
+"incl_drone": 4.4,
+"gimbal_dist": 9.8,
+"gimbal_incl": 53.1
+},
+{
+"t": 8.417,
+"inclinacao": 2.7,
+"C": [
+110.6,
+25.01,
+5.2
+],
+"drone": [
+107.2,
+11.32,
+8.7
+],
+"drone_na_imagem": true,
+"drone_px": 97.6,
+"drone_uv": [
+659.0,
+90.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 173.0,
+"v_drone": 3.91,
+"incl_drone": 4.3,
+"gimbal_dist": 9.7,
+"gimbal_incl": 53.7
+},
+{
+"t": 8.458,
+"inclinacao": 2.7,
+"C": [
+110.57,
+25.09,
+5.2
+],
+"drone": [
+107.06,
+11.4,
+8.69
+],
+"drone_na_imagem": true,
+"drone_px": 97.2,
+"drone_uv": [
+668.0,
+92.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 173.0,
+"v_drone": 3.88,
+"incl_drone": 4.3,
+"gimbal_dist": 9.6,
+"gimbal_incl": 54.3
+},
+{
+"t": 8.5,
+"inclinacao": 2.7,
+"C": [
+110.52,
+25.17,
+5.2
+],
+"drone": [
+106.92,
+11.48,
+8.69
+],
+"drone_na_imagem": true,
+"drone_px": 96.9,
+"drone_uv": [
+676.0,
+94.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 173.0,
+"v_drone": 3.85,
+"incl_drone": 4.2,
+"gimbal_dist": 9.5,
+"gimbal_incl": 54.9
+},
+{
+"t": 8.542,
+"inclinacao": 2.7,
+"C": [
+110.48,
+25.24,
+5.2
+],
+"drone": [
+106.78,
+11.56,
+8.68
+],
+"drone_na_imagem": true,
+"drone_px": 96.7,
+"drone_uv": [
+683.0,
+95.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 173.0,
+"v_drone": 3.83,
+"incl_drone": 4.2,
+"gimbal_dist": 9.4,
+"gimbal_incl": 55.6
+},
+{
+"t": 8.583,
+"inclinacao": 2.8,
+"C": [
+110.44,
+25.31,
+5.2
+],
+"drone": [
+106.65,
+11.64,
+8.67
+],
+"drone_na_imagem": true,
+"drone_px": 96.5,
+"drone_uv": [
+690.0,
+96.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.8,
+"incl_drone": 4.2,
+"gimbal_dist": 9.4,
+"gimbal_incl": 56.2
+},
+{
+"t": 8.625,
+"inclinacao": 2.8,
+"C": [
+110.39,
+25.38,
+5.2
+],
+"drone": [
+106.51,
+11.72,
+8.67
+],
+"drone_na_imagem": true,
+"drone_px": 96.3,
+"drone_uv": [
+697.0,
+97.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.77,
+"incl_drone": 4.1,
+"gimbal_dist": 9.3,
+"gimbal_incl": 56.9
+},
+{
+"t": 8.667,
+"inclinacao": 2.8,
+"C": [
+110.34,
+25.46,
+5.2
+],
+"drone": [
+106.37,
+11.79,
+8.66
+],
+"drone_na_imagem": true,
+"drone_px": 96.1,
+"drone_uv": [
+704.0,
+98.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.75,
+"incl_drone": 4.1,
+"gimbal_dist": 9.2,
+"gimbal_incl": 57.5
+},
+{
+"t": 8.708,
+"inclinacao": 2.8,
+"C": [
+110.29,
+25.53,
+5.2
+],
+"drone": [
+106.24,
+11.87,
+8.65
+],
+"drone_na_imagem": true,
+"drone_px": 95.9,
+"drone_uv": [
+711.0,
+99.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.72,
+"incl_drone": 4.0,
+"gimbal_dist": 9.1,
+"gimbal_incl": 58.1
+},
+{
+"t": 8.75,
+"inclinacao": 2.8,
+"C": [
+110.24,
+25.61,
+5.2
+],
+"drone": [
+106.11,
+11.95,
+8.65
+],
+"drone_na_imagem": true,
+"drone_px": 95.7,
+"drone_uv": [
+718.0,
+100.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.69,
+"incl_drone": 3.9,
+"gimbal_dist": 9.1,
+"gimbal_incl": 58.8
+},
+{
+"t": 8.792,
+"inclinacao": 2.9,
+"C": [
+110.19,
+25.68,
+5.2
+],
+"drone": [
+105.97,
+12.03,
+8.64
+],
+"drone_na_imagem": true,
+"drone_px": 95.5,
+"drone_uv": [
+724.0,
+101.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.67,
+"incl_drone": 3.9,
+"gimbal_dist": 9.0,
+"gimbal_incl": 59.4
+},
+{
+"t": 8.833,
+"inclinacao": 2.9,
+"C": [
+110.14,
+25.76,
+5.2
+],
+"drone": [
+105.84,
+12.1,
+8.64
+],
+"drone_na_imagem": true,
+"drone_px": 95.3,
+"drone_uv": [
+731.0,
+102.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.64,
+"incl_drone": 3.8,
+"gimbal_dist": 8.9,
+"gimbal_incl": 60.0
+},
+{
+"t": 8.875,
+"inclinacao": 2.9,
+"C": [
+110.08,
+25.83,
+5.2
+],
+"drone": [
+105.71,
+12.18,
+8.63
+],
+"drone_na_imagem": true,
+"drone_px": 95.1,
+"drone_uv": [
+737.0,
+103.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.61,
+"incl_drone": 3.8,
+"gimbal_dist": 8.9,
+"gimbal_incl": 60.7
+},
+{
+"t": 8.917,
+"inclinacao": 2.9,
+"C": [
+110.03,
+25.9,
+5.2
+],
+"drone": [
+105.58,
+12.25,
+8.62
+],
+"drone_na_imagem": true,
+"drone_px": 94.9,
+"drone_uv": [
+743.0,
+103.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.58,
+"incl_drone": 3.7,
+"gimbal_dist": 8.8,
+"gimbal_incl": 61.3
+},
+{
+"t": 8.958,
+"inclinacao": 2.9,
+"C": [
+109.97,
+25.98,
+5.2
+],
+"drone": [
+105.45,
+12.33,
+8.62
+],
+"drone_na_imagem": true,
+"drone_px": 94.7,
+"drone_uv": [
+749.0,
+104.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.56,
+"incl_drone": 3.7,
+"gimbal_dist": 8.7,
+"gimbal_incl": 61.9
+},
+{
+"t": 9.0,
+"inclinacao": 2.9,
+"C": [
+109.92,
+26.05,
+5.2
+],
+"drone": [
+105.32,
+12.4,
+8.61
+],
+"drone_na_imagem": true,
+"drone_px": 94.5,
+"drone_uv": [
+755.0,
+105.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.53,
+"incl_drone": 3.6,
+"gimbal_dist": 8.7,
+"gimbal_incl": 62.5
+},
+{
+"t": 9.042,
+"inclinacao": 3.0,
+"C": [
+109.87,
+26.12,
+5.2
+],
+"drone": [
+105.2,
+12.47,
+8.61
+],
+"drone_na_imagem": true,
+"drone_px": 94.3,
+"drone_uv": [
+761.0,
+106.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.5,
+"incl_drone": 3.6,
+"gimbal_dist": 8.6,
+"gimbal_incl": 63.2
+},
+{
+"t": 9.083,
+"inclinacao": 3.0,
+"C": [
+109.82,
+26.19,
+5.2
+],
+"drone": [
+105.07,
+12.55,
+8.6
+],
+"drone_na_imagem": true,
+"drone_px": 94.2,
+"drone_uv": [
+767.0,
+107.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.47,
+"incl_drone": 3.5,
+"gimbal_dist": 8.6,
+"gimbal_incl": 63.9
+},
+{
+"t": 9.125,
+"inclinacao": 3.0,
+"C": [
+109.77,
+26.26,
+5.2
+],
+"drone": [
+104.95,
+12.62,
+8.59
+],
+"drone_na_imagem": true,
+"drone_px": 94.0,
+"drone_uv": [
+773.0,
+108.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.44,
+"incl_drone": 3.5,
+"gimbal_dist": 8.5,
+"gimbal_incl": 64.6
+},
+{
+"t": 9.167,
+"inclinacao": 3.0,
+"C": [
+109.72,
+26.32,
+5.2
+],
+"drone": [
+104.82,
+12.69,
+8.59
+],
+"drone_na_imagem": true,
+"drone_px": 93.8,
+"drone_uv": [
+779.0,
+108.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.42,
+"incl_drone": 3.4,
+"gimbal_dist": 8.5,
+"gimbal_incl": 65.2
+},
+{
+"t": 9.208,
+"inclinacao": 3.0,
+"C": [
+109.67,
+26.39,
+5.2
+],
+"drone": [
+104.7,
+12.76,
+8.58
+],
+"drone_na_imagem": true,
+"drone_px": 93.6,
+"drone_uv": [
+785.0,
+109.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.39,
+"incl_drone": 3.4,
+"gimbal_dist": 8.4,
+"gimbal_incl": 65.9
+},
+{
+"t": 9.25,
+"inclinacao": 3.1,
+"C": [
+109.62,
+26.46,
+5.2
+],
+"drone": [
+104.58,
+12.83,
+8.58
+],
+"drone_na_imagem": true,
+"drone_px": 93.4,
+"drone_uv": [
+791.0,
+110.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.36,
+"incl_drone": 3.3,
+"gimbal_dist": 8.4,
+"gimbal_incl": 66.6
+},
+{
+"t": 9.292,
+"inclinacao": 3.1,
+"C": [
+109.57,
+26.54,
+5.2
+],
+"drone": [
+104.46,
+12.9,
+8.57
+],
+"drone_na_imagem": true,
+"drone_px": 93.2,
+"drone_uv": [
+797.0,
+111.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.33,
+"incl_drone": 3.3,
+"gimbal_dist": 8.3,
+"gimbal_incl": 67.3
+},
+{
+"t": 9.333,
+"inclinacao": 3.1,
+"C": [
+109.52,
+26.61,
+5.2
+],
+"drone": [
+104.34,
+12.97,
+8.57
+],
+"drone_na_imagem": true,
+"drone_px": 93.0,
+"drone_uv": [
+803.0,
+112.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.3,
+"incl_drone": 3.2,
+"gimbal_dist": 8.3,
+"gimbal_incl": 68.0
+},
+{
+"t": 9.375,
+"inclinacao": 3.1,
+"C": [
+109.48,
+26.68,
+5.2
+],
+"drone": [
+104.22,
+13.04,
+8.56
+],
+"drone_na_imagem": true,
+"drone_px": 92.8,
+"drone_uv": [
+809.0,
+112.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.27,
+"incl_drone": 3.2,
+"gimbal_dist": 8.2,
+"gimbal_incl": 68.7
+},
+{
+"t": 9.417,
+"inclinacao": 3.1,
+"C": [
+109.43,
+26.75,
+5.2
+],
+"drone": [
+104.1,
+13.11,
+8.56
+],
+"drone_na_imagem": true,
+"drone_px": 92.6,
+"drone_uv": [
+814.0,
+113.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.25,
+"incl_drone": 3.1,
+"gimbal_dist": 8.2,
+"gimbal_incl": 69.4
+},
+{
+"t": 9.458,
+"inclinacao": 3.2,
+"C": [
+109.39,
+26.82,
+5.2
+],
+"drone": [
+103.99,
+13.17,
+8.55
+],
+"drone_na_imagem": true,
+"drone_px": 92.3,
+"drone_uv": [
+820.0,
+114.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.22,
+"incl_drone": 3.1,
+"gimbal_dist": 8.1,
+"gimbal_incl": 70.1
+},
+{
+"t": 9.5,
+"inclinacao": 3.2,
+"C": [
+109.34,
+26.9,
+5.2
+],
+"drone": [
+103.87,
+13.24,
+8.55
+],
+"drone_na_imagem": true,
+"drone_px": 92.1,
+"drone_uv": [
+825.0,
+115.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.19,
+"incl_drone": 3.0,
+"gimbal_dist": 8.1,
+"gimbal_incl": 70.8
+},
+{
+"t": 9.542,
+"inclinacao": 3.2,
+"C": [
+109.3,
+26.97,
+5.2
+],
+"drone": [
+103.76,
+13.31,
+8.54
+],
+"drone_na_imagem": true,
+"drone_px": 91.8,
+"drone_uv": [
+831.0,
+116.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.16,
+"incl_drone": 3.0,
+"gimbal_dist": 8.1,
+"gimbal_incl": 71.5
+},
+{
+"t": 9.583,
+"inclinacao": 3.2,
+"C": [
+109.25,
+27.05,
+5.2
+],
+"drone": [
+103.64,
+13.37,
+8.54
+],
+"drone_na_imagem": true,
+"drone_px": 91.6,
+"drone_uv": [
+836.0,
+116.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.13,
+"incl_drone": 2.9,
+"gimbal_dist": 8.0,
+"gimbal_incl": 72.2
+},
+{
+"t": 9.625,
+"inclinacao": 3.2,
+"C": [
+109.21,
+27.12,
+5.2
+],
+"drone": [
+103.53,
+13.44,
+8.54
+],
+"drone_na_imagem": true,
+"drone_px": 91.4,
+"drone_uv": [
+842.0,
+117.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.1,
+"incl_drone": 2.9,
+"gimbal_dist": 8.0,
+"gimbal_incl": 72.9
+},
+{
+"t": 9.667,
+"inclinacao": 3.3,
+"C": [
+109.16,
+27.19,
+5.2
+],
+"drone": [
+103.42,
+13.5,
+8.53
+],
+"drone_na_imagem": true,
+"drone_px": 91.2,
+"drone_uv": [
+847.0,
+118.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.07,
+"incl_drone": 2.8,
+"gimbal_dist": 8.0,
+"gimbal_incl": 73.6
+},
+{
+"t": 9.708,
+"inclinacao": 3.3,
+"C": [
+109.12,
+27.25,
+5.2
+],
+"drone": [
+103.31,
+13.56,
+8.53
+],
+"drone_na_imagem": true,
+"drone_px": 91.0,
+"drone_uv": [
+852.0,
+119.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.04,
+"incl_drone": 2.7,
+"gimbal_dist": 7.9,
+"gimbal_incl": 74.3
+},
+{
+"t": 9.75,
+"inclinacao": 3.3,
+"C": [
+109.07,
+27.32,
+5.2
+],
+"drone": [
+103.2,
+13.63,
+8.52
+],
+"drone_na_imagem": true,
+"drone_px": 90.8,
+"drone_uv": [
+857.0,
+119.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.01,
+"incl_drone": 2.7,
+"gimbal_dist": 7.9,
+"gimbal_incl": 75.0
+},
+{
+"t": 9.792,
+"inclinacao": 3.3,
+"C": [
+109.02,
+27.39,
+5.2
+],
+"drone": [
+103.09,
+13.69,
+8.52
+],
+"drone_na_imagem": true,
+"drone_px": 90.6,
+"drone_uv": [
+862.0,
+120.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.98,
+"incl_drone": 2.6,
+"gimbal_dist": 7.9,
+"gimbal_incl": 75.7
+},
+{
+"t": 9.833,
+"inclinacao": 3.3,
+"C": [
+108.97,
+27.46,
+5.2
+],
+"drone": [
+102.98,
+13.75,
+8.51
+],
+"drone_na_imagem": true,
+"drone_px": 90.4,
+"drone_uv": [
+867.0,
+121.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.95,
+"incl_drone": 2.6,
+"gimbal_dist": 7.8,
+"gimbal_incl": 76.3
+},
+{
+"t": 9.875,
+"inclinacao": 3.3,
+"C": [
+108.92,
+27.53,
+5.2
+],
+"drone": [
+102.88,
+13.81,
+8.51
+],
+"drone_na_imagem": true,
+"drone_px": 90.2,
+"drone_uv": [
+872.0,
+121.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.92,
+"incl_drone": 2.5,
+"gimbal_dist": 7.8,
+"gimbal_incl": 77.0
+},
+{
+"t": 9.917,
+"inclinacao": 3.4,
+"C": [
+108.87,
+27.6,
+5.2
+],
+"drone": [
+102.77,
+13.87,
+8.51
+],
+"drone_na_imagem": true,
+"drone_px": 90.1,
+"drone_uv": [
+876.0,
+122.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.89,
+"incl_drone": 2.5,
+"gimbal_dist": 7.8,
+"gimbal_incl": 77.6
+},
+{
+"t": 9.958,
+"inclinacao": 3.4,
+"C": [
+108.82,
+27.66,
+5.2
+],
+"drone": [
+102.67,
+13.93,
+8.5
+],
+"drone_na_imagem": true,
+"drone_px": 89.9,
+"drone_uv": [
+881.0,
+123.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.91,
+"incl_drone": 8.0,
+"gimbal_dist": 7.8,
+"gimbal_incl": 78.2
+},
+{
+"t": 10.0,
+"inclinacao": 3.4,
+"C": [
+108.77,
+27.73,
+5.2
+],
+"drone": [
+102.57,
+13.99,
+8.5
+],
+"drone_na_imagem": true,
+"drone_px": 89.7,
+"drone_uv": [
+885.0,
+123.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.08,
+"incl_drone": 15.0,
+"gimbal_dist": 7.7,
+"gimbal_incl": 78.8
+},
+{
+"t": 10.042,
+"inclinacao": 3.4,
+"C": [
+108.71,
+27.8,
+5.2
+],
+"drone": [
+102.45,
+14.06,
+8.5
+],
+"drone_na_imagem": true,
+"drone_px": 89.5,
+"drone_uv": [
+890.0,
+124.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.19,
+"incl_drone": -0.4,
+"gimbal_dist": 7.7,
+"gimbal_incl": 79.5
+},
+{
+"t": 10.083,
+"inclinacao": 3.4,
+"C": [
+108.65,
+27.87,
+5.2
+],
+"drone": [
+102.33,
+14.13,
+8.49
+],
+"drone_na_imagem": true,
+"drone_px": 89.3,
+"drone_uv": [
+895.0,
+124.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.09,
+"incl_drone": -5.9,
+"gimbal_dist": 7.7,
+"gimbal_incl": 80.2
+},
+{
+"t": 10.125,
+"inclinacao": 3.4,
+"C": [
+108.59,
+27.94,
+5.2
+],
+"drone": [
+102.22,
+14.19,
+8.49
+],
+"drone_na_imagem": true,
+"drone_px": 89.2,
+"drone_uv": [
+899.0,
+125.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 168.0,
+"v_drone": 2.94,
+"incl_drone": -5.7,
+"gimbal_dist": 7.7,
+"gimbal_incl": 80.8
+},
+{
+"t": 10.167,
+"inclinacao": 3.5,
+"C": [
+108.54,
+28.01,
+5.2
+],
+"drone": [
+102.12,
+14.25,
+8.48
+],
+"drone_na_imagem": true,
+"drone_px": 89.0,
+"drone_uv": [
+904.0,
+126.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.8,
+"incl_drone": -5.5,
+"gimbal_dist": 7.7,
+"gimbal_incl": 81.4
+},
+{
+"t": 10.208,
+"inclinacao": 3.5,
+"C": [
+108.48,
+28.08,
+5.2
+],
+"drone": [
+102.02,
+14.31,
+8.48
+],
+"drone_na_imagem": true,
+"drone_px": 88.8,
+"drone_uv": [
+907.0,
+126.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.66,
+"incl_drone": -5.3,
+"gimbal_dist": 7.7,
+"gimbal_incl": 81.9
+},
+{
+"t": 10.25,
+"inclinacao": 3.5,
+"C": [
+108.43,
+28.15,
+5.2
+],
+"drone": [
+101.93,
+14.36,
+8.48
+],
+"drone_na_imagem": true,
+"drone_px": 88.7,
+"drone_uv": [
+911.0,
+127.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.53,
+"incl_drone": -5.0,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.4
+},
+{
+"t": 10.292,
+"inclinacao": 3.5,
+"C": [
+108.37,
+28.21,
+5.2
+],
+"drone": [
+101.84,
+14.41,
+8.47
+],
+"drone_na_imagem": true,
+"drone_px": 88.5,
+"drone_uv": [
+915.0,
+127.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.41,
+"incl_drone": -4.8,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.9
+},
+{
+"t": 10.333,
+"inclinacao": 3.5,
+"C": [
+108.32,
+28.28,
+5.2
+],
+"drone": [
+101.75,
+14.46,
+8.47
+],
+"drone_na_imagem": true,
+"drone_px": 88.3,
+"drone_uv": [
+918.0,
+128.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.29,
+"incl_drone": -4.5,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.3
+},
+{
+"t": 10.375,
+"inclinacao": 3.5,
+"C": [
+108.27,
+28.34,
+5.2
+],
+"drone": [
+101.67,
+14.51,
+8.46
+],
+"drone_na_imagem": true,
+"drone_px": 88.2,
+"drone_uv": [
+921.0,
+129.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.18,
+"incl_drone": -4.3,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.7
+},
+{
+"t": 10.417,
+"inclinacao": 3.5,
+"C": [
+108.21,
+28.41,
+5.2
+],
+"drone": [
+101.6,
+14.55,
+8.46
+],
+"drone_na_imagem": true,
+"drone_px": 88.0,
+"drone_uv": [
+924.0,
+129.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 2.08,
+"incl_drone": -4.0,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.0
+},
+{
+"t": 10.458,
+"inclinacao": 3.6,
+"C": [
+108.17,
+28.48,
+5.2
+],
+"drone": [
+101.52,
+14.59,
+8.46
+],
+"drone_na_imagem": true,
+"drone_px": 87.8,
+"drone_uv": [
+927.0,
+130.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.98,
+"incl_drone": -3.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.3
+},
+{
+"t": 10.5,
+"inclinacao": 3.6,
+"C": [
+108.12,
+28.55,
+5.2
+],
+"drone": [
+101.45,
+14.63,
+8.45
+],
+"drone_na_imagem": true,
+"drone_px": 87.6,
+"drone_uv": [
+930.0,
+130.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.89,
+"incl_drone": -3.4,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.5
+},
+{
+"t": 10.542,
+"inclinacao": 3.6,
+"C": [
+108.07,
+28.62,
+5.2
+],
+"drone": [
+101.39,
+14.67,
+8.45
+],
+"drone_na_imagem": true,
+"drone_px": 87.4,
+"drone_uv": [
+932.0,
+131.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.8,
+"incl_drone": -3.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.6
+},
+{
+"t": 10.583,
+"inclinacao": 3.6,
+"C": [
+108.02,
+28.69,
+5.2
+],
+"drone": [
+101.32,
+14.71,
+8.44
+],
+"drone_na_imagem": true,
+"drone_px": 87.2,
+"drone_uv": [
+934.0,
+132.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.72,
+"incl_drone": -2.8,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.7
+},
+{
+"t": 10.625,
+"inclinacao": 3.6,
+"C": [
+107.97,
+28.77,
+5.2
+],
+"drone": [
+101.26,
+14.74,
+8.44
+],
+"drone_na_imagem": true,
+"drone_px": 86.9,
+"drone_uv": [
+936.0,
+132.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.65,
+"incl_drone": -2.5,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.8
+},
+{
+"t": 10.667,
+"inclinacao": 3.7,
+"C": [
+107.92,
+28.84,
+5.2
+],
+"drone": [
+101.21,
+14.78,
+8.44
+],
+"drone_na_imagem": true,
+"drone_px": 86.7,
+"drone_uv": [
+938.0,
+133.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.58,
+"incl_drone": -2.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.8
+},
+{
+"t": 10.708,
+"inclinacao": 3.7,
+"C": [
+107.88,
+28.91,
+5.2
+],
+"drone": [
+101.15,
+14.81,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 86.5,
+"drone_uv": [
+940.0,
+134.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.52,
+"incl_drone": -1.8,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.7
+},
+{
+"t": 10.75,
+"inclinacao": 3.7,
+"C": [
+107.83,
+28.99,
+5.2
+],
+"drone": [
+101.1,
+14.84,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 86.3,
+"drone_uv": [
+942.0,
+134.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 167.0,
+"v_drone": 1.46,
+"incl_drone": -1.4,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.6
+},
+{
+"t": 10.792,
+"inclinacao": 3.7,
+"C": [
+107.78,
+29.06,
+5.2
+],
+"drone": [
+101.04,
+14.87,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 86.0,
+"drone_uv": [
+943.0,
+135.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.41,
+"incl_drone": -1.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.5
+},
+{
+"t": 10.833,
+"inclinacao": 3.7,
+"C": [
+107.74,
+29.13,
+5.2
+],
+"drone": [
+100.99,
+14.9,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 85.8,
+"drone_uv": [
+945.0,
+135.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.37,
+"incl_drone": -0.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.4
+},
+{
+"t": 10.875,
+"inclinacao": 3.7,
+"C": [
+107.69,
+29.19,
+5.2
+],
+"drone": [
+100.95,
+14.93,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 85.6,
+"drone_uv": [
+946.0,
+136.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.33,
+"incl_drone": -0.3,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.2
+},
+{
+"t": 10.917,
+"inclinacao": 3.8,
+"C": [
+107.64,
+29.26,
+5.2
+],
+"drone": [
+100.9,
+14.96,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 85.5,
+"drone_uv": [
+948.0,
+136.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.3,
+"incl_drone": 0.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 84.1
+},
+{
+"t": 10.958,
+"inclinacao": 3.8,
+"C": [
+107.59,
+29.33,
+5.2
+],
+"drone": [
+100.85,
+14.98,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 85.3,
+"drone_uv": [
+949.0,
+137.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.28,
+"incl_drone": 0.5,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.9
+},
+{
+"t": 11.0,
+"inclinacao": 3.8,
+"C": [
+107.54,
+29.4,
+5.2
+],
+"drone": [
+100.81,
+15.01,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 85.1,
+"drone_uv": [
+950.0,
+137.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.26,
+"incl_drone": 0.9,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.7
+},
+{
+"t": 11.042,
+"inclinacao": 3.8,
+"C": [
+107.49,
+29.46,
+5.2
+],
+"drone": [
+100.76,
+15.04,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.9,
+"drone_uv": [
+951.0,
+138.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.25,
+"incl_drone": 1.3,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.5
+},
+{
+"t": 11.083,
+"inclinacao": 3.8,
+"C": [
+107.43,
+29.53,
+5.2
+],
+"drone": [
+100.72,
+15.06,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.7,
+"drone_uv": [
+952.0,
+138.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.24,
+"incl_drone": 1.8,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.3
+},
+{
+"t": 11.125,
+"inclinacao": 3.8,
+"C": [
+107.37,
+29.6,
+5.2
+],
+"drone": [
+100.67,
+15.09,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.5,
+"drone_uv": [
+953.0,
+139.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.24,
+"incl_drone": 2.2,
+"gimbal_dist": 7.6,
+"gimbal_incl": 83.1
+},
+{
+"t": 11.167,
+"inclinacao": 3.8,
+"C": [
+107.32,
+29.67,
+5.2
+],
+"drone": [
+100.63,
+15.11,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.4,
+"drone_uv": [
+954.0,
+139.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.25,
+"incl_drone": 2.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.9
+},
+{
+"t": 11.208,
+"inclinacao": 3.9,
+"C": [
+107.26,
+29.74,
+5.2
+],
+"drone": [
+100.58,
+15.14,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.2,
+"drone_uv": [
+955.0,
+140.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.26,
+"incl_drone": 3.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.7
+},
+{
+"t": 11.25,
+"inclinacao": 3.9,
+"C": [
+107.2,
+29.8,
+5.2
+],
+"drone": [
+100.54,
+15.16,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 84.0,
+"drone_uv": [
+956.0,
+140.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.28,
+"incl_drone": 3.6,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.5
+},
+{
+"t": 11.292,
+"inclinacao": 3.9,
+"C": [
+107.14,
+29.87,
+5.2
+],
+"drone": [
+100.49,
+15.19,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 83.9,
+"drone_uv": [
+957.0,
+141.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.3,
+"incl_drone": 4.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.3
+},
+{
+"t": 11.333,
+"inclinacao": 3.9,
+"C": [
+107.08,
+29.94,
+5.2
+],
+"drone": [
+100.44,
+15.22,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.7,
+"drone_uv": [
+958.0,
+141.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.33,
+"incl_drone": 4.6,
+"gimbal_dist": 7.6,
+"gimbal_incl": 82.1
+},
+{
+"t": 11.375,
+"inclinacao": 3.9,
+"C": [
+107.02,
+30.0,
+5.2
+],
+"drone": [
+100.39,
+15.25,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.6,
+"drone_uv": [
+959.0,
+141.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.37,
+"incl_drone": 5.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 81.9
+},
+{
+"t": 11.417,
+"inclinacao": 3.9,
+"C": [
+106.96,
+30.07,
+5.2
+],
+"drone": [
+100.34,
+15.28,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.4,
+"drone_uv": [
+960.0,
+142.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.41,
+"incl_drone": 5.6,
+"gimbal_dist": 7.6,
+"gimbal_incl": 81.7
+},
+{
+"t": 11.458,
+"inclinacao": 3.9,
+"C": [
+106.91,
+30.13,
+5.2
+],
+"drone": [
+100.29,
+15.31,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.3,
+"drone_uv": [
+962.0,
+142.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.46,
+"incl_drone": 6.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 81.5
+},
+{
+"t": 11.5,
+"inclinacao": 3.9,
+"C": [
+106.85,
+30.2,
+5.2
+],
+"drone": [
+100.24,
+15.34,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.1,
+"drone_uv": [
+963.0,
+142.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.52,
+"incl_drone": 6.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 81.4
+},
+{
+"t": 11.542,
+"inclinacao": 3.9,
+"C": [
+106.8,
+30.26,
+5.2
+],
+"drone": [
+100.18,
+15.37,
+8.4
+],
+"drone_na_imagem": true,
+"drone_px": 83.0,
+"drone_uv": [
+965.0,
+143.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.58,
+"incl_drone": 7.2,
+"gimbal_dist": 7.6,
+"gimbal_incl": 81.1
+},
+{
+"t": 11.583,
+"inclinacao": 3.9,
+"C": [
+106.74,
+30.32,
+5.2
+],
+"drone": [
+100.12,
+15.4,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.8,
+"drone_uv": [
+967.0,
+143.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 166.0,
+"v_drone": 1.65,
+"incl_drone": 7.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 80.9
+},
+{
+"t": 11.625,
+"inclinacao": 3.9,
+"C": [
+106.69,
+30.39,
+5.2
+],
+"drone": [
+100.06,
+15.44,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.7,
+"drone_uv": [
+969.0,
+143.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 165.0,
+"v_drone": 1.72,
+"incl_drone": 8.3,
+"gimbal_dist": 7.6,
+"gimbal_incl": 80.7
+},
+{
+"t": 11.667,
+"inclinacao": 3.9,
+"C": [
+106.63,
+30.45,
+5.2
+],
+"drone": [
+100.0,
+15.47,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.5,
+"drone_uv": [
+971.0,
+143.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 165.0,
+"v_drone": 1.8,
+"incl_drone": 8.9,
+"gimbal_dist": 7.6,
+"gimbal_incl": 80.4
+},
+{
+"t": 11.708,
+"inclinacao": 3.9,
+"C": [
+106.58,
+30.52,
+5.2
+],
+"drone": [
+99.93,
+15.51,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.4,
+"drone_uv": [
+973.0,
+144.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 165.0,
+"v_drone": 1.89,
+"incl_drone": 9.5,
+"gimbal_dist": 7.6,
+"gimbal_incl": 80.2
+},
+{
+"t": 11.75,
+"inclinacao": 4.0,
+"C": [
+106.53,
+30.58,
+5.2
+],
+"drone": [
+99.86,
+15.55,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.2,
+"drone_uv": [
+976.0,
+144.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 165.0,
+"v_drone": 1.98,
+"incl_drone": 10.1,
+"gimbal_dist": 7.6,
+"gimbal_incl": 79.9
+},
+{
+"t": 11.792,
+"inclinacao": 4.0,
+"C": [
+106.47,
+30.65,
+5.2
+],
+"drone": [
+99.79,
+15.6,
+8.41
+],
+"drone_na_imagem": true,
+"drone_px": 82.1,
+"drone_uv": [
+978.0,
+144.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.08,
+"incl_drone": 10.7,
+"gimbal_dist": 7.6,
+"gimbal_incl": 79.6
+},
+{
+"t": 11.833,
+"inclinacao": 4.0,
+"C": [
+106.42,
+30.72,
+5.2
+],
+"drone": [
+99.71,
+15.64,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 81.9,
+"drone_uv": [
+981.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.18,
+"incl_drone": 11.3,
+"gimbal_dist": 7.6,
+"gimbal_incl": 79.3
+},
+{
+"t": 11.875,
+"inclinacao": 4.0,
+"C": [
+106.37,
+30.79,
+5.2
+],
+"drone": [
+99.63,
+15.69,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 81.8,
+"drone_uv": [
+984.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.3,
+"incl_drone": 11.9,
+"gimbal_dist": 7.7,
+"gimbal_incl": 78.9
+},
+{
+"t": 11.917,
+"inclinacao": 4.0,
+"C": [
+106.32,
+30.86,
+5.2
+],
+"drone": [
+99.55,
+15.74,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 81.6,
+"drone_uv": [
+987.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.41,
+"incl_drone": 12.5,
+"gimbal_dist": 7.7,
+"gimbal_incl": 78.6
+},
+{
+"t": 11.958,
+"inclinacao": 4.0,
+"C": [
+106.27,
+30.93,
+5.2
+],
+"drone": [
+99.46,
+15.79,
+8.42
+],
+"drone_na_imagem": true,
+"drone_px": 81.5,
+"drone_uv": [
+991.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.54,
+"incl_drone": 13.2,
+"gimbal_dist": 7.7,
+"gimbal_incl": 78.2
+},
+{
+"t": 12.0,
+"inclinacao": 4.0,
+"C": [
+106.21,
+31.0,
+5.2
+],
+"drone": [
+99.37,
+15.84,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 81.3,
+"drone_uv": [
+994.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.67,
+"incl_drone": 13.8,
+"gimbal_dist": 7.7,
+"gimbal_incl": 77.8
+},
+{
+"t": 12.042,
+"inclinacao": 4.0,
+"C": [
+106.16,
+31.06,
+5.2
+],
+"drone": [
+99.27,
+15.9,
+8.43
+],
+"drone_na_imagem": true,
+"drone_px": 81.2,
+"drone_uv": [
+998.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.8,
+"incl_drone": 14.5,
+"gimbal_dist": 7.7,
+"gimbal_incl": 77.4
+},
+{
+"t": 12.083,
+"inclinacao": 4.0,
+"C": [
+106.11,
+31.12,
+5.2
+],
+"drone": [
+99.16,
+15.96,
+8.44
+],
+"drone_na_imagem": true,
+"drone_px": 81.1,
+"drone_uv": [
+1002.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.94,
+"incl_drone": 15.0,
+"gimbal_dist": 7.7,
+"gimbal_incl": 76.9
+},
+{
+"t": 12.125,
+"inclinacao": 4.0,
+"C": [
+106.05,
+31.18,
+5.2
+],
+"drone": [
+99.05,
+16.02,
+8.44
+],
+"drone_na_imagem": true,
+"drone_px": 81.0,
+"drone_uv": [
+1007.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.09,
+"incl_drone": 15.0,
+"gimbal_dist": 7.8,
+"gimbal_incl": 76.5
+},
+{
+"t": 12.167,
+"inclinacao": 4.0,
+"C": [
+106.0,
+31.24,
+5.2
+],
+"drone": [
+98.94,
+16.09,
+8.45
+],
+"drone_na_imagem": true,
+"drone_px": 80.9,
+"drone_uv": [
+1012.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.25,
+"incl_drone": 15.0,
+"gimbal_dist": 7.8,
+"gimbal_incl": 76.0
+},
+{
+"t": 12.208,
+"inclinacao": 4.0,
+"C": [
+105.94,
+31.31,
+5.2
+],
+"drone": [
+98.82,
+16.16,
+8.45
+],
+"drone_na_imagem": true,
+"drone_px": 80.8,
+"drone_uv": [
+1016.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.41,
+"incl_drone": 15.0,
+"gimbal_dist": 7.8,
+"gimbal_incl": 75.4
+},
+{
+"t": 12.25,
+"inclinacao": 4.0,
+"C": [
+105.88,
+31.37,
+5.2
+],
+"drone": [
+98.69,
+16.23,
+8.46
+],
+"drone_na_imagem": true,
+"drone_px": 80.7,
+"drone_uv": [
+1022.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.57,
+"incl_drone": 15.0,
+"gimbal_dist": 7.8,
+"gimbal_incl": 74.9
+},
+{
+"t": 12.292,
+"inclinacao": 3.9,
+"C": [
+105.82,
+31.43,
+5.2
+],
+"drone": [
+98.56,
+16.3,
+8.46
+],
+"drone_na_imagem": true,
+"drone_px": 80.6,
+"drone_uv": [
+1027.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.75,
+"incl_drone": 15.0,
+"gimbal_dist": 7.9,
+"gimbal_incl": 74.3
+},
+{
+"t": 12.333,
+"inclinacao": 3.9,
+"C": [
+105.76,
+31.49,
+5.2
+],
+"drone": [
+98.42,
+16.38,
+8.47
+],
+"drone_na_imagem": true,
+"drone_px": 80.6,
+"drone_uv": [
+1033.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.92,
+"incl_drone": 15.0,
+"gimbal_dist": 7.9,
+"gimbal_incl": 73.6
+},
+{
+"t": 12.375,
+"inclinacao": 3.9,
+"C": [
+105.7,
+31.56,
+5.2
+],
+"drone": [
+98.28,
+16.47,
+8.48
+],
+"drone_na_imagem": true,
+"drone_px": 80.5,
+"drone_uv": [
+1039.0,
+145.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 4.11,
+"incl_drone": 15.0,
+"gimbal_dist": 7.9,
+"gimbal_incl": 72.9
+},
+{
+"t": 12.417,
+"inclinacao": 3.9,
+"C": [
+105.64,
+31.62,
+5.2
+],
+"drone": [
+98.13,
+16.56,
+8.48
+],
+"drone_na_imagem": true,
+"drone_px": 80.4,
+"drone_uv": [
+1045.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 4.3,
+"incl_drone": 15.0,
+"gimbal_dist": 8.0,
+"gimbal_incl": 72.2
+},
+{
+"t": 12.458,
+"inclinacao": 3.9,
+"C": [
+105.58,
+31.68,
+5.2
+],
+"drone": [
+97.97,
+16.65,
+8.49
+],
+"drone_na_imagem": true,
+"drone_px": 80.4,
+"drone_uv": [
+1052.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 4.28,
+"incl_drone": -4.5,
+"gimbal_dist": 8.0,
+"gimbal_incl": 71.4
+},
+{
+"t": 12.5,
+"inclinacao": 3.9,
+"C": [
+105.52,
+31.74,
+5.2
+],
+"drone": [
+97.8,
+16.74,
+8.5
+],
+"drone_na_imagem": true,
+"drone_px": 80.3,
+"drone_uv": [
+1059.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.37,
+"incl_drone": -15.0,
+"gimbal_dist": 8.1,
+"gimbal_incl": 70.6
+},
+{
+"t": 12.542,
+"inclinacao": 3.9,
+"C": [
+105.45,
+31.81,
+5.2
+],
+"drone": [
+97.72,
+16.79,
+8.5
+],
+"drone_na_imagem": true,
+"drone_px": 80.2,
+"drone_uv": [
+1061.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.41,
+"incl_drone": -15.0,
+"gimbal_dist": 8.1,
+"gimbal_incl": 70.3
+},
+{
+"t": 12.583,
+"inclinacao": 3.9,
+"C": [
+105.39,
+31.87,
+5.2
+],
+"drone": [
+97.64,
+16.83,
+8.51
+],
+"drone_na_imagem": true,
+"drone_px": 80.1,
+"drone_uv": [
+1063.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.25,
+"incl_drone": 7.7,
+"gimbal_dist": 8.1,
+"gimbal_incl": 69.9
+},
+{
+"t": 12.625,
+"inclinacao": 3.9,
+"C": [
+105.33,
+31.93,
+5.2
+],
+"drone": [
+97.56,
+16.88,
+8.51
+],
+"drone_na_imagem": true,
+"drone_px": 80.0,
+"drone_uv": [
+1066.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.31,
+"incl_drone": 7.8,
+"gimbal_dist": 8.1,
+"gimbal_incl": 69.5
+},
+{
+"t": 12.667,
+"inclinacao": 3.9,
+"C": [
+105.28,
+31.99,
+5.2
+],
+"drone": [
+97.48,
+16.93,
+8.52
+],
+"drone_na_imagem": true,
+"drone_px": 79.9,
+"drone_uv": [
+1069.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.37,
+"incl_drone": 7.8,
+"gimbal_dist": 8.2,
+"gimbal_incl": 69.1
+},
+{
+"t": 12.708,
+"inclinacao": 3.9,
+"C": [
+105.22,
+32.04,
+5.2
+],
+"drone": [
+97.39,
+16.98,
+8.52
+],
+"drone_na_imagem": true,
+"drone_px": 79.8,
+"drone_uv": [
+1073.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.42,
+"incl_drone": 7.8,
+"gimbal_dist": 8.2,
+"gimbal_incl": 68.7
+},
+{
+"t": 12.75,
+"inclinacao": 3.9,
+"C": [
+105.16,
+32.1,
+5.2
+],
+"drone": [
+97.3,
+17.03,
+8.53
+],
+"drone_na_imagem": true,
+"drone_px": 79.8,
+"drone_uv": [
+1076.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.47,
+"incl_drone": 7.8,
+"gimbal_dist": 8.2,
+"gimbal_incl": 68.2
+},
+{
+"t": 12.792,
+"inclinacao": 3.9,
+"C": [
+105.11,
+32.16,
+5.2
+],
+"drone": [
+97.21,
+17.08,
+8.53
+],
+"drone_na_imagem": true,
+"drone_px": 79.7,
+"drone_uv": [
+1079.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.53,
+"incl_drone": 7.8,
+"gimbal_dist": 8.2,
+"gimbal_incl": 67.8
+},
+{
+"t": 12.833,
+"inclinacao": 3.9,
+"C": [
+105.05,
+32.22,
+5.2
+],
+"drone": [
+97.12,
+17.14,
+8.54
+],
+"drone_na_imagem": true,
+"drone_px": 79.6,
+"drone_uv": [
+1083.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.58,
+"incl_drone": 7.8,
+"gimbal_dist": 8.3,
+"gimbal_incl": 67.3
+},
+{
+"t": 12.875,
+"inclinacao": 3.9,
+"C": [
+105.0,
+32.28,
+5.2
+],
+"drone": [
+97.03,
+17.19,
+8.54
+],
+"drone_na_imagem": true,
+"drone_px": 79.5,
+"drone_uv": [
+1086.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.63,
+"incl_drone": 7.9,
+"gimbal_dist": 8.3,
+"gimbal_incl": 66.9
+},
+{
+"t": 12.917,
+"inclinacao": 3.9,
+"C": [
+104.95,
+32.34,
+5.2
+],
+"drone": [
+96.93,
+17.25,
+8.55
+],
+"drone_na_imagem": true,
+"drone_px": 79.4,
+"drone_uv": [
+1090.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.68,
+"incl_drone": 7.9,
+"gimbal_dist": 8.3,
+"gimbal_incl": 66.4
+},
+{
+"t": 12.958,
+"inclinacao": 3.9,
+"C": [
+104.89,
+32.4,
+5.2
+],
+"drone": [
+96.83,
+17.3,
+8.55
+],
+"drone_na_imagem": true,
+"drone_px": 79.3,
+"drone_uv": [
+1094.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.73,
+"incl_drone": 7.9,
+"gimbal_dist": 8.4,
+"gimbal_incl": 65.9
+},
+{
+"t": 13.0,
+"inclinacao": 3.9,
+"C": [
+104.84,
+32.47,
+5.2
+],
+"drone": [
+96.73,
+17.36,
+8.56
+],
+"drone_na_imagem": true,
+"drone_px": 79.2,
+"drone_uv": [
+1098.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.78,
+"incl_drone": 7.9,
+"gimbal_dist": 8.4,
+"gimbal_incl": 65.4
+},
+{
+"t": 13.042,
+"inclinacao": 3.9,
+"C": [
+104.79,
+32.53,
+5.2
+],
+"drone": [
+96.63,
+17.42,
+8.56
+],
+"drone_na_imagem": true,
+"drone_px": 79.1,
+"drone_uv": [
+1102.0,
+144.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.83,
+"incl_drone": 7.9,
+"gimbal_dist": 8.5,
+"gimbal_incl": 64.9
+},
+{
+"t": 13.083,
+"inclinacao": 3.9,
+"C": [
+104.74,
+32.59,
+5.2
+],
+"drone": [
+96.53,
+17.48,
+8.57
+],
+"drone_na_imagem": true,
+"drone_px": 78.9,
+"drone_uv": [
+1106.0,
+144.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.87,
+"incl_drone": 7.9,
+"gimbal_dist": 8.5,
+"gimbal_incl": 64.3
+},
+{
+"t": 13.125,
+"inclinacao": 3.9,
+"C": [
+104.69,
+32.66,
+5.2
+],
+"drone": [
+96.43,
+17.54,
+8.57
+],
+"drone_na_imagem": true,
+"drone_px": 78.8,
+"drone_uv": [
+1110.0,
+144.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.92,
+"incl_drone": 7.9,
+"gimbal_dist": 8.6,
+"gimbal_incl": 63.8
+},
+{
+"t": 13.167,
+"inclinacao": 3.9,
+"C": [
+104.64,
+32.72,
+5.2
+],
+"drone": [
+96.32,
+17.6,
+8.58
+],
+"drone_na_imagem": true,
+"drone_px": 78.7,
+"drone_uv": [
+1114.0,
+144.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 2.96,
+"incl_drone": 7.9,
+"gimbal_dist": 8.6,
+"gimbal_incl": 63.3
+},
+{
+"t": 13.208,
+"inclinacao": 3.9,
+"C": [
+104.59,
+32.78,
+5.2
+],
+"drone": [
+96.21,
+17.66,
+8.59
+],
+"drone_na_imagem": true,
+"drone_px": 78.6,
+"drone_uv": [
+1118.0,
+144.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.01,
+"incl_drone": 7.9,
+"gimbal_dist": 8.6,
+"gimbal_incl": 62.8
+},
+{
+"t": 13.25,
+"inclinacao": 3.9,
+"C": [
+104.53,
+32.84,
+5.2
+],
+"drone": [
+96.1,
+17.72,
+8.59
+],
+"drone_na_imagem": true,
+"drone_px": 78.5,
+"drone_uv": [
+1123.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.05,
+"incl_drone": 7.9,
+"gimbal_dist": 8.7,
+"gimbal_incl": 62.2
+},
+{
+"t": 13.292,
+"inclinacao": 3.9,
+"C": [
+104.48,
+32.9,
+5.2
+],
+"drone": [
+95.99,
+17.79,
+8.6
+],
+"drone_na_imagem": true,
+"drone_px": 78.5,
+"drone_uv": [
+1127.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.09,
+"incl_drone": 7.9,
+"gimbal_dist": 8.7,
+"gimbal_incl": 61.7
+},
+{
+"t": 13.333,
+"inclinacao": 3.8,
+"C": [
+104.43,
+32.95,
+5.2
+],
+"drone": [
+95.88,
+17.85,
+8.61
+],
+"drone_na_imagem": true,
+"drone_px": 78.4,
+"drone_uv": [
+1132.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.13,
+"incl_drone": 7.9,
+"gimbal_dist": 8.8,
+"gimbal_incl": 61.2
+},
+{
+"t": 13.375,
+"inclinacao": 3.8,
+"C": [
+104.38,
+33.01,
+5.2
+],
+"drone": [
+95.77,
+17.92,
+8.61
+],
+"drone_na_imagem": true,
+"drone_px": 78.3,
+"drone_uv": [
+1136.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.17,
+"incl_drone": 7.9,
+"gimbal_dist": 8.8,
+"gimbal_incl": 60.6
+},
+{
+"t": 13.417,
+"inclinacao": 3.8,
+"C": [
+104.32,
+33.07,
+5.2
+],
+"drone": [
+95.65,
+17.99,
+8.62
+],
+"drone_na_imagem": true,
+"drone_px": 78.2,
+"drone_uv": [
+1141.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.21,
+"incl_drone": 7.9,
+"gimbal_dist": 8.9,
+"gimbal_incl": 60.1
+},
+{
+"t": 13.458,
+"inclinacao": 3.8,
+"C": [
+104.27,
+33.13,
+5.2
+],
+"drone": [
+95.53,
+18.05,
+8.63
+],
+"drone_na_imagem": true,
+"drone_px": 78.2,
+"drone_uv": [
+1145.0,
+143.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.25,
+"incl_drone": 7.9,
+"gimbal_dist": 9.0,
+"gimbal_incl": 59.6
+},
+{
+"t": 13.5,
+"inclinacao": 3.8,
+"C": [
+104.21,
+33.18,
+5.2
+],
+"drone": [
+95.42,
+18.12,
+8.63
+],
+"drone_na_imagem": true,
+"drone_px": 78.1,
+"drone_uv": [
+1150.0,
+142.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 165.0,
+"v_drone": 3.28,
+"incl_drone": 7.9,
+"gimbal_dist": 9.0,
+"gimbal_incl": 59.1
+},
+{
+"t": 13.542,
+"inclinacao": 3.8,
+"C": [
+104.15,
+33.24,
+5.2
+],
+"drone": [
+95.3,
+18.19,
+8.64
+],
+"drone_na_imagem": true,
+"drone_px": 78.1,
+"drone_uv": [
+1155.0,
+142.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 166.0,
+"v_drone": 3.32,
+"incl_drone": 7.9,
+"gimbal_dist": 9.1,
+"gimbal_incl": 58.6
+},
+{
+"t": 13.583,
+"inclinacao": 3.9,
+"C": [
+104.09,
+33.29,
+5.2
+],
+"drone": [
+95.18,
+18.26,
+8.65
+],
+"drone_na_imagem": true,
+"drone_px": 78.1,
+"drone_uv": [
+1160.0,
+140.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 166.0,
+"v_drone": 3.35,
+"incl_drone": 7.8,
+"gimbal_dist": 9.1,
+"gimbal_incl": 58.0
+},
+{
+"t": 13.625,
+"inclinacao": 3.9,
+"C": [
+104.03,
+33.33,
+5.2
+],
+"drone": [
+95.06,
+18.33,
+8.66
+],
+"drone_na_imagem": true,
+"drone_px": 78.2,
+"drone_uv": [
+1166.0,
+138.0
+],
+"dist_cam_grupo": 15.3,
+"altura_pessoa_px": 166.0,
+"v_drone": 3.39,
+"incl_drone": 7.8,
+"gimbal_dist": 9.2,
+"gimbal_incl": 57.5
+},
+{
+"t": 13.667,
+"inclinacao": 4.0,
+"C": [
+103.96,
+33.36,
+5.2
+],
+"drone": [
+94.93,
+18.4,
+8.66
+],
+"drone_na_imagem": true,
+"drone_px": 78.4,
+"drone_uv": [
+1173.0,
+135.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 167.0,
+"v_drone": 3.42,
+"incl_drone": 7.8,
+"gimbal_dist": 9.3,
+"gimbal_incl": 57.0
+},
+{
+"t": 13.708,
+"inclinacao": 4.1,
+"C": [
+103.9,
+33.38,
+5.2
+],
+"drone": [
+94.81,
+18.47,
+8.67
+],
+"drone_na_imagem": true,
+"drone_px": 78.7,
+"drone_uv": [
+1180.0,
+130.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 167.0,
+"v_drone": 3.45,
+"incl_drone": 7.8,
+"gimbal_dist": 9.3,
+"gimbal_incl": 56.5
+},
+{
+"t": 13.75,
+"inclinacao": 4.2,
+"C": [
+103.83,
+33.4,
+5.2
+],
+"drone": [
+94.68,
+18.54,
+8.68
+],
+"drone_na_imagem": true,
+"drone_px": 79.1,
+"drone_uv": [
+1188.0,
+125.0
+],
+"dist_cam_grupo": 15.2,
+"altura_pessoa_px": 168.0,
+"v_drone": 3.48,
+"incl_drone": 7.8,
+"gimbal_dist": 9.4,
+"gimbal_incl": 56.0
+},
+{
+"t": 13.792,
+"inclinacao": 4.3,
+"C": [
+103.76,
+33.41,
+5.2
+],
+"drone": [
+94.56,
+18.62,
+8.69
+],
+"drone_na_imagem": true,
+"drone_px": 79.5,
+"drone_uv": [
+1197.0,
+120.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 169.0,
+"v_drone": 3.51,
+"incl_drone": 7.8,
+"gimbal_dist": 9.4,
+"gimbal_incl": 55.5
+},
+{
+"t": 13.833,
+"inclinacao": 4.4,
+"C": [
+103.69,
+33.42,
+5.2
+],
+"drone": [
+94.43,
+18.69,
+8.7
+],
+"drone_na_imagem": true,
+"drone_px": 80.0,
+"drone_uv": [
+1207.0,
+113.0
+],
+"dist_cam_grupo": 15.1,
+"altura_pessoa_px": 170.0,
+"v_drone": 3.54,
+"incl_drone": 7.7,
+"gimbal_dist": 9.5,
+"gimbal_incl": 55.0
+},
+{
+"t": 13.875,
+"inclinacao": 4.6,
+"C": [
+103.62,
+33.41,
+5.2
+],
+"drone": [
+94.3,
+18.76,
+8.7
+],
+"drone_na_imagem": true,
+"drone_px": 80.6,
+"drone_uv": [
+1218.0,
+105.0
+],
+"dist_cam_grupo": 15.0,
+"altura_pessoa_px": 171.0,
+"v_drone": 3.57,
+"incl_drone": 7.7,
+"gimbal_dist": 9.6,
+"gimbal_incl": 54.5
+},
+{
+"t": 13.917,
+"inclinacao": 4.7,
+"C": [
+103.55,
+33.4,
+5.2
+],
+"drone": [
+94.17,
+18.84,
+8.71
+],
+"drone_na_imagem": true,
+"drone_px": 81.2,
+"drone_uv": [
+1229.0,
+97.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 172.0,
+"v_drone": 3.6,
+"incl_drone": 7.7,
+"gimbal_dist": 9.7,
+"gimbal_incl": 54.0
+},
+{
+"t": 13.958,
+"inclinacao": 4.9,
+"C": [
+103.48,
+33.38,
+5.2
+],
+"drone": [
+94.04,
+18.91,
+8.72
+],
+"drone_na_imagem": true,
+"drone_px": 81.9,
+"drone_uv": [
+1242.0,
+88.0
+],
+"dist_cam_grupo": 14.9,
+"altura_pessoa_px": 173.0,
+"v_drone": 3.62,
+"incl_drone": 7.7,
+"gimbal_dist": 9.7,
+"gimbal_incl": 53.4
+},
+{
+"t": 14.0,
+"inclinacao": 5.1,
+"C": [
+103.41,
+33.36,
+5.2
+],
+"drone": [
+93.91,
+18.99,
+8.73
+],
+"drone_na_imagem": true,
+"drone_px": 82.7,
+"drone_uv": [
+1255.0,
+78.0
+],
+"dist_cam_grupo": 14.8,
+"altura_pessoa_px": 174.0,
+"v_drone": 3.65,
+"incl_drone": 7.6,
+"gimbal_dist": 9.8,
+"gimbal_incl": 52.9
+},
+{
+"t": 14.042,
+"inclinacao": 5.4,
+"C": [
+103.35,
+33.34,
+5.2
+],
+"drone": [
+93.78,
+19.07,
+8.74
+],
+"drone_na_imagem": true,
+"drone_px": 83.5,
+"drone_uv": [
+1269.0,
+67.0
+],
+"dist_cam_grupo": 14.7,
+"altura_pessoa_px": 176.0,
+"v_drone": 3.67,
+"incl_drone": 7.6,
+"gimbal_dist": 9.9,
+"gimbal_incl": 52.4
+},
+{
+"t": 14.083,
+"inclinacao": 5.6,
+"C": [
+103.28,
+33.31,
+5.2
+],
+"drone": [
+93.65,
+19.14,
+8.74
+],
+"drone_na_imagem": true,
+"drone_px": 84.4,
+"drone_uv": [
+1285.0,
+55.0
+],
+"dist_cam_grupo": 14.6,
+"altura_pessoa_px": 177.0,
+"v_drone": 3.7,
+"incl_drone": 7.6,
+"gimbal_dist": 10.0,
+"gimbal_incl": 51.8
+},
+{
+"t": 14.125,
+"inclinacao": 5.9,
+"C": [
+103.22,
+33.28,
+5.2
+],
+"drone": [
+93.51,
+19.22,
+8.75
+],
+"drone_na_imagem": true,
+"drone_px": 85.4,
+"drone_uv": [
+1301.0,
+43.0
+],
+"dist_cam_grupo": 14.5,
+"altura_pessoa_px": 179.0,
+"v_drone": 3.72,
+"incl_drone": 7.5,
+"gimbal_dist": 10.1,
+"gimbal_incl": 51.3
+},
+{
+"t": 14.167,
+"inclinacao": 6.1,
+"C": [
+103.15,
+33.24,
+5.2
+],
+"drone": [
+93.38,
+19.3,
+8.76
+],
+"drone_na_imagem": true,
+"drone_px": 86.4,
+"drone_uv": [
+1319.0,
+30.0
+],
+"dist_cam_grupo": 14.5,
+"altura_pessoa_px": 181.0,
+"v_drone": 3.74,
+"incl_drone": 7.5,
+"gimbal_dist": 10.1,
+"gimbal_incl": 50.8
+},
+{
+"t": 14.208,
+"inclinacao": 6.4,
+"C": [
+103.08,
+33.2,
+5.2
+],
+"drone": [
+93.24,
+19.38,
+8.77
+],
+"drone_na_imagem": true,
+"drone_px": 87.6,
+"drone_uv": [
+1338.0,
+15.0
+],
+"dist_cam_grupo": 14.4,
+"altura_pessoa_px": 183.0,
+"v_drone": 3.76,
+"incl_drone": 7.5,
+"gimbal_dist": 10.2,
+"gimbal_incl": 50.3
+},
+{
+"t": 14.25,
+"inclinacao": 6.7,
+"C": [
+103.02,
+33.16,
+5.2
+],
+"drone": [
+93.11,
+19.46,
+8.78
+],
+"drone_na_imagem": true,
+"drone_px": 88.7,
+"drone_uv": [
+1358.0,
+0.0
+],
+"dist_cam_grupo": 14.3,
+"altura_pessoa_px": 184.0,
+"v_drone": 3.78,
+"incl_drone": 7.4,
+"gimbal_dist": 10.3,
+"gimbal_incl": 49.7
+},
+{
+"t": 14.292,
+"inclinacao": 7.0,
+"C": [
+102.96,
+33.12,
+5.2
+],
+"drone": [
+92.97,
+19.53,
+8.79
+],
+"drone_na_imagem": false,
+"drone_px": 90.0,
+"drone_uv": [
+1380.0,
+-16.0
+],
+"dist_cam_grupo": 14.2,
+"altura_pessoa_px": 186.0,
+"v_drone": 3.8,
+"incl_drone": 7.4,
+"gimbal_dist": 10.4,
+"gimbal_incl": 49.2
+},
+{
+"t": 14.333,
+"inclinacao": 7.4,
+"C": [
+102.89,
+33.07,
+5.2
+],
+"drone": [
+92.83,
+19.61,
+8.8
+],
+"drone_na_imagem": false,
+"drone_px": 91.3,
+"drone_uv": [
+1403.0,
+-33.0
+],
+"dist_cam_grupo": 14.0,
+"altura_pessoa_px": 188.0,
+"v_drone": 3.82,
+"incl_drone": 7.3,
+"gimbal_dist": 10.5,
+"gimbal_incl": 48.7
+},
+{
+"t": 14.375,
+"inclinacao": 7.7,
+"C": [
+102.83,
+33.02,
+5.2
+],
+"drone": [
+92.69,
+19.69,
+8.81
+],
+"drone_na_imagem": false,
+"drone_px": 92.7,
+"drone_uv": [
+1428.0,
+-51.0
+],
+"dist_cam_grupo": 13.9,
+"altura_pessoa_px": 191.0,
+"v_drone": 3.83,
+"incl_drone": 7.3,
+"gimbal_dist": 10.6,
+"gimbal_incl": 48.2
+},
+{
+"t": 14.417,
+"inclinacao": 8.1,
+"C": [
+102.77,
+32.96,
+5.2
+],
+"drone": [
+92.55,
+19.77,
+8.81
+],
+"drone_na_imagem": false,
+"drone_px": 94.3,
+"drone_uv": [
+1454.0,
+-70.0
+],
+"dist_cam_grupo": 13.8,
+"altura_pessoa_px": 193.0,
+"v_drone": 3.85,
+"incl_drone": 7.3,
+"gimbal_dist": 10.7,
+"gimbal_incl": 47.7
+},
+{
+"t": 14.458,
+"inclinacao": 8.4,
+"C": [
+102.7,
+32.9,
+5.2
+],
+"drone": [
+92.42,
+19.85,
+8.82
+],
+"drone_na_imagem": false,
+"drone_px": 95.9,
+"drone_uv": [
+1482.0,
+-90.0
+],
+"dist_cam_grupo": 13.7,
+"altura_pessoa_px": 195.0,
+"v_drone": 3.87,
+"incl_drone": 7.2,
+"gimbal_dist": 10.8,
+"gimbal_incl": 47.2
+},
+{
+"t": 14.5,
+"inclinacao": 8.8,
+"C": [
+102.64,
+32.84,
+5.2
+],
+"drone": [
+92.28,
+19.93,
+8.83
+],
+"drone_na_imagem": false,
+"drone_px": 97.6,
+"drone_uv": [
+1512.0,
+-111.0
+],
+"dist_cam_grupo": 13.6,
+"altura_pessoa_px": 197.0,
+"v_drone": 3.88,
+"incl_drone": 7.2,
+"gimbal_dist": 10.9,
+"gimbal_incl": 46.7
+},
+{
+"t": 14.542,
+"inclinacao": 9.2,
+"C": [
+102.57,
+32.77,
+5.2
+],
+"drone": [
+92.14,
+20.02,
+8.84
+],
+"drone_na_imagem": false,
+"drone_px": 99.4,
+"drone_uv": [
+1543.0,
+-133.0
+],
+"dist_cam_grupo": 13.5,
+"altura_pessoa_px": 200.0,
+"v_drone": 3.89,
+"incl_drone": 7.1,
+"gimbal_dist": 11.0,
+"gimbal_incl": 46.2
+},
+{
+"t": 14.583,
+"inclinacao": 9.6,
+"C": [
+102.51,
+32.71,
+5.2
+],
+"drone": [
+91.99,
+20.1,
+8.85
+],
+"drone_na_imagem": false,
+"drone_px": 101.3,
+"drone_uv": [
+1577.0,
+-156.0
+],
+"dist_cam_grupo": 13.4,
+"altura_pessoa_px": 202.0,
+"v_drone": 3.9,
+"incl_drone": 7.1,
+"gimbal_dist": 11.1,
+"gimbal_incl": 45.7
+},
+{
+"t": 14.625,
+"inclinacao": 10.0,
+"C": [
+102.44,
+32.64,
+5.2
+],
+"drone": [
+91.85,
+20.18,
+8.86
+],
+"drone_na_imagem": false,
+"drone_px": 103.4,
+"drone_uv": [
+1612.0,
+-180.0
+],
+"dist_cam_grupo": 13.2,
+"altura_pessoa_px": 205.0,
+"v_drone": 3.92,
+"incl_drone": 7.0,
+"gimbal_dist": 11.2,
+"gimbal_incl": 45.3
+},
+{
+"t": 14.667,
+"inclinacao": 10.4,
+"C": [
+102.37,
+32.57,
+5.2
+],
+"drone": [
+91.71,
+20.26,
+8.87
+],
+"drone_na_imagem": false,
+"drone_px": 105.5,
+"drone_uv": [
+1649.0,
+-206.0
+],
+"dist_cam_grupo": 13.1,
+"altura_pessoa_px": 208.0,
+"v_drone": 3.93,
+"incl_drone": 7.0,
+"gimbal_dist": 11.3,
+"gimbal_incl": 44.8
+},
+{
+"t": 14.708,
+"inclinacao": 10.9,
+"C": [
+102.3,
+32.51,
+5.2
+],
+"drone": [
+91.57,
+20.34,
+8.88
+],
+"drone_na_imagem": false,
+"drone_px": 107.7,
+"drone_uv": [
+1688.0,
+-232.0
+],
+"dist_cam_grupo": 13.0,
+"altura_pessoa_px": 210.0,
+"v_drone": 3.93,
+"incl_drone": 6.9,
+"gimbal_dist": 11.4,
+"gimbal_incl": 44.4
+},
+{
+"t": 14.75,
+"inclinacao": 11.3,
+"C": [
+102.24,
+32.44,
+5.2
+],
+"drone": [
+91.43,
+20.42,
+8.89
+],
+"drone_na_imagem": false,
+"drone_px": 110.1,
+"drone_uv": [
+1729.0,
+-260.0
+],
+"dist_cam_grupo": 12.9,
+"altura_pessoa_px": 213.0,
+"v_drone": 3.94,
+"incl_drone": 6.9,
+"gimbal_dist": 11.5,
+"gimbal_incl": 44.0
+},
+{
+"t": 14.792,
+"inclinacao": 11.8,
+"C": [
+102.17,
+32.37,
+5.2
+],
+"drone": [
+91.29,
+20.51,
+8.9
+],
+"drone_na_imagem": false,
+"drone_px": 112.6,
+"drone_uv": [
+1773.0,
+-288.0
+],
+"dist_cam_grupo": 12.7,
+"altura_pessoa_px": 216.0,
+"v_drone": 3.95,
+"incl_drone": 6.8,
+"gimbal_dist": 11.6,
+"gimbal_incl": 43.6
+},
+{
+"t": 14.833,
+"inclinacao": 12.2,
+"C": [
+102.1,
+32.3,
+5.2
+],
+"drone": [
+91.14,
+20.59,
+8.91
+],
+"drone_na_imagem": false,
+"drone_px": 115.2,
+"drone_uv": [
+1819.0,
+-318.0
+],
+"dist_cam_grupo": 12.6,
+"altura_pessoa_px": 219.0,
+"v_drone": 3.96,
+"incl_drone": 6.7,
+"gimbal_dist": 11.7,
+"gimbal_incl": 43.2
+},
+{
+"t": 14.875,
+"inclinacao": 12.7,
+"C": [
+102.03,
+32.23,
+5.2
+],
+"drone": [
+91.0,
+20.67,
+8.92
+],
+"drone_na_imagem": false,
+"drone_px": 117.9,
+"drone_uv": [
+1867.0,
+-349.0
+],
+"dist_cam_grupo": 12.5,
+"altura_pessoa_px": 221.0,
+"v_drone": 3.96,
+"incl_drone": 6.7,
+"gimbal_dist": 11.8,
+"gimbal_incl": 42.8
+},
+{
+"t": 14.917,
+"inclinacao": 13.2,
+"C": [
+101.96,
+32.17,
+5.2
+],
+"drone": [
+90.86,
+20.75,
+8.92
+],
+"drone_na_imagem": false,
+"drone_px": 120.8,
+"drone_uv": [
+1919.0,
+-381.0
+],
+"dist_cam_grupo": 12.4,
+"altura_pessoa_px": 224.0,
+"v_drone": 3.97,
+"incl_drone": 6.6,
+"gimbal_dist": 11.9,
+"gimbal_incl": 42.4
+},
+{
+"t": 14.958,
+"inclinacao": 13.6,
+"C": [
+101.89,
+32.1,
+5.2
+],
+"drone": [
+90.71,
+20.84,
+8.93
+],
+"drone_na_imagem": false,
+"drone_px": 123.8,
+"drone_uv": [
+1972.0,
+-414.0
+],
+"dist_cam_grupo": 12.3,
+"altura_pessoa_px": 227.0,
+"v_drone": 3.97,
+"incl_drone": 6.6,
+"gimbal_dist": 12.0,
+"gimbal_incl": 42.0
+},
+{
+"t": 15.0,
+"inclinacao": 14.1,
+"C": [
+101.83,
+32.04,
+5.2
+],
+"drone": [
+90.57,
+20.92,
+8.94
+],
+"drone_na_imagem": false,
+"drone_px": 126.9,
+"drone_uv": [
+2029.0,
+-449.0
+],
+"dist_cam_grupo": 12.1,
+"altura_pessoa_px": 230.0,
+"v_drone": 3.97,
+"incl_drone": 6.5,
+"gimbal_dist": 12.1,
+"gimbal_incl": 41.6
+},
+{
+"t": 15.042,
+"inclinacao": 14.6,
+"C": [
+101.77,
+31.97,
+5.2
+],
+"drone": [
+90.43,
+21.0,
+8.95
+],
+"drone_na_imagem": false,
+"drone_px": 130.2,
+"drone_uv": [
+2089.0,
+-484.0
+],
+"dist_cam_grupo": 12.0,
+"altura_pessoa_px": 233.0,
+"v_drone": 3.97,
+"incl_drone": 6.4,
+"gimbal_dist": 12.2,
+"gimbal_incl": 41.2
+},
+{
+"t": 15.083,
+"inclinacao": 15.0,
+"C": [
+101.7,
+31.9,
+5.2
+],
+"drone": [
+90.28,
+21.08,
+8.96
+],
+"drone_na_imagem": false,
+"drone_px": 133.7,
+"drone_uv": [
+2153.0,
+-521.0
+],
+"dist_cam_grupo": 11.9,
+"altura_pessoa_px": 236.0,
+"v_drone": 3.97,
+"incl_drone": 6.4,
+"gimbal_dist": 12.3,
+"gimbal_incl": 40.8
+},
+{
+"t": 15.125,
+"inclinacao": 15.5,
+"C": [
+101.65,
+31.84,
+5.2
+],
+"drone": [
+90.14,
+21.17,
+8.97
+],
+"drone_na_imagem": false,
+"drone_px": 137.3,
+"drone_uv": [
+2219.0,
+-559.0
+],
+"dist_cam_grupo": 11.8,
+"altura_pessoa_px": 239.0,
+"v_drone": 3.97,
+"incl_drone": 6.3,
+"gimbal_dist": 12.4,
+"gimbal_incl": 40.5
+},
+{
+"t": 15.167,
+"inclinacao": 16.0,
+"C": [
+101.59,
+31.78,
+5.2
+],
+"drone": [
+90.0,
+21.25,
+8.98
+],
+"drone_na_imagem": false,
+"drone_px": 141.0,
+"drone_uv": [
+2289.0,
+-597.0
+],
+"dist_cam_grupo": 11.7,
+"altura_pessoa_px": 242.0,
+"v_drone": 3.97,
+"incl_drone": 6.2,
+"gimbal_dist": 12.5,
+"gimbal_incl": 40.1
+},
+{
+"t": 15.208,
+"inclinacao": 16.4,
+"C": [
+101.53,
+31.72,
+5.2
+],
+"drone": [
+89.85,
+21.33,
+8.99
+],
+"drone_na_imagem": false,
+"drone_px": 144.9,
+"drone_uv": [
+2361.0,
+-637.0
+],
+"dist_cam_grupo": 11.6,
+"altura_pessoa_px": 245.0,
+"v_drone": 3.97,
+"incl_drone": 6.1,
+"gimbal_dist": 12.7,
+"gimbal_incl": 39.7
+},
+{
+"t": 15.25,
+"inclinacao": 16.9,
+"C": [
+101.48,
+31.67,
+5.2
+],
+"drone": [
+89.71,
+21.41,
+9.0
+],
+"drone_na_imagem": false,
+"drone_px": 148.9,
+"drone_uv": [
+2437.0,
+-677.0
+],
+"dist_cam_grupo": 11.5,
+"altura_pessoa_px": 248.0,
+"v_drone": 3.97,
+"incl_drone": 6.1,
+"gimbal_dist": 12.8,
+"gimbal_incl": 39.4
+},
+{
+"t": 15.292,
+"inclinacao": 17.4,
+"C": [
+101.43,
+31.62,
+5.2
+],
+"drone": [
+89.57,
+21.5,
+9.01
+],
+"drone_na_imagem": false,
+"drone_px": 153.0,
+"drone_uv": [
+2516.0,
+-718.0
+],
+"dist_cam_grupo": 11.4,
+"altura_pessoa_px": 251.0,
+"v_drone": 3.96,
+"incl_drone": 6.0,
+"gimbal_dist": 12.9,
+"gimbal_incl": 39.0
+},
+{
+"t": 15.333,
+"inclinacao": 17.8,
+"C": [
+101.38,
+31.57,
+5.2
+],
+"drone": [
+89.42,
+21.58,
+9.02
+],
+"drone_na_imagem": false,
+"drone_px": 157.2,
+"drone_uv": [
+2598.0,
+-760.0
+],
+"dist_cam_grupo": 11.3,
+"altura_pessoa_px": 254.0,
+"v_drone": 3.96,
+"incl_drone": 5.9,
+"gimbal_dist": 13.0,
+"gimbal_incl": 38.7
+},
+{
+"t": 15.375,
+"inclinacao": 18.2,
+"C": [
+101.33,
+31.53,
+5.2
+],
+"drone": [
+89.28,
+21.66,
+9.03
+],
+"drone_na_imagem": false,
+"drone_px": 161.6,
+"drone_uv": [
+2683.0,
+-801.0
+],
+"dist_cam_grupo": 11.2,
+"altura_pessoa_px": 257.0,
+"v_drone": 3.95,
+"incl_drone": 5.8,
+"gimbal_dist": 13.1,
+"gimbal_incl": 38.3
+},
+{
+"t": 15.417,
+"inclinacao": 18.6,
+"C": [
+101.29,
+31.49,
+5.2
+],
+"drone": [
+89.14,
+21.74,
+9.04
+],
+"drone_na_imagem": false,
+"drone_px": 166.0,
+"drone_uv": [
+2770.0,
+-843.0
+],
+"dist_cam_grupo": 11.1,
+"altura_pessoa_px": 260.0,
+"v_drone": 3.94,
+"incl_drone": 5.8,
+"gimbal_dist": 13.2,
+"gimbal_incl": 38.0
+},
+{
+"t": 15.458,
+"inclinacao": 19.0,
+"C": [
+101.24,
+31.46,
+5.2
+],
+"drone": [
+89.0,
+21.83,
+9.05
+],
+"drone_na_imagem": false,
+"drone_px": 170.5,
+"drone_uv": [
+2860.0,
+-885.0
+],
+"dist_cam_grupo": 11.0,
+"altura_pessoa_px": 263.0,
+"v_drone": 3.93,
+"incl_drone": 5.7,
+"gimbal_dist": 13.3,
+"gimbal_incl": 37.6
+},
+{
+"t": 15.5,
+"inclinacao": 19.4,
+"C": [
+101.2,
+31.43,
+5.2
+],
+"drone": [
+88.86,
+21.91,
+9.06
+],
+"drone_na_imagem": false,
+"drone_px": 175.0,
+"drone_uv": [
+2952.0,
+-927.0
+],
+"dist_cam_grupo": 10.9,
+"altura_pessoa_px": 265.0,
+"v_drone": 3.93,
+"incl_drone": 5.6,
+"gimbal_dist": 13.5,
+"gimbal_incl": 37.3
+},
+{
+"t": 15.542,
+"inclinacao": 19.8,
+"C": [
+101.17,
+31.41,
+5.2
+],
+"drone": [
+88.71,
+21.99,
+9.07
+],
+"drone_na_imagem": false,
+"drone_px": 179.5,
+"drone_uv": [
+3045.0,
+-969.0
+],
+"dist_cam_grupo": 10.9,
+"altura_pessoa_px": 268.0,
+"v_drone": 3.92,
+"incl_drone": 5.5,
+"gimbal_dist": 13.6,
+"gimbal_incl": 37.0
+},
+{
+"t": 15.583,
+"inclinacao": 20.1,
+"C": [
+101.13,
+31.39,
+5.2
+],
+"drone": [
+88.57,
+22.07,
+9.08
+],
+"drone_na_imagem": false,
+"drone_px": 184.1,
+"drone_uv": [
+3140.0,
+-1009.0
+],
+"dist_cam_grupo": 10.8,
+"altura_pessoa_px": 270.0,
+"v_drone": 3.9,
+"incl_drone": 5.4,
+"gimbal_dist": 13.7,
+"gimbal_incl": 36.6
+},
+{
+"t": 15.625,
+"inclinacao": 20.4,
+"C": [
+101.09,
+31.37,
+5.2
+],
+"drone": [
+88.43,
+22.15,
+9.08
+],
+"drone_na_imagem": false,
+"drone_px": 188.6,
+"drone_uv": [
+3235.0,
+-1049.0
+],
+"dist_cam_grupo": 10.7,
+"altura_pessoa_px": 272.0,
+"v_drone": 3.89,
+"incl_drone": 5.3,
+"gimbal_dist": 13.8,
+"gimbal_incl": 36.3
+},
+{
+"t": 15.667,
+"inclinacao": 20.7,
+"C": [
+101.06,
+31.36,
+5.2
+],
+"drone": [
+88.29,
+22.23,
+9.09
+],
+"drone_na_imagem": false,
+"drone_px": 193.1,
+"drone_uv": [
+3331.0,
+-1087.0
+],
+"dist_cam_grupo": 10.7,
+"altura_pessoa_px": 274.0,
+"v_drone": 3.88,
+"incl_drone": 5.2,
+"gimbal_dist": 13.9,
+"gimbal_incl": 36.0
+},
+{
+"t": 15.708,
+"inclinacao": 21.0,
+"C": [
+101.02,
+31.36,
+5.2
+],
+"drone": [
+88.15,
+22.31,
+9.1
+],
+"drone_na_imagem": false,
+"drone_px": 197.4,
+"drone_uv": [
+3425.0,
+-1123.0
+],
+"dist_cam_grupo": 10.6,
+"altura_pessoa_px": 276.0,
+"v_drone": 3.87,
+"incl_drone": 5.2,
+"gimbal_dist": 14.1,
+"gimbal_incl": 35.7
+},
+{
+"t": 15.75,
+"inclinacao": 21.2,
+"C": [
+100.99,
+31.36,
+5.2
+],
+"drone": [
+88.01,
+22.39,
+9.11
+],
+"drone_na_imagem": false,
+"drone_px": 201.5,
+"drone_uv": [
+3517.0,
+-1158.0
+],
+"dist_cam_grupo": 10.6,
+"altura_pessoa_px": 278.0,
+"v_drone": 3.85,
+"incl_drone": 5.1,
+"gimbal_dist": 14.2,
+"gimbal_incl": 35.4
+},
+{
+"t": 15.792,
+"inclinacao": 21.4,
+"C": [
+100.96,
+31.36,
+5.2
+],
+"drone": [
+87.87,
+22.48,
+9.12
+],
+"drone_na_imagem": false,
+"drone_px": 205.3,
+"drone_uv": [
+3606.0,
+-1189.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 279.0,
+"v_drone": 3.84,
+"incl_drone": 5.0,
+"gimbal_dist": 14.3,
+"gimbal_incl": 35.1
+},
+{
+"t": 15.833,
+"inclinacao": 21.6,
+"C": [
+100.92,
+31.38,
+5.2
+],
+"drone": [
+87.74,
+22.55,
+9.13
+],
+"drone_na_imagem": false,
+"drone_px": 208.8,
+"drone_uv": [
+3689.0,
+-1217.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 280.0,
+"v_drone": 3.82,
+"incl_drone": 4.9,
+"gimbal_dist": 14.4,
+"gimbal_incl": 34.9
+},
+{
+"t": 15.875,
+"inclinacao": 21.7,
+"C": [
+100.89,
+31.4,
+5.2
+],
+"drone": [
+87.6,
+22.63,
+9.14
+],
+"drone_na_imagem": false,
+"drone_px": 211.8,
+"drone_uv": [
+3765.0,
+-1241.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.8,
+"incl_drone": 4.8,
+"gimbal_dist": 14.5,
+"gimbal_incl": 34.6
+},
+{
+"t": 15.917,
+"inclinacao": 21.8,
+"C": [
+100.85,
+31.43,
+5.2
+],
+"drone": [
+87.46,
+22.71,
+9.15
+],
+"drone_na_imagem": false,
+"drone_px": 214.4,
+"drone_uv": [
+3835.0,
+-1261.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.78,
+"incl_drone": 4.7,
+"gimbal_dist": 14.6,
+"gimbal_incl": 34.3
+},
+{
+"t": 15.958,
+"inclinacao": 21.9,
+"C": [
+100.82,
+31.47,
+5.2
+],
+"drone": [
+87.33,
+22.79,
+9.16
+],
+"drone_na_imagem": false,
+"drone_px": 216.5,
+"drone_uv": [
+3896.0,
+-1276.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.76,
+"incl_drone": 4.6,
+"gimbal_dist": 14.7,
+"gimbal_incl": 34.1
+},
+{
+"t": 16.0,
+"inclinacao": 21.9,
+"C": [
+100.79,
+31.51,
+5.2
+],
+"drone": [
+87.19,
+22.87,
+9.17
+],
+"drone_na_imagem": false,
+"drone_px": 217.9,
+"drone_uv": [
+3947.0,
+-1286.0
+],
+"dist_cam_grupo": 10.4,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.74,
+"incl_drone": 4.5,
+"gimbal_dist": 14.9,
+"gimbal_incl": 33.8
+},
+{
+"t": 16.042,
+"inclinacao": 21.9,
+"C": [
+100.75,
+31.56,
+5.2
+],
+"drone": [
+87.06,
+22.95,
+9.18
+],
+"drone_na_imagem": false,
+"drone_px": 218.9,
+"drone_uv": [
+3991.0,
+-1293.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.72,
+"incl_drone": 4.4,
+"gimbal_dist": 15.0,
+"gimbal_incl": 33.6
+},
+{
+"t": 16.083,
+"inclinacao": 21.9,
+"C": [
+100.71,
+31.61,
+5.2
+],
+"drone": [
+86.92,
+23.03,
+9.19
+],
+"drone_na_imagem": false,
+"drone_px": 219.9,
+"drone_uv": [
+4034.0,
+-1301.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.7,
+"incl_drone": 4.3,
+"gimbal_dist": 15.1,
+"gimbal_incl": 33.4
+},
+{
+"t": 16.125,
+"inclinacao": 21.9,
+"C": [
+100.68,
+31.67,
+5.2
+],
+"drone": [
+86.79,
+23.1,
+9.19
+],
+"drone_na_imagem": false,
+"drone_px": 221.0,
+"drone_uv": [
+4078.0,
+-1308.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.68,
+"incl_drone": 4.2,
+"gimbal_dist": 15.2,
+"gimbal_incl": 33.1
+},
+{
+"t": 16.167,
+"inclinacao": 21.9,
+"C": [
+100.64,
+31.72,
+5.2
+],
+"drone": [
+86.66,
+23.18,
+9.2
+],
+"drone_na_imagem": false,
+"drone_px": 222.0,
+"drone_uv": [
+4122.0,
+-1315.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.65,
+"incl_drone": 4.1,
+"gimbal_dist": 15.3,
+"gimbal_incl": 32.9
+},
+{
+"t": 16.208,
+"inclinacao": 21.9,
+"C": [
+100.6,
+31.77,
+5.2
+],
+"drone": [
+86.53,
+23.25,
+9.21
+],
+"drone_na_imagem": false,
+"drone_px": 223.1,
+"drone_uv": [
+4167.0,
+-1322.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.63,
+"incl_drone": 3.9,
+"gimbal_dist": 15.4,
+"gimbal_incl": 32.7
+},
+{
+"t": 16.25,
+"inclinacao": 21.9,
+"C": [
+100.57,
+31.82,
+5.2
+],
+"drone": [
+86.39,
+23.33,
+9.22
+],
+"drone_na_imagem": false,
+"drone_px": 224.3,
+"drone_uv": [
+4214.0,
+-1330.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.6,
+"incl_drone": 3.8,
+"gimbal_dist": 15.5,
+"gimbal_incl": 32.5
+},
+{
+"t": 16.292,
+"inclinacao": 21.9,
+"C": [
+100.54,
+31.86,
+5.2
+],
+"drone": [
+86.27,
+23.4,
+9.23
+],
+"drone_na_imagem": false,
+"drone_px": 225.5,
+"drone_uv": [
+4261.0,
+-1338.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.57,
+"incl_drone": 3.7,
+"gimbal_dist": 15.6,
+"gimbal_incl": 32.3
+},
+{
+"t": 16.333,
+"inclinacao": 21.9,
+"C": [
+100.51,
+31.91,
+5.2
+],
+"drone": [
+86.14,
+23.48,
+9.24
+],
+"drone_na_imagem": false,
+"drone_px": 226.6,
+"drone_uv": [
+4308.0,
+-1346.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.54,
+"incl_drone": 3.6,
+"gimbal_dist": 15.7,
+"gimbal_incl": 32.1
+},
+{
+"t": 16.375,
+"inclinacao": 21.9,
+"C": [
+100.48,
+31.96,
+5.2
+],
+"drone": [
+86.01,
+23.55,
+9.25
+],
+"drone_na_imagem": false,
+"drone_px": 227.8,
+"drone_uv": [
+4356.0,
+-1353.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.52,
+"incl_drone": 3.5,
+"gimbal_dist": 15.8,
+"gimbal_incl": 31.9
+},
+{
+"t": 16.417,
+"inclinacao": 21.9,
+"C": [
+100.45,
+32.01,
+5.2
+],
+"drone": [
+85.88,
+23.62,
+9.26
+],
+"drone_na_imagem": false,
+"drone_px": 229.0,
+"drone_uv": [
+4403.0,
+-1361.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.49,
+"incl_drone": 3.4,
+"gimbal_dist": 15.9,
+"gimbal_incl": 31.7
+},
+{
+"t": 16.458,
+"inclinacao": 21.9,
+"C": [
+100.42,
+32.06,
+5.2
+],
+"drone": [
+85.76,
+23.7,
+9.26
+],
+"drone_na_imagem": false,
+"drone_px": 230.1,
+"drone_uv": [
+4450.0,
+-1369.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.45,
+"incl_drone": 3.3,
+"gimbal_dist": 16.0,
+"gimbal_incl": 31.5
+},
+{
+"t": 16.5,
+"inclinacao": 21.8,
+"C": [
+100.39,
+32.1,
+5.2
+],
+"drone": [
+85.63,
+23.77,
+9.27
+],
+"drone_na_imagem": false,
+"drone_px": 231.2,
+"drone_uv": [
+4497.0,
+-1376.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.42,
+"incl_drone": 3.1,
+"gimbal_dist": 16.1,
+"gimbal_incl": 31.3
+},
+{
+"t": 16.542,
+"inclinacao": 21.8,
+"C": [
+100.37,
+32.15,
+5.2
+],
+"drone": [
+85.51,
+23.84,
+9.28
+],
+"drone_na_imagem": false,
+"drone_px": 232.3,
+"drone_uv": [
+4544.0,
+-1384.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.39,
+"incl_drone": 3.0,
+"gimbal_dist": 16.2,
+"gimbal_incl": 31.1
+},
+{
+"t": 16.583,
+"inclinacao": 21.8,
+"C": [
+100.34,
+32.2,
+5.2
+],
+"drone": [
+85.39,
+23.91,
+9.29
+],
+"drone_na_imagem": false,
+"drone_px": 233.4,
+"drone_uv": [
+4591.0,
+-1391.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.36,
+"incl_drone": 2.9,
+"gimbal_dist": 16.3,
+"gimbal_incl": 30.9
+},
+{
+"t": 16.625,
+"inclinacao": 21.8,
+"C": [
+100.32,
+32.26,
+5.2
+],
+"drone": [
+85.27,
+23.98,
+9.3
+],
+"drone_na_imagem": false,
+"drone_px": 234.4,
+"drone_uv": [
+4638.0,
+-1398.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.32,
+"incl_drone": 2.8,
+"gimbal_dist": 16.4,
+"gimbal_incl": 30.7
+},
+{
+"t": 16.667,
+"inclinacao": 21.8,
+"C": [
+100.3,
+32.31,
+5.2
+],
+"drone": [
+85.15,
+24.05,
+9.3
+],
+"drone_na_imagem": false,
+"drone_px": 235.4,
+"drone_uv": [
+4684.0,
+-1405.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.29,
+"incl_drone": 2.6,
+"gimbal_dist": 16.5,
+"gimbal_incl": 30.5
+},
+{
+"t": 16.708,
+"inclinacao": 21.8,
+"C": [
+100.28,
+32.36,
+5.2
+],
+"drone": [
+85.03,
+24.12,
+9.31
+],
+"drone_na_imagem": false,
+"drone_px": 236.4,
+"drone_uv": [
+4729.0,
+-1412.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.25,
+"incl_drone": 2.5,
+"gimbal_dist": 16.7,
+"gimbal_incl": 30.3
+},
+{
+"t": 16.75,
+"inclinacao": 21.8,
+"C": [
+100.26,
+32.42,
+5.2
+],
+"drone": [
+84.92,
+24.18,
+9.32
+],
+"drone_na_imagem": false,
+"drone_px": 237.3,
+"drone_uv": [
+4775.0,
+-1419.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.21,
+"incl_drone": 2.4,
+"gimbal_dist": 16.8,
+"gimbal_incl": 30.2
+},
+{
+"t": 16.792,
+"inclinacao": 21.8,
+"C": [
+100.24,
+32.47,
+5.2
+],
+"drone": [
+84.8,
+24.25,
+9.33
+],
+"drone_na_imagem": false,
+"drone_px": 238.3,
+"drone_uv": [
+4820.0,
+-1426.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 282.0,
+"v_drone": 3.17,
+"incl_drone": 2.3,
+"gimbal_dist": 16.9,
+"gimbal_incl": 30.0
+},
+{
+"t": 16.833,
+"inclinacao": 21.8,
+"C": [
+100.22,
+32.52,
+5.2
+],
+"drone": [
+84.69,
+24.32,
+9.34
+],
+"drone_na_imagem": false,
+"drone_px": 239.4,
+"drone_uv": [
+4867.0,
+-1433.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.13,
+"incl_drone": 2.1,
+"gimbal_dist": 17.0,
+"gimbal_incl": 29.8
+},
+{
+"t": 16.875,
+"inclinacao": 21.8,
+"C": [
+100.19,
+32.57,
+5.2
+],
+"drone": [
+84.57,
+24.38,
+9.34
+],
+"drone_na_imagem": false,
+"drone_px": 240.5,
+"drone_uv": [
+4915.0,
+-1441.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.09,
+"incl_drone": 2.0,
+"gimbal_dist": 17.1,
+"gimbal_incl": 29.7
+},
+{
+"t": 16.917,
+"inclinacao": 21.8,
+"C": [
+100.17,
+32.61,
+5.2
+],
+"drone": [
+84.46,
+24.44,
+9.35
+],
+"drone_na_imagem": false,
+"drone_px": 241.6,
+"drone_uv": [
+4962.0,
+-1448.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.05,
+"incl_drone": 1.9,
+"gimbal_dist": 17.2,
+"gimbal_incl": 29.5
+},
+{
+"t": 16.958,
+"inclinacao": 21.8,
+"C": [
+100.15,
+32.66,
+5.2
+],
+"drone": [
+84.35,
+24.51,
+9.36
+],
+"drone_na_imagem": false,
+"drone_px": 242.8,
+"drone_uv": [
+5009.0,
+-1455.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 3.01,
+"incl_drone": 1.7,
+"gimbal_dist": 17.3,
+"gimbal_incl": 29.3
+},
+{
+"t": 17.0,
+"inclinacao": 21.8,
+"C": [
+100.13,
+32.71,
+5.2
+],
+"drone": [
+84.25,
+24.57,
+9.37
+],
+"drone_na_imagem": false,
+"drone_px": 243.9,
+"drone_uv": [
+5055.0,
+-1463.0
+],
+"dist_cam_grupo": 10.5,
+"altura_pessoa_px": 281.0,
+"v_drone": 2.96,
+"incl_drone": 1.6,
+"gimbal_dist": 17.4,
+"gimbal_incl": 29.2
+}
+]

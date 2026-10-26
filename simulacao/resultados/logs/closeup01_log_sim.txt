@@ -1,0 +1,27 @@
+[closeup 17:57:43] RTX: {'/rtx/rendermode': 'RaytracedLighting', '/rtx/post/aa/op': 4, '/rtx/post/dlss/execMode': 2, '/rtx/post/tonemap/op': 6, '/rtx/post/tonemap/filmIso': 100.0, '/rtx/post/tonemap/cameraShutter': 50.0, '/rtx/post/tonemap/fNumber': 5.0, '/rtx/ambientOcclusion/enabled': True, '/rtx/indirectDiffuse/enabled': True, '/rtx/reflections/enabled': True, '/rtx/raytracing/fractionalCutoutOpacity': True, '/rtx/post/histogram/enabled': False}
+[closeup 17:57:43] ativos '/ativos/Assets/Isaac/5.1'; 20 pessoas (grupo ['P022', 'P023', 'P024']); janela 3.0-17.0 s a 24.0 fps
+[closeup 17:57:44] terreno: 7 malhas, 14 edificios, 78 arvores (0.5 s); materiais biblioteca; fatores de UV {'grama': 8.0, 'grama_seca': 4.0, 'terra': 3.2, 'concreto': 3.2, 'asfalto': 2.0, 'telhado': 1.0, 'parede': 2.0}
+[closeup 17:57:47] pessoas criadas: 20 (SkelRoots: 20)
+[closeup 17:57:53] navmesh assada: True (5.8 s), ~452 x 467 m
+[closeup 17:57:56] passo 0.0417 s; avanco sem gravar ate t = 3.0 s (+3.0 s de aquecimento): 144 passos; gravacao 144..480; herois [4.5, 6.5, 10.0, 12.5, 15.5]
+[closeup 17:58:06] avanco ate t = 3.00 s em 10.7 s; desvio do grupo frente ao run01: [-0.22, -0.06] m
+[closeup 17:58:56] quadro 24 t=3.96s; 2.05 s/quadro (render 1.27); incl 23.7 graus; hfov 52.0; drone [122.1, 2.5, 9.7]
+[closeup 17:59:21] quadro 37 t=4.50s; 2.00 s/quadro (render 1.34); incl 23.7 graus; hfov 52.0; drone [120.3, 3.6, 9.5] HEROI
+[closeup 17:59:39] quadro 48 t=4.96s; 1.93 s/quadro (render 1.32); incl 23.6 graus; hfov 52.0; drone [118.8, 4.5, 9.4]
+[closeup 18:00:20] quadro 72 t=5.96s; 1.85 s/quadro (render 1.29); incl 23.5 graus; hfov 52.0; drone [115.4, 6.4, 9.2]
+[closeup 18:00:45] quadro 85 t=6.50s; 1.86 s/quadro (render 1.31); incl 20.4 graus; hfov 53.5; drone [113.8, 7.4, 9.1] HEROI
+[closeup 18:01:03] quadro 96 t=6.96s; 1.84 s/quadro (render 1.31); incl 14.8 graus; hfov 56.6; drone [112.6, 8.1, 9.0]
+[closeup 18:01:41] quadro 120 t=7.96s; 1.79 s/quadro (render 1.28); incl 4.3 graus; hfov 64.3; drone [108.8, 10.3, 8.8]
+[closeup 18:02:18] quadro 144 t=8.96s; 1.75 s/quadro (render 1.25); incl 2.9 graus; hfov 66.0; drone [105.5, 12.3, 8.6]
+[closeup 18:02:54] quadro 168 t=9.96s; 1.71 s/quadro (render 1.23); incl 3.4 graus; hfov 66.0; drone [102.8, 13.9, 8.5]
+[closeup 18:02:58] quadro 169 t=10.00s; 1.73 s/quadro (render 1.24); incl 3.4 graus; hfov 66.0; drone [102.7, 14.0, 8.5] HEROI
+[closeup 18:03:35] quadro 192 t=10.96s; 1.71 s/quadro (render 1.24); incl 3.8 graus; hfov 66.0; drone [101.0, 15.0, 8.4]
+[closeup 18:04:11] quadro 216 t=11.96s; 1.69 s/quadro (render 1.22); incl 4.0 graus; hfov 66.0; drone [99.7, 15.8, 8.4]
+[closeup 18:04:33] quadro 229 t=12.50s; 1.69 s/quadro (render 1.23); incl 3.9 graus; hfov 66.0; drone [98.1, 16.8, 8.5] HEROI
+[closeup 18:04:49] quadro 240 t=12.96s; 1.68 s/quadro (render 1.22); incl 3.9 graus; hfov 66.0; drone [97.1, 17.3, 8.6]
+[closeup 18:05:25] quadro 264 t=13.96s; 1.66 s/quadro (render 1.21); incl 4.9 graus; hfov 64.8; drone [94.4, 19.0, 8.7]
+[closeup 18:06:02] quadro 288 t=14.96s; 1.65 s/quadro (render 1.20); incl 13.6 graus; hfov 57.3; drone [91.1, 20.9, 8.9]
+[closeup 18:06:26] quadro 301 t=15.50s; 1.66 s/quadro (render 1.21); incl 19.4 graus; hfov 53.5; drone [89.3, 22.0, 9.1] HEROI
+[closeup 18:06:45] quadro 312 t=15.96s; 1.66 s/quadro (render 1.21); incl 21.9 graus; hfov 52.0; drone [87.8, 22.8, 9.2]
+[closeup 18:07:25] quadro 336 t=16.96s; 1.66 s/quadro (render 1.21); incl 21.8 graus; hfov 52.0; drone [84.8, 24.6, 9.4]
+[closeup 18:07:27] FIM: 337 quadros; laco 9.5 min (avanco 11 s, render 408 s); pico cgroup 12.35 GiB; saida /saida

@@ -1,14 +1,15 @@
 #!/bin/bash
-# Monta o MP4 H.264 (<= 25 MB) a partir dos quadros do video_relatorio.py (ffmpeg/libx264 do host, nice 19).
-# Uso: bash scripts/montar_video.sh tmp/video_run01 evidencias/sim_video_run01.mp4 [quadros_por_segundo=15]
+# Monta o MP4 H.264 a partir de quadros JPEG numerados (ffmpeg/libx264 do host, nice 19), subindo o CRF ate caber no limite.
+# Uso: bash scripts/montar_video.sh tmp/video_run01 evidencias/sim_video_run01.mp4 [quadros_por_segundo=15] [max_bytes=24500000] [crf_inicial=23]
+#   ex. (close-up, <= 15 MB): bash scripts/montar_video.sh tmp/video_closeup evidencias/sim_closeup.mp4 24 15000000 20
 set -e
-SRC=$1; OUT=$2; FPS=${3:-15}
+SRC=$1; OUT=$2; FPS=${3:-15}; MAX=${4:-24500000}; CRF0=${5:-23}
 mkdir -p "$(dirname "$OUT")"
-for CRF in 23 26 29 32 35; do
+for CRF in $CRF0 $((CRF0 + 2)) $((CRF0 + 4)) $((CRF0 + 6)) $((CRF0 + 9)) $((CRF0 + 12)); do
   nice -n 19 ffmpeg -y -loglevel error -framerate "$FPS" -i "$SRC/%06d.jpg" -c:v libx264 -preset slow -crf $CRF \
     -pix_fmt yuv420p -movflags +faststart -threads 4 "$OUT"
   SZ=$(stat -c %s "$OUT")
   echo "crf=$CRF tamanho=$SZ"
-  [ "$SZ" -le 24500000 ] && break
+  [ "$SZ" -le "$MAX" ] && break
 done
 ffprobe -v error -show_entries stream=codec_name,width,height,nb_frames,r_frame_rate -show_entries format=duration,size -of compact "$OUT"

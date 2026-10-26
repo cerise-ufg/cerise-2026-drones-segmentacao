@@ -1,0 +1,148 @@
+{
+ "simulador": "isaac-sim 5.1.0",
+ "renderer": "RaytracedLighting (RTX tempo real)",
+ "config_rtx": {
+  "/rtx/rendermode": "RaytracedLighting",
+  "/rtx/post/aa/op": 4,
+  "/rtx/post/dlss/execMode": 2,
+  "/rtx/post/tonemap/op": 6,
+  "/rtx/post/tonemap/filmIso": 100.0,
+  "/rtx/post/tonemap/cameraShutter": 50.0,
+  "/rtx/post/tonemap/fNumber": 5.0,
+  "/rtx/ambientOcclusion/enabled": true,
+  "/rtx/indirectDiffuse/enabled": true,
+  "/rtx/reflections/enabled": true,
+  "/rtx/raytracing/fractionalCutoutOpacity": true,
+  "/rtx/post/histogram/enabled": false
+ },
+ "anti_aliasing": 4,
+ "rt_subframes": 8,
+ "rt_subframes_heroi": 32,
+ "fps": 24.0,
+ "quadros": 337,
+ "t_inicio": 3.0,
+ "t_fim": 17.0,
+ "instantes": null,
+ "herois": [
+  4.5,
+  6.5,
+  10.0,
+  12.5,
+  15.5
+ ],
+ "cinegrafista": {
+  "largura": 1920,
+  "altura": 1080,
+  "fx": 1968.2916879161244,
+  "fy": 1968.2916879161244,
+  "cx": 960.0,
+  "cy": 540.0,
+  "hfov_graus": 52.0,
+  "vfov_graus": 30.6831986916268,
+  "usd": {
+   "focalLength": 21.482058500147073,
+   "horizontalAperture": 20.955,
+   "verticalAperture": 11.787187499999998
+  }
+ },
+ "gimbal": {
+  "largura": 1280,
+  "altura": 720,
+  "fx": 1108.5125168440816,
+  "fy": 1108.5125168440816,
+  "cx": 640.0,
+  "cy": 360.0,
+  "hfov_graus": 59.99999999999999,
+  "vfov_graus": 35.98339777135763,
+  "usd": {
+   "focalLength": 18.14756233630291,
+   "horizontalAperture": 20.955,
+   "verticalAperture": 11.787187499999998
+  }
+ },
+ "pessoas": [
+  "P012",
+  "P022",
+  "P023",
+  "P024",
+  "P038",
+  "P039",
+  "P040",
+  "P042",
+  "P055",
+  "P056",
+  "P057",
+  "P058",
+  "P060",
+  "P061",
+  "P065",
+  "P068",
+  "P069",
+  "P073",
+  "P075",
+  "P079"
+ ],
+ "grupo": [
+  "P022",
+  "P023",
+  "P024"
+ ],
+ "hdri": "/sim/closeup/ceu/kloofendal_48d_partly_cloudy_4k_sem_sol.hdr",
+ "ceu_intensidade": 760.0,
+ "sol": {
+  "elevacao": 48.0,
+  "azimute": 120.0,
+  "intensidade": 3500.0
+ },
+ "materiais": "biblioteca",
+ "fatores_uv": {
+  "grama": 8.0,
+  "grama_seca": 4.0,
+  "terra": 3.2,
+  "concreto": 3.2,
+  "asfalto": 2.0,
+  "telhado": 1.0,
+  "parede": 2.0
+ },
+ "tempo_total_script_s": 584.4822380542755,
+ "tempo_laco_s": 571.0953023433685,
+ "tempo_avanco_s": 10.662105560302734,
+ "tempo_render_s": 407.8363344669342,
+ "s_por_quadro_gravado": 1.663006518644112,
+ "s_render_por_quadro": 1.2101968381808137,
+ "pico_memoria_cgroup_gib": 12.350521087646484,
+ "desvio_final_grupo_m": [
+  0.45,
+  0.05
+ ],
+ "avisos": [],
+ "args": {
+  "cenario": "/cenario/reduzido",
+  "saida": "/saida",
+  "plano": "/sim/closeup/plano_closeup.json",
+  "fps": 24.0,
+  "ativos": "/ativos/Assets/Isaac/5.1",
+  "hdri": "/sim/closeup/ceu/kloofendal_48d_partly_cloudy_4k_sem_sol.hdr",
+  "ceu_intensidade": 760.0,
+  "ceu_rotacao": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "sol_elevacao": 48.0,
+  "sol_azimute": 120.0,
+  "sol_intensidade": 3500.0,
+  "materiais": "biblioteca",
+  "rt_subframes": 8,
+  "rt_subframes_heroi": 32,
+  "heroi": "4.5,6.5,10.0,12.5,15.5",
+  "anti_aliasing": 4,
+  "largura": 1920,
+  "sem_gimbal": false,
+  "instantes": null,
+  "aquecimento_s": 3.0,
+  "iso": null,
+  "qualidade_jpg": 95
+ },
+ "plano": "/sim/closeup/plano_closeup.json"
+}

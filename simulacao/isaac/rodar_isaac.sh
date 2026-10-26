@@ -14,6 +14,7 @@
 #   MIN_LIVRE_GB=12                  o vigia MATA o conteiner se a memoria "available" cair abaixo disso (le a cada 2 s)
 #   MEM_LIMITE=24g                   limite de memoria (cgroup) do conteiner
 #   IGNORAR_BRACO=1                  permite iniciar com o braco_gen ainda rodando (nao recomendado)
+#   SCRIPT=/sim/isaac/closeup_isaac.py  outro script do Isaac (padrao: /sim/isaac/sim_ufg_isaac.py), ex.: o close-up
 set -euo pipefail
 NOME=${1:?uso: rodar_isaac.sh <nome_execucao> [args do sim_ufg_isaac.py]}
 shift
@@ -68,7 +69,7 @@ sudo docker run -d --name "$CONT" --gpus all --cpus "${CPUS:-8}" --cpu-shares 25
   -v $BASE/saidas/$NOME:/saida:rw \
   -u 1234:1234 \
   --entrypoint /isaac-sim/python.sh \
-  $IMG /sim/isaac/sim_ufg_isaac.py --cenario /cenario/reduzido --saida /saida "$@"
+  $IMG "${SCRIPT:-/sim/isaac/sim_ufg_isaac.py}" --cenario /cenario/reduzido --saida /saida "$@"
 
 echo "conteiner $CONT iniciado; saida em $BASE/saidas/$NOME"
 setsid nohup bash $BASE/isaac/vigia_memoria.sh "$CONT" "${MIN_LIVRE_GB:-12}" > $BASE/saidas/$NOME.vigia.log 2>&1 < /dev/null &
