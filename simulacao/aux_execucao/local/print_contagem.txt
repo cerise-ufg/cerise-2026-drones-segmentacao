@@ -1,0 +1,25 @@
+$ bash scripts/rodar_contagem_spark.sh cont_run02a30 scripts/contar.py --execucao saidas/run02a30 --cenario cenario/reduzido_a30 \
+    --detector yolo --pesos /w/resultados/best_yolo11s_visdrone_pessoa_960.pt --imgsz 1280 \
+    --rastreadores botsort,botsort_cal,chao,botsort_pose,botsort_semgmc --saida resultados/contagem_run02a30.json --figura
+$ grep -v WARNING logs/cont_run02a30.log
+  D1: 400/1001 quadros (17.7 ms/quadro)
+  D1: 1000/1001 quadros (17.8 ms/quadro)
+  D2: 400/1001 quadros (18.0 ms/quadro)
+  D2: 1000/1001 quadros (17.5 ms/quadro)
+  D3: 400/1001 quadros (14.1 ms/quadro)
+  D3: 1000/1001 quadros (13.7 ms/quadro)
+  D4: 400/1001 quadros (18.2 ms/quadro)
+  D4: 1000/1001 quadros (18.0 ms/quadro)
+[botsort] contagem unica 29 x vistas 73 (cena 80); dup 0 (entre drones 0), falsos 0, perdidas 44; P/R(iou0.3|6px) 1.000/0.194; MAE/quadro 0.80
+[botsort_cal] contagem unica 70 x vistas 73 (cena 80); dup 16 (entre drones 2), falsos 0, perdidas 19; P/R(iou0.3|6px) 0.878/0.556; MAE/quadro 0.41
+[chao] contagem unica 94 x vistas 73 (cena 80); dup 33 (entre drones 2), falsos 0, perdidas 12; P/R(iou0.3|6px) 0.818/0.527; MAE/quadro 0.46
+[botsort_pose] contagem unica 23 x vistas 73 (cena 80); dup 1 (entre drones 0), falsos 0, perdidas 51; P/R(iou0.3|6px) 1.000/0.201; MAE/quadro 0.79
+[botsort_semgmc] contagem unica 0 x vistas 73 (cena 80); dup 0 (entre drones 0), falsos 0, perdidas 73; P/R(iou0.3|6px) 0.000/0.000; MAE/quadro 0.99
+tempo_deteccao: 4004 quadros; leitura 2.3 ms, YOLO11s FP32 11.2 ms, GMC 3.2 ms -> 88.9 FPS (deteccao), 59.7 FPS (leitura+deteccao+GMC)
+AP (deteccoes, quadros de cobertura): iou0.5 0.652, iou0.3 0.746, iou0.3_ou_centro6px 0.748
+$ grep "^\[" logs/cont_run01.log    # mesmo pipeline no voo a 40 m (cache de deteccoes reaproveitado)
+[botsort] contagem unica 34 x vistas 79 (cena 80); dup 4 (entre drones 3), falsos 0, perdidas 49; P/R(iou0.3|6px) 0.998/0.245; MAE/quadro 1.27
+[botsort_cal] contagem unica 78 x vistas 79 (cena 80); dup 13 (entre drones 3), falsos 0, perdidas 14; P/R(iou0.3|6px) 0.954/0.654; MAE/quadro 0.58
+[chao] contagem unica 88 x vistas 79 (cena 80); dup 20 (entre drones 3), falsos 0, perdidas 11; P/R(iou0.3|6px) 0.885/0.611; MAE/quadro 0.64
+[botsort_pose] contagem unica 32 x vistas 79 (cena 80); dup 1 (entre drones 1), falsos 0, perdidas 48; P/R(iou0.3|6px) 0.998/0.245; MAE/quadro 1.27
+[botsort_semgmc] contagem unica 0 x vistas 79 (cena 80); dup 0 (entre drones 0), falsos 0, perdidas 79; P/R(iou0.3|6px) 0.000/0.000; MAE/quadro 1.68

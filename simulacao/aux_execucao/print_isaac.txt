@@ -1,0 +1,21 @@
+$ sudo docker manifest inspect nvcr.io/nvidia/isaac-sim:5.1.0 | grep architecture
+            "architecture": "amd64",
+            "architecture": "arm64",
+$ sudo docker images nvcr.io/nvidia/isaac-sim
+IMAGE                            ID             DISK USAGE   CONTENT SIZE   EXTRA
+nvcr.io/nvidia/isaac-sim:5.1.0   f3563cb2ba0c         30GB         10.1GB        
+$ sudo docker image inspect nvcr.io/nvidia/isaac-sim:5.1.0 --format 'Arch Size User Entrypoint MIN_DRIVER OMNI_SERVER'
+arm64 10097370258 isaac-sim ["/isaac-sim/runheadless.sh"]
+OMNI_SERVER=https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1
+MIN_DRIVER_VERSION=570.169
+$ nvidia-smi --query-gpu=name,driver_version --format=csv,noheader
+NVIDIA GB10, 580.178.04
+$ sudo docker run --rm --network none --entrypoint bash isaac-sim:5.1.0 -c "cat VERSION; ls extscache | grep -E people|agent.core|navigation.core|replicator.core; tail -3 runheadless.sh"   # app NAO iniciado
+5.1.0-rc.19+release.26219.9c81211b.gl
+isaacsim.replicator.agent.core-0.7.28+107.3.3
+omni.anim.navigation.core-107.3.8+107.3.3.la64.r.cp311.u353
+omni.anim.people-0.7.9+107.3.3
+omni.replicator.core-1.12.27+107.3.3.la64.r.cp311
+if [ "$(uname -m)" = "aarch64" ]; then
+    echo 'Livestreaming is not supported on aarch64 for 5.1.0.'
+    exec /bin/bash

@@ -1,0 +1,51 @@
+inicio 2026-10-26T10:53:08-03:00
+5.1.0: Pulling from nvidia/isaac-sim
+9174f09be9f3: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+07f1aa76ae0f: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+d2b273de60c7: Pulling fs layer
+39780fbed60a: Pulling fs layer
+76d36cda0ecb: Pulling fs layer
+7a9686a32970: Pulling fs layer
+5598080c545f: Pulling fs layer
+40432630e3a7: Pulling fs layer
+968eead13e15: Pulling fs layer
+1a851cdca7a1: Pulling fs layer
+e99881389cd4: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+26f48f5cc01f: Pulling fs layer
+3eff7d219313: Pulling fs layer
+4f4fb700ef54: Already exists
+07f1aa76ae0f: Download complete
+1a851cdca7a1: Download complete
+d2b273de60c7: Download complete
+76d36cda0ecb: Download complete
+7a9686a32970: Download complete
+5598080c545f: Download complete
+9174f09be9f3: Download complete
+e99881389cd4: Download complete
+968eead13e15: Download complete
+26f48f5cc01f: Download complete
+3eff7d219313: Download complete
+26f48f5cc01f: Pull complete
+3eff7d219313: Pull complete
+39780fbed60a: Download complete
+4f4fb700ef54: Pull complete
+d2b273de60c7: Pull complete
+76d36cda0ecb: Pull complete
+39780fbed60a: Pull complete
+7a9686a32970: Pull complete
+5598080c545f: Pull complete
+e99881389cd4: Pull complete
+968eead13e15: Pull complete
+40432630e3a7: Download complete
+40432630e3a7: Pull complete
+07f1aa76ae0f: Pull complete
+1a851cdca7a1: Pull complete
+9174f09be9f3: Pull complete
+Digest: sha256:f3563cb2ba0c18af0b2fb321360dcb73a917b899f879e3213623d6bee484fa54
+Status: Downloaded newer image for nvcr.io/nvidia/isaac-sim:5.1.0
+nvcr.io/nvidia/isaac-sim:5.1.0
+rc=0 fim 2026-10-26T11:15:37-03:00

@@ -1,0 +1,6 @@
+uav0000073_04464_v crf=22 tamanho=7861036
+stream|codec_name=h264|width=1280|height=720|r_frame_rate=25/1|nb_frames=312
+format|duration=12.480000|size=7861036
+uav0000120_04775_v crf=22 tamanho=5866981
+stream|codec_name=h264|width=1280|height=720|r_frame_rate=25/1|nb_frames=450
+format|duration=18.000000|size=5866981

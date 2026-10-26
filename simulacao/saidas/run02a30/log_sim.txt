@@ -1,0 +1,46 @@
+[cerise_sim 16:37:38] raiz de ativos: '/ativos/Assets/Isaac/5.1'; cenario reduzido_a30; 4 drones; 80 pessoas; 200.0 s a 5.0 fps; modo anim_people
+[cerise_sim 16:37:39] terreno: 7 malhas, 14 edificios, 78 arvores (0.1 s)
+[cerise_sim 16:37:39] 12 modelos de personagem disponiveis
+[cerise_sim 16:37:43] pessoas criadas: 80 (SkelRoots: 80); grafo /World/Characters/Biped_Setup/CharacterAnimation/AnimationGraph
+[cerise_sim 16:37:51] navmesh assada: True (8.3 s), volume /World/NavMeshVolume ~452 x 467 m, limites (-225.5, -237.9, -2.0)-(226.8, 229.3, 4.0); caminho de teste (pontos, erro ao alvo m) = (1774, 0.0)
+[cerise_sim 16:37:57] aquecimento: 90 passos
+[cerise_sim 16:38:45] quadro 25 t=4.8s; 1.59 s/quadro (render 0.57); estimativa total 26.5 min
+[cerise_sim 16:39:43] quadro 50 t=9.8s; 1.94 s/quadro (render 0.69); estimativa total 32.3 min
+[cerise_sim 16:40:23] quadro 75 t=14.8s; 1.83 s/quadro (render 0.65); estimativa total 30.6 min
+[cerise_sim 16:41:00] quadro 100 t=19.8s; 1.74 s/quadro (render 0.61); estimativa total 29.1 min
+[cerise_sim 16:41:33] quadro 125 t=24.8s; 1.66 s/quadro (render 0.57); estimativa total 27.6 min
+[cerise_sim 16:41:59] quadro 150 t=29.8s; 1.55 s/quadro (render 0.53); estimativa total 25.9 min
+[cerise_sim 16:42:25] quadro 175 t=34.8s; 1.48 s/quadro (render 0.50); estimativa total 24.8 min
+[cerise_sim 16:42:52] quadro 200 t=39.8s; 1.43 s/quadro (render 0.48); estimativa total 23.9 min
+[cerise_sim 16:43:20] quadro 225 t=44.8s; 1.40 s/quadro (render 0.46); estimativa total 23.3 min
+[cerise_sim 16:43:48] quadro 250 t=49.8s; 1.37 s/quadro (render 0.45); estimativa total 22.8 min
+[cerise_sim 16:44:13] quadro 275 t=54.8s; 1.34 s/quadro (render 0.44); estimativa total 22.3 min
+[cerise_sim 16:45:03] quadro 300 t=59.8s; 1.39 s/quadro (render 0.46); estimativa total 23.2 min
+[cerise_sim 16:45:48] quadro 325 t=64.8s; 1.42 s/quadro (render 0.47); estimativa total 23.7 min
+[cerise_sim 16:46:21] quadro 350 t=69.8s; 1.41 s/quadro (render 0.47); estimativa total 23.6 min
+[cerise_sim 16:46:49] quadro 375 t=74.8s; 1.40 s/quadro (render 0.46); estimativa total 23.3 min
+[cerise_sim 16:47:18] quadro 400 t=79.8s; 1.38 s/quadro (render 0.46); estimativa total 23.1 min
+[cerise_sim 16:47:45] quadro 425 t=84.8s; 1.36 s/quadro (render 0.45); estimativa total 22.7 min
+[cerise_sim 16:48:12] quadro 450 t=89.8s; 1.35 s/quadro (render 0.45); estimativa total 22.5 min
+[cerise_sim 16:48:45] quadro 475 t=94.8s; 1.35 s/quadro (render 0.45); estimativa total 22.5 min
+[cerise_sim 16:49:21] quadro 500 t=99.8s; 1.35 s/quadro (render 0.45); estimativa total 22.5 min
+[cerise_sim 16:49:50] quadro 525 t=104.8s; 1.34 s/quadro (render 0.44); estimativa total 22.4 min
+[cerise_sim 16:50:23] quadro 550 t=109.8s; 1.34 s/quadro (render 0.44); estimativa total 22.4 min
+[cerise_sim 16:50:49] quadro 575 t=114.8s; 1.33 s/quadro (render 0.44); estimativa total 22.1 min
+[cerise_sim 16:51:16] quadro 600 t=119.8s; 1.32 s/quadro (render 0.43); estimativa total 22.0 min
+[cerise_sim 16:51:44] quadro 625 t=124.8s; 1.31 s/quadro (render 0.43); estimativa total 21.8 min
+[cerise_sim 16:52:10] quadro 650 t=129.8s; 1.30 s/quadro (render 0.43); estimativa total 21.7 min
+[cerise_sim 16:52:39] quadro 675 t=134.8s; 1.29 s/quadro (render 0.43); estimativa total 21.6 min
+[cerise_sim 16:53:06] quadro 700 t=139.8s; 1.29 s/quadro (render 0.42); estimativa total 21.5 min
+[cerise_sim 16:53:35] quadro 725 t=144.8s; 1.28 s/quadro (render 0.42); estimativa total 21.4 min
+[cerise_sim 16:54:04] quadro 750 t=149.8s; 1.28 s/quadro (render 0.42); estimativa total 21.3 min
+[cerise_sim 16:54:44] quadro 775 t=154.8s; 1.29 s/quadro (render 0.42); estimativa total 21.5 min
+[cerise_sim 16:55:14] quadro 800 t=159.8s; 1.29 s/quadro (render 0.42); estimativa total 21.4 min
+[cerise_sim 16:55:41] quadro 825 t=164.8s; 1.28 s/quadro (render 0.42); estimativa total 21.3 min
+[cerise_sim 16:56:08] quadro 850 t=169.8s; 1.27 s/quadro (render 0.42); estimativa total 21.2 min
+[cerise_sim 16:56:36] quadro 875 t=174.8s; 1.27 s/quadro (render 0.42); estimativa total 21.2 min
+[cerise_sim 16:57:09] quadro 900 t=179.8s; 1.27 s/quadro (render 0.42); estimativa total 21.2 min
+[cerise_sim 16:57:39] quadro 925 t=184.8s; 1.27 s/quadro (render 0.42); estimativa total 21.2 min
+[cerise_sim 16:58:04] quadro 950 t=189.8s; 1.26 s/quadro (render 0.41); estimativa total 21.1 min
+[cerise_sim 16:58:32] quadro 975 t=194.8s; 1.26 s/quadro (render 0.41); estimativa total 21.0 min
+[cerise_sim 16:59:02] quadro 1000 t=199.8s; 1.26 s/quadro (render 0.41); estimativa total 21.0 min

@@ -1,23 +1,21 @@
-# saidas dos simuladores, caches e ativos (grandes; ficam no Spark)
-saidas/
-isaac_cache/
-isaac_ativos/
-logs/
-tmp/
-isaac_inspecao/
-gazebo/mundo_*/
-# cenarios: o reduzido vai inteiro (menos a execucao sem render, regeneravel); os outros so os arquivos pequenos
-cenario/*/sem_render/
-cenario/completo/gabarito_pessoas_plano.csv
-cenario/completo/drones/
-cenario/completo/texturas/
-cenario/reduzido_a30/gabarito_pessoas_plano.csv
-cenario/reduzido_a30/drones/
-cenario/reduzido_a30/texturas/
-resultados/*_deteccoes*.csv
-# copias locais de saidas para analise/figuras (regeneraveis no Spark)
-tmp_saidas/
-# logs medidos das execucoes (pequenos) vao para o git
-!resultados/logs/
+# caches e ativos de terceiros (NVIDIA Isaac Sim): nao redistribuidos (ver README)
+/isaac_cache/
+/isaac_ativos/
+/isaac_inspecao/
+closeup/ceu/*.hdr
+# trechos de codigo e configuracao das extensoes da NVIDIA copiados durante a inspecao da imagem
 isaac/inspecao/06_ext_pessoas.txt
 isaac/inspecao/08_people_api.txt
+isaac/inspecao/12_navmesh_api.txt
+isaac/inspecao/13_api_anim.txt
+
+# quadros brutos (JPEG) das execucoes: publicados como Releases (ver RELEASES.md)
+saidas/**/rgb/
+saidas/closeup01/gimbal/anotado/
+aux_execucao/video_run01/
+aux_execucao/video_closeup/
+
+# pastas de trabalho locais
+/tmp/
+/logs/
+/tmp_saidas/

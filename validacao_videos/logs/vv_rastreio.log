@@ -1,0 +1,67 @@
+ft960 tau 0.35 MAE val 7.721 MAE test 8.24
+ft1280 tau 0.325 MAE val 7.792 MAE test 7.251
+coco960 tau 0.1 MAE val 7.172 MAE test 10.099
+coco1280 tau 0.125 MAE val 6.636 MAE test 9.206
+tarefas da grade: 1904
+  0/1904 10s
+  100/1904 24s
+  200/1904 32s
+  300/1904 44s
+  400/1904 54s
+  500/1904 64s
+  600/1904 77s
+  700/1904 85s
+  800/1904 100s
+  900/1904 110s
+  1000/1904 116s
+  1100/1904 120s
+  1200/1904 124s
+  1300/1904 129s
+  1400/1904 133s
+  1500/1904 138s
+  1600/1904 144s
+  1700/1904 149s
+  1800/1904 154s
+  1900/1904 159s
+escolha ft960 bytetrack {'cfg_idx': 18, 'cfg': {'track_high_thresh': 0.4, 'track_low_thresh': 0.05, 'new_track_thresh': 0.4, 'track_buffer': 30}, 'HOTA_val': 0.33767654538343345, 'L': 60, 'erro_rel_unico_abs_val': 0.5206242562159434}
+escolha ft960 botsort {'cfg_idx': 18, 'cfg': {'track_high_thresh': 0.4, 'track_low_thresh': 0.05, 'new_track_thresh': 0.4, 'track_buffer': 30}, 'HOTA_val': 0.3896537691987617, 'L': 60, 'erro_rel_unico_abs_val': 0.4740092288605254}
+escolha ft1280 bytetrack {'cfg_idx': 22, 'cfg': {'track_high_thresh': 0.5, 'track_low_thresh': 0.05, 'new_track_thresh': 0.5, 'track_buffer': 30}, 'HOTA_val': 0.32275704219762885, 'L': 45, 'erro_rel_unico_abs_val': 0.4471607931608185}
+escolha ft1280 botsort {'cfg_idx': 23, 'cfg': {'track_high_thresh': 0.5, 'track_low_thresh': 0.05, 'new_track_thresh': 0.5, 'track_buffer': 60}, 'HOTA_val': 0.3728372113757922, 'L': 60, 'erro_rel_unico_abs_val': 0.4165729804272698}
+escolha coco960 bytetrack {'cfg_idx': 11, 'cfg': {'track_high_thresh': 0.25, 'track_low_thresh': 0.05, 'new_track_thresh': 0.25, 'track_buffer': 60}, 'HOTA_val': 0.31224282160206507, 'L': 15, 'erro_rel_unico_abs_val': 0.4210392950347154}
+escolha coco960 botsort {'cfg_idx': 14, 'cfg': {'track_high_thresh': 0.3, 'track_low_thresh': 0.05, 'new_track_thresh': 0.3, 'track_buffer': 30}, 'HOTA_val': 0.3579825994827064, 'L': 10, 'erro_rel_unico_abs_val': 0.3834311849355694}
+escolha coco1280 bytetrack {'cfg_idx': 15, 'cfg': {'track_high_thresh': 0.3, 'track_low_thresh': 0.05, 'new_track_thresh': 0.3, 'track_buffer': 60}, 'HOTA_val': 0.35085684612004836, 'L': 30, 'erro_rel_unico_abs_val': 0.4523559300824914}
+escolha coco1280 botsort {'cfg_idx': 14, 'cfg': {'track_high_thresh': 0.3, 'track_low_thresh': 0.05, 'new_track_thresh': 0.3, 'track_buffer': 30}, 'HOTA_val': 0.40186850547198055, 'L': 30, 'erro_rel_unico_abs_val': 0.4505187124622492}
+coco1280  botsort   escolhida_val test-dev HOTA 0.328 MOTA 0.214 IDF1 0.406 IDSW 444 MAEq 11.14 unicos gt 1012 pred L1 1173 L30 599
+coco1280  botsort   escolhida_val val      HOTA 0.402 MOTA 0.328 IDF1 0.516 IDSW 176 MAEq 7.26 unicos gt 332 pred L1 453 L30 242
+coco1280  botsort   padrao        test-dev HOTA 0.322 MOTA 0.215 IDF1 0.395 IDSW 489 MAEq 11.45 unicos gt 1012 pred L1 1308 L30 590
+coco1280  botsort   padrao        val      HOTA 0.395 MOTA 0.327 IDF1 0.511 IDSW 194 MAEq 7.57 unicos gt 332 pred L1 504 L30 240
+coco1280  bytetrack escolhida_val test-dev HOTA 0.291 MOTA 0.208 IDF1 0.349 IDSW 857 MAEq 12.01 unicos gt 1012 pred L1 1454 L30 551
+coco1280  bytetrack escolhida_val val      HOTA 0.351 MOTA 0.309 IDF1 0.435 IDSW 496 MAEq 8.25 unicos gt 332 pred L1 706 L30 228
+coco1280  bytetrack padrao        test-dev HOTA 0.287 MOTA 0.209 IDF1 0.344 IDSW 871 MAEq 12.24 unicos gt 1012 pred L1 1580 L30 526
+coco1280  bytetrack padrao        val      HOTA 0.340 MOTA 0.308 IDF1 0.416 IDSW 503 MAEq 8.49 unicos gt 332 pred L1 770 L30 225
+coco960   botsort   escolhida_val test-dev HOTA 0.292 MOTA 0.193 IDF1 0.352 IDSW 375 MAEq 13.33 unicos gt 1012 pred L1 880 L10 705
+coco960   botsort   escolhida_val val      HOTA 0.358 MOTA 0.297 IDF1 0.445 IDSW 182 MAEq 9.30 unicos gt 332 pred L1 368 L10 271
+coco960   botsort   padrao        test-dev HOTA 0.287 MOTA 0.191 IDF1 0.344 IDSW 440 MAEq 13.62 unicos gt 1012 pred L1 1001 L10 719
+coco960   botsort   padrao        val      HOTA 0.345 MOTA 0.289 IDF1 0.431 IDSW 220 MAEq 9.68 unicos gt 332 pred L1 422 L10 281
+coco960   bytetrack escolhida_val test-dev HOTA 0.256 MOTA 0.180 IDF1 0.297 IDSW 708 MAEq 14.06 unicos gt 1012 pred L1 1179 L15 649
+coco960   bytetrack escolhida_val val      HOTA 0.312 MOTA 0.273 IDF1 0.378 IDSW 417 MAEq 10.21 unicos gt 332 pred L1 554 L15 269
+coco960   bytetrack padrao        test-dev HOTA 0.256 MOTA 0.180 IDF1 0.296 IDSW 680 MAEq 14.29 unicos gt 1012 pred L1 1176 L15 626
+coco960   bytetrack padrao        val      HOTA 0.307 MOTA 0.268 IDF1 0.372 IDSW 411 MAEq 10.46 unicos gt 332 pred L1 574 L15 260
+ft1280    botsort   escolhida_val test-dev HOTA 0.314 MOTA 0.087 IDF1 0.389 IDSW 610 MAEq 7.78 unicos gt 1012 pred L1 1626 L60 541
+ft1280    botsort   escolhida_val val      HOTA 0.373 MOTA 0.159 IDF1 0.466 IDSW 156 MAEq 7.21 unicos gt 332 pred L1 524 L60 231
+ft1280    botsort   padrao        test-dev HOTA 0.306 MOTA -0.039 IDF1 0.365 IDSW 1685 MAEq 6.64 unicos gt 1012 pred L1 3917 L60 647
+ft1280    botsort   padrao        val      HOTA 0.355 MOTA 0.004 IDF1 0.429 IDSW 475 MAEq 7.13 unicos gt 332 pred L1 1288 L60 295
+ft1280    bytetrack escolhida_val test-dev HOTA 0.279 MOTA 0.093 IDF1 0.340 IDSW 1116 MAEq 8.91 unicos gt 1012 pred L1 2144 L45 591
+ft1280    bytetrack escolhida_val val      HOTA 0.323 MOTA 0.169 IDF1 0.388 IDSW 443 MAEq 8.01 unicos gt 332 pred L1 818 L45 217
+ft1280    bytetrack padrao        test-dev HOTA 0.268 MOTA -0.022 IDF1 0.311 IDSW 2438 MAEq 7.39 unicos gt 1012 pred L1 4711 L45 769
+ft1280    bytetrack padrao        val      HOTA 0.306 MOTA 0.042 IDF1 0.352 IDSW 889 MAEq 7.45 unicos gt 332 pred L1 1789 L45 274
+ft960     botsort   escolhida_val test-dev HOTA 0.328 MOTA 0.092 IDF1 0.399 IDSW 974 MAEq 7.46 unicos gt 1012 pred L1 2095 L60 584
+ft960     botsort   escolhida_val val      HOTA 0.390 MOTA 0.169 IDF1 0.490 IDSW 253 MAEq 6.82 unicos gt 332 pred L1 711 L60 249
+ft960     botsort   padrao        test-dev HOTA 0.306 MOTA 0.047 IDF1 0.363 IDSW 1754 MAEq 7.22 unicos gt 1012 pred L1 3476 L60 613
+ft960     botsort   padrao        val      HOTA 0.367 MOTA 0.093 IDF1 0.447 IDSW 470 MAEq 7.25 unicos gt 332 pred L1 1188 L60 260
+ft960     bytetrack escolhida_val test-dev HOTA 0.286 MOTA 0.095 IDF1 0.339 IDSW 1639 MAEq 8.46 unicos gt 1012 pred L1 2684 L60 500
+ft960     bytetrack escolhida_val val      HOTA 0.338 MOTA 0.166 IDF1 0.404 IDSW 621 MAEq 7.61 unicos gt 332 pred L1 1072 L60 179
+ft960     bytetrack padrao        test-dev HOTA 0.269 MOTA 0.050 IDF1 0.312 IDSW 2555 MAEq 8.09 unicos gt 1012 pred L1 4265 L60 486
+ft960     bytetrack padrao        val      HOTA 0.320 MOTA 0.106 IDF1 0.372 IDSW 854 MAEq 7.68 unicos gt 332 pred L1 1630 L60 181
+tempo total 194 s
+FIM_RASTREIO

@@ -1,0 +1,6 @@
+descompactando VisDrone2019-DET-train
+descompactando VisDrone2019-DET-val
+descompactando VisDrone2019-DET-test-dev
+train {'imagens': 6471, 'pessoas': 106396, 'pedestrian': 79337, 'people': 27059, 'imagens_sem_pessoa': 787, 'media_por_imagem': 16.441971874517076}
+val {'imagens': 548, 'pessoas': 13969, 'pedestrian': 8844, 'people': 5125, 'imagens_sem_pessoa': 17, 'media_por_imagem': 25.490875912408757}
+test {'imagens': 1610, 'pessoas': 27382, 'pedestrian': 21006, 'people': 6376, 'imagens_sem_pessoa': 343, 'media_por_imagem': 17.00745341614907}

@@ -1,9 +1,19 @@
+# ambientes e caches regeneraveis
 .venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 resultados/_frames/
-datasets/
-runs/
 *.engine
 *.onnx
+
+# dados e pesos de terceiros (VisDrone, pesos oficiais do Ultralytics): nao redistribuidos (ver README)
+/datasets/
+/mot/
+/weights/
+/runs/
+/ultra_cfg/
+
+# artefatos publicados como Releases (ver RELEASES.md); extraidos na raiz, ficam fora do git
+resultados/deteccao/runs/*/weights/
+validacao_videos/cache_det/

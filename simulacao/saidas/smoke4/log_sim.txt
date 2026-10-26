@@ -1,0 +1,7 @@
+[cerise_sim 15:59:33] raiz de ativos: '/ativos/Assets/Isaac/5.1'; cenario reduzido; 1 drones; 6 pessoas; 8.0 s a 5.0 fps; modo anim_people
+[cerise_sim 15:59:33] terreno: 7 malhas, 14 edificios, 78 arvores (0.1 s)
+[cerise_sim 15:59:33] 12 modelos de personagem disponiveis
+[cerise_sim 15:59:36] pessoas criadas: 6 (SkelRoots: 6); grafo /World/Characters/Biped_Setup/CharacterAnimation/AnimationGraph
+[cerise_sim 15:59:36] navmesh assada: True (0.1 s), volume /World/NavMeshVolume ~452 x 467 m
+[cerise_sim 15:59:37] aquecimento: 90 passos
+[cerise_sim 15:59:56] quadro 25 t=4.8s; 0.68 s/quadro (render 0.22); estimativa total 0.5 min

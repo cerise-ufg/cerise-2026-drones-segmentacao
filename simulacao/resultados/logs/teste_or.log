@@ -1,0 +1,37 @@
+[botsort] contagem unica 78 x vistas 78 (cena 80); dup 7 (entre drones 5), falsos 0, perdidas 7; P/R(iou0.3|6px) 1.000/0.706; MAE/quadro 0.47
+[chao] contagem unica 83 x vistas 78 (cena 80); dup 7 (entre drones 5), falsos 1, perdidas 3; P/R(iou0.3|6px) 0.817/0.803; MAE/quadro 0.47
+[botsort_semgmc] contagem unica 0 x vistas 78 (cena 80); dup 0 (entre drones 0), falsos 0, perdidas 78; P/R(iou0.3|6px) 1.000/0.022; MAE/quadro 1.56
+{
+ "resumo": {
+  "botsort": {
+   "contagem_proposta": 78,
+   "pessoas_vistas_gabarito": 78,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": 0.0,
+   "clusters_duplicados": 7,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 7
+  },
+  "chao": {
+   "contagem_proposta": 83,
+   "pessoas_vistas_gabarito": 78,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": 6.410256410256411,
+   "clusters_duplicados": 7,
+   "clusters_falsos": 1,
+   "pessoas_perdidas": 3
+  },
+  "botsort_semgmc": {
+   "contagem_proposta": 0,
+   "pessoas_vistas_gabarito": 78,
+   "pessoas_na_cena": 80,
+   "erro_pct_vs_vistas": -100.0,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 78
+  }
+ },
+ "tempo_total_s": 2.6814262866973877,
+ "tempo_deteccao": null,
+ "ap": {}
+}

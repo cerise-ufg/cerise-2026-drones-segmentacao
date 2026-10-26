@@ -1,0 +1,10 @@
+{
+ "modelo": "yolo11s.pt",
+ "imgsz": 960,
+ "batch": 16,
+ "horas_limite": 0.75,
+ "tempo_treino_s": 130.80827450752258,
+ "pico_mem_gpu_reservada_GB": 7.480541184,
+ "teto_GB": 7.5,
+ "nome": "ft_pessoa_yolo11s_960_teste"
+}

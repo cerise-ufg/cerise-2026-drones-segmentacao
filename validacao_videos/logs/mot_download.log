@@ -1,0 +1,28 @@
+10:58:19 VisDrone2019-MOT-val.zip tamanho 1602397759
+10:58:21 tentativa 1: baixando a partir de 0 MB
+10:58:47   210/1602 MB, 8.0 MB/s
+10:59:13   419/1602 MB, 8.0 MB/s
+10:59:35   629/1602 MB, 8.4 MB/s
+10:59:45   839/1602 MB, 9.9 MB/s
+10:59:54   1049/1602 MB, 11.2 MB/s
+11:00:03   1258/1602 MB, 12.3 MB/s
+11:00:12   1468/1602 MB, 13.2 MB/s
+11:00:18 VisDrone2019-MOT-val.zip OK 1602397759 sha256 e53571990dfc79229e0a8ae10264bc4fa604a027c44b06e3a097417e4fa55705
+11:00:19 testzip: None
+11:00:21 VisDrone2019-MOT-val: 7 sequencias, 2846 quadros
+11:00:22 VisDrone2019-MOT-test-dev.zip tamanho 2293482321
+11:00:23 tentativa 1: baixando a partir de 0 MB
+11:00:38   210/2293 MB, 13.9 MB/s
+11:00:51   419/2293 MB, 15.2 MB/s
+11:01:08   629/2293 MB, 14.0 MB/s
+11:01:16   839/2293 MB, 16.0 MB/s
+11:01:23   1049/2293 MB, 17.6 MB/s
+11:01:29   1258/2293 MB, 19.1 MB/s
+11:01:36   1468/2293 MB, 20.1 MB/s
+11:01:43   1678/2293 MB, 20.9 MB/s
+11:01:51   1887/2293 MB, 21.5 MB/s
+11:01:57   2097/2293 MB, 22.2 MB/s
+11:02:06 VisDrone2019-MOT-test-dev.zip OK 2293482321 sha256 758abe40bf20246e7e778ac61eaa557cf004b034b6e68e85006e5add68e17eb5
+11:02:10 testzip: None
+11:02:14 VisDrone2019-MOT-test-dev: 17 sequencias, 6635 quadros
+11:02:14 FIM_DOWNLOAD

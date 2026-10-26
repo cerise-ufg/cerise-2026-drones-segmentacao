@@ -1,0 +1,21 @@
+{
+ "entrada": "isaac_ativos/Assets/Isaac/5.1/NVIDIA/Assets/Skies/Cloudy/kloofendal_48d_partly_cloudy_4k.hdr",
+ "saida": "closeup/ceu/kloofendal_48d_partly_cloudy_4k_sem_sol.hdr",
+ "tamanho": [
+  4096,
+  2048
+ ],
+ "mediana_ceu": 0.343366801738739,
+ "pixel_sol": [
+  2456,
+  479
+ ],
+ "sol_elevacao_graus": 47.9,
+ "sol_coluna_graus": 215.9,
+ "pixels_removidos": 20005,
+ "lum_max_antes": 74717.6953125,
+ "lum_max_depois": 7.81776237487793,
+ "fracao_irradiancia_no_sol": 0.714,
+ "irradiancia_ceu_unid": 1.3690831191317767,
+ "irradiancia_sol_unid": 3.423740663020807
+}

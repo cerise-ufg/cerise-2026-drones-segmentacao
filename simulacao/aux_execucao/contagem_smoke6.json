@@ -1,0 +1,1060 @@
+{
+ "execucao": "saidas/smoke6",
+ "cenario": "reduzido",
+ "simulador": "isaac-sim 5.1.0",
+ "modo_pessoas": "anim_people",
+ "detector": "yolo",
+ "detector_params": {
+  "pesos": "/w/resultados/best_yolo11s_visdrone_pessoa_960.pt",
+  "imgsz": 1280,
+  "conf_cache": 0.01,
+  "iou_nms": 0.6,
+  "fp32": true
+ },
+ "parametros_contagem": {
+  "ponto_ref": "centro",
+  "altura_ref_m": 0.85,
+  "somente_cobertura": true,
+  "passo_quadros": 1,
+  "margem_area_m": 2.0,
+  "dist_max_m": 2.0,
+  "vel_max_ms": 2.5,
+  "min_hits": 3,
+  "max_idade_s": 2.0,
+  "raio_m": 2.0,
+  "banda_m": 6.0,
+  "v_parado_ms": 0.3,
+  "v_assoc_ms": 0.3,
+  "v_assoc_parado_ms": 0.1,
+  "gap_max_s": 120.0,
+  "gap_max_andando_s": 60.0
+ },
+ "parametros_botsort": {
+  "track_high_thresh": 0.4,
+  "track_low_thresh": 0.05,
+  "new_track_thresh": 0.4,
+  "track_buffer": 30,
+  "match_thresh": 0.8,
+  "fuse_score": true,
+  "gmc_method": "sparseOptFlow",
+  "proximity_thresh": 0.5,
+  "appearance_thresh": 0.8,
+  "with_reid": false
+ },
+ "drones": [
+  "D1"
+ ],
+ "fps": 5.0,
+ "quadros_usados_por_drone": {
+  "D1": 7
+ },
+ "quadros_totais_por_drone": {
+  "D1": 41
+ },
+ "s_render_por_quadro": 0.23304262393858374,
+ "s_por_quadro_sim": 0.770915357077994,
+ "tempo_deteccao": {
+  "quadros": 41,
+  "ms_leitura": 2.645981414655292,
+  "ms_deteccao": 13.34835541456414,
+  "ms_gmc": 2.0445198049235,
+  "fps_deteccao": 74.9155958874843,
+  "fps_leitura_det_gmc": 55.435886003287834
+ },
+ "deteccao_bruta": {
+  "ap": {
+   "iou0.5": {
+    "ap": 0.8311524609843937,
+    "n_gt": 14,
+    "n_det": 33,
+    "revocacao_max": 0.9285714285714286,
+    "iou_min": 0.5,
+    "dist_centro_px": null,
+    "por_camera": {
+     "D1": 0.8311524609843937
+    }
+   },
+   "iou0.3": {
+    "ap": 0.9720888355342137,
+    "n_gt": 14,
+    "n_det": 33,
+    "revocacao_max": 1.0,
+    "iou_min": 0.3,
+    "dist_centro_px": null,
+    "por_camera": {
+     "D1": 0.9720888355342137
+    }
+   },
+   "iou0.3_ou_centro6px": {
+    "ap": 0.9720888355342137,
+    "n_gt": 14,
+    "n_det": 33,
+    "revocacao_max": 1.0,
+    "iou_min": 0.3,
+    "dist_centro_px": 6.0,
+    "por_camera": {
+     "D1": 0.9720888355342137
+    }
+   }
+  },
+  "por_limiar": {
+   "0.175": {
+    "iou0.5": {
+     "tp": 12,
+     "fp": 2,
+     "fn": 2,
+     "precisao": 0.8571428571428571,
+     "revocacao": 0.8571428571428571,
+     "f1": 0.8571428571428571,
+     "mae_contagem_quadro": 0.2857142857142857,
+     "vies_contagem_quadro": 0.0,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 12,
+       "fp": 2,
+       "fn": 2,
+       "precisao": 0.8571428571428571,
+       "revocacao": 0.8571428571428571,
+       "f1": 0.8571428571428571,
+       "mae_contagem_quadro": 0.2857142857142857,
+       "vies_contagem_quadro": 0.0,
+       "iou_min": 0.5,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3": {
+     "tp": 13,
+     "fp": 1,
+     "fn": 1,
+     "precisao": 0.9285714285714286,
+     "revocacao": 0.9285714285714286,
+     "f1": 0.9285714285714286,
+     "mae_contagem_quadro": 0.2857142857142857,
+     "vies_contagem_quadro": 0.0,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 13,
+       "fp": 1,
+       "fn": 1,
+       "precisao": 0.9285714285714286,
+       "revocacao": 0.9285714285714286,
+       "f1": 0.9285714285714286,
+       "mae_contagem_quadro": 0.2857142857142857,
+       "vies_contagem_quadro": 0.0,
+       "iou_min": 0.3,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3_ou_centro6px": {
+     "tp": 13,
+     "fp": 1,
+     "fn": 1,
+     "precisao": 0.9285714285714286,
+     "revocacao": 0.9285714285714286,
+     "f1": 0.9285714285714286,
+     "mae_contagem_quadro": 0.2857142857142857,
+     "vies_contagem_quadro": 0.0,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 13,
+       "fp": 1,
+       "fn": 1,
+       "precisao": 0.9285714285714286,
+       "revocacao": 0.9285714285714286,
+       "f1": 0.9285714285714286,
+       "mae_contagem_quadro": 0.2857142857142857,
+       "vies_contagem_quadro": 0.0,
+       "iou_min": 0.3,
+       "dist_centro_px": 6.0
+      }
+     }
+    }
+   },
+   "0.350": {
+    "iou0.5": {
+     "tp": 9,
+     "fp": 1,
+     "fn": 5,
+     "precisao": 0.9,
+     "revocacao": 0.6428571428571429,
+     "f1": 0.75,
+     "mae_contagem_quadro": 0.5714285714285714,
+     "vies_contagem_quadro": -0.5714285714285714,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 9,
+       "fp": 1,
+       "fn": 5,
+       "precisao": 0.9,
+       "revocacao": 0.6428571428571429,
+       "f1": 0.75,
+       "mae_contagem_quadro": 0.5714285714285714,
+       "vies_contagem_quadro": -0.5714285714285714,
+       "iou_min": 0.5,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 4,
+     "precisao": 1.0,
+     "revocacao": 0.7142857142857143,
+     "f1": 0.8333333333333333,
+     "mae_contagem_quadro": 0.5714285714285714,
+     "vies_contagem_quadro": -0.5714285714285714,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 10,
+       "fp": 0,
+       "fn": 4,
+       "precisao": 1.0,
+       "revocacao": 0.7142857142857143,
+       "f1": 0.8333333333333333,
+       "mae_contagem_quadro": 0.5714285714285714,
+       "vies_contagem_quadro": -0.5714285714285714,
+       "iou_min": 0.3,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3_ou_centro6px": {
+     "tp": 10,
+     "fp": 0,
+     "fn": 4,
+     "precisao": 1.0,
+     "revocacao": 0.7142857142857143,
+     "f1": 0.8333333333333333,
+     "mae_contagem_quadro": 0.5714285714285714,
+     "vies_contagem_quadro": -0.5714285714285714,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 10,
+       "fp": 0,
+       "fn": 4,
+       "precisao": 1.0,
+       "revocacao": 0.7142857142857143,
+       "f1": 0.8333333333333333,
+       "mae_contagem_quadro": 0.5714285714285714,
+       "vies_contagem_quadro": -0.5714285714285714,
+       "iou_min": 0.3,
+       "dist_centro_px": 6.0
+      }
+     }
+    }
+   },
+   "0.400": {
+    "iou0.5": {
+     "tp": 7,
+     "fp": 1,
+     "fn": 7,
+     "precisao": 0.875,
+     "revocacao": 0.5,
+     "f1": 0.6363636363636364,
+     "mae_contagem_quadro": 0.8571428571428571,
+     "vies_contagem_quadro": -0.8571428571428571,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 7,
+       "fp": 1,
+       "fn": 7,
+       "precisao": 0.875,
+       "revocacao": 0.5,
+       "f1": 0.6363636363636364,
+       "mae_contagem_quadro": 0.8571428571428571,
+       "vies_contagem_quadro": -0.8571428571428571,
+       "iou_min": 0.5,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 6,
+     "precisao": 1.0,
+     "revocacao": 0.5714285714285714,
+     "f1": 0.7272727272727273,
+     "mae_contagem_quadro": 0.8571428571428571,
+     "vies_contagem_quadro": -0.8571428571428571,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 8,
+       "fp": 0,
+       "fn": 6,
+       "precisao": 1.0,
+       "revocacao": 0.5714285714285714,
+       "f1": 0.7272727272727273,
+       "mae_contagem_quadro": 0.8571428571428571,
+       "vies_contagem_quadro": -0.8571428571428571,
+       "iou_min": 0.3,
+       "dist_centro_px": null
+      }
+     }
+    },
+    "iou0.3_ou_centro6px": {
+     "tp": 8,
+     "fp": 0,
+     "fn": 6,
+     "precisao": 1.0,
+     "revocacao": 0.5714285714285714,
+     "f1": 0.7272727272727273,
+     "mae_contagem_quadro": 0.8571428571428571,
+     "vies_contagem_quadro": -0.8571428571428571,
+     "por_camera": {
+      "D1": {
+       "quadros": 7,
+       "tp": 8,
+       "fp": 0,
+       "fn": 6,
+       "precisao": 1.0,
+       "revocacao": 0.5714285714285714,
+       "f1": 0.7272727272727273,
+       "mae_contagem_quadro": 0.8571428571428571,
+       "vies_contagem_quadro": -0.8571428571428571,
+       "iou_min": 0.3,
+       "dist_centro_px": 6.0
+      }
+     }
+    }
+   }
+  }
+ },
+ "botsort": {
+  "avaliacao_contagem": {
+   "pessoas_na_cena": 6,
+   "pessoas_vistas_gabarito": 2,
+   "contagem_proposta": 2,
+   "erro_vs_cena": -4,
+   "erro_pct_vs_cena": -66.66666666666667,
+   "erro_vs_vistas": 0,
+   "erro_pct_vs_vistas": 0.0,
+   "clusters_corretos_unicos": 2,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0,
+   "faixas_rotuladas": 2,
+   "faixas_total": 2,
+   "outras_estrategias": {
+    "soma_deteccoes": 12,
+    "faixas_sem_posse": 2,
+    "cerise_drones_agregacao": {
+     "soma_ingenua": 2,
+     "dedup_por_drone_sem_posse": 2,
+     "proposto_posse_dedup_borda": 2
+    }
+   }
+  },
+  "deteccao_por_quadro_trilhas": {
+   "iou0.5": {
+    "tp": 11,
+    "fp": 1,
+    "fn": 3,
+    "precisao": 0.9166666666666666,
+    "revocacao": 0.7857142857142857,
+    "f1": 0.8461538461538461,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": -0.2857142857142857,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 11,
+      "fp": 1,
+      "fn": 3,
+      "precisao": 0.9166666666666666,
+      "revocacao": 0.7857142857142857,
+      "f1": 0.8461538461538461,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": -0.2857142857142857,
+      "iou_min": 0.5,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3": {
+    "tp": 12,
+    "fp": 0,
+    "fn": 2,
+    "precisao": 1.0,
+    "revocacao": 0.8571428571428571,
+    "f1": 0.923076923076923,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": -0.2857142857142857,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 12,
+      "fp": 0,
+      "fn": 2,
+      "precisao": 1.0,
+      "revocacao": 0.8571428571428571,
+      "f1": 0.923076923076923,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": -0.2857142857142857,
+      "iou_min": 0.3,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3_ou_centro6px": {
+    "tp": 12,
+    "fp": 0,
+    "fn": 2,
+    "precisao": 1.0,
+    "revocacao": 0.8571428571428571,
+    "f1": 0.923076923076923,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": -0.2857142857142857,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 12,
+      "fp": 0,
+      "fn": 2,
+      "precisao": 1.0,
+      "revocacao": 0.8571428571428571,
+      "f1": 0.923076923076923,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": -0.2857142857142857,
+      "iou_min": 0.3,
+      "dist_centro_px": 6.0
+     }
+    }
+   }
+  },
+  "analise_clusters": {
+   "clusters": 2,
+   "clusters_com_mais_de_um_drone": 0,
+   "clusters_na_banda": 0,
+   "duplicatas_entre_drones": 0,
+   "duplicatas_mesmo_drone": 0,
+   "duplicatas_na_banda": 0,
+   "duplicatas_por_tipo_de_pessoa": {},
+   "clusters_por_pessoa_cruza_fronteira": {
+    "P036": 0,
+    "P037": 0,
+    "P038": 0,
+    "P039": 0,
+    "P040": 0,
+    "P041": 0,
+    "P042": 0,
+    "P043": 0
+   }
+  },
+  "agregacao": {
+   "faixas_sem_posse": 2,
+   "cerise_drones_agregacao": {
+    "soma_ingenua": 2,
+    "dedup_por_drone_sem_posse": 2,
+    "proposto_posse_dedup_borda": 2,
+    "proposto_por_drone_interior": [
+     2
+    ],
+    "proposto_borda": 0,
+    "frac_deteccoes_na_borda": 0.0
+   },
+   "descartadas_posse": 0,
+   "proposto": 2,
+   "frac_na_banda": 0.0,
+   "pares_compativeis": 0,
+   "soma_deteccoes": 12,
+   "ids_brutos_botsort": 2
+  },
+  "faixas_por_drone": {
+   "D1": 2
+  },
+  "tempo_rastreio_agregacao_s": 0.08293890953063965,
+  "serie_temporal": {
+   "t": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ],
+   "estimada_acumulada": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "vistas_acumulada_gabarito": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "por_drone": {
+    "D1": {
+     "t": [
+      6.8,
+      7.0,
+      7.2,
+      7.4,
+      7.6,
+      7.8,
+      8.0
+     ],
+     "estimada": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+     ],
+     "gabarito": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ]
+    }
+   }
+  },
+  "clusters": [
+   {
+    "rotulo": "P071",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -39.25076625252551,
+     -123.34922706639622
+    ],
+    "na_banda": false
+   },
+   {
+    "rotulo": "P059",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -44.11021614360895,
+     -124.56136114977454
+    ],
+    "na_banda": false
+   }
+  ]
+ },
+ "chao": {
+  "avaliacao_contagem": {
+   "pessoas_na_cena": 6,
+   "pessoas_vistas_gabarito": 2,
+   "contagem_proposta": 3,
+   "erro_vs_cena": -3,
+   "erro_pct_vs_cena": -50.0,
+   "erro_vs_vistas": 1,
+   "erro_pct_vs_vistas": 50.0,
+   "clusters_corretos_unicos": 2,
+   "clusters_duplicados": 1,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0,
+   "faixas_rotuladas": 3,
+   "faixas_total": 3,
+   "outras_estrategias": {
+    "soma_deteccoes": 14,
+    "faixas_sem_posse": 3,
+    "cerise_drones_agregacao": {
+     "soma_ingenua": 3,
+     "dedup_por_drone_sem_posse": 2,
+     "proposto_posse_dedup_borda": 2
+    }
+   }
+  },
+  "deteccao_por_quadro_trilhas": {
+   "iou0.5": {
+    "tp": 12,
+    "fp": 2,
+    "fn": 2,
+    "precisao": 0.8571428571428571,
+    "revocacao": 0.8571428571428571,
+    "f1": 0.8571428571428571,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 12,
+      "fp": 2,
+      "fn": 2,
+      "precisao": 0.8571428571428571,
+      "revocacao": 0.8571428571428571,
+      "f1": 0.8571428571428571,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.5,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3": {
+    "tp": 13,
+    "fp": 1,
+    "fn": 1,
+    "precisao": 0.9285714285714286,
+    "revocacao": 0.9285714285714286,
+    "f1": 0.9285714285714286,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 13,
+      "fp": 1,
+      "fn": 1,
+      "precisao": 0.9285714285714286,
+      "revocacao": 0.9285714285714286,
+      "f1": 0.9285714285714286,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.3,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3_ou_centro6px": {
+    "tp": 13,
+    "fp": 1,
+    "fn": 1,
+    "precisao": 0.9285714285714286,
+    "revocacao": 0.9285714285714286,
+    "f1": 0.9285714285714286,
+    "mae_contagem_quadro": 0.2857142857142857,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 13,
+      "fp": 1,
+      "fn": 1,
+      "precisao": 0.9285714285714286,
+      "revocacao": 0.9285714285714286,
+      "f1": 0.9285714285714286,
+      "mae_contagem_quadro": 0.2857142857142857,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.3,
+      "dist_centro_px": 6.0
+     }
+    }
+   }
+  },
+  "analise_clusters": {
+   "clusters": 3,
+   "clusters_com_mais_de_um_drone": 0,
+   "clusters_na_banda": 0,
+   "duplicatas_entre_drones": 0,
+   "duplicatas_mesmo_drone": 1,
+   "duplicatas_na_banda": 0,
+   "duplicatas_por_tipo_de_pessoa": {
+    "caminhante": 1
+   },
+   "clusters_por_pessoa_cruza_fronteira": {
+    "P036": 0,
+    "P037": 0,
+    "P038": 0,
+    "P039": 0,
+    "P040": 0,
+    "P041": 0,
+    "P042": 0,
+    "P043": 0
+   }
+  },
+  "agregacao": {
+   "faixas_sem_posse": 3,
+   "cerise_drones_agregacao": {
+    "soma_ingenua": 3,
+    "dedup_por_drone_sem_posse": 2,
+    "proposto_posse_dedup_borda": 2,
+    "proposto_por_drone_interior": [
+     2
+    ],
+    "proposto_borda": 0,
+    "frac_deteccoes_na_borda": 0.0
+   },
+   "descartadas_posse": 0,
+   "proposto": 3,
+   "frac_na_banda": 0.0,
+   "pares_compativeis": 0,
+   "soma_deteccoes": 14
+  },
+  "faixas_por_drone": {
+   "D1": 3
+  },
+  "tempo_rastreio_agregacao_s": 0.0016977787017822266,
+  "serie_temporal": {
+   "t": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ],
+   "estimada_acumulada": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    3
+   ],
+   "vistas_acumulada_gabarito": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "por_drone": {
+    "D1": {
+     "t": [
+      6.8,
+      7.0,
+      7.2,
+      7.4,
+      7.6,
+      7.8,
+      8.0
+     ],
+     "estimada": [
+      2,
+      2,
+      3,
+      2,
+      2,
+      1,
+      2
+     ],
+     "gabarito": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ]
+    }
+   }
+  },
+  "clusters": [
+   {
+    "rotulo": "P071",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -39.162923374492564,
+     -123.35906832218464
+    ],
+    "na_banda": false
+   },
+   {
+    "rotulo": "P059",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -44.13775589372661,
+     -124.56436689306884
+    ],
+    "na_banda": false
+   },
+   {
+    "rotulo": "P071",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 7.2,
+    "xy": [
+     -39.66811324097621,
+     -123.53399926864473
+    ],
+    "na_banda": false
+   }
+  ]
+ },
+ "botsort_pose": {
+  "avaliacao_contagem": {
+   "pessoas_na_cena": 6,
+   "pessoas_vistas_gabarito": 2,
+   "contagem_proposta": 2,
+   "erro_vs_cena": -4,
+   "erro_pct_vs_cena": -66.66666666666667,
+   "erro_vs_vistas": 0,
+   "erro_pct_vs_vistas": 0.0,
+   "clusters_corretos_unicos": 2,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0,
+   "faixas_rotuladas": 2,
+   "faixas_total": 2,
+   "outras_estrategias": {
+    "soma_deteccoes": 14,
+    "faixas_sem_posse": 2,
+    "cerise_drones_agregacao": {
+     "soma_ingenua": 2,
+     "dedup_por_drone_sem_posse": 2,
+     "proposto_posse_dedup_borda": 2
+    }
+   }
+  },
+  "deteccao_por_quadro_trilhas": {
+   "iou0.5": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 0,
+    "precisao": 1.0,
+    "revocacao": 1.0,
+    "f1": 1.0,
+    "mae_contagem_quadro": 0.0,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "mae_contagem_quadro": 0.0,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.5,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 0,
+    "precisao": 1.0,
+    "revocacao": 1.0,
+    "f1": 1.0,
+    "mae_contagem_quadro": 0.0,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "mae_contagem_quadro": 0.0,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.3,
+      "dist_centro_px": null
+     }
+    }
+   },
+   "iou0.3_ou_centro6px": {
+    "tp": 14,
+    "fp": 0,
+    "fn": 0,
+    "precisao": 1.0,
+    "revocacao": 1.0,
+    "f1": 1.0,
+    "mae_contagem_quadro": 0.0,
+    "vies_contagem_quadro": 0.0,
+    "por_camera": {
+     "D1": {
+      "quadros": 7,
+      "tp": 14,
+      "fp": 0,
+      "fn": 0,
+      "precisao": 1.0,
+      "revocacao": 1.0,
+      "f1": 1.0,
+      "mae_contagem_quadro": 0.0,
+      "vies_contagem_quadro": 0.0,
+      "iou_min": 0.3,
+      "dist_centro_px": 6.0
+     }
+    }
+   }
+  },
+  "analise_clusters": {
+   "clusters": 2,
+   "clusters_com_mais_de_um_drone": 0,
+   "clusters_na_banda": 0,
+   "duplicatas_entre_drones": 0,
+   "duplicatas_mesmo_drone": 0,
+   "duplicatas_na_banda": 0,
+   "duplicatas_por_tipo_de_pessoa": {},
+   "clusters_por_pessoa_cruza_fronteira": {
+    "P036": 0,
+    "P037": 0,
+    "P038": 0,
+    "P039": 0,
+    "P040": 0,
+    "P041": 0,
+    "P042": 0,
+    "P043": 0
+   }
+  },
+  "agregacao": {
+   "faixas_sem_posse": 2,
+   "cerise_drones_agregacao": {
+    "soma_ingenua": 2,
+    "dedup_por_drone_sem_posse": 2,
+    "proposto_posse_dedup_borda": 2,
+    "proposto_por_drone_interior": [
+     2
+    ],
+    "proposto_borda": 0,
+    "frac_deteccoes_na_borda": 0.0
+   },
+   "descartadas_posse": 0,
+   "proposto": 2,
+   "frac_na_banda": 0.0,
+   "pares_compativeis": 0,
+   "soma_deteccoes": 14,
+   "ids_brutos_botsort": 2
+  },
+  "faixas_por_drone": {
+   "D1": 2
+  },
+  "tempo_rastreio_agregacao_s": 0.011055469512939453,
+  "serie_temporal": {
+   "t": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+   ],
+   "estimada_acumulada": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "vistas_acumulada_gabarito": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2
+   ],
+   "por_drone": {
+    "D1": {
+     "t": [
+      6.8,
+      7.0,
+      7.2,
+      7.4,
+      7.6,
+      7.8,
+      8.0
+     ],
+     "estimada": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "gabarito": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+     ]
+    }
+   }
+  },
+  "clusters": [
+   {
+    "rotulo": "P059",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -44.1068820124532,
+     -124.56256836997545
+    ],
+    "na_banda": false
+   },
+   {
+    "rotulo": "P071",
+    "drones": [
+     "D1"
+    ],
+    "t_ini": 6.8,
+    "xy": [
+     -39.48756670028008,
+     -123.46828383638929
+    ],
+    "na_banda": false
+   }
+  ]
+ },
+ "principal": "botsort",
+ "tempo_total_s": 4.005242824554443
+}

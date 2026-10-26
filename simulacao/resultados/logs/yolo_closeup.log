@@ -1,0 +1,82 @@
+{
+ "execucao": "saidas/closeup01",
+ "pesos": "/w/resultados/best_yolo11s_visdrone_pessoa_960.pt",
+ "classes": {
+  "0": "pessoa"
+ },
+ "imgsz": 1280,
+ "quadros": 337,
+ "caixas_gabarito": 1639,
+ "min_lado_gt_px": 6.0,
+ "ap50": 0.5675,
+ "limiar": 0.25,
+ "precisao": 0.7331,
+ "revocacao": 0.4893,
+ "ms_por_quadro_mediana": 8.9,
+ "por_faixa_distancia": [
+  {
+   "dist_m": [
+    0,
+    10
+   ],
+   "quadros": 142,
+   "inclinacao_graus": [
+    50.7,
+    85.3
+   ],
+   "gabarito": 426,
+   "deteccoes": 5,
+   "corretas": 4,
+   "precisao": 0.8,
+   "revocacao": 0.009
+  },
+  {
+   "dist_m": [
+    10,
+    14
+   ],
+   "quadros": 73,
+   "inclinacao_graus": [
+    35.1,
+    50.4
+   ],
+   "gabarito": 277,
+   "deteccoes": 175,
+   "corretas": 103,
+   "precisao": 0.589,
+   "revocacao": 0.372
+  },
+  {
+   "dist_m": [
+    14,
+    18
+   ],
+   "quadros": 68,
+   "inclinacao_graus": [
+    27.6,
+    35.0
+   ],
+   "gabarito": 386,
+   "deteccoes": 358,
+   "corretas": 258,
+   "precisao": 0.721,
+   "revocacao": 0.668
+  },
+  {
+   "dist_m": [
+    18,
+    30
+   ],
+   "quadros": 54,
+   "inclinacao_graus": [
+    21.1,
+    27.5
+   ],
+   "gabarito": 550,
+   "deteccoes": 556,
+   "corretas": 437,
+   "precisao": 0.786,
+   "revocacao": 0.795
+  }
+ ]
+}

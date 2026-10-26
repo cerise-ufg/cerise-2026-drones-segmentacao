@@ -1,0 +1,6 @@
+[cerise_sim 15:57:23] raiz de ativos: '/ativos/Assets/Isaac/5.1'; cenario reduzido; 1 drones; 6 pessoas; 8.0 s a 5.0 fps; modo cinematico
+[cerise_sim 15:57:23] terreno: 7 malhas, 14 edificios, 78 arvores (0.1 s)
+[cerise_sim 15:57:23] 12 modelos de personagem disponiveis
+[cerise_sim 15:57:26] pessoas criadas: 6 (SkelRoots: 6); grafo /World/Characters/Biped_Setup/CharacterAnimation/AnimationGraph
+[cerise_sim 15:57:27] aquecimento: 90 passos
+[cerise_sim 15:57:45] quadro 25 t=4.8s; 0.68 s/quadro (render 0.20); estimativa total 0.5 min

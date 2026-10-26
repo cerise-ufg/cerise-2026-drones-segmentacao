@@ -1,0 +1,90 @@
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+[botsort] contagem unica 2 x vistas 2 (cena 6); dup 0 (entre drones 0), falsos 0, perdidas 0; P/R(iou0.3|6px) 1.000/0.857; MAE/quadro 0.29
+[chao] contagem unica 3 x vistas 2 (cena 6); dup 1 (entre drones 0), falsos 0, perdidas 0; P/R(iou0.3|6px) 0.929/0.929; MAE/quadro 0.29
+[botsort_pose] contagem unica 2 x vistas 2 (cena 6); dup 0 (entre drones 0), falsos 0, perdidas 0; P/R(iou0.3|6px) 1.000/1.000; MAE/quadro 0.00
+{
+ "resumo": {
+  "botsort": {
+   "contagem_proposta": 2,
+   "pessoas_vistas_gabarito": 2,
+   "pessoas_na_cena": 6,
+   "erro_pct_vs_vistas": 0.0,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0
+  },
+  "chao": {
+   "contagem_proposta": 3,
+   "pessoas_vistas_gabarito": 2,
+   "pessoas_na_cena": 6,
+   "erro_pct_vs_vistas": 50.0,
+   "clusters_duplicados": 1,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0
+  },
+  "botsort_pose": {
+   "contagem_proposta": 2,
+   "pessoas_vistas_gabarito": 2,
+   "pessoas_na_cena": 6,
+   "erro_pct_vs_vistas": 0.0,
+   "clusters_duplicados": 0,
+   "clusters_falsos": 0,
+   "pessoas_perdidas": 0
+  }
+ },
+ "tempo_total_s": 4.005242824554443,
+ "tempo_deteccao": {
+  "quadros": 41,
+  "ms_leitura": 2.645981414655292,
+  "ms_deteccao": 13.34835541456414,
+  "ms_gmc": 2.0445198049235,
+  "fps_deteccao": 74.9155958874843,
+  "fps_leitura_det_gmc": 55.435886003287834
+ },
+ "ap": {
+  "iou0.5": 0.8311524609843937,
+  "iou0.3": 0.9720888355342137,
+  "iou0.3_ou_centro6px": 0.9720888355342137
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "simulador": "isaac-sim 5.1.0",
+ "renderer": "RaytracedLighting",
+ "rt_subframes": 2,
+ "cenario": "reduzido",
+ "fps": 5.0,
+ "dt": 0.03333333333333333,
+ "t_inicio": 75.0,
+ "duracao_s": 8.0,
+ "origem_enu": {
+  "lon0": -49.274374,
+  "lat0": -16.601737,
+  "epsg_utm": 32722,
+  "projecao": "aeqd (plano tangente local), x=leste y=norte z=cima, metros; chao em z=0"
+ },
+ "modo_pessoas_pedido": "anim_people",
+ "modo_pessoas": "anim_people",
+ "materiais": "procedural",
+ "ativos": "/ativos/Assets/Isaac/5.1",
+ "cameras": {
+  "D1": {
+   "tipo": "drone",
+   "intrinsecos": {
+    "largura": 1280,
+    "altura": 960,
+    "fx": 914.0147243149534,
+    "fy": 914.0147243149534,
+    "cx": 640.0,
+    "cy": 480.0,
+    "hfov_graus": 70.0,
+    "vfov_graus": 55.412927352596554,
+    "usd": {
+     "focalLength": 14.963420740640505,
+     "horizontalAperture": 20.955,
+     "verticalAperture": 15.716249999999999
+    }
+   }
+  },
+  "visao_geral": {
+   "tipo": "visao_geral",
+   "intrinsecos": {
+    "largura": 1920,
+    "altura": 1080,
+    "fx": 1597.7083030564972,
+    "fy": 1597.7083030564972,
+    "cx": 960.0,
+    "cy": 540.0,
+    "hfov_graus": 62.0,
+    "vfov_graus": 37.348871132003914,
+    "usd": {
+     "focalLength": 17.43748827632755,
+     "horizontalAperture": 20.955,
+     "verticalAperture": 11.787187499999998
+    }
+   }
+  },
+  "debug": {
+   "tipo": "debug",
+   "intrinsecos": {
+    "largura": 960,
+    "altura": 540,
+    "fx": 831.3843876330611,
+    "fy": 831.3843876330611,
+    "cx": 480.0,
+    "cy": 270.0,
+    "hfov_graus": 59.99999999999999,
+    "vfov_graus": 35.98339777135764,
+    "usd": {
+     "focalLength": 18.147562336302908,
+     "horizontalAperture": 20.955,
+     "verticalAperture": 11.787187499999998
+    }
+   }
+  }
+ },
+ "pessoas": [
+  "P000",
+  "P022",
+  "P030",
+  "P059",
+  "P063",
+  "P071"
+ ],
+ "quadros": 41,
+ "tempo_laco_s": 28.265891075134277,
+ "s_por_quadro": 0.6894119774422994,
+ "s_render_por_quadro": 0.22341945694714058,
+ "avisos": [],
+ "args": {
+  "cenario": "/cenario/reduzido",
+  "saida": "/saida",
+  "duracao": 8.0,
+  "t_inicio": 75.0,
+  "fps": 5.0,
+  "dt": 0.03333333333333333,
+  "n_pessoas": 6,
+  "pessoas": "P059,P071,P063,P000,P030,P022",
+  "largura": null,
+  "drones": "D1",
+  "modo_pessoas": "anim_people",
+  "materiais": "procedural",
+  "modelo_drone": "procedural",
+  "escala_drone_visual": 5.0,
+  "ativos": "/ativos/Assets/Isaac/5.1",
+  "sem_visao_geral": false,
+  "largura_visao_geral": 1920,
+  "renderer": "RaytracedLighting",
+  "rt_subframes": 2,
+  "formato": "jpg",
+  "qualidade_jpg": 93,
+  "sol_elevacao": 55.0,
+  "sol_azimute": 120.0,
+  "sol_intensidade": 3500.0,
+  "ceu_intensidade": 900.0,
+  "aquecimento_s": 3.0,
+  "smoke": true,
+  "camera_debug": "P022",
+  "yaw_offset": 0.0,
+  "max_quadros": null
+ },
+ "fonte_gabarito": {
+  "anim_graph": 246
+ }
+}

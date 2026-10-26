@@ -1,0 +1,25 @@
+#5 7.230 ultralytics 8.4.189 requires opencv-python!=4.13.0.90,>=4.7.0, which is not installed.
+#5 7.230 ultralytics 8.4.189 requires ultralytics-platform>=0.1.45; python_version >= "3.11", which is not installed.
+#5 7.243 Successfully installed opencv-python-headless-5.0.0.93 polars-2.1.0 polars-runtime-32-2.1.0
+#5 7.243 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#5 8.171 Creating new Ultralytics Settings v0.0.8 file ✅ 
+#5 8.171 View Ultralytics Settings with 'yolo settings' or at '/root/.config/Ultralytics/settings.json'
+#5 8.171 Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+#5 8.174 ultralytics 8.4.189 cv2 5.0.0
+#5 DONE 8.5s
+
+#6 [3/3] WORKDIR /w
+#6 DONE 0.1s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 6.2s done
+#7 exporting manifest sha256:4a07b001e438315fe414fd5f4fc739f5491959760cceea6eff4c91e1cebd68fc 0.0s done
+#7 exporting config sha256:baa47b4e20535939ae404e5f70aa7b4fbee88a07ba97a2cba3e404d403a34324 0.0s done
+#7 exporting attestation manifest sha256:a7717f6727ce183e28480251645c68eb83a3850aef519c6da34f02246ee93ee9 0.0s done
+#7 exporting manifest list sha256:cb91c2075433bea527f962f58cb2bedc180c9833db2203cf0cd5ee8fd6d3de77
+#7 exporting manifest list sha256:cb91c2075433bea527f962f58cb2bedc180c9833db2203cf0cd5ee8fd6d3de77 0.0s done
+#7 naming to docker.io/library/cerise26_drones:latest done
+#7 unpacking to docker.io/library/cerise26_drones:latest
+#7 unpacking to docker.io/library/cerise26_drones:latest 1.3s done
+#7 DONE 7.8s

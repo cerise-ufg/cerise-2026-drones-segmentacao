@@ -1,0 +1,13 @@
+VisDrone2019-DET-val.zip: 81638851 bytes
+VisDrone2019-DET-val.zip OK (81638851 bytes)
+VisDrone2019-DET-test-dev.zip: 311251787 bytes
+VisDrone2019-DET-test-dev.zip OK (311251787 bytes)
+VisDrone2019-DET-train.zip: 1549875511 bytes
+VisDrone2019-DET-train.zip OK (1549875511 bytes)
+total 1897256
+drwxrwxr-x 3 energiainteligente energiainteligente       4096 out 26 01:54 .
+drwxr-xr-x 3 energiainteligente energiainteligente       4096 out 26 01:44 ..
+drwxrwxr-x 2 energiainteligente energiainteligente       4096 out 26 01:54 parts
+-rw-rw-r-- 1 energiainteligente energiainteligente  311251787 out 26 01:48 VisDrone2019-DET-test-dev.zip
+-rw-rw-r-- 1 energiainteligente energiainteligente 1549875511 out 26 01:54 VisDrone2019-DET-train.zip
+-rw-rw-r-- 1 energiainteligente energiainteligente   81638851 out 26 01:45 VisDrone2019-DET-val.zip

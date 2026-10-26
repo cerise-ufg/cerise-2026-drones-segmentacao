@@ -1,0 +1,16 @@
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+yolo11s.pt fp32 n= 14 autocast16 n= 263 half n= 263
+  conf fp32 [0.7206262350082397, 0.7158152461051941, 0.5833885669708252, 0.5200314521789551, 0.5045713186264038] 
+  conf amp  [0.99951171875, 0.9990234375, 0.99609375, 0.99609375, 0.9951171875]
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+WARNING ⚠️ 'half' is deprecated and will be removed in the future. Use 'quantize' instead.
+yolo26n.pt fp32 n= 9 autocast16 n= 300 half n= 11
+  conf fp32 [0.5699816942214966, 0.46705684065818787, 0.46458864212036133, 0.45418110489845276, 0.45374947786331177] 
+  conf amp  [1.0, 1.0, 1.0, 1.0, 1.0]
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed ✅
+check_amp(yolo11s) = True
+max abs diff fp16 nan bf16 5.56475830078125 nan16 True

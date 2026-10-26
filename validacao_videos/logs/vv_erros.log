@@ -1,0 +1,7 @@
+/w/validacao_videos/scripts/53_analise_erros.py:35: UserWarning: loadtxt: input contained no data: "/w/validacao_videos/rastreios/ft960_botsort/test-dev/uav0000370_00001_v.txt"
+  d = np.loadtxt(f"{pasta}/{arq}", delimiter=",", ndmin=2)
+ft960|botsort {"faixas_altura_px": [[0, 20], [20, 40], [40, 80], [80, 10000]], "pessoas_por_faixa": [12758.0, 53415.0, 43163.0, 28638.0], "revocacao_por_faixa": [0.12031666405392695, 0.300308901993822, 0.5644649352454648, 0.6575179830993785], "caixas_rastreador": 107956, "falsos_positivos": 47186, "fp_por_categoria": {"localizacao_ou_duplicata": 19293, "parcial": 7201, "sem_pessoa_anotada": 20692}, "fp_fracao": {"localizacao_ou_duplicata": 0.40887127537829016, "parcial": 0.15260882465137965, "sem_pessoa_anotada": 0.4385198999703302}}
+/w/validacao_videos/scripts/53_analise_erros.py:35: UserWarning: loadtxt: input contained no data: "/w/validacao_videos/rastreios/coco1280_botsort/test-dev/uav0000370_00001_v.txt"
+  d = np.loadtxt(f"{pasta}/{arq}", delimiter=",", ndmin=2)
+coco1280|botsort {"faixas_altura_px": [[0, 20], [20, 40], [40, 80], [80, 10000]], "pessoas_por_faixa": [12758.0, 53415.0, 43163.0, 28638.0], "revocacao_por_faixa": [0.02053613419031196, 0.15478798090424037, 0.42677756411741535, 0.7489699001326908], "caixas_rastreador": 66803, "falsos_positivos": 18403, "fp_por_categoria": {"localizacao_ou_duplicata": 8836, "parcial": 2393, "sem_pessoa_anotada": 7174}, "fp_fracao": {"localizacao_ou_duplicata": 0.4801391077541705, "parcial": 0.13003314676954844, "sem_pessoa_anotada": 0.389827745476281}}
+FIM_ANALISE

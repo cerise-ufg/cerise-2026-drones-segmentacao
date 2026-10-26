@@ -1,0 +1,31 @@
+conteiner cerise26_isaac_closeup01 iniciado (--memory 24g, --cpus 8, --network none); vigia de memoria a cada 2 s
+[closeup 17:57:43] ativos '/ativos/Assets/Isaac/5.1'; 20 pessoas (grupo ['P022', 'P023', 'P024']); janela 3.0-17.0 s a 24.0 fps
+[closeup 17:57:44] terreno: 7 malhas, 14 edificios, 78 arvores (0.5 s); materiais da biblioteca NVIDIA
+[closeup 17:57:47] pessoas criadas: 20 (SkelRoots: 20)
+[closeup 17:57:53] navmesh assada: True (5.8 s), ~452 x 467 m
+[closeup 17:57:56] passo 0.0417 s; avanco sem gravar ate t = 3.0 s (+3.0 s de aquecimento): 144 passos; gravacao 144..480; herois [4.5, 6.5, 10.0, 12.5, 15.5]
+[closeup 17:58:06] avanco ate t = 3.00 s em 10.7 s; desvio do grupo frente ao run01: [-0.22, -0.06] m
+[closeup 17:58:56] quadro 24 t=3.96s; 2.05 s/quadro (render 1.27); incl 23.7 graus; hfov 52.0; drone [122.1, 2.5, 9.7]
+[closeup 17:59:21] quadro 37 t=4.50s; 2.00 s/quadro (render 1.34); incl 23.7 graus; hfov 52.0; drone [120.3, 3.6, 9.5] HEROI
+[closeup 17:59:39] quadro 48 t=4.96s; 1.93 s/quadro (render 1.32); incl 23.6 graus; hfov 52.0; drone [118.8, 4.5, 9.4]
+[closeup 18:00:45] quadro 85 t=6.50s; 1.86 s/quadro (render 1.31); incl 20.4 graus; hfov 53.5; drone [113.8, 7.4, 9.1] HEROI
+[closeup 18:01:41] quadro 120 t=7.96s; 1.79 s/quadro (render 1.28); incl 4.3 graus; hfov 64.3; drone [108.8, 10.3, 8.8]
+[closeup 18:02:54] quadro 168 t=9.96s; 1.71 s/quadro (render 1.23); incl 3.4 graus; hfov 66.0; drone [102.8, 13.9, 8.5]
+[closeup 18:02:58] quadro 169 t=10.00s; 1.73 s/quadro (render 1.24); incl 3.4 graus; hfov 66.0; drone [102.7, 14.0, 8.5] HEROI
+[closeup 18:03:35] quadro 192 t=10.96s; 1.71 s/quadro (render 1.24); incl 3.8 graus; hfov 66.0; drone [101.0, 15.0, 8.4]
+[closeup 18:04:33] quadro 229 t=12.50s; 1.69 s/quadro (render 1.23); incl 3.9 graus; hfov 66.0; drone [98.1, 16.8, 8.5] HEROI
+[closeup 18:05:25] quadro 264 t=13.96s; 1.66 s/quadro (render 1.21); incl 4.9 graus; hfov 64.8; drone [94.4, 19.0, 8.7]
+[closeup 18:06:26] quadro 301 t=15.50s; 1.66 s/quadro (render 1.21); incl 19.4 graus; hfov 53.5; drone [89.3, 22.0, 9.1] HEROI
+[closeup 18:07:25] quadro 336 t=16.96s; 1.66 s/quadro (render 1.21); incl 21.8 graus; hfov 52.0; drone [84.8, 24.6, 9.4]
+[closeup 18:07:27] FIM: 337 quadros; laco 9.5 min (avanco 11 s, render 408 s); pico cgroup 12.35 GiB; saida /saida
+--- vigia de memoria (available do Spark, MB; memoria do conteiner) ---
+inicio 2026-10-26T14:56:10-03:00 conteiner=cerise26_isaac_closeup01 min_livre=12GB
+14:56:11,46189,78418,225.8MiB
+14:58:28,26456,98151,11.17GiB
+15:00:46,26829,97778,11.2GiB
+15:03:03,26664,97943,11.21GiB
+15:05:20,26806,97801,11.21GiB
+fim 2026-10-26T15:07:32-03:00; menor available observado: 25019 MB
+--- clipe ---
+stream|codec_name=h264|width=1920|height=1080|r_frame_rate=24/1|nb_frames=337
+format|duration=14.041667|size=12115291

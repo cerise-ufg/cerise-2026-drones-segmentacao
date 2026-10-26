@@ -1,0 +1,21 @@
+{
+ "entrada": "isaac_ativos/Assets/Isaac/5.1/NVIDIA/Assets/Skies/Clear/noon_grass_4k.hdr",
+ "saida": "closeup/ceu/noon_grass_4k_sem_sol.hdr",
+ "tamanho": [
+  4096,
+  2048
+ ],
+ "mediana_ceu": 0.3002062439918518,
+ "pixel_sol": [
+  1239,
+  51
+ ],
+ "sol_elevacao_graus": 85.5,
+ "sol_coluna_graus": 108.9,
+ "pixels_removidos": 46519,
+ "lum_max_antes": 93181.140625,
+ "lum_max_depois": 6.902949810028076,
+ "fracao_irradiancia_no_sol": 0.801,
+ "irradiancia_ceu_unid": 1.0391101888711398,
+ "irradiancia_sol_unid": 4.183069509783908
+}

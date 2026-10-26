@@ -1,0 +1,2 @@
+testes sinteticos OK {"perfeito": {"HOTA": 1.0, "MOTA": 1.0, "IDF1": 1.0, "IDSW": 0}, "uma_troca_de_id": {"HOTA": 0.8660254037844386, "AssA": 0.75, "DetA": 1.0, "MOTA": 0.975, "IDF1": 0.75, "IDSW": 1}, "um_fp_por_quadro": {"HOTA": 0.816496580927726, "DetA": 0.6666666666666665, "MOTA": 0.5, "IDF1": 0.8, "IDSW": 0}}
+FIM_CONFERENCIA

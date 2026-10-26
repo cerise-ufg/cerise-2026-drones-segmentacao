@@ -1,0 +1,69 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile.contagem
+#1 transferring dockerfile: 693B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/cerise26_drones:latest
+#2 DONE 0.0s
+
+#3 [internal] load .dockerignore
+#3 transferring context:
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/3] FROM docker.io/library/cerise26_drones:latest@sha256:cb91c2075433bea527f962f58cb2bedc180c9833db2203cf0cd5ee8fd6d3de77
+#4 resolve docker.io/library/cerise26_drones:latest@sha256:cb91c2075433bea527f962f58cb2bedc180c9833db2203cf0cd5ee8fd6d3de77 0.0s done
+#4 DONE 3.2s
+
+#5 [2/3] RUN pip install --no-cache-dir shapely pyproj lap pytest &&     python -c "import shapely, pyproj, lap, pytest, ultralytics, cv2; print('shapely', shapely.__version__, 'pyproj', pyproj.__version__)"
+#5 0.720 Collecting shapely
+#5 0.866   Downloading shapely-2.2.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl.metadata (6.7 kB)
+#5 0.922 Collecting pyproj
+#5 0.950   Downloading pyproj-3.8.0-cp312-cp312-manylinux_2_28_aarch64.whl.metadata (40 kB)
+#5 0.992 Collecting lap
+#5 1.013   Downloading lap-0.5.13-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl.metadata (6.6 kB)
+#5 1.049 Collecting pytest
+#5 1.067   Downloading pytest-9.1.1-py3-none-any.whl.metadata (7.6 kB)
+#5 1.070 Requirement already satisfied: numpy>=1.26 in /usr/local/lib/python3.12/dist-packages (from shapely) (2.1.0)
+#5 1.071 Requirement already satisfied: certifi in /usr/local/lib/python3.12/dist-packages (from pyproj) (2026.4.22)
+#5 1.091 Collecting iniconfig>=1.0.1 (from pytest)
+#5 1.109   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+#5 1.111 Requirement already satisfied: packaging>=22 in /usr/local/lib/python3.12/dist-packages (from pytest) (26.0)
+#5 1.131 Collecting pluggy<2,>=1.5 (from pytest)
+#5 1.149   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+#5 1.151 Requirement already satisfied: pygments>=2.7.2 in /usr/lib/python3/dist-packages (from pytest) (2.17.2)
+#5 1.197 Downloading shapely-2.2.0-cp312-cp312-manylinux_2_24_aarch64.manylinux_2_28_aarch64.whl (2.2 MB)
+#5 1.292    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 31.6 MB/s  0:00:00
+#5 1.314 Downloading pyproj-3.8.0-cp312-cp312-manylinux_2_28_aarch64.whl (10.1 MB)
+#5 1.535    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 45.7 MB/s  0:00:00
+#5 1.557 Downloading lap-0.5.13-cp312-cp312-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl (1.7 MB)
+#5 1.598    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 40.7 MB/s  0:00:00
+#5 1.617 Downloading pytest-9.1.1-py3-none-any.whl (386 kB)
+#5 1.648 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+#5 1.667 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+#5 1.985 Installing collected packages: shapely, pyproj, pluggy, lap, iniconfig, pytest
+#5 2.458 
+#5 2.464 Successfully installed iniconfig-2.3.1 lap-0.5.13 pluggy-1.7.0 pyproj-3.8.0 pytest-9.1.1 shapely-2.2.0
+#5 2.465 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#5 3.513 Creating new Ultralytics Settings v0.0.8 file ✅ 
+#5 3.513 View Ultralytics Settings with 'yolo settings' or at '/w/ultra_cfg/Ultralytics/settings.json'
+#5 3.513 Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings.
+#5 3.514 shapely 2.2.0 pyproj 3.8.0
+#5 DONE 3.9s
+
+#6 [3/3] WORKDIR /w/sim
+#6 DONE 0.0s
+
+#7 exporting to image
+#7 exporting layers
+#7 exporting layers 1.4s done
+#7 exporting manifest sha256:b81a31062d70e90a51d733854fb2f7b75fabf35d32cd88a417d9627cb98bbabe 0.0s done
+#7 exporting config sha256:2967125698fb090f0310dcd21c4f2d6648c89ddb2b78852f9303c0a44c6c89b4 0.0s done
+#7 exporting attestation manifest sha256:e4155ada169f546bc5ae1e8c7dcd082b99e6bfb23b48b42b7e6710ad50dbe199 0.0s done
+#7 exporting manifest list sha256:f089be32b16f4d7a628bbd629b678c528424fa08882f6a51dc2424933260cfc7
+#7 exporting manifest list sha256:f089be32b16f4d7a628bbd629b678c528424fa08882f6a51dc2424933260cfc7 0.0s done
+#7 naming to docker.io/library/cerise26_drones_sim:latest done
+#7 unpacking to docker.io/library/cerise26_drones_sim:latest
+#7 unpacking to docker.io/library/cerise26_drones_sim:latest 0.4s done
+#7 DONE 2.0s
