@@ -234,8 +234,8 @@ acompanha um grupo enquanto um quadricóptero passa em voo baixo (`isaac/closeup
 
 - **Cena.** Mesmo cenário `reduzido` (terreno, edifícios, árvores, navmesh e comandos das pessoas do `run01`), mas só com as
   20 pessoas que passam a menos de 60 m do grupo seguido, um grupo de 3 que caminha junto (P022–P024), escolhido nas
-  posições reais gravadas no `run01`. O desvio entre o centroide medido do grupo e o previsto pelo `run01` foi de 0,2 a
-  0,45 m. Para o close-up, a cena recebeu: cúpula de céu HDRI (Poly Haven `kloofendal_48d_partly_cloudy`, CC0, do servidor
+  posições reais gravadas no `run01`. O desvio (suavizado) entre o centroide medido do grupo e o previsto pelo `run01` ficou
+  entre 0,07 e 0,46 m. Para o close-up, a cena recebeu: cúpula de céu HDRI (Poly Haven `kloofendal_48d_partly_cloudy`, CC0, do servidor
   oficial de ativos da NVIDIA) sem o disco solar (`scripts/ceu_sem_sol.py`), para não duplicar a sombra do sol explícito a 48°;
   texturas fotográficas da biblioteca NVIDIA no chão (grama cortada, terra, concreto, asfalto, ladrilho de 2,5 a 4 m);
   fachadas com faixas de janelas; e copas em cachos. Nada vem de imagens de satélite.
