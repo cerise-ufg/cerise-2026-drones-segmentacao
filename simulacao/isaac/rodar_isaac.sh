@@ -1,7 +1,7 @@
 #!/bin/bash
 # Roda a simulacao do Isaac Sim 5.1 (headless, sem tela fisica, sem streaming) no DGX Spark.
 #
-# Licenca "NVIDIA Isaac Sim Additional Software and Materials License" aceita em 26/10/2026 (~11:10),
+# Licenca "NVIDIA Isaac Sim Additional Software and Materials License" aceita pelo Eduardo em 26/10/2026 (~11:10),
 # com PRIVACY_CONSENT=N (sem telemetria). Exemplos:
 #   ACCEPT_EULA=Y PRIVACY_CONSENT=N bash ~/cerise2026/drones/sim/isaac/rodar_isaac.sh smoke --smoke
 #   ACCEPT_EULA=Y PRIVACY_CONSENT=N bash ~/cerise2026/drones/sim/isaac/rodar_isaac.sh run01 --cenario /cenario/reduzido --fps 5
@@ -25,7 +25,7 @@ ACCEPT_EULA=${ACCEPT_EULA:-}
 PRIVACY_CONSENT=${PRIVACY_CONSENT:-N}
 
 if [ "$ACCEPT_EULA" != "Y" ]; then
-  echo "ERRO: ACCEPT_EULA nao e 'Y'. A licenca do Isaac Sim precisa ser aceita antes de rodar." >&2
+  echo "ERRO: ACCEPT_EULA nao e 'Y'. A licenca do Isaac Sim precisa ser aceita pelo Eduardo antes de rodar." >&2
   exit 2
 fi
 DISP=$(free -g | awk '/^Mem:/{print $7}')

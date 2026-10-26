@@ -79,7 +79,7 @@ foram feitos em FP32 (`amp=False`, `half=False`).
 
 - Vídeos reais (VisDrone2019-MOT): passo a passo em `validacao_videos/README.md`.
 - Simulação: imagem `cerise26_drones_sim` (`simulacao/Dockerfile.contagem`, derivada de `cerise26_drones`), Isaac Sim
-  `nvcr.io/nvidia/isaac-sim:5.1.0` (exige aceitar a licença da NVIDIA; usado com `ACCEPT_EULA=Y` e `PRIVACY_CONSENT=N`)
+  `nvcr.io/nvidia/isaac-sim:5.1.0` (exige aceitar a licença da NVIDIA, aceita pelo Eduardo em 26/10/2026; usado com `ACCEPT_EULA=Y` e `PRIVACY_CONSENT=N`)
   e os comandos de `simulacao/PRONTO.md` (seção "Comandos exatos") e de `simulacao/RELATORIO_SECAO_SIMULACAO.md`:
 
 ```bash

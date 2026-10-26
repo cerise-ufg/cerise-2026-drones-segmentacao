@@ -5,7 +5,7 @@ a área aberta do Campus Samambaia/UFG pelas rotas DARP+refinamento e pessoas an
 YOLO11s ajustado. O plano B é **Gazebo Harmonic + PX4 SITL**. A contagem também deve ser validada em vídeos reais de drone.
 
 **Duas condições** precisam estar cumpridas antes de iniciar o Isaac Sim:
-- (a) o aceite da licença *NVIDIA Isaac Sim Additional Software and Materials License*
+- (a) o Eduardo aceita a licença *NVIDIA Isaac Sim Additional Software and Materials License*
   (<https://www.nvidia.com/en-us/agreements/enterprise-software/isaac-sim-additional-software-and-materials-license/>);
 - (b) o término da re-renderização do dataset do braço (contêiner `braco_gen`).
 

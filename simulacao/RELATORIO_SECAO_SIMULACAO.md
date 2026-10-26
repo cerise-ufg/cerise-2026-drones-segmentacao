@@ -19,8 +19,8 @@ foram medidos três aspectos contra um gabarito exato:
 
 ## 2. Ambiente, licença e salvaguardas
 
-- **Licença.** A *NVIDIA Isaac Sim Additional Software and Materials License* foi aceita em 26/10/2026
-  (~11:10). Por isso, os contêineres sobem com `ACCEPT_EULA=Y` e **`PRIVACY_CONSENT=N`** (sem telemetria).
+- **Licença.** O Eduardo autorizou explicitamente, em 26/10/2026 (~11:10), o aceite da *NVIDIA Isaac Sim
+  Additional Software and Materials License*. Por isso, os contêineres sobem com `ACCEPT_EULA=Y` e **`PRIVACY_CONSENT=N`** (sem telemetria).
 - **Ativos.** Os ativos do Isaac foram baixados do servidor oficial da NVIDIA (S3 público configurado na imagem) para um espelho
   local em `~/cerise2026/drones/sim/isaac_ativos`: **83 arquivos, 0,55 GB**. O espelho contém 12 personagens de
   `Isaac/People/Characters`, o `Biped_Setup`, as animações e o esqueleto `biped_demo`, este último faltante na lista do preparo.
