@@ -1,0 +1,76 @@
+== VERSION
+5.1.0-rc.19+release.26219.9c81211b.gl
+== ls /isaac-sim
+total 276
+drwxr-x---   1 isaac-sim isaac-sim  4096 Oct 17  2025 .
+drwxr-xr-x   1 root      root       4096 Oct 26 14:19 ..
+-rw-r--r--   1 isaac-sim isaac-sim   220 Mar 31  2024 .bash_logout
+-rw-r--r--   1 isaac-sim isaac-sim  3849 Oct 17  2025 .bashrc
+drwxr-xr-x   3 isaac-sim isaac-sim  4096 Oct 17  2025 .nvidia-omniverse
+-rw-r--r--   1 isaac-sim isaac-sim   807 Mar 31  2024 .profile
+drwxrwsrwx   2 isaac-sim isaac-sim  4096 Oct 17  2025 .vscode
+-rw-r--r--   1 isaac-sim isaac-sim 49043 Oct 17  2025 LICENSE.txt
+drwxr-xr-x   2 isaac-sim isaac-sim  4096 Oct 17  2025 PACKAGE-LICENSES
+-rw-r--r--   1 isaac-sim isaac-sim    37 Oct 17  2025 VERSION
+drwxr-xr-x   2 isaac-sim isaac-sim  4096 Oct 17  2025 apps
+-rwxr-xr-x   1 isaac-sim isaac-sim  1570 Oct 17  2025 clear_caches.sh
+drwxr-xr-x   2 isaac-sim isaac-sim  4096 Oct 17  2025 config
+drwxr-xr-x   4 isaac-sim isaac-sim  4096 Oct 17  2025 data
+-rw-r--r--   1 isaac-sim isaac-sim   945 Oct 17  2025 environment.yml
+lrwxrwxrwx   1 isaac-sim isaac-sim    64 Oct 17  2025 extension_examples -> exts/isaacsim.examples.interactive/isaacsim/examples/interactive
+drwxr-xr-x  99 isaac-sim isaac-sim  4096 Oct 17  2025 exts
+drwxr-xr-x  74 isaac-sim isaac-sim  4096 Oct 17  2025 extsDeprecated
+drwxr-xr-x 420 isaac-sim isaac-sim 36864 Oct 17  2025 extscache
+-rwxr-xr-x   1 isaac-sim isaac-sim   658 Oct 17  2025 isaac-sim.action_and_event_data_generation.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim   640 Oct 17  2025 isaac-sim.compatibility_check.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim   632 Oct 17  2025 isaac-sim.fabric.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim   625 Oct 17  2025 isaac-sim.sh
+drwxr-xr-x   2 isaac-sim isaac-sim  4096 Oct 17  2025 jupyter_kernel
+-rwxr-xr-x   1 isaac-sim isaac-sim  2606 Oct 17  2025 jupyter_notebook.sh
+drwxr-xr-x  14 isaac-sim isaac-sim  4096 Oct 17  2025 kit
+-rwxr-xr-x   1 isaac-sim isaac-sim   844 Oct 17  2025 license.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim  1632 Oct 17  2025 post_install.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim   878 Oct 17  2025 privacy.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim  2345 Oct 17  2025 python.sh
+drwxr-xr-x   3 isaac-sim isaac-sim  4096 Oct 17  2025 python_packages
+-rw-r--r--   1 isaac-sim isaac-sim     0 Oct 17  2025 requirements.txt
+-rw-r--r--   1 isaac-sim isaac-sim 18615 Oct 17  2025 run_tests.py
+-rwxr-xr-x   1 isaac-sim isaac-sim   220 Oct 17  2025 runapp.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim   372 Oct 17  2025 runheadless.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim  1550 Oct 17  2025 setup_conda_env.sh
+-rwxr--r--   1 isaac-sim isaac-sim  1235 Oct 17  2025 setup_python_env.sh
+-rwxr-xr-x   1 isaac-sim isaac-sim  2057 Oct 17  2025 setup_ros_env.sh
+drwxr-xr-x   9 isaac-sim isaac-sim  4096 Oct 17  2025 standalone_examples
+-rw-r--r--   1 isaac-sim isaac-sim   320 Oct 17  2025 tensorboard
+drwxr-xr-x   2 isaac-sim isaac-sim 16384 Oct 17  2025 tests
+drwxr-xr-x   5 isaac-sim isaac-sim  4096 Oct 17  2025 tools
+-rwxr-xr-x   1 isaac-sim isaac-sim  2060 Oct 17  2025 warmup.sh
+== apps
+isaacsim.exp.action_and_event_data_generation.base.kit
+isaacsim.exp.action_and_event_data_generation.full.kit
+isaacsim.exp.base.kit
+isaacsim.exp.base.python.kit
+isaacsim.exp.base.xr.openxr.kit
+isaacsim.exp.base.xr.vr.kit
+isaacsim.exp.base.zero_delay.kit
+isaacsim.exp.compatibility_check.kit
+isaacsim.exp.full.fabric.kit
+isaacsim.exp.full.kit
+isaacsim.exp.full.streaming.kit
+isaacsim.exp.selector.kit
+isaacsim.exp.uidoc.kit
+== whoami
+uid=0(root) gid=0(root) groups=0(root)
+== env
+HOME=/root
+HOSTNAME=b3e499e3887a
+MIN_DRIVER_VERSION=570.169
+NVIDIA_DRIVER_CAPABILITIES=all
+NVIDIA_VISIBLE_DEVICES=all
+OLDPWD=/isaac-sim
+OMNI_SERVER=https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/isaac-sim
+SHLVL=1
+VK_DRIVER_FILES=/etc/vulkan/icd.d/nvidia_icd.json
+_=/usr/bin/env

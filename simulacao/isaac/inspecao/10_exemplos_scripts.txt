@@ -1,0 +1,150 @@
+== standalone_examples
+standalone_examples/api/isaacsim.replicator.grasping
+standalone_examples/api/isaacsim.replicator.grasping/grasping_workflow_sdg.py
+standalone_examples/api/isaacsim.ros2.bridge/camera_manual.py
+standalone_examples/api/isaacsim.ros2.bridge/camera_periodic.py
+standalone_examples/api/isaacsim.ros2.bridge/camera_noise.py
+standalone_examples/api/isaacsim.replicator.domain_randomization
+standalone_examples/api/isaacsim.replicator.domain_randomization/randomization_demo.py
+standalone_examples/api/isaacsim.replicator.behavior
+standalone_examples/api/isaacsim.replicator.behavior/behaviors.py
+standalone_examples/api/isaacsim.replicator.examples
+standalone_examples/api/isaacsim.replicator.examples/sdg_getting_started_04.py
+standalone_examples/api/isaacsim.replicator.examples/custom_fps_writer_annotator.py
+standalone_examples/api/isaacsim.replicator.examples/multi_camera.py
+standalone_examples/api/isaacsim.replicator.examples/cosmos_writer_warehouse.py
+standalone_examples/api/isaacsim.replicator.examples/sdg_getting_started_02.py
+standalone_examples/api/isaacsim.replicator.examples/cosmos_writer_simple.py
+standalone_examples/api/isaacsim.replicator.examples/sdg_getting_started_03.py
+standalone_examples/api/isaacsim.replicator.examples/subscribers_and_events.py
+standalone_examples/api/isaacsim.replicator.examples/sdg_getting_started_01.py
+standalone_examples/api/isaacsim.replicator.examples/custom_event_and_write.py
+standalone_examples/api/isaacsim.replicator.examples/motion_blur.py
+standalone_examples/api/isaacsim.replicator.examples/simready_assets_sdg.py
+standalone_examples/api/isaacsim.replicator.examples/simulation_get_data.py
+standalone_examples/api/isaacsim.sensors.camera
+standalone_examples/api/isaacsim.sensors.camera/camera_add_depth_sensor.py
+standalone_examples/api/isaacsim.sensors.camera/camera_ros.py
+standalone_examples/api/isaacsim.sensors.camera/camera_stereoscopic_depth.py
+standalone_examples/api/isaacsim.sensors.camera/camera_opencv_fisheye.py
+standalone_examples/api/isaacsim.sensors.camera/camera_annotator_device.py
+standalone_examples/api/isaacsim.sensors.camera/camera_opencv_pinhole.py
+standalone_examples/api/isaacsim.sensors.camera/camera_pre_isp_pipeline.py
+standalone_examples/api/isaacsim.sensors.camera/camera.py
+standalone_examples/api/isaacsim.sensors.camera/camera_view.py
+standalone_examples/benchmarks/benchmark_sdg.py
+standalone_examples/benchmarks/validation/benchmark_sdg_validation.py
+standalone_examples/benchmarks/benchmark_camera.py
+standalone_examples/testing/isaacsim.ros2.bridge/test_people_sim.py
+standalone_examples/testing/isaacsim.ros2.bridge/test_publish_camera_data.py
+standalone_examples/testing/isaacsim.ros2.bridge/test_camera_tf_delay.py
+standalone_examples/testing/isaacsim.ros2.bridge/test_carter_camera_multi_robot_nav.py
+standalone_examples/testing/omni.replicator.agent
+standalone_examples/testing/omni.replicator.agent/test_scripting.py
+standalone_examples/testing/isaacsim.replicator.examples
+standalone_examples/testing/isaacsim.replicator.examples/ar_capture_pipeline.py
+standalone_examples/testing/isaacsim.replicator.examples/motion_blur_short.py
+standalone_examples/replicator
+standalone_examples/replicator/mobility_gen
+standalone_examples/replicator/mobility_gen/replay_directory.py
+standalone_examples/replicator/augmentation
+standalone_examples/replicator/augmentation/writer_augmentation.py
+standalone_examples/replicator/augmentation/annotator_augmentation.py
+standalone_examples/replicator/scene_based_sdg
+standalone_examples/replicator/scene_based_sdg/scene_based_sdg.py
+standalone_examples/replicator/scene_based_sdg/config
+standalone_examples/replicator/scene_based_sdg/scene_based_sdg_utils.py
+standalone_examples/replicator/pose_generation
+standalone_examples/replicator/pose_generation/pose_generation.py
+standalone_examples/replicator/pose_generation/pose_tests
+standalone_examples/replicator/pose_generation/__init__.py
+standalone_examples/replicator/pose_generation/config
+== scripts sh
+clear_caches.sh
+isaac-sim.action_and_event_data_generation.sh
+isaac-sim.compatibility_check.sh
+isaac-sim.fabric.sh
+isaac-sim.sh
+jupyter_notebook.sh
+license.sh
+post_install.sh
+privacy.sh
+python.sh
+runapp.sh
+runheadless.sh
+setup_conda_env.sh
+setup_python_env.sh
+setup_ros_env.sh
+warmup.sh
+== runheadless
+#! /bin/sh
+
+if [ "$(uname -m)" = "aarch64" ]; then
+    echo 'Livestreaming is not supported on aarch64 for 5.1.0.'
+    exec /bin/bash
+else
+    /isaac-sim/license.sh && /isaac-sim/privacy.sh && /isaac-sim/isaac-sim.streaming.sh \
+      --/persistent/isaac/asset_root/default="$OMNI_SERVER" \
+      --merge-config="/isaac-sim/config/open_endpoint.toml" --allow-root "$@"
+fi
+== python.sh
+#!/bin/bash
+# SPDX-FileCopyrightText: Copyright (c) 2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+# SPDX-License-Identifier: Apache-2.0
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+set -e
+
+error_exit()
+{
+    echo "There was an error running python"
+    exit 1
+}
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# MY_DIR="$(realpath -s "$SCRIPT_DIR")"
+
+# Setup python env from generated file (generated by tools/repoman/build.py)
+export CARB_APP_PATH=$SCRIPT_DIR/kit
+export ISAAC_PATH=$SCRIPT_DIR
+export EXP_PATH=$SCRIPT_DIR/apps
+source ${SCRIPT_DIR}/setup_python_env.sh
+
+# By default use our python, but allow overriding it by checking if PYTHONEXE env var is defined:
+python_exe=${PYTHONEXE:-"${SCRIPT_DIR}/kit/python/bin/python3"}
+
+# Parse command line arguments to check for --lldb-debug flag
+use_lldb=false
+filtered_args=()
+
+for arg in "$@"; do
+    if [[ "$arg" == "--lldb-debug" ]]; then
+        use_lldb=true
+    else
+        filtered_args+=("$arg")
+    fi
+done
+
+
+if ! [[ -z "${CONDA_PREFIX}" ]]; then
+  echo "Warning: running in conda env, please deactivate before executing this script"
+  echo "If conda is desired please source setup_conda_env.sh in your python 3.11 conda env and run python normally"
+fi
+
+# Check if we are running in a docker container
+if [ -f /.dockerenv ]; then
+  # Check for vulkan in docker container
+  if [[ -f "${SCRIPT_DIR}/vulkan_check.sh" ]]; then
+    ${SCRIPT_DIR}/vulkan_check.sh
+  fi

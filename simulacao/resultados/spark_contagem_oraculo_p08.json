@@ -1,0 +1,271 @@
+{
+ "execucao": "cenario/reduzido/sem_render",
+ "cenario": "reduzido",
+ "simulador": "sintetico_sem_render",
+ "detector": "oraculo",
+ "detector_params": {
+  "p_det": 0.8,
+  "sigma_px": 1.0,
+  "fp_por_quadro": 0.3
+ },
+ "parametros_contagem": {
+  "ponto_ref": "centro",
+  "altura_ref_m": 0.85,
+  "somente_cobertura": true,
+  "passo_quadros": 1,
+  "margem_area_m": 2.0,
+  "dist_max_m": 2.0,
+  "vel_max_ms": 2.5,
+  "min_hits": 3,
+  "max_idade_s": 2.0,
+  "raio_m": 2.0,
+  "banda_m": 6.0,
+  "v_parado_ms": 0.3,
+  "v_assoc_ms": 0.3,
+  "v_assoc_parado_ms": 0.1,
+  "gap_max_s": 120.0,
+  "gap_max_andando_s": 60.0
+ },
+ "drones": [
+  "D1",
+  "D2",
+  "D3",
+  "D4"
+ ],
+ "fps": 5.0,
+ "avaliacao_contagem": {
+  "pessoas_na_cena": 80,
+  "pessoas_vistas_gabarito": 78,
+  "contagem_proposta": 79,
+  "erro_vs_cena": -1,
+  "erro_pct_vs_cena": -1.25,
+  "erro_vs_vistas": 1,
+  "erro_pct_vs_vistas": 1.2820512820512822,
+  "clusters_corretos_unicos": 75,
+  "clusters_duplicados": 4,
+  "clusters_falsos": 0,
+  "pessoas_perdidas": 3,
+  "faixas_rotuladas": 109,
+  "faixas_total": 109,
+  "outras_estrategias": {
+   "soma_deteccoes": 1718,
+   "faixas_sem_posse": 109,
+   "cerise_drones_agregacao": {
+    "soma_ingenua": 109,
+    "dedup_por_drone_sem_posse": 81,
+    "proposto_posse_dedup_borda": 77
+   }
+  }
+ },
+ "deteccao_por_quadro": {
+  "iou0.5": {
+   "tp": 1423,
+   "fp": 295,
+   "fn": 372,
+   "precisao": 0.8282887077997672,
+   "revocacao": 0.7927576601671309,
+   "f1": 0.8101337887845147,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 327,
+     "fp": 67,
+     "fn": 81,
+     "precisao": 0.8299492385786802,
+     "revocacao": 0.8014705882352942,
+     "f1": 0.8154613466334164,
+     "mae_contagem_quadro": 0.42657342657342656,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 190,
+     "fp": 78,
+     "fn": 48,
+     "precisao": 0.7089552238805971,
+     "revocacao": 0.7983193277310925,
+     "f1": 0.7509881422924902,
+     "mae_contagem_quadro": 0.4031620553359684,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 223,
+     "fp": 69,
+     "fn": 74,
+     "precisao": 0.7636986301369864,
+     "revocacao": 0.7508417508417509,
+     "f1": 0.7572156196943973,
+     "mae_contagem_quadro": 0.4090909090909091,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 683,
+     "fp": 81,
+     "fn": 169,
+     "precisao": 0.893979057591623,
+     "revocacao": 0.8016431924882629,
+     "f1": 0.8452970297029703,
+     "mae_contagem_quadro": 0.6312292358803987,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    }
+   }
+  },
+  "iou0.3": {
+   "tp": 1423,
+   "fp": 295,
+   "fn": 372,
+   "precisao": 0.8282887077997672,
+   "revocacao": 0.7927576601671309,
+   "f1": 0.8101337887845147,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 327,
+     "fp": 67,
+     "fn": 81,
+     "precisao": 0.8299492385786802,
+     "revocacao": 0.8014705882352942,
+     "f1": 0.8154613466334164,
+     "mae_contagem_quadro": 0.42657342657342656,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 190,
+     "fp": 78,
+     "fn": 48,
+     "precisao": 0.7089552238805971,
+     "revocacao": 0.7983193277310925,
+     "f1": 0.7509881422924902,
+     "mae_contagem_quadro": 0.4031620553359684,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 223,
+     "fp": 69,
+     "fn": 74,
+     "precisao": 0.7636986301369864,
+     "revocacao": 0.7508417508417509,
+     "f1": 0.7572156196943973,
+     "mae_contagem_quadro": 0.4090909090909091,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 683,
+     "fp": 81,
+     "fn": 169,
+     "precisao": 0.893979057591623,
+     "revocacao": 0.8016431924882629,
+     "f1": 0.8452970297029703,
+     "mae_contagem_quadro": 0.6312292358803987,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    }
+   }
+  },
+  "iou0.3_ou_centro6px": {
+   "tp": 1423,
+   "fp": 295,
+   "fn": 372,
+   "precisao": 0.8282887077997672,
+   "revocacao": 0.7927576601671309,
+   "f1": 0.8101337887845147,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 327,
+     "fp": 67,
+     "fn": 81,
+     "precisao": 0.8299492385786802,
+     "revocacao": 0.8014705882352942,
+     "f1": 0.8154613466334164,
+     "mae_contagem_quadro": 0.42657342657342656,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 190,
+     "fp": 78,
+     "fn": 48,
+     "precisao": 0.7089552238805971,
+     "revocacao": 0.7983193277310925,
+     "f1": 0.7509881422924902,
+     "mae_contagem_quadro": 0.4031620553359684,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 223,
+     "fp": 69,
+     "fn": 74,
+     "precisao": 0.7636986301369864,
+     "revocacao": 0.7508417508417509,
+     "f1": 0.7572156196943973,
+     "mae_contagem_quadro": 0.4090909090909091,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 683,
+     "fp": 81,
+     "fn": 169,
+     "precisao": 0.893979057591623,
+     "revocacao": 0.8016431924882629,
+     "f1": 0.8452970297029703,
+     "mae_contagem_quadro": 0.6312292358803987,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    }
+   }
+  }
+ },
+ "agregacao": {
+  "faixas_sem_posse": 109,
+  "cerise_drones_agregacao": {
+   "soma_ingenua": 109,
+   "dedup_por_drone_sem_posse": 81,
+   "proposto_posse_dedup_borda": 77,
+   "proposto_por_drone_interior": [
+    17,
+    5,
+    18,
+    21
+   ],
+   "proposto_borda": 16,
+   "frac_deteccoes_na_borda": 0.1651376146788991
+  },
+  "descartadas_posse": 3,
+  "proposto": 79,
+  "frac_na_banda": 0.1651376146788991,
+  "pares_compativeis": 75,
+  "soma_deteccoes": 1718
+ },
+ "faixas_por_drone": {
+  "D1": 28,
+  "D2": 10,
+  "D3": 23,
+  "D4": 48
+ },
+ "quadros_usados_por_drone": {
+  "D1": 286,
+  "D2": 253,
+  "D3": 286,
+  "D4": 301
+ },
+ "tempo_total_s": 0.3587348461151123,
+ "fps_detector": null
+}

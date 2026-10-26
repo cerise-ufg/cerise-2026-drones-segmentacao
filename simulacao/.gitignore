@@ -1,0 +1,19 @@
+# saidas dos simuladores, caches e ativos (grandes; ficam no Spark)
+saidas/
+isaac_cache/
+isaac_ativos/
+logs/
+tmp/
+isaac_inspecao/
+gazebo/mundo_*/
+# cenarios: o reduzido vai inteiro (menos a execucao sem render, regeneravel); os outros so os arquivos pequenos
+cenario/*/sem_render/
+cenario/completo/gabarito_pessoas_plano.csv
+cenario/completo/drones/
+cenario/completo/texturas/
+cenario/reduzido_a30/gabarito_pessoas_plano.csv
+cenario/reduzido_a30/drones/
+cenario/reduzido_a30/texturas/
+resultados/*_deteccoes.csv
+isaac/inspecao/06_ext_pessoas.txt
+isaac/inspecao/08_people_api.txt

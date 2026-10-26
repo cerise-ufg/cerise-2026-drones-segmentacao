@@ -1,0 +1,38 @@
+== usd locais (people/character/quad/drone)
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/data/tests/usd/TestDefaultCharacter.usda
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/omni/anim/graph/core/ogn/tests/usd/OgnSetCharacterWorldTransformTemplate.usda
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/omni/anim/graph/core/ogn/tests/usd/OgnGetCharacterWorldTransformTemplate.usda
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/omni/anim/graph/core/ogn/tests/usd/OgnGetCharacterJointTransformTemplate.usda
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/omni/anim/graph/core/ogn/tests/usd/OgnUpdateCharacterTemplate.usda
+/isaac-sim/extscache/omni.anim.graph.core-107.3.4+107.3.3.la64.r.cp311.u353/omni/anim/graph/core/ogn/tests/usd/OgnExtractCharacterPoseBundleTemplate.usda
+/isaac-sim/extscache/omni.physx.cct-107.3.26+107.3.3.la64.r.cp311.u353/omni/physxcct/ogn/tests/usd/OgnCharacterControllerTemplate.usda
+/isaac-sim/extscache/omni.warp.core-1.8.2+la64/warp/examples/assets/crazyflie.usd
+/isaac-sim/extscache/omni.syntheticdata-0.6.13+69cbf6ad.la64.r.cp311/omni/syntheticdata/tests/data/scenes/occlusion_quadrant.usda
+/isaac-sim/extscache/omni.metropolis.utils-0.1.20+107.3.3.la64.cp311/test_data/characters/test/test.usd
+== total de arquivos usd no container
+2204
+== mdl
+298
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniImage.mdl
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniSurfaceBlendBase.mdl
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniShared.mdl
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniHairBase.mdl
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniSurfaceBase.mdl
+/isaac-sim/kit/mdl/core/mdl/OmniSurface/OmniSurfaceLiteBase.mdl
+/isaac-sim/kit/mdl/core/Base/OmniSurfaceBlend.mdl
+/isaac-sim/kit/mdl/core/Base/OmniSurfacePresets.mdl
+/isaac-sim/kit/mdl/core/Base/OmniPBR_ClearCoat_Opacity.mdl
+/isaac-sim/kit/mdl/core/Base/OmniPBR.mdl
+/isaac-sim/kit/mdl/core/Base/OmniPBR_Opacity.mdl
+/isaac-sim/kit/mdl/core/Base/OmniPBRBase.mdl
+/isaac-sim/kit/mdl/core/Base/OmniSurfaceLite.mdl
+/isaac-sim/kit/mdl/core/Base/OmniPBR_ClearCoat.mdl
+/isaac-sim/kit/mdl/core/Base/OmniSurface.mdl
+/isaac-sim/extscache/omni.kit.tool.collect-2.2.18+69cbf6ad/data/test_stages/OM_55150/1/Materials/vMaterials_2/Concrete/Concrete_Precast.mdl
+/isaac-sim/extscache/omni.kit.tool.collect-2.2.18+69cbf6ad/data/test_stages/normal/ov-sandbox/Users/kvankooten/paraview/Session_74/materials/OmniPBR_Opacity.mdl
+/isaac-sim/extscache/omni.kit.material.library-2.0.7+69cbf6ad/data/tests/mtl/OmniPBR_ClearCoat_Opacity.mdl
+/isaac-sim/extscache/omni.kit.material.library-2.0.7+69cbf6ad/data/tests/mtl/OmniPBR_raw_types.mdl
+/isaac-sim/extscache/omni.kit.material.library-2.0.7+69cbf6ad/data/tests/mtl/OmniPBR.mdl
+/isaac-sim/extscache/omni.kit.usd.collect-2.4.5+69cbf6ad/data/test_stages/normal/ov-sandbox/Users/kvankooten/paraview/Session_74/materials/OmniPBR_Opacity.mdl
+/isaac-sim/extscache/omni.kit.thumbnails.mdl-1.0.27+107.3.0/data/tests/template/SubUSDs/materials/OmniPBR.mdl
+/isaac-sim/extscache/omni.kit.environment.core-1.3.24/data/Ground.mdl

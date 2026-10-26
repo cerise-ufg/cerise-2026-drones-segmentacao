@@ -1,0 +1,25 @@
+== docs/licencas
+/isaac-sim/LICENSE.txt
+
+/isaac-sim/PACKAGE-LICENSES:
+amp_motions-acknowledgement.txt
+ant-LICENSE.txt
+anymal_c-LICENSE.txt
+cartpole-LICENSE.txt
+franka-LICENSE.txt
+humanoid-LICENSE.txt
+ingenuity-acknowledgement.txt
+isaac-sim-LICENSE.txt
+isaac-sim-assets-LICENSE.txt
+kukaiiwa-LICENSE.txt
+ocs2-LICENSE.txt
+omniverse-LICENSE.txt
+open_ai_assets-LICENSE.txt
+tray-LICENSE.txt
+trifinger-LICENSE.txt
+ycb-LICENSE.txt
+/isaac-sim/license.sh:3:if [ -z "$ACCEPT_EULA" ]
+/isaac-sim/license.sh:10:    echo 'Please accept the EULA above by setting the ACCEPT_EULA environment variable.'
+/isaac-sim/license.sh:11:    echo 'e.g.: -e "ACCEPT_EULA=Y"'
+/isaac-sim/privacy.sh:9:echo 'anytime by not setting the OMNI_ENV_PRIVACY_CONSENT environment variable.'
+/isaac-sim/privacy.sh:11:echo 'To opt-in set the OMNI_ENV_PRIVACY_CONSENT environment variable when running the container. Set the '

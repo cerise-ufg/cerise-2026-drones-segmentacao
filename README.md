@@ -20,6 +20,7 @@ treinado/avaliado no DGX Spark).
 | `resultados/` | métricas medidas (`.csv/.json/.md`), missão exportada da UFG (`missao_ufg/`), métricas de detecção (`deteccao/`) |
 | `evidencias/` | figuras usadas no relatório |
 | `RELATORIO_SECAO.md` | seção do relatório técnico |
+| `simulacao/` | **preparo da simulação 3D realista** (Isaac Sim 5.1 no DGX Spark; plano B Gazebo Harmonic + PX4 SITL): pacote `cerise_sim` (ENU, câmera, trajetórias, plano de pessoas com gabarito, terreno procedural, rastreio, contagem única global, avaliação), cenários da UFG, script do Isaac (escrito, ainda não executado: aguarda o aceite da licença), Dockerfile/compose do Gazebo+PX4, contagem em vídeo real (VisDrone-MOT) e 14 testes. Ver `simulacao/PRONTO.md` |
 
 ## Como rodar (planejamento)
 

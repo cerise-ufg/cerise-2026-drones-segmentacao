@@ -1,0 +1,16 @@
+{
+ "pesos": "/w/resultados/best_yolo11s_visdrone_pessoa_960.pt",
+ "classes_modelo": {
+  "0": "pessoa"
+ },
+ "filtro_classes": null,
+ "imgsz": 1280,
+ "fp32": true,
+ "imagens": 60,
+ "fps": 64.74413818530901,
+ "deteccoes_por_imagem_media": 30.8,
+ "imagens_com_nan": 0,
+ "pico_memoria_gpu_GB": 0.173198848,
+ "torch": "2.12.0a0+5aff3928d8.nv26.05",
+ "gpu": "NVIDIA GB10"
+}

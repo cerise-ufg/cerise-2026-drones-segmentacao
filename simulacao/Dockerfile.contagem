@@ -1,0 +1,8 @@
+# Imagem do pipeline de contagem (independente do simulador): a imagem da frente de drones
+# (pytorch 26.05 NGC + ultralytics, ja no Spark) + as dependencias leves que faltavam (shapely, pyproj,
+# lap para o ByteTrack do ultralytics, pytest). Construcao leve (so pip, sem compilar):
+#   cd ~/cerise2026/drones/sim && sudo nice -n 19 docker build -f Dockerfile.contagem -t cerise26_drones_sim:latest .
+FROM cerise26_drones:latest
+RUN pip install --no-cache-dir shapely pyproj lap pytest && \
+    python -c "import shapely, pyproj, lap, pytest, ultralytics, cv2; print('shapely', shapely.__version__, 'pyproj', pyproj.__version__)"
+WORKDIR /w/sim

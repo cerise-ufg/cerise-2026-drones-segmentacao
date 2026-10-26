@@ -1,0 +1,9 @@
+Arch=arm64 Os=linux Size=10097370258 User=isaac-sim WorkDir=/isaac-sim Entrypoint=["/isaac-sim/runheadless.sh"] Cmd=null
+["PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+"NVIDIA_VISIBLE_DEVICES=all"
+"NVIDIA_DRIVER_CAPABILITIES=all"
+"VK_DRIVER_FILES=/etc/vulkan/icd.d/nvidia_icd.json"
+"OMNI_SERVER=https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1"
+"MIN_DRIVER_VERSION=570.169"]
+{"org.opencontainers.image.ref.name":"ubuntu"
+"org.opencontainers.image.version":"24.04"}

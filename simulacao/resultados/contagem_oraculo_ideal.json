@@ -1,0 +1,271 @@
+{
+ "execucao": "cenario/reduzido/sem_render",
+ "cenario": "reduzido",
+ "simulador": "sintetico_sem_render",
+ "detector": "oraculo",
+ "detector_params": {
+  "p_det": 1.0,
+  "sigma_px": 0.0,
+  "fp_por_quadro": 0.0
+ },
+ "parametros_contagem": {
+  "ponto_ref": "centro",
+  "altura_ref_m": 0.85,
+  "somente_cobertura": true,
+  "passo_quadros": 1,
+  "margem_area_m": 2.0,
+  "dist_max_m": 2.0,
+  "vel_max_ms": 2.5,
+  "min_hits": 3,
+  "max_idade_s": 2.0,
+  "raio_m": 2.0,
+  "banda_m": 6.0,
+  "v_parado_ms": 0.3,
+  "v_assoc_ms": 0.3,
+  "v_assoc_parado_ms": 0.1,
+  "gap_max_s": 120.0,
+  "gap_max_andando_s": 60.0
+ },
+ "drones": [
+  "D1",
+  "D2",
+  "D3",
+  "D4"
+ ],
+ "fps": 5.0,
+ "avaliacao_contagem": {
+  "pessoas_na_cena": 80,
+  "pessoas_vistas_gabarito": 78,
+  "contagem_proposta": 82,
+  "erro_vs_cena": 2,
+  "erro_pct_vs_cena": 2.5,
+  "erro_vs_vistas": 4,
+  "erro_pct_vs_vistas": 5.128205128205129,
+  "clusters_corretos_unicos": 76,
+  "clusters_duplicados": 6,
+  "clusters_falsos": 0,
+  "pessoas_perdidas": 2,
+  "faixas_rotuladas": 112,
+  "faixas_total": 112,
+  "outras_estrategias": {
+   "soma_deteccoes": 1795,
+   "faixas_sem_posse": 112,
+   "cerise_drones_agregacao": {
+    "soma_ingenua": 112,
+    "dedup_por_drone_sem_posse": 83,
+    "proposto_posse_dedup_borda": 78
+   }
+  }
+ },
+ "deteccao_por_quadro": {
+  "iou0.5": {
+   "tp": 1795,
+   "fp": 0,
+   "fn": 0,
+   "precisao": 1.0,
+   "revocacao": 1.0,
+   "f1": 1.0,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 408,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 238,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 297,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 852,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.5,
+     "dist_centro_px": null
+    }
+   }
+  },
+  "iou0.3": {
+   "tp": 1795,
+   "fp": 0,
+   "fn": 0,
+   "precisao": 1.0,
+   "revocacao": 1.0,
+   "f1": 1.0,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 408,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 238,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 297,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 852,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": null
+    }
+   }
+  },
+  "iou0.3_ou_centro6px": {
+   "tp": 1795,
+   "fp": 0,
+   "fn": 0,
+   "precisao": 1.0,
+   "revocacao": 1.0,
+   "f1": 1.0,
+   "por_camera": {
+    "D1": {
+     "quadros": 286,
+     "tp": 408,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D2": {
+     "quadros": 253,
+     "tp": 238,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D3": {
+     "quadros": 286,
+     "tp": 297,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    },
+    "D4": {
+     "quadros": 301,
+     "tp": 852,
+     "fp": 0,
+     "fn": 0,
+     "precisao": 1.0,
+     "revocacao": 1.0,
+     "f1": 1.0,
+     "mae_contagem_quadro": 0.0,
+     "iou_min": 0.3,
+     "dist_centro_px": 6.0
+    }
+   }
+  }
+ },
+ "agregacao": {
+  "faixas_sem_posse": 112,
+  "cerise_drones_agregacao": {
+   "soma_ingenua": 112,
+   "dedup_por_drone_sem_posse": 83,
+   "proposto_posse_dedup_borda": 78,
+   "proposto_por_drone_interior": [
+    17,
+    4,
+    18,
+    21
+   ],
+   "proposto_borda": 18,
+   "frac_deteccoes_na_borda": 0.17857142857142858
+  },
+  "descartadas_posse": 5,
+  "proposto": 82,
+  "frac_na_banda": 0.17857142857142858,
+  "pares_compativeis": 74,
+  "soma_deteccoes": 1795
+ },
+ "faixas_por_drone": {
+  "D1": 28,
+  "D2": 10,
+  "D3": 25,
+  "D4": 49
+ },
+ "quadros_usados_por_drone": {
+  "D1": 286,
+  "D2": 253,
+  "D3": 286,
+  "D4": 301
+ },
+ "tempo_total_s": 0.9636483192443848,
+ "fps_detector": null
+}

@@ -1,0 +1,16 @@
+=== extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/docs/csv/annotators.csv
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_ogn_look_at.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_annotator_registry.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_writers.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_create.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_modify.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/bindings/_omni_replicator_core.cpython-311-aarch64-linux-gnu.so
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/annotators.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/augmentations_default.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/writers_default/kitti.py
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_annotator_registry.py:160:            "camera_params",
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/tests/test_annotator_registry.py:1283:        camera_params_anno = rep.annotators.get("camera_params")
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/annotators.py:52:    "camera_params",
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/annotators.py:1209:        "camera_params": AnnotatorParams("CameraParams", None, None, None, True, False, ""),
+extscache/omni.replicator.core-1.12.27+107.3.3.la64.r.cp311/omni/replicator/core/scripts/writers_default/kitti.py:196:            "camera_params",

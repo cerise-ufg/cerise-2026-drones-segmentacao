@@ -1,0 +1,52 @@
+{
+ "area_ha": 34.233,
+ "n_pessoas": 120,
+ "pessoas_por_tipo": {
+  "grupo_parado": 18,
+  "parado": 14,
+  "grupo_andando": 22,
+  "cruza_fronteira": 12,
+  "caminhante": 54
+ },
+ "duracao_s": 397.0,
+ "makespan_plano_s": 394.08,
+ "tempos_trajetoria_s": {
+  "D1": 393.65,
+  "D2": 393.82,
+  "D3": 392.38,
+  "D4": 394.07
+ },
+ "tempos_modelo_cerise_drones_s": {
+  "D1": 393.65,
+  "D2": 393.82,
+  "D3": 392.38,
+  "D4": 394.08
+ },
+ "resolucoes": {
+  "D1": "1280x960",
+  "D2": "1280x960",
+  "D3": "1280x720",
+  "D4": "1280x960"
+ },
+ "gsd_cm_px": {
+  "D1": 4.38,
+  "D2": 4.38,
+  "D3": 5.43,
+  "D4": 4.38
+ },
+ "quadros_por_camera": {
+  "2fps": 795,
+  "5fps": 1986,
+  "10fps": 3971
+ },
+ "caixas_projetadas_sem_render": 2193,
+ "lado_maior_caixa_px": {
+  "mediana": 27.289999999999992,
+  "p10": 18.339999999999918,
+  "p90": 35.05800000000013
+ },
+ "edificios": 14,
+ "arvores": 78,
+ "caminhos": 3,
+ "tempo_geracao_s": 14.4
+}

@@ -1,0 +1,30 @@
+# Plano B (PX4 SITL + Gazebo Harmonic), headless, sem portas publicadas e sem DISPLAY.
+# Uso (no Spark, depois de construir a imagem):
+#   cd ~/cerise2026/drones/sim/gazebo
+#   RUN=gz_run01 sudo -E docker compose up --abort-on-container-exit
+# Prefira o wrapper rodar_gazebo.sh (checa memoria, braco_gen e liga o vigia de memoria).
+services:
+  sim:
+    image: cerise26_gzpx4:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PX4_TAG: v1.15.4
+        JOBS: "4"
+    container_name: cerise26_gzpx4_${RUN:-gz_run01}
+    gpus: all
+    cpus: 8
+    cpu_shares: 256
+    environment:
+      - NVIDIA_DRIVER_CAPABILITIES=all
+      - GZ_SIM_RESOURCE_PATH=/mundo/modelos:/px4/Tools/simulation/gz/models:/px4/Tools/simulation/gz/worlds
+      - CENARIO=/cenario/${CENARIO:-reduzido}
+      - FPS=${FPS:-5}
+      - DURACAO=${DURACAO:-0}
+    volumes:
+      - ..:/sim:ro
+      - ../cenario:/cenario:ro
+      - ./mundo_${CENARIO:-reduzido}:/mundo:ro
+      - ../saidas/${RUN:-gz_run01}:/saida
+    command: ["bash", "/sim/gazebo/rodar_sim_gz.sh"]

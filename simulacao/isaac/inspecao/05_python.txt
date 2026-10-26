@@ -1,0 +1,20 @@
+== python
+python3
+python3-config
+python3.11
+python3.11-config
+Python 3.11.13
+-- numpy
+/isaac-sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.la64.cp311/pip_prebundle/numpy
+/isaac-sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.la64.cp311/pip_prebundle/numpy/core/include/numpy
+/isaac-sim/extscache/omni.importer.onshape-1.0.1+107.3.0/pip_prebundle/pint/facets/numpy
+-- PIL
+/isaac-sim/extscache/omni.kit.pip_archive-0.0.0+69cbf6ad.la64.cp311/pip_prebundle/PIL
+-- cv2
+/isaac-sim/exts/omni.pip.compute/pip_prebundle/cv2
+-- scipy
+/isaac-sim/exts/omni.pip.compute/pip_prebundle/scipy
+-- imageio
+/isaac-sim/exts/omni.pip.compute/pip_prebundle/imageio
+-- shapely
+-- pyproj

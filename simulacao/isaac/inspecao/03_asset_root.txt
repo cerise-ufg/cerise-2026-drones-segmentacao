@@ -1,0 +1,3 @@
+== asset_root nas configs
+exts/isaacsim.storage.native/config/extension.toml:27:persistent.isaac.asset_root.default = "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1"
+exts/isaacsim.storage.native/config/extension.toml:29:persistent.isaac.asset_root.timeout = 5.0
