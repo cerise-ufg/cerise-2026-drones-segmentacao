@@ -35,6 +35,9 @@ de pessoas em imagens aéreas, com validação em vídeos reais de drone e simul
 
 ## Como reproduzir
 
+Roteiro de implementação completo (requisitos, obtenção do código e dos dados, comandos, resultados esperados e
+problemas comuns): [`ROTEIRO.md`](ROTEIRO.md).
+
 ### Planejamento (Windows ou Linux, Python 3.11)
 
 ```bash
