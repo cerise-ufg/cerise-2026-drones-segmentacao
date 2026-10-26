@@ -259,13 +259,17 @@ Execução: provavelmente mais lenta que o tempo real com 80 atores e 5 câmeras
 
 ## 6. Vídeos reais de drone
 
-`scripts/contar_video.py` está pronto e testado com dados sintéticos no formato VisDrone-MOT. Para medir:
-1. obter o **VisDrone2019-MOT** (val e test-dev). Os links oficiais do projeto VisDrone apontam para Google Drive/Baidu: decidir a
-   fonte e baixar para `~/cerise2026/drones/datasets/VisDrone_MOT/`;
-2. rodar `scripts/rodar_contagem_spark.sh mot_<seq> scripts/contar_video.py --quadros /w/datasets/VisDrone_MOT/.../sequences/<seq>
-   --gt /w/datasets/VisDrone_MOT/.../annotations/<seq>.txt --pesos /w/resultados/best_yolo11s_visdrone_pessoa_960.pt --saida resultados/mot_<seq>.json`.
+A **validação completa em vídeo real** foi feita em `../validacao_videos/`:
+- dados: VisDrone2019-MOT val (7 sequências) e test-dev (17), que ficam no Spark em `~/cerise2026/drones/mot`;
+- rastreamento: ByteTrack e BoT-SORT;
+- métricas: HOTA, MOTA e IDF1, e erro da contagem única;
+- relatório: `RELATORIO_SECAO_VIDEOS.md`.
 
-Opcional: vídeos próprios do Campus Samambaia, só com contagem manual (`--video voo.mp4`).
+Os números de referência estão naquele relatório. O `scripts/contar_video.py` daqui é a versão leve e testada do **mesmo pipeline** da simulação
+(rastreador `RastreadorImagem`, formato VisDrone-MOT). Ele serve para conferir um vídeo novo, por exemplo um voo próprio no
+Campus Samambaia (`--video voo.mp4`), ou uma sequência do MOT:
+`scripts/rodar_contagem_spark.sh mot_<seq> scripts/contar_video.py --quadros /w/mot/.../sequences/<seq> --gt /w/mot/.../annotations/<seq>.txt
+--pesos /w/resultados/best_yolo11s_visdrone_pessoa_960.pt --saida resultados/mot_<seq>.json`.
 
 ---
 
