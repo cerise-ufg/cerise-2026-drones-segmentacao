@@ -61,7 +61,19 @@ treino e inferência foram feitos em FP32 (`amp=False`, `half=False`).
 
 ## Resultados (resumo)
 
-Ver `RELATORIO_SECAO.md` para as tabelas completas. Todos os números saem de `resultados/`.
+Todos os números saem de arquivos em `resultados/` (ver `RELATORIO_SECAO.md`).
 
-Não versionados: o dataset VisDrone (`~/cerise2026/drones/datasets`, ~2 GB), os pesos treinados
-(`~/cerise2026/drones/runs/ft_pessoa_yolo11s_960/weights/best.pt`, 19 MB, no Spark) e o `.venv`.
+- **Campus Samambaia/UFG (34,2 ha), 4 drones heterogêneos:** makespan 8,63 min (faixas), 10,63 (k-means),
+  8,18 (DARP) e **6,57 min (DARP + refinamento, CV 0,002)**, todos com 100 % de cobertura rasterizada.
+- **Benchmark (160 execuções):** DARP + refinamento teve o menor makespan em 31 de 40 casos, a 0,7–0,8 % do
+  melhor em média, com CV dos tempos de 0,023–0,028; o k-means não ponderado ficou 50 % acima do melhor com
+  frota heterogênea.
+- **Colaboração (12 falhas simuladas):** sem realocação perdem-se em média 9,2 % da área (até 26,4 %); a
+  repartição recupera a cobertura com +23,1 % de makespan médio (leilão: +31,2 %) e custa 14 quadros LoRa
+  (3,8 s no ar em SF9).
+- **Detecção de pessoas (VisDrone2019-DET):** o YOLO11s ajustado em 48,7 min no GB10 atingiu mAP50 de
+  0,528 no val (COCO: 0,384) e de 0,316 no test-dev (COCO: 0,183). O MAE de contagem foi de 6,91
+  pessoas/imagem no val e 8,76 no test-dev, com 25,5 FPS (960 px, FP32, lote 1).
+
+Pesos treinados: `resultados/deteccao/best_yolo11s_visdrone_pessoa_960.pt` (19 MB). Não versionados: o
+dataset VisDrone (`~/cerise2026/drones/datasets` no Spark, ~4,8 GB extraído) e o `.venv`.

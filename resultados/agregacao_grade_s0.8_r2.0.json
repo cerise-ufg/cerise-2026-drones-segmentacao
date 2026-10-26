@@ -1,0 +1,31 @@
+{
+ "parametros": {
+  "revocacao": 1.0,
+  "precisao": 1.0,
+  "sigma_det": 0.8,
+  "sigma_foto": 0.8,
+  "n_pessoas": 300,
+  "repeticoes": 10,
+  "saida": "agregacao_grade_s0.8_r2.0.json",
+  "raio": 2.0
+ },
+ "fotos": 619,
+ "repeticoes": 10,
+ "soma_ingenua": {
+  "media": 1393.6,
+  "erro_pct_medio": 300.4597701149425,
+  "erro_pct_desvio": 12.6411962036265
+ },
+ "dedup_por_drone_sem_posse": {
+  "media": 541.5,
+  "erro_pct_medio": 55.60344827586206,
+  "erro_pct_desvio": 4.379238693714989
+ },
+ "proposto_posse_dedup_borda": {
+  "media": 497.0,
+  "erro_pct_medio": 42.816091954022994,
+  "erro_pct_desvio": 4.442420929235721
+ },
+ "frac_deteccoes_na_borda": 0.15749293241621865,
+ "verdade_media": 348.0
+}
