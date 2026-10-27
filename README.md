@@ -16,6 +16,32 @@ de pessoas em imagens aéreas, com validação em vídeos reais de drone e simul
 | Validação da contagem em vídeos reais de drone | YOLO11s + ByteTrack/BoT-SORT no VisDrone2019-MOT (HOTA, MOTA, IDF1, contagem única, FPS no GB10) | `validacao_videos/` |
 | Simulação 3D realista | Isaac Sim 5.1 headless no DGX Spark: 4 drones nas rotas DARP + refinamento sobre 11,3 ha do Campus Samambaia, 80 pessoas animadas, gabarito do Replicator, contagem única global; close-up "cinegrafista"; plano B Gazebo + PX4 preparado | `simulacao/` |
 
+## Demonstração
+
+**Simulação 3D no NVIDIA Isaac Sim 5.1.** Quatro drones percorrem as rotas DARP + refinamento sobre 11,3 ha do
+Campus Samambaia, com 80 pessoas animadas. À esquerda, a visão geral; à direita, a contagem atual e a contagem única
+acumulada (deduplicação pela posição no solo) contra o gabarito do Replicator; embaixo, as câmeras dos 4 drones a 40 m.
+Com o BoT-SORT sem `fuse_score` e limiar 0,15 (ajustado neste voo), a contagem única chegou a 78 para 79 pessoas
+distintas vistas (−1,3 %; `simulacao/resultados/contagem_run01.json`). Prévia em 3× a velocidade; clique para abrir
+o vídeo completo (57,7 s, 1920×1080).
+
+[![Simulação no Isaac Sim: 4 drones percorrendo a área da UFG e contando pessoas](simulacao/evidencias/sim_video_run01_previa.gif)](simulacao/evidencias/sim_video_run01.mp4)
+
+**Close-up no Isaac Sim.** Câmera baixa e oblíqua perto de um grupo de três pessoas animadas, com um quadricóptero
+passando sobre elas a 8,5 m (clique para o vídeo de 14 s em 1920×1080).
+
+[![Close-up no Isaac Sim: pessoas animadas e drone passando sobre o grupo](simulacao/evidencias/sim_closeup.gif)](simulacao/evidencias/sim_closeup.mp4)
+
+**Vídeo real de drone (VisDrone2019-MOT test-dev, sequência uav0000120_04775_v).** YOLO11s ajustado (960 px) +
+BoT-SORT com GMC no DGX Spark, FP32: caixas e IDs das pessoas rastreadas, contagem no quadro e acumulada contra o
+gabarito. Prévia dos primeiros 10 s; clique para o vídeo completo (`validacao_videos/evidencias/`).
+
+[![Contagem de pessoas em vídeo real de drone (VisDrone2019-MOT)](validacao_videos/evidencias/v_video_uav0000120_04775_v_previa.gif)](validacao_videos/evidencias/v_video_uav0000120_04775_v.mp4)
+
+> As prévias são GIFs guardados no próprio repositório, por isso aparecem na página do GitHub mesmo com o
+> repositório privado; o clique abre o arquivo MP4 (assistir ou baixar). Os quadros do VisDrone são de terceiros
+> (uso acadêmico) e aparecem aqui só como evidência da validação.
+
 ## Estrutura
 
 | Pasta | Conteúdo |
