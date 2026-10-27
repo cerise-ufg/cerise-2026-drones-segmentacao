@@ -27,7 +27,7 @@ Ao final você terá:
 
 Software:
 
-- Python 3.11 (testado com 3.11.9): numpy 2.4.6, shapely 2.2.0, pyproj 3.7.2, scikit-learn 1.9.1, scipy 1.17.1, matplotlib 3.11.2, folium 0.20.0, imageio 2.38.1, pillow 13.0.0, playwright 1.64.1, pandas 3.1.0, pytest 9.1.1;
+- Python 3.11 (testado com 3.11.9), com as bibliotecas nas versões do ambiente usado no projeto, fixadas no comando de instalação do passo 1 da segmentação (numpy 2.4.6, shapely 2.2.0, pyproj 3.7.2, scikit-learn 1.9.1, scipy 1.17.1, matplotlib 3.11.2, folium 0.20.0, imageio 2.38.1, pillow 13.0.0, playwright 1.64.1, pandas 3.1.0 e pytest 9.1.1);
 - Docker com `--gpus all`, `sudo`, `git`, GitHub CLI (`gh`), `curl` e `ffmpeg` com libx264 no host;
 - `nvcr.io/nvidia/pytorch:26.05-py3` (PyTorch 2.12) com ultralytics 8.4.189 ([`deteccao/logs/build.log`](deteccao/logs/build.log)); como o [`deteccao/Dockerfile`](deteccao/Dockerfile) instala a versão mais recente, troque `ultralytics` por `ultralytics==8.4.189` para fixá-la;
 - Isaac Sim 5.1.0, que exige driver NVIDIA 570.169 ou mais novo (o projeto usou o 580.178.04).
@@ -47,7 +47,7 @@ gh repo clone cerise-ufg/cerise-2026-drones-segmentacao ~/cerise2026/drones
 cd ~/cerise2026/drones && ln -s simulacao sim
 ```
 
-2. Baixe os Releases que quiser (nenhum é obrigatório). O tag publicado é `dados-2026-10-26` (o [`RELEASES.md`](RELEASES.md) cita `artefatos-2026-10-26`, que não existe). `sim_saidas_run01.tar` e `sim_saidas_run02a30.tar` trazem os quadros dos voos renderizados, `validacao_videos_cache_det.tar` as detecções dos vídeos e `deteccao_runs.tar` as `runs/` do treino. Use `-p <arquivo>` para baixar só alguns; extraia na raiz do repositório:
+2. Baixe os Releases que quiser (nenhum é obrigatório). O tag publicado é `dados-2026-10-26`. `sim_saidas_run01.tar` e `sim_saidas_run02a30.tar` trazem os quadros dos voos renderizados, `validacao_videos_cache_det.tar` as detecções dos vídeos e `deteccao_runs.tar` as `runs/` do treino. Use `-p <arquivo>` para baixar só alguns; extraia na raiz do repositório:
 
 ```bash
 gh release download dados-2026-10-26 -R cerise-ufg/cerise-2026-drones-segmentacao \
@@ -65,8 +65,9 @@ cd ~/cerise2026/drones && for f in ~/cerise2026/_releases/*.tar; do tar xf "$f";
 ```bash
 cd ~/cerise2026/drones
 python3.11 -m venv .venv
-.venv/bin/python -m pip install numpy shapely pyproj scikit-learn scipy matplotlib \
-  folium imageio pillow playwright pandas pytest
+.venv/bin/python -m pip install numpy==2.4.6 shapely==2.2.0 pyproj==3.7.2 \
+  scikit-learn==1.9.1 scipy==1.17.1 matplotlib==3.11.2 folium==0.20.0 \
+  imageio==2.38.1 pillow==13.0.0 playwright==1.64.1 pandas==3.1.0 pytest==9.1.1
 .venv/bin/python -m playwright install chromium
 .venv/bin/python -m pytest -q tests
 ```
@@ -133,26 +134,26 @@ sudo docker wait cerise26_drones_prep && tail -3 logs/prep.log
 bash deteccao/run.sh amp teste_amp.py
 ```
 
-4. Treine. O treino é limitado pelo relógio (`--horas`) e por um teto de memória de GPU (`--teto_gb`, padrão 7,5 GB). O projeto fez 5 épocas em 48,7 min, com pico de 6,5 GB; numa GPU mais lenta, aumente `--horas`. A opção `--teste` faz 1 época em 5 % do treino.
+4. Treine. O treino é limitado pelo relógio (`--horas`) e por um teto de memória de GPU (`--teto_gb`, padrão 7,5 GB). O projeto fez 5 épocas em 48,7 min, com pico de 6,5 GB; numa GPU mais lenta, aumente `--horas`. A opção `--teste` faz 1 época em 5 % do treino; `--workers 8` repete a execução registrada em `deteccao/logs/treino.log` (o padrão do script é 6).
 
 ```bash
 bash deteccao/run.sh treino 04_treinar.py --modelo yolo11s.pt --imgsz 960 \
-  --batch 4 --horas 0.8
+  --batch 4 --horas 0.8 --workers 8
 sudo docker wait cerise26_drones_treino
 ```
 
-5. Avalie o YOLO11s COCO e o ajustado (mAP no val e no test-dev, erro de contagem e FPS). A saída vai para `resultados/avaliacao_deteccao.json`; a de referência está em [`resultados/deteccao/`](resultados/deteccao).
-
-```bash
-bash deteccao/run.sh avaliacao 06_avaliar_tudo.py
-```
-
-6. Se não for treinar, ponha o peso versionado no caminho que as etapas seguintes esperam:
+5. Se pulou o treino, copie o peso versionado para o caminho que a avaliação e as etapas seguintes esperam:
 
 ```bash
 mkdir -p runs/ft_pessoa_yolo11s_960/weights
 cp resultados/deteccao/best_yolo11s_visdrone_pessoa_960.pt \
   runs/ft_pessoa_yolo11s_960/weights/best.pt
+```
+
+6. Avalie o YOLO11s COCO e o ajustado (mAP no val e no test-dev, erro de contagem e FPS). A avaliação exige o peso do passo 4 ou do passo 5: sem ele, o `06_avaliar_tudo.py` avalia só o modelo COCO, sem aviso. A saída vai para `resultados/avaliacao_deteccao.json`; a de referência está em [`resultados/deteccao/`](resultados/deteccao).
+
+```bash
+bash deteccao/run.sh avaliacao 06_avaliar_tudo.py
 ```
 
 ![Exemplos esperados do detector ajustado no VisDrone2019-DET, com a contagem real e a detectada no limiar 0,175](evidencias/15_deteccao_exemplos.png)
@@ -286,7 +287,7 @@ A saída tem o formato da do Isaac; conte com o passo 7 acima e `--execucao said
 | Detector | mAP50 0,528 no val (COCO 0,384) e 0,316 no test-dev; MAE de contagem 6,91 (val) e 8,76 (test-dev); 25,5 FPS a 960 px | [`resultados/deteccao/avaliacao_deteccao.json`](resultados/deteccao/avaliacao_deteccao.json) |
 | Vídeos reais | ajustado 960 + BoT-SORT no test-dev: HOTA 0,328, IDF1 0,399, MAE 7,46; 2.095 IDs para 1.012 pessoas | [`validacao_videos/resultados/metricas_agregadas.json`](validacao_videos/resultados/metricas_agregadas.json) |
 | Isaac Sim | `navmesh assada: True`; voo a 40 m com 866 quadros a 1,46 s/quadro e 11,5 GB no contêiner | [`simulacao/resultados/logs/isaac_smoke6.log`](simulacao/resultados/logs/isaac_smoke6.log), [`simulacao/resultados/logs/isaac_run01.log`](simulacao/resultados/logs/isaac_run01.log), [`simulacao/saidas/run01.vigia.log`](simulacao/saidas/run01.vigia.log) |
-| Contagem simulada | AP50 0,702 (40 m) e 0,652 (30 m); `botsort_cal`: 78 de 79 pessoas vistas (40 m) e 70 de 73 (30 m) | [`simulacao/resultados/logs/cont_run01.log`](simulacao/resultados/logs/cont_run01.log), [`simulacao/resultados/contagem_run01.json`](simulacao/resultados/contagem_run01.json), [`simulacao/resultados/contagem_run02a30.json`](simulacao/resultados/contagem_run02a30.json) |
+| Contagem simulada | AP50 0,702 (40 m) e 0,652 (30 m); `botsort_cal`: contagem única de 78 para 79 pessoas vistas (40 m; 13 duplicatas e 14 perdidas) e de 70 para 73 (30 m; 16 duplicatas e 19 perdidas) | [`simulacao/resultados/logs/cont_run01.log`](simulacao/resultados/logs/cont_run01.log), [`simulacao/resultados/logs/cont_run02a30.log`](simulacao/resultados/logs/cont_run02a30.log), [`simulacao/resultados/contagem_run01.json`](simulacao/resultados/contagem_run01.json), [`simulacao/resultados/contagem_run02a30.json`](simulacao/resultados/contagem_run02a30.json) |
 
 Com o cache versionado, a contagem deve repetir os números do log. Num render novo, compare a ordem de grandeza: a reprodutibilidade bit a bit do render não foi verificada.
 
@@ -298,7 +299,7 @@ Com o cache versionado, a contagem deve repetir os números do log. Num render n
 - **Falta de memória.** A navmesh do cenário `completo` (1.330 × 998 m) consumiu mais de 34 GB em cerca de 22 s e causou OOM global ([`simulacao/resultados/logs/oom_run03completo_dmesg.txt`](simulacao/resultados/logs/oom_run03completo_dmesg.txt)). Use o cenário reduzido e mantenha `MEM_LIMITE` e o vigia.
 - **Personagens em pose fixa e gabarito em (0, 0).** Com o aviso `Type mismatch for variable Action/Walk`, falta o esqueleto `biped_demo`; refaça o espelho com o `baixar_ativos.py` atual, que já o inclui.
 - **Pessoas andando em linha reta em direções arbitrárias.** A navmesh ficou pequena; confira no `log_sim.txt` a linha `navmesh assada: True` com volume de cerca de 452 × 467 m.
-- **Peso não encontrado.** A avaliação e os vídeos esperam `runs/ft_pessoa_yolo11s_960/weights/best.pt`; copie o peso versionado (passo 6 da detecção).
+- **Peso não encontrado.** A avaliação e os vídeos esperam `runs/ft_pessoa_yolo11s_960/weights/best.pt`; copie o peso versionado (passo 5 da detecção).
 
 ## Referências do repositório
 

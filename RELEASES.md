@@ -1,7 +1,7 @@
 # Artefatos grandes (Releases)
 
 Os arquivos abaixo não cabem no git (arquivos acima de 50 MB ou conjuntos grandes de binários) e são publicados
-como anexos do Release **`artefatos-2026-10-26`** deste repositório. Todos são `.tar` sem compressão (o conteúdo é
+como anexos do Release **`dados-2026-10-26`** deste repositório. Todos são `.tar` sem compressão (o conteúdo é
 quase todo JPEG ou NPZ), cada um com menos de 1,9 GB, de modo que não há partes a remontar. Os caminhos dentro de
 cada `.tar` já seguem a estrutura do repositório: **extraia na raiz do repositório** e os arquivos caem nas pastas
 certas (essas pastas estão no `.gitignore`, então a extração não altera o estado do git).
@@ -28,7 +28,7 @@ Pela página *Releases* do repositório no GitHub, ou com o GitHub CLI:
 
 ```bash
 cd cerise-2026-drones-segmentacao             # raiz do repositório clonado
-gh release download artefatos-2026-10-26 --dir _releases
+gh release download dados-2026-10-26 -R cerise-ufg/cerise-2026-drones-segmentacao --dir _releases
 cd _releases && sha256sum -c SHA256SUMS.txt && cd ..
 for f in _releases/*.tar; do tar xf "$f"; done  # extrai na raiz do repositório
 ```
